@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="nine.dnom" format="2">
+  <advance width="342"/>
+  <outline>
+    <component base="nineinferior" xOffset="34" yOffset="200" identifier="824A94A4"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-08-05 07:55:37 +0000</string>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>824A94A4</key>
+        <dict>
+          <key>com.schriftgestaltung.alignment</key>
+          <integer>-1</integer>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

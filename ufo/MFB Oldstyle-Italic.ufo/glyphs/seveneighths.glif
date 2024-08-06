@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="seveneighths" format="2">
+  <advance width="798"/>
+  <unicode hex="215E"/>
+  <outline>
+    <component base="seven.numr"/>
+    <component base="fraction" xOffset="322" identifier="7CA7EC55"/>
+    <component base="eight.dnom" xOffset="456"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-08-05 07:56:14 +0000</string>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>7CA7EC55</key>
+        <dict>
+          <key>com.schriftgestaltung.alignment</key>
+          <integer>-1</integer>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="two.lf" format="2">
+  <advance width="515"/>
+  <outline>
+    <component base="two" xOffset="1" identifier="D16D6A51"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-08-01 23:18:37 +0000</string>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>D16D6A51</key>
+        <dict>
+          <key>com.schriftgestaltung.alignment</key>
+          <integer>-1</integer>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dotbelowcomb" format="2">
+  <advance width="105"/>
+  <unicode hex="0323"/>
+  <anchor x="32" y="0" name="_dotbelow"/>
+  <outline>
+    <contour>
+      <point x="27" y="-183" type="curve" smooth="yes"/>
+      <point x="55" y="-183"/>
+      <point x="79" y="-161"/>
+      <point x="79" y="-131" type="curve" smooth="yes"/>
+      <point x="79" y="-101"/>
+      <point x="55" y="-79"/>
+      <point x="27" y="-79" type="curve" smooth="yes"/>
+      <point x="0" y="-79"/>
+      <point x="-25" y="-101"/>
+      <point x="-25" y="-131" type="curve" smooth="yes"/>
+      <point x="-25" y="-161"/>
+      <point x="0" y="-183"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-08-06 02:24:23 +0000</string>
+    </dict>
+  </lib>
+</glyph>

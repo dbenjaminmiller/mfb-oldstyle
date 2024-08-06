@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Zmacronbelow" format="2">
+  <advance width="624"/>
+  <unicode hex="1E94"/>
+  <outline>
+    <component base="Z"/>
+    <component base="macronbelowcomb" xOffset="166"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-08-06 00:43:28 +0000</string>
+    </dict>
+  </lib>
+</glyph>

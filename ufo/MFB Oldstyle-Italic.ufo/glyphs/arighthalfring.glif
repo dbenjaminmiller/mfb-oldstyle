@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="arighthalfring" format="2">
+  <advance width="617"/>
+  <unicode hex="1E9A"/>
+  <outline>
+    <component base="a" identifier="76300902"/>
+    <component base="ringhalfright" xOffset="469" yOffset="-10" identifier="17ED14E5"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-08-01 23:18:37 +0000</string>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>17ED14E5</key>
+        <dict>
+          <key>com.schriftgestaltung.alignment</key>
+          <integer>-1</integer>
+        </dict>
+        <key>76300902</key>
+        <dict>
+          <key>com.schriftgestaltung.alignment</key>
+          <integer>-1</integer>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tildebelowcomb" format="2">
+  <advance width="266"/>
+  <unicode hex="0330"/>
+  <anchor x="96" y="0" name="_dotbelow"/>
+  <outline>
+    <contour>
+      <point x="161" y="-169" type="curve" smooth="yes"/>
+      <point x="201" y="-169"/>
+      <point x="243" y="-90"/>
+      <point x="252" y="-75" type="curve"/>
+      <point x="223" y="-64" type="line"/>
+      <point x="210" y="-83"/>
+      <point x="198" y="-107"/>
+      <point x="180" y="-107" type="curve" smooth="yes"/>
+      <point x="154" y="-107"/>
+      <point x="96" y="-58"/>
+      <point x="63" y="-58" type="curve" smooth="yes"/>
+      <point x="26" y="-58"/>
+      <point x="-10" y="-118"/>
+      <point x="-29" y="-152" type="curve"/>
+      <point x="0" y="-163" type="line"/>
+      <point x="15" y="-139"/>
+      <point x="28" y="-120"/>
+      <point x="43" y="-120" type="curve" smooth="yes"/>
+      <point x="68" y="-120"/>
+      <point x="129" y="-169"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-08-06 02:24:23 +0000</string>
+    </dict>
+  </lib>
+</glyph>

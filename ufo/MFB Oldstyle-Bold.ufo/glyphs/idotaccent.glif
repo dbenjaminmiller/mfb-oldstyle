@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="idotaccent" format="2">
+  <advance width="317"/>
+  <outline>
+    <component base="idotless"/>
+    <component base="dotaccentcomb" xOffset="89" identifier="E058456E"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-08-06 00:43:28 +0000</string>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>E058456E</key>
+        <dict>
+          <key>com.schriftgestaltung.anchor</key>
+          <string>top_dot</string>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

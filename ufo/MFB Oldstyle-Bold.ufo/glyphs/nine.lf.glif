@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="nine.lf" format="2">
+  <advance width="618"/>
+  <outline>
+    <component base="nine" xOffset="-2" identifier="EE76BE9B"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-08-06 00:43:28 +0000</string>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>EE76BE9B</key>
+        <dict>
+          <key>com.schriftgestaltung.alignment</key>
+          <integer>-1</integer>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="zero.lf" format="2">
+  <advance width="514"/>
+  <outline>
+    <component base="zero" identifier="8D57D3CC"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-08-01 23:18:37 +0000</string>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>8D57D3CC</key>
+        <dict>
+          <key>com.schriftgestaltung.alignment</key>
+          <integer>-1</integer>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

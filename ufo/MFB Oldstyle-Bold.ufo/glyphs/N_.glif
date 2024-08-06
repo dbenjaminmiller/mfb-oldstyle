@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="N" format="2">
+  <advance width="752"/>
+  <unicode hex="004E"/>
+  <anchor x="363" y="0" name="commaaccentbelow"/>
+  <anchor x="356" y="0" name="dotbelow"/>
+  <anchor x="375" y="813" name="top"/>
+  <outline>
+    <contour>
+      <point x="36" y="0" type="line"/>
+      <point x="266" y="0" type="line"/>
+      <point x="266" y="43" type="line"/>
+      <point x="178" y="46"/>
+      <point x="176" y="141"/>
+      <point x="176" y="206" type="curve" smooth="yes"/>
+      <point x="176" y="576" type="line"/>
+      <point x="539" y="0" type="line"/>
+      <point x="634" y="0" type="line"/>
+      <point x="634" y="515" type="line" smooth="yes"/>
+      <point x="634" y="581"/>
+      <point x="636" y="675"/>
+      <point x="723" y="678" type="curve"/>
+      <point x="723" y="721" type="line"/>
+      <point x="493" y="721" type="line"/>
+      <point x="493" y="678" type="line"/>
+      <point x="581" y="675"/>
+      <point x="583" y="581"/>
+      <point x="583" y="515" type="curve" smooth="yes"/>
+      <point x="583" y="211" type="line"/>
+      <point x="262" y="721" type="line"/>
+      <point x="36" y="721" type="line"/>
+      <point x="36" y="678" type="line"/>
+      <point x="101" y="669"/>
+      <point x="125" y="640"/>
+      <point x="125" y="631" type="curve" smooth="yes"/>
+      <point x="125" y="206" type="line" smooth="yes"/>
+      <point x="125" y="141"/>
+      <point x="123" y="46"/>
+      <point x="36" y="43" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-08-06 00:44:58 +0000</string>
+    </dict>
+  </lib>
+</glyph>

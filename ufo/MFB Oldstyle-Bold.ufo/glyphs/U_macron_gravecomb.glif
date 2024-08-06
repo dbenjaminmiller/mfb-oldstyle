@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Umacron_gravecomb" format="2">
+  <advance width="751"/>
+  <outline>
+    <component base="Umacron"/>
+    <component base="gravecomb" xOffset="252" yOffset="423"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-08-06 00:43:28 +0000</string>
+    </dict>
+  </lib>
+</glyph>

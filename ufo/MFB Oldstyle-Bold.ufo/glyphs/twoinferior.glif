@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="twoinferior" format="2">
+  <advance width="411"/>
+  <unicode hex="2082"/>
+  <outline>
+    <component base="twosuperior" yOffset="-517" identifier="0A90BA3D"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-08-06 00:43:28 +0000</string>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>0A90BA3D</key>
+        <dict>
+          <key>com.schriftgestaltung.alignment</key>
+          <integer>-1</integer>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Ohorn" format="2">
+  <advance width="812"/>
+  <unicode hex="01A0"/>
+  <outline>
+    <component base="O" identifier="B2EE3283"/>
+    <component base="horncomb" xOffset="623" identifier="E6A8E743"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-08-06 00:43:28 +0000</string>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>B2EE3283</key>
+        <dict>
+          <key>com.schriftgestaltung.alignment</key>
+          <integer>-1</integer>
+        </dict>
+        <key>E6A8E743</key>
+        <dict>
+          <key>com.schriftgestaltung.alignment</key>
+          <integer>-1</integer>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

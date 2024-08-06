@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="circumflexcomb_gravecomb" format="2">
+  <advance width="298"/>
+  <outline>
+    <component base="circumflexcomb"/>
+    <component base="gravecomb" xOffset="166" yOffset="125" identifier="F96E3696"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-08-06 00:43:28 +0000</string>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>F96E3696</key>
+        <dict>
+          <key>com.schriftgestaltung.anchor</key>
+          <string>top_viet</string>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

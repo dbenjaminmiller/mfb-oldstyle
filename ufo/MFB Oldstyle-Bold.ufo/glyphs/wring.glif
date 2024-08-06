@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="wring" format="2">
+  <advance width="800"/>
+  <unicode hex="1E98"/>
+  <outline>
+    <component base="w"/>
+    <component base="ringcomb" xOffset="306"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-08-06 00:43:28 +0000</string>
+    </dict>
+  </lib>
+</glyph>

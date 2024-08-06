@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="seveninferior" format="2">
+  <advance width="342"/>
+  <unicode hex="2087"/>
+  <outline>
+    <component base="sevensuperior" xOffset="-97" yOffset="-524" identifier="90F11AD4"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-08-05 07:52:31 +0000</string>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>90F11AD4</key>
+        <dict>
+          <key>com.schriftgestaltung.alignment</key>
+          <integer>-1</integer>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

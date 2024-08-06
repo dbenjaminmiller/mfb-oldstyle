@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lcaron" format="2">
+  <advance width="373"/>
+  <unicode hex="013E"/>
+  <outline>
+    <component base="l" identifier="DA467752"/>
+    <component base="caroncomb.alt" xOffset="200" identifier="F5DF57C6"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-08-01 23:18:37 +0000</string>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>DA467752</key>
+        <dict>
+          <key>com.schriftgestaltung.alignment</key>
+          <integer>-1</integer>
+        </dict>
+        <key>F5DF57C6</key>
+        <dict>
+          <key>com.schriftgestaltung.alignment</key>
+          <integer>-1</integer>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

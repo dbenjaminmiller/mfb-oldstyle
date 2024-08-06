@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Etilde" format="2">
+  <advance width="718"/>
+  <unicode hex="1EBC"/>
+  <outline>
+    <component base="E"/>
+    <component base="tildecomb" xOffset="193" yOffset="255"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-08-06 00:43:28 +0000</string>
+    </dict>
+  </lib>
+</glyph>

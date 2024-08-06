@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="abreveacute" format="2">
+  <advance width="511"/>
+  <unicode hex="1EAF"/>
+  <outline>
+    <component base="a"/>
+    <component base="brevecomb" xOffset="94"/>
+    <component base="acutecomb" xOffset="229" yOffset="155"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-08-01 23:39:41 +0000</string>
+    </dict>
+  </lib>
+</glyph>

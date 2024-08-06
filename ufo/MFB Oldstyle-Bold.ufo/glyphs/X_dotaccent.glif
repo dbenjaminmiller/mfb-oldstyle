@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Xdotaccent" format="2">
+  <advance width="690"/>
+  <unicode hex="1E8A"/>
+  <outline>
+    <component base="X"/>
+    <component base="dotaccentcomb" xOffset="286" yOffset="255"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-08-06 00:43:28 +0000</string>
+    </dict>
+  </lib>
+</glyph>

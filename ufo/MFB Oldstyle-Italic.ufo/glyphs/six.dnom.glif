@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="six.dnom" format="2">
+  <advance width="342"/>
+  <outline>
+    <component base="sixinferior" xOffset="34" yOffset="200" identifier="B21F8189"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-08-05 07:55:18 +0000</string>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>B21F8189</key>
+        <dict>
+          <key>com.schriftgestaltung.alignment</key>
+          <integer>-1</integer>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

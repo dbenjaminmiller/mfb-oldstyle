@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uhorn" format="2">
+  <advance width="762"/>
+  <unicode hex="01B0"/>
+  <outline>
+    <contour>
+      <point x="526" y="284" type="line"/>
+      <point x="700" y="354"/>
+      <point x="781" y="457"/>
+      <point x="781" y="550" type="curve" smooth="yes"/>
+      <point x="781" y="610"/>
+      <point x="747" y="656"/>
+      <point x="691" y="656" type="curve" smooth="yes"/>
+      <point x="641" y="656"/>
+      <point x="610" y="618"/>
+      <point x="610" y="571" type="curve" smooth="yes"/>
+      <point x="610" y="499"/>
+      <point x="684" y="505"/>
+      <point x="684" y="468" type="curve" smooth="yes"/>
+      <point x="684" y="432"/>
+      <point x="612" y="370"/>
+      <point x="526" y="336" type="curve"/>
+    </contour>
+    <component base="u"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-08-06 00:44:58 +0000</string>
+    </dict>
+  </lib>
+</glyph>

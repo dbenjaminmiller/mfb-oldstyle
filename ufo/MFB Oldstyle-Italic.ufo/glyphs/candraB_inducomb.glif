@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="candraBinducomb" format="2">
+  <advance width="268"/>
+  <unicode hex="0310"/>
+  <outline>
+    <component base="brevecomb"/>
+    <component base="dotaccentcomb" xOffset="90" yOffset="91" identifier="EBF1EDBB"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-08-01 23:18:37 +0000</string>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>EBF1EDBB</key>
+        <dict>
+          <key>com.schriftgestaltung.alignment</key>
+          <integer>-1</integer>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

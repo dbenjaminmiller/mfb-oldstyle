@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Ddotaccent" format="2">
+  <advance width="716"/>
+  <unicode hex="1E0A"/>
+  <outline>
+    <component base="D"/>
+    <component base="dotaccentcomb" xOffset="296" yOffset="183"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-08-01 23:18:37 +0000</string>
+    </dict>
+  </lib>
+</glyph>

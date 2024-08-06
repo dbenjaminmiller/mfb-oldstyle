@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="W_ringcomb" format="2">
+  <advance width="968"/>
+  <outline>
+    <component base="W"/>
+    <component base="ringcomb" xOffset="396" yOffset="255"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-08-06 00:43:28 +0000</string>
+    </dict>
+  </lib>
+</glyph>

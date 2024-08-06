@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Bstroke" format="2">
+  <advance width="726"/>
+  <unicode hex="0243"/>
+  <outline>
+    <contour>
+      <point x="36" y="198" type="line"/>
+      <point x="446" y="198" type="line"/>
+      <point x="446" y="241" type="line"/>
+      <point x="36" y="241" type="line"/>
+    </contour>
+    <component base="B"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-08-06 00:44:58 +0000</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="idieresisacute" format="2">
+  <advance width="317"/>
+  <unicode hex="1E2F"/>
+  <outline>
+    <component base="idotless"/>
+    <component base="dieresiscomb" xOffset="9"/>
+    <component base="acutecomb" xOffset="82" yOffset="168"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-08-06 00:43:28 +0000</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Rdotbelowmacron" format="2">
+  <advance width="708"/>
+  <unicode hex="1E5C"/>
+  <outline>
+    <component base="R"/>
+    <component base="dotbelowcomb" xOffset="304"/>
+    <component base="macroncomb" xOffset="211" yOffset="255"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-08-06 00:43:28 +0000</string>
+    </dict>
+  </lib>
+</glyph>

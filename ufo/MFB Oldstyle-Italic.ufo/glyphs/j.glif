@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="j" format="2">
+  <advance width="318"/>
+  <unicode hex="006A"/>
+  <outline>
+    <component base="jdotless"/>
+    <component base="dotaccentcomb" xOffset="98" identifier="186613D8"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-08-01 23:18:37 +0000</string>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>186613D8</key>
+        <dict>
+          <key>com.schriftgestaltung.anchor</key>
+          <string>top_dot</string>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

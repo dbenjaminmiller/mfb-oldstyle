@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="circumflexcomb_acutecomb" format="2">
+  <advance width="269"/>
+  <outline>
+    <component base="circumflexcomb"/>
+    <component base="acutecomb" xOffset="255" yOffset="133" identifier="3490118C"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-08-01 23:39:41 +0000</string>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>3490118C</key>
+        <dict>
+          <key>com.schriftgestaltung.anchor</key>
+          <string>top_viet</string>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>
