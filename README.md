@@ -4,7 +4,7 @@ MFB Oldstyle is a serif font family designed for body text. This typeface was or
 
 ## Sample
 
-<img src="./sample.svg" width="100%" style="background-color: white;">
+<img src="./sample.svg" width="100%">
 
 
 ## Features
