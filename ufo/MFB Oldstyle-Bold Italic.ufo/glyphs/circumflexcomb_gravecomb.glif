@@ -2,8 +2,8 @@
 <glyph name="circumflexcomb_gravecomb" format="2">
   <advance width="289"/>
   <outline>
-    <component base="circumflexcomb" identifier="F078AD17"/>
-    <component base="gravecomb" xOffset="137" yOffset="133" identifier="89526253"/>
+    <component base="circumflexcomb" identifier="5ED9E873"/>
+    <component base="gravecomb" xOffset="137" yOffset="133" identifier="60E2AD19"/>
   </outline>
   <lib>
     <dict>
@@ -11,17 +11,17 @@
       <string>2024-08-01 23:39:41 +0000</string>
       <key>public.objectLibs</key>
       <dict>
-        <key>89526253</key>
+        <key>5ED9E873</key>
+        <dict>
+          <key>com.schriftgestaltung.alignment</key>
+          <integer>-1</integer>
+        </dict>
+        <key>60E2AD19</key>
         <dict>
           <key>com.schriftgestaltung.alignment</key>
           <integer>-1</integer>
           <key>com.schriftgestaltung.anchor</key>
           <string>top_viet</string>
-        </dict>
-        <key>F078AD17</key>
-        <dict>
-          <key>com.schriftgestaltung.alignment</key>
-          <integer>-1</integer>
         </dict>
       </dict>
     </dict>

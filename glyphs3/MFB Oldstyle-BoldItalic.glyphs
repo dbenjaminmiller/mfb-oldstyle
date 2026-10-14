@@ -1146,26 +1146,20 @@ iconName = Bold;
 id = m01;
 metricValues = (
 {
-over = 0;
 pos = 952;
 },
 {
-over = 0;
 pos = 721;
 },
 {
-over = 0;
 pos = 490;
 },
 {
-over = 0;
 },
 {
-over = 0;
 pos = -283;
 },
 {
-over = 0;
 pos = 15;
 }
 );
@@ -1960,22 +1954,31 @@ unicode = 197;
 glyphname = Aringacute;
 kernLeft = A;
 kernRight = A;
-lastChange = "2024-08-01 23:18:37 +0000";
+lastChange = "2026-10-14 20:49:32 +0000";
 layers = (
 {
 layerId = m01;
 shapes = (
 {
 alignment = -1;
+attr = {
+identifier = 5D45D9C0;
+};
 ref = A;
 },
 {
 alignment = -1;
+attr = {
+identifier = 207096F7;
+};
 pos = (283,247);
 ref = ringcomb;
 },
 {
 alignment = -1;
+attr = {
+identifier = 834A525B;
+};
 pos = (384,455);
 ref = acutecomb;
 }
@@ -3677,17 +3680,23 @@ unicode = 278;
 glyphname = Edotaccent_acutecomb;
 kernLeft = I;
 kernRight = E;
-lastChange = "2024-08-01 23:18:37 +0000";
+lastChange = "2026-10-14 20:49:32 +0000";
 layers = (
 {
 layerId = m01;
 shapes = (
 {
 alignment = -1;
+attr = {
+identifier = "99108557";
+};
 ref = Edotaccent;
 },
 {
 alignment = -1;
+attr = {
+identifier = 6AFD0C14;
+};
 pos = (373,455);
 ref = acutecomb;
 }
@@ -4870,17 +4879,23 @@ unicode = 73;
 glyphname = IJ;
 kernLeft = I;
 kernRight = J;
-lastChange = "2024-08-01 23:18:37 +0000";
+lastChange = "2026-10-14 20:49:32 +0000";
 layers = (
 {
 layerId = m01;
 shapes = (
 {
 alignment = -1;
+attr = {
+identifier = E17E770A;
+};
 ref = I;
 },
 {
 alignment = -1;
+attr = {
+identifier = 578DF558;
+};
 pos = (434,0);
 ref = J;
 }
@@ -5922,17 +5937,23 @@ unicode = 313;
 glyphname = Lcaron;
 kernLeft = I;
 kernRight = L;
-lastChange = "2024-08-01 23:18:37 +0000";
+lastChange = "2026-10-14 20:49:32 +0000";
 layers = (
 {
 layerId = m01;
 shapes = (
 {
 alignment = -1;
+attr = {
+identifier = 736A8387;
+};
 ref = L;
 },
 {
 alignment = -1;
+attr = {
+identifier = D8BC272F;
+};
 pos = (461,0);
 ref = caroncomb.alt;
 }
@@ -12171,8 +12192,6 @@ kernRight = a;
 lastChange = "2024-08-01 23:39:41 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -12195,8 +12214,6 @@ kernRight = a;
 lastChange = "2024-08-01 23:39:41 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -12219,8 +12236,6 @@ kernRight = a;
 lastChange = "2024-08-01 23:39:41 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -12247,8 +12262,6 @@ kernRight = a;
 lastChange = "2024-08-01 23:39:41 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -12275,8 +12288,6 @@ kernRight = a;
 lastChange = "2024-08-01 23:39:41 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -12303,8 +12314,6 @@ kernRight = a;
 lastChange = "2024-08-01 23:39:41 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -12327,8 +12336,6 @@ kernRight = a;
 lastChange = "2024-08-01 23:39:41 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -12355,8 +12362,6 @@ kernRight = a;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -12379,8 +12384,6 @@ kernRight = a;
 lastChange = "2024-08-01 23:39:41 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -12403,8 +12406,6 @@ kernRight = a;
 lastChange = "2024-08-01 23:39:41 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -12427,8 +12428,6 @@ kernRight = a;
 lastChange = "2024-08-01 23:39:41 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -12455,8 +12454,6 @@ kernRight = a;
 lastChange = "2024-08-01 23:39:56 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -12479,8 +12476,6 @@ kernRight = a;
 lastChange = "2024-08-01 23:39:41 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -12503,8 +12498,6 @@ kernRight = a;
 lastChange = "2024-08-01 23:39:41 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -12527,8 +12520,6 @@ kernRight = a;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -12551,8 +12542,6 @@ kernRight = a;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -12575,8 +12564,6 @@ kernRight = a;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -12603,8 +12590,6 @@ kernRight = a;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -12627,8 +12612,6 @@ kernRight = a;
 lastChange = "2024-08-01 23:39:41 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -12651,8 +12634,6 @@ kernRight = a;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -12679,8 +12660,6 @@ kernRight = a;
 lastChange = "2024-08-01 23:39:41 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -12703,8 +12682,6 @@ kernRight = a;
 lastChange = "2024-08-01 23:39:41 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -12727,8 +12704,6 @@ kernRight = a;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -12751,8 +12726,6 @@ kernRight = a;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -12775,8 +12748,6 @@ kernRight = a;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -12798,8 +12769,6 @@ kernRight = a;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -12822,8 +12791,6 @@ kernRight = a;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -12845,8 +12812,6 @@ kernRight = a;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -12865,19 +12830,23 @@ width = 636;
 glyphname = arighthalfring;
 kernLeft = a;
 kernRight = a;
-lastChange = "2024-08-01 23:18:37 +0000";
+lastChange = "2026-10-14 20:49:32 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
 alignment = -1;
+attr = {
+identifier = D7D73FCD;
+};
 ref = a;
 },
 {
 alignment = -1;
+attr = {
+identifier = AFCC0F37;
+};
 pos = (540,-10);
 ref = ringhalfright;
 }
@@ -12894,8 +12863,6 @@ kernRight = a;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -12918,8 +12885,6 @@ kernRight = a;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -12946,8 +12911,6 @@ kernRight = a;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -12970,8 +12933,6 @@ kernRight = a;
 lastChange = "2024-08-01 23:39:41 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -13190,8 +13151,6 @@ kernRight = e;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -13214,8 +13173,6 @@ kernRight = e;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -13373,8 +13330,6 @@ kernRight = b;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -13397,8 +13352,6 @@ kernRight = b;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -13421,8 +13374,6 @@ kernRight = b;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -13607,8 +13558,6 @@ kernRight = c;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -13630,8 +13579,6 @@ kernRight = c;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -13654,8 +13601,6 @@ kernRight = c;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -13678,8 +13623,6 @@ kernRight = c;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -13702,8 +13645,6 @@ kernRight = c;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -13730,8 +13671,6 @@ kernRight = c;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -13754,8 +13693,6 @@ kernRight = c;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -13950,19 +13887,23 @@ unicode = 100;
 glyphname = dcaron;
 kernLeft = d;
 kernRight = d;
-lastChange = "2024-08-01 23:18:37 +0000";
+lastChange = "2026-10-14 20:49:32 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
 alignment = -1;
+attr = {
+identifier = 3FFECBDA;
+};
 ref = d;
 },
 {
 alignment = -1;
+attr = {
+identifier = "99745461";
+};
 pos = (545,6);
 ref = caroncomb.alt;
 }
@@ -13979,8 +13920,6 @@ kernRight = d;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -14003,8 +13942,6 @@ kernRight = d;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -14070,8 +14007,6 @@ kernRight = d;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -14094,8 +14029,6 @@ kernRight = d;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -14118,8 +14051,6 @@ kernRight = d;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -14435,8 +14366,6 @@ kernRight = e;
 lastChange = "2024-08-01 23:39:41 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -14459,8 +14388,6 @@ kernRight = e;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -14483,8 +14410,6 @@ kernRight = e;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -14507,8 +14432,6 @@ kernRight = e;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -14531,8 +14454,6 @@ kernRight = e;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -14559,8 +14480,6 @@ kernRight = e;
 lastChange = "2024-08-01 23:39:41 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -14583,8 +14502,6 @@ kernRight = e;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -14606,8 +14523,6 @@ kernRight = e;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -14629,8 +14544,6 @@ kernRight = e;
 lastChange = "2024-08-01 23:39:41 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -14653,8 +14566,6 @@ kernRight = e;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -14677,8 +14588,6 @@ kernRight = e;
 lastChange = "2024-08-01 23:39:41 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -14705,8 +14614,6 @@ kernRight = e;
 lastChange = "2024-08-01 23:39:41 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -14729,8 +14636,6 @@ kernRight = e;
 lastChange = "2024-08-01 23:39:41 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -14753,8 +14658,6 @@ kernRight = e;
 lastChange = "2024-08-01 23:39:41 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -14777,8 +14680,6 @@ kernRight = e;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -14801,8 +14702,6 @@ kernRight = e;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -14825,8 +14724,6 @@ kernRight = e;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -14849,8 +14746,6 @@ kernRight = e;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -14872,8 +14767,6 @@ kernRight = e;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -14895,8 +14788,6 @@ kernRight = e;
 lastChange = "2024-08-01 23:39:41 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -14919,8 +14810,6 @@ kernRight = e;
 lastChange = "2024-08-01 23:39:41 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -14943,8 +14832,6 @@ kernRight = e;
 lastChange = "2024-08-01 23:39:41 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -14967,8 +14854,6 @@ kernRight = e;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -14991,8 +14876,6 @@ kernRight = e;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -15015,8 +14898,6 @@ kernRight = e;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -15043,8 +14924,6 @@ kernRight = e;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -15245,8 +15124,6 @@ kernRight = e;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -15268,8 +15145,6 @@ kernRight = e;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -15291,8 +15166,6 @@ kernRight = e;
 lastChange = "2024-08-01 23:39:41 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -15315,8 +15188,6 @@ kernRight = e;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -15336,7 +15207,7 @@ unicode = 7707;
 glyphname = schwa;
 kernLeft = e;
 kernRight = e;
-lastChange = "2024-08-06 02:24:23 +0000";
+lastChange = "2026-10-14 20:49:32 +0000";
 layers = (
 {
 background = {
@@ -15398,6 +15269,9 @@ shapes = (
 {
 alignment = -1;
 angle = 180;
+attr = {
+identifier = A22A9887;
+};
 pos = (476,476);
 ref = e;
 }
@@ -15513,8 +15387,6 @@ kernRight = f;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -15760,8 +15632,6 @@ kernRight = g;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -15784,8 +15654,6 @@ kernRight = g;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -15808,8 +15676,6 @@ kernRight = g;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -15832,8 +15698,6 @@ kernRight = g;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -15856,8 +15720,6 @@ kernRight = g;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -15880,8 +15742,6 @@ kernRight = g;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -15904,8 +15764,6 @@ kernRight = g;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -16122,8 +15980,6 @@ kernRight = h;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -16146,8 +16002,6 @@ kernRight = h;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -16170,8 +16024,6 @@ kernRight = h;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -16194,8 +16046,6 @@ kernRight = h;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -16218,8 +16068,6 @@ kernRight = h;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -16242,8 +16090,6 @@ kernRight = h;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -16266,8 +16112,6 @@ kernRight = h;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -16290,8 +16134,6 @@ kernRight = h;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -16311,11 +16153,9 @@ unicode = 7830;
 glyphname = i;
 kernLeft = i;
 kernRight = i;
-lastChange = "2024-08-01 23:18:37 +0000";
+lastChange = "2026-10-14 20:49:32 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -16323,6 +16163,9 @@ ref = idotless;
 },
 {
 anchor = top_dot;
+attr = {
+identifier = B849D5A8;
+};
 pos = (73,-64);
 ref = dotaccentcomb;
 }
@@ -16462,8 +16305,6 @@ kernRight = i;
 lastChange = "2024-08-01 23:39:41 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -16486,8 +16327,6 @@ kernRight = i;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -16510,8 +16349,6 @@ kernRight = i;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -16534,8 +16371,6 @@ kernRight = i;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -16558,8 +16393,6 @@ kernRight = i;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -16582,8 +16415,6 @@ kernRight = i;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -16606,8 +16437,6 @@ kernRight = i;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -16634,8 +16463,6 @@ kernRight = i;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -16657,8 +16484,6 @@ kernRight = i;
 lastChange = "2024-08-01 23:39:41 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -16681,8 +16506,6 @@ kernRight = i;
 lastChange = "2024-08-01 23:39:41 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -16705,8 +16528,6 @@ kernRight = i;
 lastChange = "2024-08-01 23:39:41 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -16729,8 +16550,6 @@ kernRight = i;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -16753,8 +16572,6 @@ kernRight = i;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -16777,8 +16594,6 @@ kernRight = i;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -16800,8 +16615,6 @@ kernRight = i;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -16828,8 +16641,6 @@ kernRight = i;
 lastChange = "2024-08-01 23:39:41 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -16849,11 +16660,9 @@ unicode = 297;
 glyphname = ij;
 kernLeft = i;
 kernRight = j;
-lastChange = "2024-08-01 23:18:37 +0000";
+lastChange = "2026-10-14 20:49:32 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -16861,6 +16670,9 @@ ref = i;
 },
 {
 alignment = -1;
+attr = {
+identifier = D198718C;
+};
 pos = (325,0);
 ref = j;
 }
@@ -16876,11 +16688,9 @@ unicode = 307;
 glyphname = j;
 kernLeft = j;
 kernRight = j;
-lastChange = "2024-08-01 23:18:37 +0000";
+lastChange = "2026-10-14 20:49:32 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -16888,6 +16698,9 @@ ref = jdotless;
 },
 {
 anchor = top_dot;
+attr = {
+identifier = 1A185F8F;
+};
 pos = (89,-64);
 ref = dotaccentcomb;
 }
@@ -17015,8 +16828,6 @@ kernRight = j;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -17038,8 +16849,6 @@ kernRight = j;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -17061,8 +16870,6 @@ kernRight = j;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -17085,8 +16892,6 @@ kernRight = j;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -17250,8 +17055,6 @@ kernRight = k;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -17274,8 +17077,6 @@ kernRight = k;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -17298,8 +17099,6 @@ kernRight = k;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -17322,8 +17121,6 @@ kernRight = k;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -17346,8 +17143,6 @@ kernRight = k;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -17477,8 +17272,6 @@ kernLeft = l;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -17499,8 +17292,6 @@ kernLeft = l;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -17519,19 +17310,23 @@ unicode = 314;
 {
 glyphname = lcaron;
 kernLeft = l;
-lastChange = "2024-08-01 23:18:37 +0000";
+lastChange = "2026-10-14 20:49:32 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
 alignment = -1;
+attr = {
+identifier = 305EBE4D;
+};
 ref = l;
 },
 {
 alignment = -1;
+attr = {
+identifier = EAD4986C;
+};
 pos = (244,6);
 ref = caroncomb.alt;
 }
@@ -17547,8 +17342,6 @@ kernLeft = l;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -17570,8 +17363,6 @@ kernLeft = l;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -17591,19 +17382,23 @@ unicode = 316;
 glyphname = ldot;
 kernLeft = l;
 kernRight = dot;
-lastChange = "2024-08-01 23:18:37 +0000";
+lastChange = "2026-10-14 20:49:32 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
 alignment = -1;
+attr = {
+identifier = 04B121B3;
+};
 ref = l;
 },
 {
 alignment = -1;
+attr = {
+identifier = 07B19221;
+};
 pos = (312,144);
 ref = periodcentered;
 }
@@ -17620,8 +17415,6 @@ kernRight = l;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -17644,8 +17437,6 @@ kernRight = l;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -17672,8 +17463,6 @@ kernRight = l;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -17696,8 +17485,6 @@ kernRight = f;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -18064,8 +17851,6 @@ kernRight = m;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -18087,8 +17872,6 @@ kernRight = m;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -18111,8 +17894,6 @@ kernRight = m;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -18135,8 +17916,6 @@ kernRight = m;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -18334,8 +18113,6 @@ kernRight = n;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -18358,8 +18135,6 @@ kernRight = n;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -18382,8 +18157,6 @@ kernRight = n;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -18406,8 +18179,6 @@ kernRight = n;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -18430,8 +18201,6 @@ kernRight = n;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -18454,8 +18223,6 @@ kernRight = n;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -18478,8 +18245,6 @@ kernRight = n;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -18502,8 +18267,6 @@ kernRight = n;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -18526,8 +18289,6 @@ kernRight = n;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -18679,8 +18440,6 @@ kernRight = o;
 lastChange = "2024-08-01 23:39:41 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -18703,8 +18462,6 @@ kernRight = o;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -18727,8 +18484,6 @@ kernRight = o;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -18751,8 +18506,6 @@ kernRight = o;
 lastChange = "2024-08-01 23:39:41 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -18775,8 +18528,6 @@ kernRight = o;
 lastChange = "2024-08-01 23:39:48 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -18799,8 +18550,6 @@ kernRight = o;
 lastChange = "2024-08-01 23:39:41 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -18827,8 +18576,6 @@ kernRight = o;
 lastChange = "2024-08-01 23:39:51 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -18851,8 +18598,6 @@ kernRight = o;
 lastChange = "2024-08-01 23:39:52 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -18875,8 +18620,6 @@ kernRight = o;
 lastChange = "2024-08-01 23:39:53 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -18899,8 +18642,6 @@ kernRight = o;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -18923,8 +18664,6 @@ kernRight = o;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -18947,8 +18686,6 @@ kernRight = o;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -18975,8 +18712,6 @@ kernRight = o;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -18999,8 +18734,6 @@ kernRight = o;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -19027,8 +18760,6 @@ kernRight = o;
 lastChange = "2024-08-01 23:39:41 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -19051,8 +18782,6 @@ kernRight = o;
 lastChange = "2024-08-01 23:39:41 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -19075,8 +18804,6 @@ kernRight = o;
 lastChange = "2024-08-01 23:39:41 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -19166,8 +18893,6 @@ kernRight = horn;
 lastChange = "2024-08-01 23:39:41 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -19190,8 +18915,6 @@ kernRight = horn;
 lastChange = "2024-08-01 23:39:41 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -19214,8 +18937,6 @@ kernRight = horn;
 lastChange = "2024-08-01 23:39:41 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -19238,8 +18959,6 @@ kernRight = horn;
 lastChange = "2024-08-01 23:39:41 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -19262,8 +18981,6 @@ kernRight = horn;
 lastChange = "2024-08-01 23:39:41 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -19286,8 +19003,6 @@ kernRight = o;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -19310,8 +19025,6 @@ kernRight = o;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -19334,8 +19047,6 @@ kernRight = o;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -19358,8 +19069,6 @@ kernRight = o;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -19386,8 +19095,6 @@ kernRight = o;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -19414,8 +19121,6 @@ kernRight = o;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -19438,8 +19143,6 @@ kernRight = o;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -19509,8 +19212,6 @@ kernRight = o;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -19533,8 +19234,6 @@ kernRight = o;
 lastChange = "2024-08-01 23:39:41 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -19557,8 +19256,6 @@ kernRight = o;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -19585,8 +19282,6 @@ kernRight = o;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -19613,8 +19308,6 @@ kernRight = o;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -19990,8 +19683,6 @@ kernRight = p;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -20014,8 +19705,6 @@ kernRight = p;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -20332,8 +20021,6 @@ kernRight = q;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -20480,8 +20167,6 @@ kernRight = r;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -20503,8 +20188,6 @@ kernRight = r;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -20527,8 +20210,6 @@ kernRight = r;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -20551,8 +20232,6 @@ kernRight = r;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -20575,8 +20254,6 @@ kernRight = r;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -20599,8 +20276,6 @@ kernRight = r;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -20623,8 +20298,6 @@ kernRight = r;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -20647,8 +20320,6 @@ kernRight = r;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -20675,8 +20346,6 @@ kernRight = r;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -20699,8 +20368,6 @@ kernRight = r;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -20854,8 +20521,6 @@ kernRight = s;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -20877,8 +20542,6 @@ kernRight = s;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -20901,8 +20564,6 @@ kernRight = s;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -20929,8 +20590,6 @@ kernRight = s;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -20953,8 +20612,6 @@ kernRight = s;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -20981,8 +20638,6 @@ kernRight = s;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -21005,8 +20660,6 @@ kernRight = s;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -21029,8 +20682,6 @@ kernRight = s;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -21053,8 +20704,6 @@ kernRight = s;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -21077,8 +20726,6 @@ kernRight = s;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -21101,8 +20748,6 @@ kernRight = s;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -21479,19 +21124,23 @@ unicode = 116;
 glyphname = tcaron;
 kernLeft = t;
 kernRight = t;
-lastChange = "2024-08-01 23:18:37 +0000";
+lastChange = "2026-10-14 20:49:32 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
 alignment = -1;
+attr = {
+identifier = 636AA733;
+};
 ref = t;
 },
 {
 alignment = -1;
+attr = {
+identifier = 1D980314;
+};
 pos = (267,6);
 ref = caroncomb.alt;
 }
@@ -21508,8 +21157,6 @@ kernRight = t;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -21532,8 +21179,6 @@ kernRight = t;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -21556,8 +21201,6 @@ kernRight = t;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -21580,8 +21223,6 @@ kernRight = t;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -21604,8 +21245,6 @@ kernRight = t;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -21628,8 +21267,6 @@ kernRight = t;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -21652,8 +21289,6 @@ kernRight = t;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -21855,8 +21490,6 @@ kernRight = u;
 lastChange = "2024-08-01 23:39:41 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -21879,8 +21512,6 @@ kernRight = u;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -21903,8 +21534,6 @@ kernRight = u;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -21927,8 +21556,6 @@ kernRight = u;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -21951,8 +21578,6 @@ kernRight = u;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -21975,8 +21600,6 @@ kernRight = u;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -21999,8 +21622,6 @@ kernRight = u;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -22023,8 +21644,6 @@ kernRight = u;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -22051,8 +21670,6 @@ kernRight = u;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -22075,8 +21692,6 @@ kernRight = u;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -22103,8 +21718,6 @@ kernRight = u;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -22131,8 +21744,6 @@ kernRight = u;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -22159,8 +21770,6 @@ kernRight = u;
 lastChange = "2024-08-01 23:39:41 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -22183,8 +21792,6 @@ kernRight = u;
 lastChange = "2024-08-01 23:39:41 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -22207,8 +21814,6 @@ kernRight = u;
 lastChange = "2024-08-01 23:39:41 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -22298,8 +21903,6 @@ kernRight = horn;
 lastChange = "2024-08-01 23:39:41 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -22322,8 +21925,6 @@ kernRight = horn;
 lastChange = "2024-08-01 23:39:41 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -22346,8 +21947,6 @@ kernRight = horn;
 lastChange = "2024-08-01 23:39:41 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -22370,8 +21969,6 @@ kernRight = horn;
 lastChange = "2024-08-01 23:39:41 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -22394,8 +21991,6 @@ kernRight = horn;
 lastChange = "2024-08-01 23:39:41 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -22418,8 +22013,6 @@ kernRight = u;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -22442,8 +22035,6 @@ kernRight = u;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -22466,8 +22057,6 @@ kernRight = u;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -22490,8 +22079,6 @@ kernRight = u;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -22513,8 +22100,6 @@ kernRight = u;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -22536,8 +22121,6 @@ kernRight = u;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -22559,8 +22142,6 @@ kernRight = u;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -22587,8 +22168,6 @@ kernRight = u;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -22611,8 +22190,6 @@ kernRight = u;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -22634,8 +22211,6 @@ kernRight = u;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -22657,8 +22232,6 @@ kernRight = u;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -22681,8 +22254,6 @@ kernRight = u;
 lastChange = "2024-08-01 23:39:41 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -22705,8 +22276,6 @@ kernRight = u;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -22733,8 +22302,6 @@ kernRight = u;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -22900,8 +22467,6 @@ kernRight = v;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -22924,8 +22489,6 @@ kernRight = v;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -23137,8 +22700,6 @@ kernRight = w;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -23161,8 +22722,6 @@ kernRight = w;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -23185,8 +22744,6 @@ kernRight = w;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -23209,8 +22766,6 @@ kernRight = w;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -23233,8 +22788,6 @@ kernRight = w;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -23257,8 +22810,6 @@ kernRight = w;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -23281,8 +22832,6 @@ kernRight = w;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -23456,8 +23005,6 @@ kernRight = x;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -23479,8 +23026,6 @@ kernRight = x;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -23503,8 +23048,6 @@ kernRight = x;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -23658,8 +23201,6 @@ kernRight = y;
 lastChange = "2024-08-01 23:39:41 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -23682,8 +23223,6 @@ kernRight = y;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -23706,8 +23245,6 @@ kernRight = y;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -23730,8 +23267,6 @@ kernRight = y;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -23754,8 +23289,6 @@ kernRight = y;
 lastChange = "2024-08-01 23:39:41 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -23778,8 +23311,6 @@ kernRight = y;
 lastChange = "2024-08-01 23:39:41 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -23802,8 +23333,6 @@ kernRight = y;
 lastChange = "2024-08-01 23:39:41 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -23826,8 +23355,6 @@ kernRight = y;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -23850,8 +23377,6 @@ kernRight = y;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -23874,8 +23399,6 @@ kernRight = y;
 lastChange = "2024-08-01 23:39:41 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -24057,8 +23580,6 @@ kernRight = z;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -24081,8 +23602,6 @@ kernRight = z;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -24105,8 +23624,6 @@ kernRight = z;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -24129,8 +23646,6 @@ kernRight = z;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -24153,8 +23668,6 @@ kernRight = z;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -24177,8 +23690,6 @@ kernRight = z;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -24217,8 +23728,6 @@ kernRight = l;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -24240,8 +23749,6 @@ kernRight = n;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -29837,8 +29344,6 @@ kernRight = i;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -29859,8 +29364,6 @@ kernRight = l;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
-background = {
-};
 layerId = m01;
 shapes = (
 {
@@ -30608,7 +30111,7 @@ width = 579;
 glyphname = arighthalfring.sc;
 kernLeft = a.sc;
 kernRight = a.sc;
-lastChange = "2026-10-14 06:03:45 +0000";
+lastChange = "2026-10-14 20:49:32 +0000";
 layers = (
 {
 layerId = m01;
@@ -30618,6 +30121,9 @@ ref = a.sc;
 },
 {
 alignment = -1;
+attr = {
+identifier = AEEA5816;
+};
 pos = (419,13);
 ref = ringhalfright;
 }
@@ -42090,13 +41596,16 @@ unicode = 57;
 {
 glyphname = zero.lf;
 kernLeft = "0";
-lastChange = "2024-08-01 23:18:37 +0000";
+lastChange = "2026-10-14 20:49:32 +0000";
 layers = (
 {
 layerId = m01;
 shapes = (
 {
 alignment = -1;
+attr = {
+identifier = 7D307E46;
+};
 ref = zero;
 }
 );
@@ -42108,13 +41617,16 @@ width = 605;
 glyphname = one.lf;
 kernLeft = "1";
 kernRight = "1";
-lastChange = "2024-08-01 23:18:37 +0000";
+lastChange = "2026-10-14 20:49:32 +0000";
 layers = (
 {
 layerId = m01;
 shapes = (
 {
 alignment = -1;
+attr = {
+identifier = E8DDB831;
+};
 pos = (-40,0);
 ref = one;
 }
@@ -42127,13 +41639,16 @@ width = 520;
 glyphname = two.lf;
 kernLeft = "2";
 kernRight = "2";
-lastChange = "2024-08-01 23:18:37 +0000";
+lastChange = "2026-10-14 20:49:32 +0000";
 layers = (
 {
 layerId = m01;
 shapes = (
 {
 alignment = -1;
+attr = {
+identifier = 6B8E03E9;
+};
 pos = (1,0);
 ref = two;
 }
@@ -42146,13 +41661,16 @@ width = 606;
 glyphname = three.lf;
 kernLeft = "3";
 kernRight = "3";
-lastChange = "2024-08-01 23:18:37 +0000";
+lastChange = "2026-10-14 20:49:32 +0000";
 layers = (
 {
 layerId = m01;
 shapes = (
 {
 alignment = -1;
+attr = {
+identifier = 8759C301;
+};
 pos = (-5,0);
 ref = three;
 }
@@ -42165,13 +41683,16 @@ width = 593;
 glyphname = four.lf;
 kernLeft = "4";
 kernRight = "4";
-lastChange = "2024-08-01 23:18:37 +0000";
+lastChange = "2026-10-14 20:49:32 +0000";
 layers = (
 {
 layerId = m01;
 shapes = (
 {
 alignment = -1;
+attr = {
+identifier = E32E46F2;
+};
 ref = four;
 }
 );
@@ -42183,13 +41704,16 @@ width = 605;
 glyphname = five.lf;
 kernLeft = "5";
 kernRight = "5";
-lastChange = "2024-08-01 23:18:37 +0000";
+lastChange = "2026-10-14 20:49:32 +0000";
 layers = (
 {
 layerId = m01;
 shapes = (
 {
 alignment = -1;
+attr = {
+identifier = C640D483;
+};
 pos = (-4,0);
 ref = five;
 }
@@ -42202,13 +41726,16 @@ width = 594;
 glyphname = six.lf;
 kernLeft = "6";
 kernRight = "6";
-lastChange = "2024-08-01 23:18:37 +0000";
+lastChange = "2026-10-14 20:49:32 +0000";
 layers = (
 {
 layerId = m01;
 shapes = (
 {
 alignment = -1;
+attr = {
+identifier = 5583967A;
+};
 pos = (9,0);
 ref = six;
 }
@@ -42221,13 +41748,16 @@ width = 620;
 glyphname = seven.lf;
 kernLeft = "7";
 kernRight = "7";
-lastChange = "2024-08-01 23:18:37 +0000";
+lastChange = "2026-10-14 20:49:32 +0000";
 layers = (
 {
 layerId = m01;
 shapes = (
 {
 alignment = -1;
+attr = {
+identifier = "83982010";
+};
 pos = (-22,0);
 ref = seven;
 }
@@ -42240,13 +41770,16 @@ width = 565;
 glyphname = eight.lf;
 kernLeft = "8";
 kernRight = "8";
-lastChange = "2024-08-01 23:18:37 +0000";
+lastChange = "2026-10-14 20:49:32 +0000";
 layers = (
 {
 layerId = m01;
 shapes = (
 {
 alignment = -1;
+attr = {
+identifier = 842CB481;
+};
 pos = (-1,0);
 ref = eight;
 }
@@ -42259,13 +41792,16 @@ width = 602;
 glyphname = nine.lf;
 kernLeft = "9";
 kernRight = "9";
-lastChange = "2024-08-01 23:18:37 +0000";
+lastChange = "2026-10-14 20:49:32 +0000";
 layers = (
 {
 layerId = m01;
 shapes = (
 {
 alignment = -1;
+attr = {
+identifier = "82620279";
+};
 pos = (5,0);
 ref = nine;
 }
@@ -42989,13 +42525,16 @@ width = 605;
 },
 {
 glyphname = zero.tosf;
-lastChange = "2026-10-14 06:03:45 +0000";
+lastChange = "2026-10-14 20:49:32 +0000";
 layers = (
 {
 layerId = m01;
 shapes = (
 {
 alignment = -1;
+attr = {
+identifier = B8104F75;
+};
 pos = (-19,0);
 ref = zero.osf;
 }
@@ -43006,13 +42545,16 @@ width = 605;
 },
 {
 glyphname = one.tosf;
-lastChange = "2026-10-13 22:21:22 +0000";
+lastChange = "2026-10-14 20:49:32 +0000";
 layers = (
 {
 layerId = m01;
 shapes = (
 {
 alignment = -1;
+attr = {
+identifier = 7AEFA7BE;
+};
 pos = (45,0);
 ref = one.osf;
 }
@@ -43023,13 +42565,16 @@ width = 605;
 },
 {
 glyphname = two.tosf;
-lastChange = "2026-10-13 22:21:22 +0000";
+lastChange = "2026-10-14 20:49:32 +0000";
 layers = (
 {
 layerId = m01;
 shapes = (
 {
 alignment = -1;
+attr = {
+identifier = B4496992;
+};
 pos = (-10,0);
 ref = two.osf;
 }
@@ -43040,13 +42585,16 @@ width = 605;
 },
 {
 glyphname = three.tosf;
-lastChange = "2026-10-13 22:21:22 +0000";
+lastChange = "2026-10-14 20:49:32 +0000";
 layers = (
 {
 layerId = m01;
 shapes = (
 {
 alignment = -1;
+attr = {
+identifier = CD0EB345;
+};
 pos = (15,0);
 ref = three.osf;
 }
@@ -43057,13 +42605,16 @@ width = 605;
 },
 {
 glyphname = four.tosf;
-lastChange = "2026-10-13 22:21:22 +0000";
+lastChange = "2026-10-14 20:49:32 +0000";
 layers = (
 {
 layerId = m01;
 shapes = (
 {
 alignment = -1;
+attr = {
+identifier = 32A84337;
+};
 pos = (8,0);
 ref = four.osf;
 }
@@ -43074,13 +42625,16 @@ width = 605;
 },
 {
 glyphname = five.tosf;
-lastChange = "2026-10-13 22:21:22 +0000";
+lastChange = "2026-10-14 20:49:32 +0000";
 layers = (
 {
 layerId = m01;
 shapes = (
 {
 alignment = -1;
+attr = {
+identifier = FA8A69C7;
+};
 pos = (4,0);
 ref = five.osf;
 }
@@ -43091,13 +42645,16 @@ width = 605;
 },
 {
 glyphname = six.tosf;
-lastChange = "2026-10-13 22:21:22 +0000";
+lastChange = "2026-10-14 20:49:32 +0000";
 layers = (
 {
 layerId = m01;
 shapes = (
 {
 alignment = -1;
+attr = {
+identifier = 69175FB3;
+};
 pos = (-9,0);
 ref = six.osf;
 }
@@ -43108,13 +42665,16 @@ width = 605;
 },
 {
 glyphname = seven.tosf;
-lastChange = "2026-10-13 22:21:22 +0000";
+lastChange = "2026-10-14 20:49:32 +0000";
 layers = (
 {
 layerId = m01;
 shapes = (
 {
 alignment = -1;
+attr = {
+identifier = E55F83AB;
+};
 pos = (22,0);
 ref = seven.osf;
 }
@@ -43125,13 +42685,16 @@ width = 605;
 },
 {
 glyphname = eight.tosf;
-lastChange = "2026-10-13 22:21:22 +0000";
+lastChange = "2026-10-14 20:49:32 +0000";
 layers = (
 {
 layerId = m01;
 shapes = (
 {
 alignment = -1;
+attr = {
+identifier = 6555209A;
+};
 pos = (1,0);
 ref = eight.osf;
 }
@@ -43142,13 +42705,16 @@ width = 605;
 },
 {
 glyphname = nine.tosf;
-lastChange = "2026-10-13 22:21:22 +0000";
+lastChange = "2026-10-14 20:49:32 +0000";
 layers = (
 {
 layerId = m01;
 shapes = (
 {
 alignment = -1;
+attr = {
+identifier = 08AE9B71;
+};
 pos = (-5,0);
 ref = nine.osf;
 }
@@ -43159,13 +42725,16 @@ width = 605;
 },
 {
 glyphname = zero.dnom;
-lastChange = "2024-08-05 07:54:50 +0000";
+lastChange = "2026-10-14 20:49:32 +0000";
 layers = (
 {
 layerId = m01;
 shapes = (
 {
 alignment = -1;
+attr = {
+identifier = DBB639EB;
+};
 pos = (34,200);
 ref = zeroinferior;
 }
@@ -43176,13 +42745,16 @@ width = 404;
 },
 {
 glyphname = one.dnom;
-lastChange = "2024-08-05 07:54:55 +0000";
+lastChange = "2026-10-14 20:49:32 +0000";
 layers = (
 {
 layerId = m01;
 shapes = (
 {
 alignment = -1;
+attr = {
+identifier = 5956073F;
+};
 pos = (34,200);
 ref = oneinferior;
 }
@@ -43193,13 +42765,16 @@ width = 305;
 },
 {
 glyphname = two.dnom;
-lastChange = "2024-08-05 07:55:00 +0000";
+lastChange = "2026-10-14 20:49:32 +0000";
 layers = (
 {
 layerId = m01;
 shapes = (
 {
 alignment = -1;
+attr = {
+identifier = 771EBB0C;
+};
 pos = (34,200);
 ref = twoinferior;
 }
@@ -43210,13 +42785,16 @@ width = 404;
 },
 {
 glyphname = three.dnom;
-lastChange = "2024-08-05 07:55:04 +0000";
+lastChange = "2026-10-14 20:49:32 +0000";
 layers = (
 {
 layerId = m01;
 shapes = (
 {
 alignment = -1;
+attr = {
+identifier = 4F665495;
+};
 pos = (33,200);
 ref = threeinferior;
 }
@@ -43227,13 +42805,16 @@ width = 404;
 },
 {
 glyphname = four.dnom;
-lastChange = "2024-08-05 07:55:09 +0000";
+lastChange = "2026-10-14 20:49:32 +0000";
 layers = (
 {
 layerId = m01;
 shapes = (
 {
 alignment = -1;
+attr = {
+identifier = 916F6C1B;
+};
 pos = (34,200);
 ref = fourinferior;
 }
@@ -43244,13 +42825,16 @@ width = 404;
 },
 {
 glyphname = five.dnom;
-lastChange = "2024-08-05 07:55:13 +0000";
+lastChange = "2026-10-14 20:49:32 +0000";
 layers = (
 {
 layerId = m01;
 shapes = (
 {
 alignment = -1;
+attr = {
+identifier = 82B1F38B;
+};
 pos = (34,200);
 ref = fiveinferior;
 }
@@ -43261,13 +42845,16 @@ width = 404;
 },
 {
 glyphname = six.dnom;
-lastChange = "2024-08-05 07:55:18 +0000";
+lastChange = "2026-10-14 20:49:32 +0000";
 layers = (
 {
 layerId = m01;
 shapes = (
 {
 alignment = -1;
+attr = {
+identifier = 37B65557;
+};
 pos = (34,200);
 ref = sixinferior;
 }
@@ -43278,13 +42865,16 @@ width = 404;
 },
 {
 glyphname = seven.dnom;
-lastChange = "2024-08-05 07:55:23 +0000";
+lastChange = "2026-10-14 20:49:32 +0000";
 layers = (
 {
 layerId = m01;
 shapes = (
 {
 alignment = -1;
+attr = {
+identifier = EBBC5B47;
+};
 pos = (34,200);
 ref = seveninferior;
 }
@@ -43295,13 +42885,16 @@ width = 404;
 },
 {
 glyphname = eight.dnom;
-lastChange = "2024-08-05 07:55:31 +0000";
+lastChange = "2026-10-14 20:49:32 +0000";
 layers = (
 {
 layerId = m01;
 shapes = (
 {
 alignment = -1;
+attr = {
+identifier = 6C6201F4;
+};
 pos = (34,200);
 ref = eightinferior;
 }
@@ -43312,13 +42905,16 @@ width = 404;
 },
 {
 glyphname = nine.dnom;
-lastChange = "2024-08-05 07:55:37 +0000";
+lastChange = "2026-10-14 20:49:32 +0000";
 layers = (
 {
 layerId = m01;
 shapes = (
 {
 alignment = -1;
+attr = {
+identifier = C596B01A;
+};
 pos = (34,200);
 ref = nineinferior;
 }
@@ -43335,7 +42931,7 @@ layers = (
 layerId = m01;
 shapes = (
 {
-pos = (4,22);
+pos = (6,22);
 ref = zerosuperior;
 }
 );
@@ -43351,7 +42947,7 @@ layers = (
 layerId = m01;
 shapes = (
 {
-pos = (4,22);
+pos = (6,22);
 ref = onesuperior;
 }
 );
@@ -43367,7 +42963,7 @@ layers = (
 layerId = m01;
 shapes = (
 {
-pos = (4,22);
+pos = (6,22);
 ref = twosuperior;
 }
 );
@@ -43383,7 +42979,7 @@ layers = (
 layerId = m01;
 shapes = (
 {
-pos = (4,22);
+pos = (6,22);
 ref = threesuperior;
 }
 );
@@ -43399,7 +42995,7 @@ layers = (
 layerId = m01;
 shapes = (
 {
-pos = (4,22);
+pos = (6,22);
 ref = foursuperior;
 }
 );
@@ -43415,7 +43011,7 @@ layers = (
 layerId = m01;
 shapes = (
 {
-pos = (4,22);
+pos = (6,22);
 ref = fivesuperior;
 }
 );
@@ -43431,7 +43027,7 @@ layers = (
 layerId = m01;
 shapes = (
 {
-pos = (4,22);
+pos = (6,22);
 ref = sixsuperior;
 }
 );
@@ -43447,7 +43043,7 @@ layers = (
 layerId = m01;
 shapes = (
 {
-pos = (4,22);
+pos = (6,22);
 ref = sevensuperior;
 }
 );
@@ -43463,7 +43059,7 @@ layers = (
 layerId = m01;
 shapes = (
 {
-pos = (4,22);
+pos = (6,22);
 ref = eightsuperior;
 }
 );
@@ -43479,7 +43075,7 @@ layers = (
 layerId = m01;
 shapes = (
 {
-pos = (4,22);
+pos = (6,22);
 ref = ninesuperior;
 }
 );
@@ -43548,7 +43144,7 @@ unicode = 189;
 },
 {
 glyphname = onequarter;
-lastChange = "2024-08-05 07:56:01 +0000";
+lastChange = "2026-10-14 20:49:32 +0000";
 layers = (
 {
 layerId = m01;
@@ -43558,6 +43154,9 @@ ref = one.numr;
 },
 {
 alignment = -1;
+attr = {
+identifier = A765F53A;
+};
 pos = (424,0);
 ref = fraction;
 },
@@ -43573,7 +43172,7 @@ unicode = 188;
 },
 {
 glyphname = threequarters;
-lastChange = "2024-08-05 07:56:06 +0000";
+lastChange = "2026-10-14 20:49:32 +0000";
 layers = (
 {
 layerId = m01;
@@ -43583,6 +43182,9 @@ ref = three.numr;
 },
 {
 alignment = -1;
+attr = {
+identifier = 4D4A1607;
+};
 pos = (424,0);
 ref = fraction;
 },
@@ -43670,7 +43272,7 @@ unicode = 8541;
 },
 {
 glyphname = seveneighths;
-lastChange = "2024-08-05 07:56:14 +0000";
+lastChange = "2026-10-14 20:49:32 +0000";
 layers = (
 {
 layerId = m01;
@@ -43680,6 +43282,9 @@ ref = seven.numr;
 },
 {
 alignment = -1;
+attr = {
+identifier = 3B12E38B;
+};
 pos = (384,0);
 ref = fraction;
 },
@@ -43695,13 +43300,16 @@ unicode = 8542;
 },
 {
 glyphname = zeroinferior;
-lastChange = "2024-08-05 07:52:31 +0000";
+lastChange = "2026-10-14 20:49:32 +0000";
 layers = (
 {
 layerId = m01;
 shapes = (
 {
 alignment = -1;
+attr = {
+identifier = 78E4873F;
+};
 locked = 1;
 pos = (-97,-524);
 ref = zerosuperior;
@@ -43714,13 +43322,16 @@ unicode = 8320;
 },
 {
 glyphname = oneinferior;
-lastChange = "2024-08-05 07:52:31 +0000";
+lastChange = "2026-10-14 20:49:32 +0000";
 layers = (
 {
 layerId = m01;
 shapes = (
 {
 alignment = -1;
+attr = {
+identifier = 941A483C;
+};
 pos = (-97,-524);
 ref = onesuperior;
 }
@@ -43732,13 +43343,16 @@ unicode = 8321;
 },
 {
 glyphname = twoinferior;
-lastChange = "2024-08-05 07:52:31 +0000";
+lastChange = "2026-10-14 20:49:32 +0000";
 layers = (
 {
 layerId = m01;
 shapes = (
 {
 alignment = -1;
+attr = {
+identifier = DEE16D55;
+};
 pos = (-97,-524);
 ref = twosuperior;
 }
@@ -43750,13 +43364,16 @@ unicode = 8322;
 },
 {
 glyphname = threeinferior;
-lastChange = "2024-08-05 07:52:31 +0000";
+lastChange = "2026-10-14 20:49:32 +0000";
 layers = (
 {
 layerId = m01;
 shapes = (
 {
 alignment = -1;
+attr = {
+identifier = EBFDBA00;
+};
 pos = (-96,-524);
 ref = threesuperior;
 }
@@ -43768,13 +43385,16 @@ unicode = 8323;
 },
 {
 glyphname = fourinferior;
-lastChange = "2024-08-05 07:52:31 +0000";
+lastChange = "2026-10-14 20:49:32 +0000";
 layers = (
 {
 layerId = m01;
 shapes = (
 {
 alignment = -1;
+attr = {
+identifier = 1315BD55;
+};
 pos = (-97,-524);
 ref = foursuperior;
 }
@@ -43786,13 +43406,16 @@ unicode = 8324;
 },
 {
 glyphname = fiveinferior;
-lastChange = "2024-08-05 07:52:31 +0000";
+lastChange = "2026-10-14 20:49:32 +0000";
 layers = (
 {
 layerId = m01;
 shapes = (
 {
 alignment = -1;
+attr = {
+identifier = AA4DA439;
+};
 pos = (-97,-524);
 ref = fivesuperior;
 }
@@ -43804,13 +43427,16 @@ unicode = 8325;
 },
 {
 glyphname = sixinferior;
-lastChange = "2024-08-05 07:52:31 +0000";
+lastChange = "2026-10-14 20:49:32 +0000";
 layers = (
 {
 layerId = m01;
 shapes = (
 {
 alignment = -1;
+attr = {
+identifier = B89E2A2B;
+};
 pos = (-97,-524);
 ref = sixsuperior;
 }
@@ -43822,13 +43448,16 @@ unicode = 8326;
 },
 {
 glyphname = seveninferior;
-lastChange = "2024-08-05 07:52:31 +0000";
+lastChange = "2026-10-14 20:49:32 +0000";
 layers = (
 {
 layerId = m01;
 shapes = (
 {
 alignment = -1;
+attr = {
+identifier = 47975C28;
+};
 pos = (-97,-524);
 ref = sevensuperior;
 }
@@ -43840,13 +43469,16 @@ unicode = 8327;
 },
 {
 glyphname = eightinferior;
-lastChange = "2024-08-05 07:52:31 +0000";
+lastChange = "2026-10-14 20:49:32 +0000";
 layers = (
 {
 layerId = m01;
 shapes = (
 {
 alignment = -1;
+attr = {
+identifier = 36B1215D;
+};
 pos = (-97,-524);
 ref = eightsuperior;
 }
@@ -43858,13 +43490,16 @@ unicode = 8328;
 },
 {
 glyphname = nineinferior;
-lastChange = "2024-08-05 07:52:31 +0000";
+lastChange = "2026-10-14 20:49:32 +0000";
 layers = (
 {
 layerId = m01;
 shapes = (
 {
 alignment = -1;
+attr = {
+identifier = 13CD3D39;
+};
 pos = (-97,-524);
 ref = ninesuperior;
 }
@@ -49583,19 +49218,19 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(601,405,l),
-(643,474,l),
-(145,474,l),
-(103,405,l)
+(602,382,l),
+(632,431,l),
+(139,431,l),
+(109,382,l)
 );
 },
 {
 closed = 1;
 nodes = (
-(548,297,l),
-(591,374,l),
-(127,374,l),
-(83,297,l)
+(539,282,l),
+(571,332,l),
+(120,332,l),
+(89,282,l)
 );
 },
 {
@@ -49733,9 +49368,8 @@ nodes = (
 (328,246,c),
 (478,246,l),
 (488,288,l),
-(337,288,l),
-(337,304,l),
-(332,350,l),
+(333,288,l),
+(333,350,l),
 (505,350,l),
 (516,391,l),
 (333,391,l),
@@ -50907,7 +50541,7 @@ width = 601;
 unicode = 94;
 },
 {
-glyphname = "infinity";
+glyphname = infinity;
 lastChange = "2024-08-06 02:24:23 +0000";
 layers = (
 {
@@ -52656,7 +52290,7 @@ unicode = 770;
 },
 {
 glyphname = circumflexcomb_caroncomb;
-lastChange = "2024-08-01 23:18:37 +0000";
+lastChange = "2026-10-14 20:49:32 +0000";
 layers = (
 {
 layerId = m01;
@@ -52666,6 +52300,9 @@ ref = circumflexcomb;
 },
 {
 alignment = -1;
+attr = {
+identifier = 5128FD76;
+};
 pos = (57,214);
 ref = caroncomb;
 }
@@ -53207,7 +52844,7 @@ unicode = 783;
 },
 {
 glyphname = candraBinducomb;
-lastChange = "2024-08-01 23:18:37 +0000";
+lastChange = "2026-10-14 20:49:32 +0000";
 layers = (
 {
 layerId = m01;
@@ -53217,6 +52854,9 @@ ref = brevecomb;
 },
 {
 alignment = -1;
+attr = {
+identifier = CB81B0C7;
+};
 pos = (75,115);
 ref = dotaccentcomb;
 }
@@ -54320,18 +53960,24 @@ width = 274;
 },
 {
 glyphname = circumflexcomb_acutecomb;
-lastChange = "2024-08-01 23:39:41 +0000";
+lastChange = "2026-10-14 20:49:32 +0000";
 layers = (
 {
 layerId = m01;
 shapes = (
 {
 alignment = -1;
+attr = {
+identifier = 16CFC929;
+};
 ref = circumflexcomb;
 },
 {
 alignment = -1;
 anchor = top_viet;
+attr = {
+identifier = B8793F8E;
+};
 pos = (275,133);
 ref = acutecomb;
 }
@@ -54342,18 +53988,24 @@ width = 313;
 },
 {
 glyphname = circumflexcomb_gravecomb;
-lastChange = "2024-08-01 23:39:41 +0000";
+lastChange = "2026-10-14 20:49:32 +0000";
 layers = (
 {
 layerId = m01;
 shapes = (
 {
 alignment = -1;
+attr = {
+identifier = 5ED9E873;
+};
 ref = circumflexcomb;
 },
 {
 alignment = -1;
 anchor = top_viet;
+attr = {
+identifier = 60E2AD19;
+};
 pos = (137,133);
 ref = gravecomb;
 }
@@ -54364,18 +54016,24 @@ width = 289;
 },
 {
 glyphname = circumflexcomb_hookabovecomb;
-lastChange = "2024-08-01 23:39:41 +0000";
+lastChange = "2026-10-14 20:49:32 +0000";
 layers = (
 {
 layerId = m01;
 shapes = (
 {
 alignment = -1;
+attr = {
+identifier = D6339CC8;
+};
 ref = circumflexcomb;
 },
 {
 alignment = -1;
 anchor = top_viet;
+attr = {
+identifier = 4A01083F;
+};
 pos = (180,133);
 ref = hookabovecomb;
 }
@@ -56839,8 +56497,6 @@ key = licenseURL;
 value = "https://creativecommons.org/publicdomain/zero/1.0/";
 }
 );
-stems = (
-);
 unitsPerEm = 1000;
 userData = {
 GSDimensionPlugin.Dimensions = {
@@ -56849,5 +56505,5 @@ m01 = {
 };
 };
 versionMajor = 2;
-versionMinor = 0;
+versionMinor = 1;
 }

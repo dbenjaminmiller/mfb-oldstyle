@@ -2,7 +2,7 @@
 <glyph name="six.dnom" format="2">
   <advance width="411"/>
   <outline>
-    <component base="sixsuperior" yOffset="-355" identifier="DB0BC37D"/>
+    <component base="sixsuperior" yOffset="-355" identifier="A8692BDF"/>
   </outline>
   <lib>
     <dict>
@@ -10,7 +10,7 @@
       <string>2024-08-06 00:43:28 +0000</string>
       <key>public.objectLibs</key>
       <dict>
-        <key>DB0BC37D</key>
+        <key>A8692BDF</key>
         <dict>
           <key>com.schriftgestaltung.alignment</key>
           <integer>-1</integer>

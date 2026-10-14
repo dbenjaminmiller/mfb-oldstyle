@@ -4,7 +4,7 @@
   <unicode hex="0310"/>
   <outline>
     <component base="brevecomb"/>
-    <component base="dotaccentcomb" xOffset="90" yOffset="91" identifier="572AB032"/>
+    <component base="dotaccentcomb" xOffset="90" yOffset="91" identifier="CD3F68D0"/>
   </outline>
   <lib>
     <dict>
@@ -12,7 +12,7 @@
       <string>2024-08-01 23:18:37 +0000</string>
       <key>public.objectLibs</key>
       <dict>
-        <key>572AB032</key>
+        <key>CD3F68D0</key>
         <dict>
           <key>com.schriftgestaltung.alignment</key>
           <integer>-1</integer>

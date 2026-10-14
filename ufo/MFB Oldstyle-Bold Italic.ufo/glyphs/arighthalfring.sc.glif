@@ -3,7 +3,7 @@
   <advance width="579"/>
   <outline>
     <component base="a.sc"/>
-    <component base="ringhalfright" xOffset="419" yOffset="13" identifier="9196C890"/>
+    <component base="ringhalfright" xOffset="419" yOffset="13" identifier="AEEA5816"/>
   </outline>
   <lib>
     <dict>
@@ -11,7 +11,7 @@
       <string>2026-10-14 06:03:45 +0000</string>
       <key>public.objectLibs</key>
       <dict>
-        <key>9196C890</key>
+        <key>AEEA5816</key>
         <dict>
           <key>com.schriftgestaltung.alignment</key>
           <integer>-1</integer>

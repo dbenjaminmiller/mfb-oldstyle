@@ -3,8 +3,8 @@
   <advance width="551"/>
   <unicode hex="01A1"/>
   <outline>
-    <component base="o" identifier="12DDFD0A"/>
-    <component base="horncomb" xOffset="432" yOffset="-225" identifier="FBA88FAB"/>
+    <component base="o" identifier="64BF48B4"/>
+    <component base="horncomb" xOffset="432" yOffset="-225" identifier="418D22C6"/>
   </outline>
   <lib>
     <dict>
@@ -12,12 +12,12 @@
       <string>2024-08-03 06:58:11 +0000</string>
       <key>public.objectLibs</key>
       <dict>
-        <key>12DDFD0A</key>
+        <key>418D22C6</key>
         <dict>
           <key>com.schriftgestaltung.alignment</key>
           <integer>-1</integer>
         </dict>
-        <key>FBA88FAB</key>
+        <key>64BF48B4</key>
         <dict>
           <key>com.schriftgestaltung.alignment</key>
           <integer>-1</integer>

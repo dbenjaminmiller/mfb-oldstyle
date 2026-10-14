@@ -3,8 +3,8 @@
   <advance width="448"/>
   <unicode hex="0165"/>
   <outline>
-    <component base="t" identifier="C24C4302"/>
-    <component base="caroncomb.alt" xOffset="267" yOffset="6" identifier="DB517F87"/>
+    <component base="t" identifier="636AA733"/>
+    <component base="caroncomb.alt" xOffset="267" yOffset="6" identifier="1D980314"/>
   </outline>
   <lib>
     <dict>
@@ -12,12 +12,12 @@
       <string>2024-08-01 23:18:37 +0000</string>
       <key>public.objectLibs</key>
       <dict>
-        <key>C24C4302</key>
+        <key>1D980314</key>
         <dict>
           <key>com.schriftgestaltung.alignment</key>
           <integer>-1</integer>
         </dict>
-        <key>DB517F87</key>
+        <key>636AA733</key>
         <dict>
           <key>com.schriftgestaltung.alignment</key>
           <integer>-1</integer>

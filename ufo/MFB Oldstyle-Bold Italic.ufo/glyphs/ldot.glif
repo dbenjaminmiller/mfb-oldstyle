@@ -3,8 +3,8 @@
   <advance width="480"/>
   <unicode hex="0140"/>
   <outline>
-    <component base="l" identifier="B18F8F69"/>
-    <component base="periodcentered" xOffset="312" yOffset="144" identifier="D7A685DE"/>
+    <component base="l" identifier="04B121B3"/>
+    <component base="periodcentered" xOffset="312" yOffset="144" identifier="07B19221"/>
   </outline>
   <lib>
     <dict>
@@ -12,12 +12,12 @@
       <string>2024-08-01 23:18:37 +0000</string>
       <key>public.objectLibs</key>
       <dict>
-        <key>B18F8F69</key>
+        <key>04B121B3</key>
         <dict>
           <key>com.schriftgestaltung.alignment</key>
           <integer>-1</integer>
         </dict>
-        <key>D7A685DE</key>
+        <key>07B19221</key>
         <dict>
           <key>com.schriftgestaltung.alignment</key>
           <integer>-1</integer>

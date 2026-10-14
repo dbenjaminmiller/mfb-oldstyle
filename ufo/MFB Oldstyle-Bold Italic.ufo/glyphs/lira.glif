@@ -20,9 +20,8 @@
       <point x="328" y="246" type="curve"/>
       <point x="478" y="246" type="line"/>
       <point x="488" y="288" type="line"/>
-      <point x="337" y="288" type="line"/>
-      <point x="337" y="304" type="line"/>
-      <point x="332" y="350" type="line"/>
+      <point x="333" y="288" type="line"/>
+      <point x="333" y="350" type="line"/>
       <point x="505" y="350" type="line"/>
       <point x="516" y="391" type="line"/>
       <point x="333" y="391" type="line"/>

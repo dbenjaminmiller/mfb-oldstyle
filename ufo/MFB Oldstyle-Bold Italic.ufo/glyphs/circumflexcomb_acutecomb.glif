@@ -2,8 +2,8 @@
 <glyph name="circumflexcomb_acutecomb" format="2">
   <advance width="313"/>
   <outline>
-    <component base="circumflexcomb" identifier="739F7B86"/>
-    <component base="acutecomb" xOffset="275" yOffset="133" identifier="65E63211"/>
+    <component base="circumflexcomb" identifier="16CFC929"/>
+    <component base="acutecomb" xOffset="275" yOffset="133" identifier="B8793F8E"/>
   </outline>
   <lib>
     <dict>
@@ -11,17 +11,17 @@
       <string>2024-08-01 23:39:41 +0000</string>
       <key>public.objectLibs</key>
       <dict>
-        <key>65E63211</key>
+        <key>16CFC929</key>
+        <dict>
+          <key>com.schriftgestaltung.alignment</key>
+          <integer>-1</integer>
+        </dict>
+        <key>B8793F8E</key>
         <dict>
           <key>com.schriftgestaltung.alignment</key>
           <integer>-1</integer>
           <key>com.schriftgestaltung.anchor</key>
           <string>top_viet</string>
-        </dict>
-        <key>739F7B86</key>
-        <dict>
-          <key>com.schriftgestaltung.alignment</key>
-          <integer>-1</integer>
         </dict>
       </dict>
     </dict>

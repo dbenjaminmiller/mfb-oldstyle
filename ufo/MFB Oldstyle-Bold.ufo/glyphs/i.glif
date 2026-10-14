@@ -4,7 +4,7 @@
   <unicode hex="0069"/>
   <outline>
     <component base="idotless"/>
-    <component base="dotaccentcomb" xOffset="89" identifier="3A6DC4A5"/>
+    <component base="dotaccentcomb" xOffset="89" identifier="F6BBEB0C"/>
   </outline>
   <lib>
     <dict>
@@ -12,7 +12,7 @@
       <string>2024-08-06 00:43:28 +0000</string>
       <key>public.objectLibs</key>
       <dict>
-        <key>3A6DC4A5</key>
+        <key>F6BBEB0C</key>
         <dict>
           <key>com.schriftgestaltung.anchor</key>
           <string>top_dot</string>

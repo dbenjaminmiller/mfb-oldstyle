@@ -2,7 +2,7 @@
 <glyph name="six.lf" format="2">
   <advance width="615"/>
   <outline>
-    <component base="six" xOffset="-4" identifier="0E8E5BCB"/>
+    <component base="six" xOffset="-4" identifier="F74E394F"/>
   </outline>
   <lib>
     <dict>
@@ -10,7 +10,7 @@
       <string>2024-08-06 00:43:28 +0000</string>
       <key>public.objectLibs</key>
       <dict>
-        <key>0E8E5BCB</key>
+        <key>F74E394F</key>
         <dict>
           <key>com.schriftgestaltung.alignment</key>
           <integer>-1</integer>

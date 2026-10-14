@@ -22,5 +22,6 @@ All the fonts in the family have small capitals, a choice of lining or old-style
 
 This digital font by Daniel Benjamin Miller was first released in 2024.
 
+* Version 2.001 (October 14, 2026): Minor fixes.
 * Version 2.0 (October 14, 2026): Adds a bold italic; expands features to be consistent throughout the font family; includes various fixes.
 * Version 1.0 (August 5, 2024): Initial release.

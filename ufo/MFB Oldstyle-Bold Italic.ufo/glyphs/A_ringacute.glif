@@ -3,9 +3,9 @@
   <advance width="759"/>
   <unicode hex="01FA"/>
   <outline>
-    <component base="A" identifier="85909BFB"/>
-    <component base="ringcomb" xOffset="283" yOffset="247" identifier="EEE59C98"/>
-    <component base="acutecomb" xOffset="384" yOffset="455" identifier="EB2DF577"/>
+    <component base="A" identifier="5D45D9C0"/>
+    <component base="ringcomb" xOffset="283" yOffset="247" identifier="207096F7"/>
+    <component base="acutecomb" xOffset="384" yOffset="455" identifier="834A525B"/>
   </outline>
   <lib>
     <dict>
@@ -13,17 +13,17 @@
       <string>2024-08-01 23:18:37 +0000</string>
       <key>public.objectLibs</key>
       <dict>
-        <key>85909BFB</key>
+        <key>207096F7</key>
         <dict>
           <key>com.schriftgestaltung.alignment</key>
           <integer>-1</integer>
         </dict>
-        <key>EB2DF577</key>
+        <key>5D45D9C0</key>
         <dict>
           <key>com.schriftgestaltung.alignment</key>
           <integer>-1</integer>
         </dict>
-        <key>EEE59C98</key>
+        <key>834A525B</key>
         <dict>
           <key>com.schriftgestaltung.alignment</key>
           <integer>-1</integer>

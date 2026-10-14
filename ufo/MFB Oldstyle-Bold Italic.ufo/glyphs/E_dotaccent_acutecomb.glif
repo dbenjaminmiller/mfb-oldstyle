@@ -2,8 +2,8 @@
 <glyph name="Edotaccent_acutecomb" format="2">
   <advance width="748"/>
   <outline>
-    <component base="Edotaccent" identifier="D5F685E2"/>
-    <component base="acutecomb" xOffset="373" yOffset="455" identifier="ADC85D25"/>
+    <component base="Edotaccent" identifier="99108557"/>
+    <component base="acutecomb" xOffset="373" yOffset="455" identifier="6AFD0C14"/>
   </outline>
   <lib>
     <dict>
@@ -11,12 +11,12 @@
       <string>2024-08-01 23:18:37 +0000</string>
       <key>public.objectLibs</key>
       <dict>
-        <key>ADC85D25</key>
+        <key>6AFD0C14</key>
         <dict>
           <key>com.schriftgestaltung.alignment</key>
           <integer>-1</integer>
         </dict>
-        <key>D5F685E2</key>
+        <key>99108557</key>
         <dict>
           <key>com.schriftgestaltung.alignment</key>
           <integer>-1</integer>

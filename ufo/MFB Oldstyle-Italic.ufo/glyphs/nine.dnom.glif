@@ -2,7 +2,7 @@
 <glyph name="nine.dnom" format="2">
   <advance width="342"/>
   <outline>
-    <component base="nineinferior" xOffset="34" yOffset="200" identifier="FEF99284"/>
+    <component base="nineinferior" xOffset="34" yOffset="200" identifier="C234DA2B"/>
   </outline>
   <lib>
     <dict>
@@ -10,7 +10,7 @@
       <string>2024-08-05 07:55:37 +0000</string>
       <key>public.objectLibs</key>
       <dict>
-        <key>FEF99284</key>
+        <key>C234DA2B</key>
         <dict>
           <key>com.schriftgestaltung.alignment</key>
           <integer>-1</integer>

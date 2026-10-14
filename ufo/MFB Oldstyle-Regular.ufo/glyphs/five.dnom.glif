@@ -2,7 +2,7 @@
 <glyph name="five.dnom" format="2">
   <advance width="355"/>
   <outline>
-    <component base="fiveinferior" yOffset="150" identifier="F96AAD65"/>
+    <component base="fiveinferior" yOffset="150" identifier="F24E83AF"/>
   </outline>
   <lib>
     <dict>
@@ -10,7 +10,7 @@
       <string>2024-08-05 07:45:25 +0000</string>
       <key>public.objectLibs</key>
       <dict>
-        <key>F96AAD65</key>
+        <key>F24E83AF</key>
         <dict>
           <key>com.schriftgestaltung.alignment</key>
           <integer>-1</integer>
