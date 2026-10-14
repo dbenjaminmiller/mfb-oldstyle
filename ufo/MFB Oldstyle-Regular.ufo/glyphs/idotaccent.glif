@@ -3,7 +3,7 @@
   <advance width="270"/>
   <outline>
     <component base="idotless"/>
-    <component base="dotaccentcomb" xOffset="83" yOffset="64" identifier="60275FD8"/>
+    <component base="dotaccentcomb" xOffset="83" yOffset="64" identifier="36C16B09"/>
   </outline>
   <lib>
     <dict>
@@ -11,7 +11,7 @@
       <string>2024-08-03 06:58:11 +0000</string>
       <key>public.objectLibs</key>
       <dict>
-        <key>60275FD8</key>
+        <key>36C16B09</key>
         <dict>
           <key>com.schriftgestaltung.anchor</key>
           <string>top_dot</string>

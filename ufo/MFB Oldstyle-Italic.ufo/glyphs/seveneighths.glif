@@ -4,7 +4,7 @@
   <unicode hex="215E"/>
   <outline>
     <component base="seven.numr"/>
-    <component base="fraction" xOffset="322" identifier="7CA7EC55"/>
+    <component base="fraction" xOffset="322" identifier="97474B3A"/>
     <component base="eight.dnom" xOffset="456"/>
   </outline>
   <lib>
@@ -13,7 +13,7 @@
       <string>2024-08-05 07:56:14 +0000</string>
       <key>public.objectLibs</key>
       <dict>
-        <key>7CA7EC55</key>
+        <key>97474B3A</key>
         <dict>
           <key>com.schriftgestaltung.alignment</key>
           <integer>-1</integer>

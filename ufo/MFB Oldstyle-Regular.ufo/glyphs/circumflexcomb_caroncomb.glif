@@ -3,7 +3,7 @@
   <advance width="271"/>
   <outline>
     <component base="circumflexcomb"/>
-    <component base="caroncomb" xOffset="1" yOffset="212" identifier="BE42A513"/>
+    <component base="caroncomb" xOffset="1" yOffset="212" identifier="FE12BB62"/>
   </outline>
   <lib>
     <dict>
@@ -11,7 +11,7 @@
       <string>2024-08-03 06:58:12 +0000</string>
       <key>public.objectLibs</key>
       <dict>
-        <key>BE42A513</key>
+        <key>FE12BB62</key>
         <dict>
           <key>com.schriftgestaltung.alignment</key>
           <integer>-1</integer>

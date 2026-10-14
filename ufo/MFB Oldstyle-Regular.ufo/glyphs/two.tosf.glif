@@ -2,7 +2,7 @@
 <glyph name="two.tosf" format="2">
   <advance width="535"/>
   <outline>
-    <component base="two.osf" xOffset="11" identifier="ABFADC6E"/>
+    <component base="two.osf" xOffset="11" identifier="BD6B370E"/>
   </outline>
   <lib>
     <dict>
@@ -10,7 +10,7 @@
       <string>2024-08-03 06:58:12 +0000</string>
       <key>public.objectLibs</key>
       <dict>
-        <key>ABFADC6E</key>
+        <key>BD6B370E</key>
         <dict>
           <key>com.schriftgestaltung.alignment</key>
           <integer>-1</integer>

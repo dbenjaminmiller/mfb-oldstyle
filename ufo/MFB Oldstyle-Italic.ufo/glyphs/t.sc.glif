@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="t.sc" format="2">
+  <advance width="489"/>
+  <anchor x="182" y="-17" name="attachcedilla"/>
+  <anchor x="199" y="0" name="commaaccentbelow"/>
+  <anchor x="198" y="0" name="dotbelow"/>
+  <anchor x="398" y="518" name="top"/>
+  <outline>
+    <contour>
+      <point x="89" y="0" type="line"/>
+      <point x="321" y="0" type="line"/>
+      <point x="330" y="39" type="line"/>
+      <point x="272" y="39"/>
+      <point x="260" y="44"/>
+      <point x="260" y="60" type="curve" smooth="yes"/>
+      <point x="260" y="68"/>
+      <point x="262" y="74"/>
+      <point x="265" y="85" type="curve" smooth="yes"/>
+      <point x="359" y="436" type="line" smooth="yes"/>
+      <point x="370" y="477"/>
+      <point x="382" y="477"/>
+      <point x="396" y="477" type="curve" smooth="yes"/>
+      <point x="465" y="477"/>
+      <point x="494" y="404"/>
+      <point x="507" y="369" type="curve"/>
+      <point x="546" y="376" type="line"/>
+      <point x="527" y="516" type="line"/>
+      <point x="129" y="516" type="line"/>
+      <point x="58" y="390" type="line"/>
+      <point x="84" y="368" type="line"/>
+      <point x="119" y="399"/>
+      <point x="209" y="477"/>
+      <point x="258" y="477" type="curve" smooth="yes"/>
+      <point x="269" y="477"/>
+      <point x="277" y="472"/>
+      <point x="277" y="459" type="curve" smooth="yes"/>
+      <point x="277" y="457"/>
+      <point x="277" y="451"/>
+      <point x="273" y="436" type="curve" smooth="yes"/>
+      <point x="179" y="85" type="line" smooth="yes"/>
+      <point x="166" y="39"/>
+      <point x="144" y="40"/>
+      <point x="98" y="39" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026-10-14 06:03:45 +0000</string>
+    </dict>
+  </lib>
+</glyph>

@@ -5,17 +5,31 @@
     <key>ascender</key>
     <integer>962</integer>
     <key>capHeight</key>
-    <integer>0</integer>
+    <integer>721</integer>
     <key>descender</key>
     <integer>-283</integer>
     <key>familyName</key>
     <string>MFB Oldstyle</string>
-    <key>italicAngle</key>
-    <integer>0</integer>
     <key>openTypeHeadCreated</key>
-    <string>2024/08/05 16:00:15</string>
+    <string>2026/10/14 04:00:00</string>
+    <key>openTypeHheaAscender</key>
+    <integer>962</integer>
+    <key>openTypeHheaDescender</key>
+    <integer>-283</integer>
+    <key>openTypeHheaLineGap</key>
+    <integer>0</integer>
     <key>openTypeNameLicenseURL</key>
     <string>https://creativecommons.org/publicdomain/zero/1.0/</string>
+    <key>openTypeOS2TypoAscender</key>
+    <integer>962</integer>
+    <key>openTypeOS2TypoDescender</key>
+    <integer>-283</integer>
+    <key>openTypeOS2TypoLineGap</key>
+    <integer>0</integer>
+    <key>openTypeOS2WinAscent</key>
+    <integer>1185</integer>
+    <key>openTypeOS2WinDescent</key>
+    <integer>365</integer>
     <key>postscriptFontName</key>
     <string>MFBOldstyle-Regular</string>
     <key>styleName</key>
@@ -23,10 +37,10 @@
     <key>unitsPerEm</key>
     <integer>1000</integer>
     <key>versionMajor</key>
-    <integer>1</integer>
+    <integer>2</integer>
     <key>versionMinor</key>
     <integer>0</integer>
     <key>xHeight</key>
-    <integer>0</integer>
+    <integer>468</integer>
   </dict>
 </plist>

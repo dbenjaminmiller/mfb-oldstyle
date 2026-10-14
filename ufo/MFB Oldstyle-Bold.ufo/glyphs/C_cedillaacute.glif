@@ -4,7 +4,7 @@
   <unicode hex="1E08"/>
   <outline>
     <component base="C"/>
-    <component base="cedillacomb" xOffset="207" yOffset="-34"/>
+    <component base="cedillacomb" xOffset="233"/>
     <component base="acutecomb" xOffset="271" yOffset="255"/>
   </outline>
   <lib>

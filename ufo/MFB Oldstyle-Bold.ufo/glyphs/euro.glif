@@ -15,7 +15,7 @@
       <point x="508" y="332" type="line"/>
       <point x="57" y="332" type="line"/>
     </contour>
-    <component base="C" xOffset="63" identifier="CF52989B"/>
+    <component base="C" xOffset="63" identifier="03A202FC"/>
   </outline>
   <lib>
     <dict>
@@ -23,7 +23,7 @@
       <string>2024-08-06 00:44:58 +0000</string>
       <key>public.objectLibs</key>
       <dict>
-        <key>CF52989B</key>
+        <key>03A202FC</key>
         <dict>
           <key>com.schriftgestaltung.alignment</key>
           <integer>-1</integer>

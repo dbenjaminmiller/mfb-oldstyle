@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="acircumflexhookabove.sc" format="2">
+  <advance width="579"/>
+  <outline>
+    <component base="a.sc"/>
+    <component base="circumflexcomb_hookabovecomb.sc" xOffset="122" yOffset="23"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026-10-14 06:03:45 +0000</string>
+    </dict>
+  </lib>
+</glyph>

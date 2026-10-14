@@ -3,7 +3,7 @@
   <advance width="269"/>
   <outline>
     <component base="circumflexcomb"/>
-    <component base="gravecomb" xOffset="137" yOffset="133" identifier="6FE2220B"/>
+    <component base="gravecomb" xOffset="137" yOffset="133" identifier="200C91C9"/>
   </outline>
   <lib>
     <dict>
@@ -11,7 +11,7 @@
       <string>2024-08-01 23:39:41 +0000</string>
       <key>public.objectLibs</key>
       <dict>
-        <key>6FE2220B</key>
+        <key>200C91C9</key>
         <dict>
           <key>com.schriftgestaltung.anchor</key>
           <string>top_viet</string>

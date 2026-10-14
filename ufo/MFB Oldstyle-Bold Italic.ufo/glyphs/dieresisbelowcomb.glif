@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dieresisbelowcomb" format="2">
+  <advance width="301"/>
+  <unicode hex="0324"/>
+  <anchor x="132" y="0" name="_dotbelow"/>
+  <outline>
+    <contour>
+      <point x="207" y="-208" type="curve" smooth="yes"/>
+      <point x="242" y="-208"/>
+      <point x="272" y="-180"/>
+      <point x="272" y="-143" type="curve" smooth="yes"/>
+      <point x="272" y="-104"/>
+      <point x="242" y="-78"/>
+      <point x="207" y="-78" type="curve" smooth="yes"/>
+      <point x="173" y="-78"/>
+      <point x="142" y="-104"/>
+      <point x="142" y="-143" type="curve" smooth="yes"/>
+      <point x="142" y="-180"/>
+      <point x="173" y="-208"/>
+    </contour>
+    <contour>
+      <point x="38" y="-209" type="curve" smooth="yes"/>
+      <point x="73" y="-209"/>
+      <point x="103" y="-182"/>
+      <point x="103" y="-144" type="curve" smooth="yes"/>
+      <point x="103" y="-106"/>
+      <point x="73" y="-79"/>
+      <point x="38" y="-79" type="curve" smooth="yes"/>
+      <point x="4" y="-79"/>
+      <point x="-27" y="-106"/>
+      <point x="-27" y="-144" type="curve" smooth="yes"/>
+      <point x="-27" y="-182"/>
+      <point x="4" y="-209"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-08-06 02:24:23 +0000</string>
+    </dict>
+  </lib>
+</glyph>

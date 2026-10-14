@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ccedilla.sc" format="2">
+  <advance width="565"/>
+  <outline>
+    <component base="c.sc"/>
+    <component base="cedillacomb" xOffset="142" yOffset="-17"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026-10-14 06:03:45 +0000</string>
+    </dict>
+  </lib>
+</glyph>

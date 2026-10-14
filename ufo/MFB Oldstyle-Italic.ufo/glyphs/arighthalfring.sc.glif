@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="arighthalfring.sc" format="2">
+  <advance width="524"/>
+  <outline>
+    <component base="a.sc"/>
+    <component base="ringhalfright" xOffset="377" yOffset="14" identifier="DD7468F3"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026-10-14 06:03:45 +0000</string>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>DD7468F3</key>
+        <dict>
+          <key>com.schriftgestaltung.alignment</key>
+          <integer>-1</integer>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

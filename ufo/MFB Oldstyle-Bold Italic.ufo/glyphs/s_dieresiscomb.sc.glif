@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="s_dieresiscomb.sc" format="2">
+  <advance width="469"/>
+  <outline>
+    <component base="s.sc"/>
+    <component base="dieresiscomb.sc" xOffset="66" yOffset="23"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026-10-14 06:03:45 +0000</string>
+    </dict>
+  </lib>
+</glyph>

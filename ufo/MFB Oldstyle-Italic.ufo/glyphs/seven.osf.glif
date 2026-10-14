@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="seven.osf" format="2">
+  <advance width="474"/>
+  <outline>
+    <contour>
+      <point x="105" y="-186" type="curve" smooth="yes"/>
+      <point x="135" y="-186"/>
+      <point x="156" y="-166"/>
+      <point x="167" y="-120" type="curve" smooth="yes"/>
+      <point x="226" y="125"/>
+      <point x="408" y="331"/>
+      <point x="517" y="467" type="curve"/>
+      <point x="530" y="516" type="line"/>
+      <point x="137" y="516" type="line"/>
+      <point x="40" y="325" type="line"/>
+      <point x="75" y="306" type="line"/>
+      <point x="157" y="438"/>
+      <point x="175" y="441"/>
+      <point x="302" y="441" type="curve" smooth="yes"/>
+      <point x="441" y="441" type="line"/>
+      <point x="345" y="331"/>
+      <point x="238" y="203"/>
+      <point x="150" y="72" type="curve" smooth="yes"/>
+      <point x="115" y="20"/>
+      <point x="57" y="-65"/>
+      <point x="57" y="-129" type="curve" smooth="yes"/>
+      <point x="57" y="-154"/>
+      <point x="66" y="-186"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026-10-13 22:21:22 +0000</string>
+    </dict>
+  </lib>
+</glyph>

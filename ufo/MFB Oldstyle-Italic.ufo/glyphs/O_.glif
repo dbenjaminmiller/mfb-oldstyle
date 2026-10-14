@@ -5,7 +5,7 @@
   <anchor x="662" y="592" name="attachhorn"/>
   <anchor x="292" y="0" name="dotbelow"/>
   <anchor x="379" y="0" name="ogonek"/>
-  <anchor x="492" y="741" name="top"/>
+  <anchor x="525" y="741" name="top"/>
   <outline>
     <contour>
       <point x="319" y="-18" type="curve" smooth="yes"/>

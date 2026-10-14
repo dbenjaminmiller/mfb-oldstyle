@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ecircumflex_macroncomb.sc" format="2">
+  <advance width="534"/>
+  <outline>
+    <component base="e.sc"/>
+    <component base="circumflexcomb.sc" xOffset="98" yOffset="24"/>
+    <component base="macroncomb.sc" xOffset="175" yOffset="206"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026-10-14 06:03:45 +0000</string>
+    </dict>
+  </lib>
+</glyph>

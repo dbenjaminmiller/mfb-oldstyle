@@ -1,6 +1,6 @@
 # MFB Oldstyle
 
-MFB Oldstyle is a serif font family designed for body text. This typeface was originally designed by Morris Fuller Benton and released by American Type Founders in 1909 as *Century Oldstyle*.
+*MFB Oldstyle* is a serif font family designed for body text. This typeface was originally designed by Morris Fuller Benton and released by American Type Founders in 1909 as *Century Oldstyle*.
 
 ## Sample
 
@@ -9,16 +9,18 @@ MFB Oldstyle is a serif font family designed for body text. This typeface was or
 
 ## Features
 
-The family contains three fonts:
+The family contains four fonts:
 
 * Regular
 * Italic
 * Bold
+* Bold Italic
 
-Superior and inferior figures are available for all fonts in the family. Small capitals and old-style figures are available only for the regular font. Currently, no bold italic font is provided.
+All the fonts in the family have small capitals, a choice of lining or old-style figures, as well as superior and inferior figures. All the fonts include a wide range of f-ligatures, as well as discretionary ligatures (accessible through OpenType) for ct and st.
 
 ## Version History
 
 This digital font by Daniel Benjamin Miller was first released in 2024.
 
+* Version 2.0 (October 14, 2026): Adds a bold italic; expands features to be consistent throughout the font family; includes various fixes.
 * Version 1.0 (August 5, 2024): Initial release.

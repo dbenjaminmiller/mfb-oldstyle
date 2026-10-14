@@ -3,7 +3,7 @@
   <advance width="298"/>
   <outline>
     <component base="circumflexcomb"/>
-    <component base="hookabovecomb" xOffset="182" yOffset="125" identifier="B46FFC42"/>
+    <component base="hookabovecomb" xOffset="182" yOffset="125" identifier="6B6EDA24"/>
   </outline>
   <lib>
     <dict>
@@ -11,7 +11,7 @@
       <string>2024-08-06 00:43:28 +0000</string>
       <key>public.objectLibs</key>
       <dict>
-        <key>B46FFC42</key>
+        <key>6B6EDA24</key>
         <dict>
           <key>com.schriftgestaltung.anchor</key>
           <string>top_viet</string>

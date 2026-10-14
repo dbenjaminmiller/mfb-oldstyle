@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Emacrongrave" format="2">
+  <advance width="748"/>
+  <unicode hex="1E14"/>
+  <outline>
+    <component base="E"/>
+    <component base="macroncomb" xOffset="250" yOffset="247"/>
+    <component base="gravecomb" xOffset="240" yOffset="435"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-08-01 23:18:37 +0000</string>
+    </dict>
+  </lib>
+</glyph>

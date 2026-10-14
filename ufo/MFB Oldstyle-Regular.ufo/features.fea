@@ -280,7 +280,6 @@ sub nine by nine.tf;
 } tnum;
 
 feature onum {
-# automatic
 sub zero by zero.tosf;
 sub one by one.tosf;
 sub two by two.tosf;
@@ -301,6 +300,16 @@ sub six.lf by six.osf;
 sub seven.lf by seven.osf;
 sub eight.lf by eight.osf;
 sub nine.lf by nine.osf;
+sub zero.tf by zero.tosf;
+sub one.tf by one.tosf;
+sub two.tf by two.tosf;
+sub three.tf by three.tosf;
+sub four.tf by four.tosf;
+sub five.tf by five.tosf;
+sub six.tf by six.tosf;
+sub seven.tf by seven.tosf;
+sub eight.tf by eight.tosf;
+sub nine.tf by nine.tosf;
 } onum;
 
 feature c2sc {
@@ -1034,10 +1043,9 @@ sub nine.tosf by nine;
 } case;
 
 feature dlig {
-# automatic
 lookupflag IgnoreMarks;
-sub f.sc i.sc by fi.sc;
-sub f.sc l.sc by fl.sc;
+sub c t by c_t.dlig;
+sub s t by s_t.dlig;
 } dlig;
 
 feature liga {

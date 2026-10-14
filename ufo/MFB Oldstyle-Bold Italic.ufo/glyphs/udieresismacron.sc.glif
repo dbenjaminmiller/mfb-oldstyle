@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="udieresismacron.sc" format="2">
+  <advance width="611"/>
+  <outline>
+    <component base="u.sc"/>
+    <component base="dieresiscomb.sc" xOffset="172" yOffset="23"/>
+    <component base="macroncomb.sc" xOffset="236" yOffset="221"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026-10-14 06:03:45 +0000</string>
+    </dict>
+  </lib>
+</glyph>

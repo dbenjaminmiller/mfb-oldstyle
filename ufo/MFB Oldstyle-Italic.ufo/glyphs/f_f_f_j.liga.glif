@@ -150,7 +150,7 @@
       <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
       <string>f</string>
       <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
-      <string>j</string>
+      <string>=j+5</string>
     </dict>
   </lib>
 </glyph>

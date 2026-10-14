@@ -2,7 +2,7 @@
 <glyph name="C" format="2">
   <advance width="676"/>
   <unicode hex="0043"/>
-  <anchor x="325" y="-17" name="attachcedilla"/>
+  <anchor x="351" y="17" name="attachcedilla"/>
   <anchor x="349" y="813" name="top"/>
   <outline>
     <contour>
@@ -42,7 +42,7 @@
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2024-08-06 00:44:58 +0000</string>
+      <string>2026-10-13 14:13:06 +0000</string>
     </dict>
   </lib>
 </glyph>

@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dmacronbelow.sc" format="2">
+  <advance width="601"/>
+  <outline>
+    <component base="d.sc"/>
+    <component base="macronbelowcomb" xOffset="151"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026-10-14 03:42:30 +0000</string>
+    </dict>
+  </lib>
+</glyph>

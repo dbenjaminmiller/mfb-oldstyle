@@ -74,7 +74,7 @@
       <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
       <string>f</string>
       <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
-      <string>j</string>
+      <string>=j+4</string>
     </dict>
   </lib>
 </glyph>

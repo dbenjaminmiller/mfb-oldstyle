@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="yring.sc" format="2">
+  <advance width="484"/>
+  <outline>
+    <component base="y.sc"/>
+    <component base="ringcomb.sc" xOffset="157"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026-10-14 03:42:30 +0000</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="commareversedmod" format="2">
+  <advance width="267"/>
+  <unicode hex="02BD"/>
+  <outline>
+    <contour>
+      <point x="206" y="480" type="curve"/>
+      <point x="238" y="510" type="line"/>
+      <point x="215" y="536"/>
+      <point x="190" y="559"/>
+      <point x="190" y="582" type="curve" smooth="yes"/>
+      <point x="190" y="621"/>
+      <point x="264" y="619"/>
+      <point x="264" y="683" type="curve" smooth="yes"/>
+      <point x="264" y="717"/>
+      <point x="243" y="736"/>
+      <point x="213" y="736" type="curve" smooth="yes"/>
+      <point x="166" y="736"/>
+      <point x="125" y="691"/>
+      <point x="125" y="632" type="curve" smooth="yes"/>
+      <point x="125" y="568"/>
+      <point x="173" y="519"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-08-06 02:24:23 +0000</string>
+    </dict>
+  </lib>
+</glyph>

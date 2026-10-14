@@ -5,7 +5,7 @@
   <outline>
     <component base="O"/>
     <component base="ogonekcomb" xOffset="299"/>
-    <component base="macroncomb" xOffset="235" yOffset="247"/>
+    <component base="macroncomb" xOffset="268" yOffset="247"/>
   </outline>
   <lib>
     <dict>

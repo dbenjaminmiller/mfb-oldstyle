@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="oslash.sc" format="2">
+  <advance width="590"/>
+  <outline>
+    <contour>
+      <point x="93" y="-9" type="line"/>
+      <point x="520" y="500" type="line"/>
+      <point x="488" y="525" type="line"/>
+      <point x="61" y="17" type="line"/>
+    </contour>
+    <component base="o.sc"/>
+  </outline>
+</glyph>

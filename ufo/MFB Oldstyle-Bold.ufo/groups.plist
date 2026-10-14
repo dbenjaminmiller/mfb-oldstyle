@@ -465,6 +465,43 @@
       <string>aringbelow</string>
       <string>atilde</string>
     </array>
+    <key>public.kern1.a.sc</key>
+    <array>
+      <string>a.sc</string>
+      <string>aacute.sc</string>
+      <string>abreve.sc</string>
+      <string>abreveacute.sc</string>
+      <string>abrevedotbelow.sc</string>
+      <string>abrevegrave.sc</string>
+      <string>abrevehookabove.sc</string>
+      <string>abrevetilde.sc</string>
+      <string>acaron.sc</string>
+      <string>acircumflex.sc</string>
+      <string>acircumflexacute.sc</string>
+      <string>acircumflexdotbelow.sc</string>
+      <string>acircumflexgrave.sc</string>
+      <string>acircumflexhookabove.sc</string>
+      <string>acircumflextilde.sc</string>
+      <string>adblgrave.sc</string>
+      <string>adieresis.sc</string>
+      <string>adieresismacron.sc</string>
+      <string>adotaccent.sc</string>
+      <string>adotbelow.sc</string>
+      <string>adotmacron.sc</string>
+      <string>agrave.sc</string>
+      <string>ahookabove.sc</string>
+      <string>ainvertedbreve.sc</string>
+      <string>amacron.sc</string>
+      <string>amacron_gravecomb.sc</string>
+      <string>aogonek.sc</string>
+      <string>aogonek_acutecomb.sc</string>
+      <string>aogonek_tildecomb.sc</string>
+      <string>arighthalfring.sc</string>
+      <string>aring.sc</string>
+      <string>aringacute.sc</string>
+      <string>aringbelow.sc</string>
+      <string>atilde.sc</string>
+    </array>
     <key>public.kern1.b</key>
     <array>
       <string>b</string>
@@ -476,6 +513,14 @@
       <string>f_f_b.liga</string>
       <string>f_f_f_b.liga</string>
     </array>
+    <key>public.kern1.b.sc</key>
+    <array>
+      <string>b.sc</string>
+      <string>bdotaccent.sc</string>
+      <string>bdotbelow.sc</string>
+      <string>bmacronbelow.sc</string>
+      <string>bstroke.sc</string>
+    </array>
     <key>public.kern1.c</key>
     <array>
       <string>c</string>
@@ -486,6 +531,17 @@
       <string>ccedillaacute</string>
       <string>ccircumflex</string>
       <string>cdotaccent</string>
+    </array>
+    <key>public.kern1.c.sc</key>
+    <array>
+      <string>c.sc</string>
+      <string>c_dieresiscomb.sc</string>
+      <string>cacute.sc</string>
+      <string>ccaron.sc</string>
+      <string>ccedilla.sc</string>
+      <string>ccedillaacute.sc</string>
+      <string>ccircumflex.sc</string>
+      <string>cdotaccent.sc</string>
     </array>
     <key>public.kern1.colon</key>
     <array>
@@ -505,6 +561,18 @@
       <string>ddotaccent</string>
       <string>ddotbelow</string>
       <string>dmacronbelow</string>
+    </array>
+    <key>public.kern1.d.sc</key>
+    <array>
+      <string>d.sc</string>
+      <string>dcaron.sc</string>
+      <string>dcedilla.sc</string>
+      <string>dcircumflexbelow.sc</string>
+      <string>dcroat.sc</string>
+      <string>ddotaccent.sc</string>
+      <string>ddotbelow.sc</string>
+      <string>dmacronbelow.sc</string>
+      <string>eth.sc</string>
     </array>
     <key>public.kern1.e</key>
     <array>
@@ -545,6 +613,45 @@
       <string>etildebelow</string>
       <string>oe</string>
     </array>
+    <key>public.kern1.e.sc</key>
+    <array>
+      <string>ae.sc</string>
+      <string>aeacute.sc</string>
+      <string>aemacron.sc</string>
+      <string>e.sc</string>
+      <string>eacute.sc</string>
+      <string>ebreve.sc</string>
+      <string>ecaron.sc</string>
+      <string>ecedilla.sc</string>
+      <string>ecedillabreve.sc</string>
+      <string>ecircumflex.sc</string>
+      <string>ecircumflex_caroncomb.sc</string>
+      <string>ecircumflex_macroncomb.sc</string>
+      <string>ecircumflexacute.sc</string>
+      <string>ecircumflexbelow.sc</string>
+      <string>ecircumflexdotbelow.sc</string>
+      <string>ecircumflexgrave.sc</string>
+      <string>ecircumflexhookabove.sc</string>
+      <string>ecircumflextilde.sc</string>
+      <string>edblgrave.sc</string>
+      <string>edieresis.sc</string>
+      <string>edotaccent.sc</string>
+      <string>edotaccent_acutecomb.sc</string>
+      <string>edotaccent_tildecomb.sc</string>
+      <string>edotbelow.sc</string>
+      <string>egrave.sc</string>
+      <string>ehookabove.sc</string>
+      <string>einvertedbreve.sc</string>
+      <string>emacron.sc</string>
+      <string>emacronacute.sc</string>
+      <string>emacrongrave.sc</string>
+      <string>eogonek.sc</string>
+      <string>eogonek_acutecomb.sc</string>
+      <string>eogonek_tildecomb.sc</string>
+      <string>etilde.sc</string>
+      <string>etildebelow.sc</string>
+      <string>oe.sc</string>
+    </array>
     <key>public.kern1.f</key>
     <array>
       <string>f</string>
@@ -553,6 +660,11 @@
       <string>longs</string>
       <string>f_f.liga</string>
       <string>f_f_f.liga</string>
+    </array>
+    <key>public.kern1.f.sc</key>
+    <array>
+      <string>f.sc</string>
+      <string>fdotaccent.sc</string>
     </array>
     <key>public.kern1.g</key>
     <array>
@@ -564,6 +676,17 @@
       <string>gcommaaccent</string>
       <string>gdotaccent</string>
       <string>gmacron</string>
+    </array>
+    <key>public.kern1.g.sc</key>
+    <array>
+      <string>g.sc</string>
+      <string>gacute.sc</string>
+      <string>gbreve.sc</string>
+      <string>gcaron.sc</string>
+      <string>gcircumflex.sc</string>
+      <string>gcommaaccent.sc</string>
+      <string>gdotaccent.sc</string>
+      <string>gmacron.sc</string>
     </array>
     <key>public.kern1.h</key>
     <array>
@@ -580,6 +703,19 @@
       <string>f_f_f_h.liga</string>
       <string>f_f_h.liga</string>
       <string>f_h.liga</string>
+    </array>
+    <key>public.kern1.h.sc</key>
+    <array>
+      <string>h.sc</string>
+      <string>hbar.sc</string>
+      <string>hbrevebelow.sc</string>
+      <string>hcaron.sc</string>
+      <string>hcedilla.sc</string>
+      <string>hcircumflex.sc</string>
+      <string>hdieresis.sc</string>
+      <string>hdotaccent.sc</string>
+      <string>hdotbelow.sc</string>
+      <string>hmacronbelow.sc</string>
     </array>
     <key>public.kern1.horn</key>
     <array>
@@ -601,6 +737,21 @@
       <string>uhorngrave</string>
       <string>uhornhookabove</string>
       <string>uhorntilde</string>
+    </array>
+    <key>public.kern1.horn.sc</key>
+    <array>
+      <string>ohorn.sc</string>
+      <string>ohornacute.sc</string>
+      <string>ohorndotbelow.sc</string>
+      <string>ohorngrave.sc</string>
+      <string>ohornhookabove.sc</string>
+      <string>ohorntilde.sc</string>
+      <string>uhorn.sc</string>
+      <string>uhornacute.sc</string>
+      <string>uhorndotbelow.sc</string>
+      <string>uhorngrave.sc</string>
+      <string>uhornhookabove.sc</string>
+      <string>uhorntilde.sc</string>
     </array>
     <key>public.kern1.i</key>
     <array>
@@ -627,6 +778,27 @@
       <string>f_i.liga</string>
       <string>fi</string>
     </array>
+    <key>public.kern1.i.sc</key>
+    <array>
+      <string>i.sc</string>
+      <string>idotless.sc</string>
+      <string>iacute.sc</string>
+      <string>ibreve.sc</string>
+      <string>icaron.sc</string>
+      <string>icircumflex.sc</string>
+      <string>idblgrave.sc</string>
+      <string>idieresis.sc</string>
+      <string>idieresisacute.sc</string>
+      <string>idotaccent.sc</string>
+      <string>idotbelow.sc</string>
+      <string>igrave.sc</string>
+      <string>ihookabove.sc</string>
+      <string>iinvertedbreve.sc</string>
+      <string>imacron.sc</string>
+      <string>imacron_gravecomb.sc</string>
+      <string>iogonek.sc</string>
+      <string>itilde.sc</string>
+    </array>
     <key>public.kern1.j</key>
     <array>
       <string>ij</string>
@@ -640,6 +812,16 @@
       <string>f_f_j.liga</string>
       <string>f_j.liga</string>
     </array>
+    <key>public.kern1.j.sc</key>
+    <array>
+      <string>ij.sc</string>
+      <string>j.sc</string>
+      <string>jdotless.sc</string>
+      <string>j_tildecomb.sc</string>
+      <string>jacute.sc</string>
+      <string>jcaron.sc</string>
+      <string>jcircumflex.sc</string>
+    </array>
     <key>public.kern1.k</key>
     <array>
       <string>k</string>
@@ -651,6 +833,15 @@
       <string>f_f_f_k.liga</string>
       <string>f_f_k.liga</string>
       <string>f_k.liga</string>
+    </array>
+    <key>public.kern1.k.sc</key>
+    <array>
+      <string>k.sc</string>
+      <string>kacute.sc</string>
+      <string>kcaron.sc</string>
+      <string>kcommaaccent.sc</string>
+      <string>kdotbelow.sc</string>
+      <string>kmacronbelow.sc</string>
     </array>
     <key>public.kern1.l</key>
     <array>
@@ -671,6 +862,20 @@
       <string>f_l.liga</string>
       <string>fl</string>
     </array>
+    <key>public.kern1.l.sc</key>
+    <array>
+      <string>l.sc</string>
+      <string>l_tildecomb.sc</string>
+      <string>lacute.sc</string>
+      <string>lcaron.sc</string>
+      <string>lcircumflexbelow.sc</string>
+      <string>lcommaaccent.sc</string>
+      <string>ldot.sc</string>
+      <string>ldotbelow.sc</string>
+      <string>ldotbelowmacron.sc</string>
+      <string>lmacronbelow.sc</string>
+      <string>lslash.sc</string>
+    </array>
     <key>public.kern1.m</key>
     <array>
       <string>m</string>
@@ -678,6 +883,14 @@
       <string>macute</string>
       <string>mdotaccent</string>
       <string>mdotbelow</string>
+    </array>
+    <key>public.kern1.m.sc</key>
+    <array>
+      <string>m.sc</string>
+      <string>m_tildecomb.sc</string>
+      <string>macute.sc</string>
+      <string>mdotaccent.sc</string>
+      <string>mdotbelow.sc</string>
     </array>
     <key>public.kern1.n</key>
     <array>
@@ -692,6 +905,19 @@
       <string>nmacronbelow</string>
       <string>ntilde</string>
       <string>ncommaaccent.loclMAH</string>
+    </array>
+    <key>public.kern1.n.sc</key>
+    <array>
+      <string>n.sc</string>
+      <string>nacute.sc</string>
+      <string>ncaron.sc</string>
+      <string>ncircumflexbelow.sc</string>
+      <string>ncommaaccent.sc</string>
+      <string>ndotaccent.sc</string>
+      <string>ndotbelow.sc</string>
+      <string>ngrave.sc</string>
+      <string>nmacronbelow.sc</string>
+      <string>ntilde.sc</string>
     </array>
     <key>public.kern1.o</key>
     <array>
@@ -727,12 +953,53 @@
       <string>otildedieresis</string>
       <string>otildemacron</string>
     </array>
+    <key>public.kern1.o.sc</key>
+    <array>
+      <string>o.sc</string>
+      <string>oacute.sc</string>
+      <string>obreve.sc</string>
+      <string>ocaron.sc</string>
+      <string>ocircumflex.sc</string>
+      <string>ocircumflexacute.sc</string>
+      <string>ocircumflexdotbelow.sc</string>
+      <string>ocircumflexgrave.sc</string>
+      <string>ocircumflexhookabove.sc</string>
+      <string>ocircumflextilde.sc</string>
+      <string>odblgrave.sc</string>
+      <string>odieresis.sc</string>
+      <string>odieresismacron.sc</string>
+      <string>odotaccent.sc</string>
+      <string>odotaccentmacron.sc</string>
+      <string>odotbelow.sc</string>
+      <string>ograve.sc</string>
+      <string>ohookabove.sc</string>
+      <string>ohungarumlaut.sc</string>
+      <string>oinvertedbreve.sc</string>
+      <string>omacron.sc</string>
+      <string>omacronacute.sc</string>
+      <string>omacrongrave.sc</string>
+      <string>oogonek.sc</string>
+      <string>oogonekmacron.sc</string>
+      <string>oslash.sc</string>
+      <string>oslashacute.sc</string>
+      <string>otilde.sc</string>
+      <string>otildeacute.sc</string>
+      <string>otildedieresis.sc</string>
+      <string>otildemacron.sc</string>
+    </array>
     <key>public.kern1.p</key>
     <array>
       <string>p</string>
       <string>pacute</string>
       <string>pdotaccent</string>
       <string>thorn</string>
+    </array>
+    <key>public.kern1.p.sc</key>
+    <array>
+      <string>p.sc</string>
+      <string>pacute.sc</string>
+      <string>pdotaccent.sc</string>
+      <string>thorn.sc</string>
     </array>
     <key>public.kern1.period</key>
     <array>
@@ -743,6 +1010,11 @@
     <array>
       <string>q</string>
       <string>q_tildecomb</string>
+    </array>
+    <key>public.kern1.q.sc</key>
+    <array>
+      <string>q.sc</string>
+      <string>q_tildecomb.sc</string>
     </array>
     <key>public.kern1.r</key>
     <array>
@@ -757,6 +1029,20 @@
       <string>rdotbelowmacron</string>
       <string>rinvertedbreve</string>
       <string>rmacronbelow</string>
+    </array>
+    <key>public.kern1.r.sc</key>
+    <array>
+      <string>r.sc</string>
+      <string>r_tildecomb.sc</string>
+      <string>racute.sc</string>
+      <string>rcaron.sc</string>
+      <string>rcommaaccent.sc</string>
+      <string>rdblgrave.sc</string>
+      <string>rdotaccent.sc</string>
+      <string>rdotbelow.sc</string>
+      <string>rdotbelowmacron.sc</string>
+      <string>rinvertedbreve.sc</string>
+      <string>rmacronbelow.sc</string>
     </array>
     <key>public.kern1.s</key>
     <array>
@@ -774,6 +1060,24 @@
       <string>sdotbelowdotaccent</string>
       <string>germandbls</string>
     </array>
+    <key>public.kern1.s.sc</key>
+    <array>
+      <string>longsdotaccent.sc</string>
+      <string>s.sc</string>
+      <string>s_dieresiscomb.sc</string>
+      <string>sacute.sc</string>
+      <string>sacutedotaccent.sc</string>
+      <string>scaron.sc</string>
+      <string>scarondotaccent.sc</string>
+      <string>scedilla.sc</string>
+      <string>scircumflex.sc</string>
+      <string>scommaaccent.sc</string>
+      <string>sdotaccent.sc</string>
+      <string>sdotbelow.sc</string>
+      <string>sdotbelowdotaccent.sc</string>
+      <string>germandbls.sc</string>
+      <string>longs.sc</string>
+    </array>
     <key>public.kern1.t</key>
     <array>
       <string>t</string>
@@ -788,6 +1092,20 @@
       <string>f_f_f_t.liga</string>
       <string>f_f_t.liga</string>
       <string>f_t.liga</string>
+      <string>c_t.dlig</string>
+      <string>s_t.dlig</string>
+    </array>
+    <key>public.kern1.t.sc</key>
+    <array>
+      <string>t.sc</string>
+      <string>tcaron.sc</string>
+      <string>tcedilla.sc</string>
+      <string>tcircumflexbelow.sc</string>
+      <string>tcommaaccent.sc</string>
+      <string>tdieresis.sc</string>
+      <string>tdotaccent.sc</string>
+      <string>tdotbelow.sc</string>
+      <string>tmacronbelow.sc</string>
     </array>
     <key>public.kern1.u</key>
     <array>
@@ -822,11 +1140,50 @@
       <string>utildeacute</string>
       <string>utildebelow</string>
     </array>
+    <key>public.kern1.u.sc</key>
+    <array>
+      <string>u.sc</string>
+      <string>uacute.sc</string>
+      <string>ubreve.sc</string>
+      <string>ucaron.sc</string>
+      <string>ucircumflex.sc</string>
+      <string>ucircumflexbelow.sc</string>
+      <string>udblgrave.sc</string>
+      <string>udieresis.sc</string>
+      <string>udieresisacute.sc</string>
+      <string>udieresisbelow.sc</string>
+      <string>udieresiscaron.sc</string>
+      <string>udieresisgrave.sc</string>
+      <string>udieresismacron.sc</string>
+      <string>udotbelow.sc</string>
+      <string>ugrave.sc</string>
+      <string>uhookabove.sc</string>
+      <string>uhungarumlaut.sc</string>
+      <string>uinvertedbreve.sc</string>
+      <string>umacron.sc</string>
+      <string>umacron_gravecomb.sc</string>
+      <string>umacron_acutecomb.sc</string>
+      <string>umacron_tildecomb.sc</string>
+      <string>umacrondieresis.sc</string>
+      <string>uogonek.sc</string>
+      <string>uogonek_acutecomb.sc</string>
+      <string>uogonek_tildecomb.sc</string>
+      <string>uring.sc</string>
+      <string>utilde.sc</string>
+      <string>utildeacute.sc</string>
+      <string>utildebelow.sc</string>
+    </array>
     <key>public.kern1.v</key>
     <array>
       <string>v</string>
       <string>vdotbelow</string>
       <string>vtilde</string>
+    </array>
+    <key>public.kern1.v.sc</key>
+    <array>
+      <string>v.sc</string>
+      <string>vdotbelow.sc</string>
+      <string>vtilde.sc</string>
     </array>
     <key>public.kern1.w</key>
     <array>
@@ -839,12 +1196,30 @@
       <string>wgrave</string>
       <string>wring</string>
     </array>
+    <key>public.kern1.w.sc</key>
+    <array>
+      <string>w.sc</string>
+      <string>wacute.sc</string>
+      <string>wcircumflex.sc</string>
+      <string>wdieresis.sc</string>
+      <string>wdotaccent.sc</string>
+      <string>wdotbelow.sc</string>
+      <string>wgrave.sc</string>
+      <string>wring.sc</string>
+    </array>
     <key>public.kern1.x</key>
     <array>
       <string>x</string>
       <string>x_circumflexcomb</string>
       <string>xdieresis</string>
       <string>xdotaccent</string>
+    </array>
+    <key>public.kern1.x.sc</key>
+    <array>
+      <string>x.sc</string>
+      <string>x_circumflexcomb.sc</string>
+      <string>xdieresis.sc</string>
+      <string>xdotaccent.sc</string>
     </array>
     <key>public.kern1.y</key>
     <array>
@@ -860,6 +1235,20 @@
       <string>yring</string>
       <string>ytilde</string>
     </array>
+    <key>public.kern1.y.sc</key>
+    <array>
+      <string>y.sc</string>
+      <string>yacute.sc</string>
+      <string>ycircumflex.sc</string>
+      <string>ydieresis.sc</string>
+      <string>ydotaccent.sc</string>
+      <string>ydotbelow.sc</string>
+      <string>ygrave.sc</string>
+      <string>yhookabove.sc</string>
+      <string>ymacron.sc</string>
+      <string>yring.sc</string>
+      <string>ytilde.sc</string>
+    </array>
     <key>public.kern1.z</key>
     <array>
       <string>z</string>
@@ -869,6 +1258,16 @@
       <string>zdotaccent</string>
       <string>zdotbelow</string>
       <string>zmacronbelow</string>
+    </array>
+    <key>public.kern1.z.sc</key>
+    <array>
+      <string>z.sc</string>
+      <string>zacute.sc</string>
+      <string>zcaron.sc</string>
+      <string>zcircumflex.sc</string>
+      <string>zdotaccent.sc</string>
+      <string>zdotbelow.sc</string>
+      <string>zmacronbelow.sc</string>
     </array>
     <key>public.kern2.0</key>
     <array>
@@ -1342,6 +1741,46 @@
       <string>aeacute</string>
       <string>aemacron</string>
     </array>
+    <key>public.kern2.a.sc</key>
+    <array>
+      <string>a.sc</string>
+      <string>aacute.sc</string>
+      <string>abreve.sc</string>
+      <string>abreveacute.sc</string>
+      <string>abrevedotbelow.sc</string>
+      <string>abrevegrave.sc</string>
+      <string>abrevehookabove.sc</string>
+      <string>abrevetilde.sc</string>
+      <string>acaron.sc</string>
+      <string>acircumflex.sc</string>
+      <string>acircumflexacute.sc</string>
+      <string>acircumflexdotbelow.sc</string>
+      <string>acircumflexgrave.sc</string>
+      <string>acircumflexhookabove.sc</string>
+      <string>acircumflextilde.sc</string>
+      <string>adblgrave.sc</string>
+      <string>adieresis.sc</string>
+      <string>adieresismacron.sc</string>
+      <string>adotaccent.sc</string>
+      <string>adotbelow.sc</string>
+      <string>adotmacron.sc</string>
+      <string>agrave.sc</string>
+      <string>ahookabove.sc</string>
+      <string>ainvertedbreve.sc</string>
+      <string>amacron.sc</string>
+      <string>amacron_gravecomb.sc</string>
+      <string>aogonek.sc</string>
+      <string>aogonek_acutecomb.sc</string>
+      <string>aogonek_tildecomb.sc</string>
+      <string>arighthalfring.sc</string>
+      <string>aring.sc</string>
+      <string>aringacute.sc</string>
+      <string>aringbelow.sc</string>
+      <string>atilde.sc</string>
+      <string>ae.sc</string>
+      <string>aeacute.sc</string>
+      <string>aemacron.sc</string>
+    </array>
     <key>public.kern2.b</key>
     <array>
       <string>b</string>
@@ -1349,6 +1788,14 @@
       <string>bdotbelow</string>
       <string>bmacronbelow</string>
       <string>bstroke</string>
+    </array>
+    <key>public.kern2.b.sc</key>
+    <array>
+      <string>b.sc</string>
+      <string>bdotaccent.sc</string>
+      <string>bdotbelow.sc</string>
+      <string>bmacronbelow.sc</string>
+      <string>bstroke.sc</string>
     </array>
     <key>public.kern2.c</key>
     <array>
@@ -1360,6 +1807,18 @@
       <string>ccedillaacute</string>
       <string>ccircumflex</string>
       <string>cdotaccent</string>
+      <string>c_t.dlig</string>
+    </array>
+    <key>public.kern2.c.sc</key>
+    <array>
+      <string>c.sc</string>
+      <string>c_dieresiscomb.sc</string>
+      <string>cacute.sc</string>
+      <string>ccaron.sc</string>
+      <string>ccedilla.sc</string>
+      <string>ccedillaacute.sc</string>
+      <string>ccircumflex.sc</string>
+      <string>cdotaccent.sc</string>
     </array>
     <key>public.kern2.colon</key>
     <array>
@@ -1379,6 +1838,18 @@
       <string>ddotaccent</string>
       <string>ddotbelow</string>
       <string>dmacronbelow</string>
+    </array>
+    <key>public.kern2.d.sc</key>
+    <array>
+      <string>d.sc</string>
+      <string>dcaron.sc</string>
+      <string>dcedilla.sc</string>
+      <string>dcircumflexbelow.sc</string>
+      <string>dcroat.sc</string>
+      <string>ddotaccent.sc</string>
+      <string>ddotbelow.sc</string>
+      <string>dmacronbelow.sc</string>
+      <string>eth.sc</string>
     </array>
     <key>public.kern2.e</key>
     <array>
@@ -1414,6 +1885,43 @@
       <string>eogonek_tildecomb</string>
       <string>etilde</string>
       <string>etildebelow</string>
+    </array>
+    <key>public.kern2.e.sc</key>
+    <array>
+      <string>e.sc</string>
+      <string>eacute.sc</string>
+      <string>ebreve.sc</string>
+      <string>ecaron.sc</string>
+      <string>ecedilla.sc</string>
+      <string>ecedillabreve.sc</string>
+      <string>ecircumflex.sc</string>
+      <string>ecircumflex_caroncomb.sc</string>
+      <string>ecircumflex_macroncomb.sc</string>
+      <string>ecircumflexacute.sc</string>
+      <string>ecircumflexbelow.sc</string>
+      <string>ecircumflexdotbelow.sc</string>
+      <string>ecircumflexgrave.sc</string>
+      <string>ecircumflexhookabove.sc</string>
+      <string>ecircumflextilde.sc</string>
+      <string>edblgrave.sc</string>
+      <string>edieresis.sc</string>
+      <string>edotaccent.sc</string>
+      <string>edotaccent_acutecomb.sc</string>
+      <string>edotaccent_tildecomb.sc</string>
+      <string>edotbelow.sc</string>
+      <string>egrave.sc</string>
+      <string>ehookabove.sc</string>
+      <string>einvertedbreve.sc</string>
+      <string>emacron.sc</string>
+      <string>emacronacute.sc</string>
+      <string>emacrongrave.sc</string>
+      <string>eogonek.sc</string>
+      <string>eogonek_acutecomb.sc</string>
+      <string>eogonek_tildecomb.sc</string>
+      <string>etilde.sc</string>
+      <string>etildebelow.sc</string>
+      <string>f.sc</string>
+      <string>fdotaccent.sc</string>
     </array>
     <key>public.kern2.f</key>
     <array>
@@ -1459,6 +1967,17 @@
       <string>gdotaccent</string>
       <string>gmacron</string>
     </array>
+    <key>public.kern2.g.sc</key>
+    <array>
+      <string>g.sc</string>
+      <string>gacute.sc</string>
+      <string>gbreve.sc</string>
+      <string>gcaron.sc</string>
+      <string>gcircumflex.sc</string>
+      <string>gcommaaccent.sc</string>
+      <string>gdotaccent.sc</string>
+      <string>gmacron.sc</string>
+    </array>
     <key>public.kern2.h</key>
     <array>
       <string>h</string>
@@ -1471,6 +1990,19 @@
       <string>hdotaccent</string>
       <string>hdotbelow</string>
       <string>hmacronbelow</string>
+    </array>
+    <key>public.kern2.h.sc</key>
+    <array>
+      <string>h.sc</string>
+      <string>hbar.sc</string>
+      <string>hbrevebelow.sc</string>
+      <string>hcaron.sc</string>
+      <string>hcedilla.sc</string>
+      <string>hcircumflex.sc</string>
+      <string>hdieresis.sc</string>
+      <string>hdotaccent.sc</string>
+      <string>hdotbelow.sc</string>
+      <string>hmacronbelow.sc</string>
     </array>
     <key>public.kern2.i</key>
     <array>
@@ -1494,6 +2026,29 @@
       <string>itilde</string>
       <string>ij</string>
     </array>
+    <key>public.kern2.i.sc</key>
+    <array>
+      <string>i.sc</string>
+      <string>idotless.sc</string>
+      <string>iacute.sc</string>
+      <string>ibreve.sc</string>
+      <string>icaron.sc</string>
+      <string>icircumflex.sc</string>
+      <string>idblgrave.sc</string>
+      <string>idieresis.sc</string>
+      <string>idieresisacute.sc</string>
+      <string>idotaccent.sc</string>
+      <string>idotbelow.sc</string>
+      <string>igrave.sc</string>
+      <string>ihookabove.sc</string>
+      <string>iinvertedbreve.sc</string>
+      <string>imacron.sc</string>
+      <string>imacron_gravecomb.sc</string>
+      <string>iogonek.sc</string>
+      <string>itilde.sc</string>
+      <string>ij.sc</string>
+      <string>germandbls.sc</string>
+    </array>
     <key>public.kern2.j</key>
     <array>
       <string>j</string>
@@ -1503,6 +2058,15 @@
       <string>jcaron</string>
       <string>jcircumflex</string>
     </array>
+    <key>public.kern2.j.sc</key>
+    <array>
+      <string>j.sc</string>
+      <string>jdotless.sc</string>
+      <string>j_tildecomb.sc</string>
+      <string>jacute.sc</string>
+      <string>jcaron.sc</string>
+      <string>jcircumflex.sc</string>
+    </array>
     <key>public.kern2.k</key>
     <array>
       <string>k</string>
@@ -1511,6 +2075,15 @@
       <string>kcommaaccent</string>
       <string>kdotbelow</string>
       <string>kmacronbelow</string>
+    </array>
+    <key>public.kern2.k.sc</key>
+    <array>
+      <string>k.sc</string>
+      <string>kacute.sc</string>
+      <string>kcaron.sc</string>
+      <string>kcommaaccent.sc</string>
+      <string>kdotbelow.sc</string>
+      <string>kmacronbelow.sc</string>
     </array>
     <key>public.kern2.l</key>
     <array>
@@ -1527,6 +2100,20 @@
       <string>lslash</string>
       <string>lcommaaccent.loclMAH</string>
     </array>
+    <key>public.kern2.l.sc</key>
+    <array>
+      <string>l.sc</string>
+      <string>l_tildecomb.sc</string>
+      <string>lacute.sc</string>
+      <string>lcaron.sc</string>
+      <string>lcircumflexbelow.sc</string>
+      <string>lcommaaccent.sc</string>
+      <string>ldot.sc</string>
+      <string>ldotbelow.sc</string>
+      <string>ldotbelowmacron.sc</string>
+      <string>lmacronbelow.sc</string>
+      <string>lslash.sc</string>
+    </array>
     <key>public.kern2.m</key>
     <array>
       <string>m</string>
@@ -1534,6 +2121,14 @@
       <string>macute</string>
       <string>mdotaccent</string>
       <string>mdotbelow</string>
+    </array>
+    <key>public.kern2.m.sc</key>
+    <array>
+      <string>m.sc</string>
+      <string>m_tildecomb.sc</string>
+      <string>macute.sc</string>
+      <string>mdotaccent.sc</string>
+      <string>mdotbelow.sc</string>
     </array>
     <key>public.kern2.n</key>
     <array>
@@ -1548,6 +2143,19 @@
       <string>nmacronbelow</string>
       <string>ntilde</string>
       <string>ncommaaccent.loclMAH</string>
+    </array>
+    <key>public.kern2.n.sc</key>
+    <array>
+      <string>n.sc</string>
+      <string>nacute.sc</string>
+      <string>ncaron.sc</string>
+      <string>ncircumflexbelow.sc</string>
+      <string>ncommaaccent.sc</string>
+      <string>ndotaccent.sc</string>
+      <string>ndotbelow.sc</string>
+      <string>ngrave.sc</string>
+      <string>nmacronbelow.sc</string>
+      <string>ntilde.sc</string>
     </array>
     <key>public.kern2.o</key>
     <array>
@@ -1590,12 +2198,60 @@
       <string>otildemacron</string>
       <string>oe</string>
     </array>
+    <key>public.kern2.o.sc</key>
+    <array>
+      <string>o.sc</string>
+      <string>oacute.sc</string>
+      <string>obreve.sc</string>
+      <string>ocaron.sc</string>
+      <string>ocircumflex.sc</string>
+      <string>ocircumflexacute.sc</string>
+      <string>ocircumflexdotbelow.sc</string>
+      <string>ocircumflexgrave.sc</string>
+      <string>ocircumflexhookabove.sc</string>
+      <string>ocircumflextilde.sc</string>
+      <string>odblgrave.sc</string>
+      <string>odieresis.sc</string>
+      <string>odieresismacron.sc</string>
+      <string>odotaccent.sc</string>
+      <string>odotaccentmacron.sc</string>
+      <string>odotbelow.sc</string>
+      <string>ograve.sc</string>
+      <string>ohookabove.sc</string>
+      <string>ohorn.sc</string>
+      <string>ohornacute.sc</string>
+      <string>ohorndotbelow.sc</string>
+      <string>ohorngrave.sc</string>
+      <string>ohornhookabove.sc</string>
+      <string>ohorntilde.sc</string>
+      <string>ohungarumlaut.sc</string>
+      <string>oinvertedbreve.sc</string>
+      <string>omacron.sc</string>
+      <string>omacronacute.sc</string>
+      <string>omacrongrave.sc</string>
+      <string>oogonek.sc</string>
+      <string>oogonekmacron.sc</string>
+      <string>oslash.sc</string>
+      <string>oslashacute.sc</string>
+      <string>otilde.sc</string>
+      <string>otildeacute.sc</string>
+      <string>otildedieresis.sc</string>
+      <string>otildemacron.sc</string>
+      <string>oe.sc</string>
+    </array>
     <key>public.kern2.p</key>
     <array>
       <string>p</string>
       <string>pacute</string>
       <string>pdotaccent</string>
       <string>thorn</string>
+    </array>
+    <key>public.kern2.p.sc</key>
+    <array>
+      <string>p.sc</string>
+      <string>pacute.sc</string>
+      <string>pdotaccent.sc</string>
+      <string>thorn.sc</string>
     </array>
     <key>public.kern2.period</key>
     <array>
@@ -1606,6 +2262,11 @@
     <array>
       <string>q</string>
       <string>q_tildecomb</string>
+    </array>
+    <key>public.kern2.q.sc</key>
+    <array>
+      <string>q.sc</string>
+      <string>q_tildecomb.sc</string>
     </array>
     <key>public.kern2.r</key>
     <array>
@@ -1621,6 +2282,20 @@
       <string>rinvertedbreve</string>
       <string>rmacronbelow</string>
     </array>
+    <key>public.kern2.r.sc</key>
+    <array>
+      <string>r.sc</string>
+      <string>r_tildecomb.sc</string>
+      <string>racute.sc</string>
+      <string>rcaron.sc</string>
+      <string>rcommaaccent.sc</string>
+      <string>rdblgrave.sc</string>
+      <string>rdotaccent.sc</string>
+      <string>rdotbelow.sc</string>
+      <string>rdotbelowmacron.sc</string>
+      <string>rinvertedbreve.sc</string>
+      <string>rmacronbelow.sc</string>
+    </array>
     <key>public.kern2.s</key>
     <array>
       <string>s</string>
@@ -1635,6 +2310,24 @@
       <string>sdotaccent</string>
       <string>sdotbelow</string>
       <string>sdotbelowdotaccent</string>
+      <string>s_t.dlig</string>
+    </array>
+    <key>public.kern2.s.sc</key>
+    <array>
+      <string>longsdotaccent.sc</string>
+      <string>s.sc</string>
+      <string>s_dieresiscomb.sc</string>
+      <string>sacute.sc</string>
+      <string>sacutedotaccent.sc</string>
+      <string>scaron.sc</string>
+      <string>scarondotaccent.sc</string>
+      <string>scedilla.sc</string>
+      <string>scircumflex.sc</string>
+      <string>scommaaccent.sc</string>
+      <string>sdotaccent.sc</string>
+      <string>sdotbelow.sc</string>
+      <string>sdotbelowdotaccent.sc</string>
+      <string>longs.sc</string>
     </array>
     <key>public.kern2.t</key>
     <array>
@@ -1647,6 +2340,18 @@
       <string>tdotaccent</string>
       <string>tdotbelow</string>
       <string>tmacronbelow</string>
+    </array>
+    <key>public.kern2.t.sc</key>
+    <array>
+      <string>t.sc</string>
+      <string>tcaron.sc</string>
+      <string>tcedilla.sc</string>
+      <string>tcircumflexbelow.sc</string>
+      <string>tcommaaccent.sc</string>
+      <string>tdieresis.sc</string>
+      <string>tdotaccent.sc</string>
+      <string>tdotbelow.sc</string>
+      <string>tmacronbelow.sc</string>
     </array>
     <key>public.kern2.u</key>
     <array>
@@ -1687,11 +2392,56 @@
       <string>utildeacute</string>
       <string>utildebelow</string>
     </array>
+    <key>public.kern2.u.sc</key>
+    <array>
+      <string>u.sc</string>
+      <string>uacute.sc</string>
+      <string>ubreve.sc</string>
+      <string>ucaron.sc</string>
+      <string>ucircumflex.sc</string>
+      <string>ucircumflexbelow.sc</string>
+      <string>udblgrave.sc</string>
+      <string>udieresis.sc</string>
+      <string>udieresisacute.sc</string>
+      <string>udieresisbelow.sc</string>
+      <string>udieresiscaron.sc</string>
+      <string>udieresisgrave.sc</string>
+      <string>udieresismacron.sc</string>
+      <string>udotbelow.sc</string>
+      <string>ugrave.sc</string>
+      <string>uhookabove.sc</string>
+      <string>uhorn.sc</string>
+      <string>uhornacute.sc</string>
+      <string>uhorndotbelow.sc</string>
+      <string>uhorngrave.sc</string>
+      <string>uhornhookabove.sc</string>
+      <string>uhorntilde.sc</string>
+      <string>uhungarumlaut.sc</string>
+      <string>uinvertedbreve.sc</string>
+      <string>umacron.sc</string>
+      <string>umacron_gravecomb.sc</string>
+      <string>umacron_acutecomb.sc</string>
+      <string>umacron_tildecomb.sc</string>
+      <string>umacrondieresis.sc</string>
+      <string>uogonek.sc</string>
+      <string>uogonek_acutecomb.sc</string>
+      <string>uogonek_tildecomb.sc</string>
+      <string>uring.sc</string>
+      <string>utilde.sc</string>
+      <string>utildeacute.sc</string>
+      <string>utildebelow.sc</string>
+    </array>
     <key>public.kern2.v</key>
     <array>
       <string>v</string>
       <string>vdotbelow</string>
       <string>vtilde</string>
+    </array>
+    <key>public.kern2.v.sc</key>
+    <array>
+      <string>v.sc</string>
+      <string>vdotbelow.sc</string>
+      <string>vtilde.sc</string>
     </array>
     <key>public.kern2.w</key>
     <array>
@@ -1704,12 +2454,30 @@
       <string>wgrave</string>
       <string>wring</string>
     </array>
+    <key>public.kern2.w.sc</key>
+    <array>
+      <string>w.sc</string>
+      <string>wacute.sc</string>
+      <string>wcircumflex.sc</string>
+      <string>wdieresis.sc</string>
+      <string>wdotaccent.sc</string>
+      <string>wdotbelow.sc</string>
+      <string>wgrave.sc</string>
+      <string>wring.sc</string>
+    </array>
     <key>public.kern2.x</key>
     <array>
       <string>x</string>
       <string>x_circumflexcomb</string>
       <string>xdieresis</string>
       <string>xdotaccent</string>
+    </array>
+    <key>public.kern2.x.sc</key>
+    <array>
+      <string>x.sc</string>
+      <string>x_circumflexcomb.sc</string>
+      <string>xdieresis.sc</string>
+      <string>xdotaccent.sc</string>
     </array>
     <key>public.kern2.y</key>
     <array>
@@ -1725,6 +2493,20 @@
       <string>yring</string>
       <string>ytilde</string>
     </array>
+    <key>public.kern2.y.sc</key>
+    <array>
+      <string>y.sc</string>
+      <string>yacute.sc</string>
+      <string>ycircumflex.sc</string>
+      <string>ydieresis.sc</string>
+      <string>ydotaccent.sc</string>
+      <string>ydotbelow.sc</string>
+      <string>ygrave.sc</string>
+      <string>yhookabove.sc</string>
+      <string>ymacron.sc</string>
+      <string>yring.sc</string>
+      <string>ytilde.sc</string>
+    </array>
     <key>public.kern2.z</key>
     <array>
       <string>z</string>
@@ -1734,6 +2516,16 @@
       <string>zdotaccent</string>
       <string>zdotbelow</string>
       <string>zmacronbelow</string>
+    </array>
+    <key>public.kern2.z.sc</key>
+    <array>
+      <string>z.sc</string>
+      <string>zacute.sc</string>
+      <string>zcaron.sc</string>
+      <string>zcircumflex.sc</string>
+      <string>zdotaccent.sc</string>
+      <string>zdotbelow.sc</string>
+      <string>zmacronbelow.sc</string>
     </array>
   </dict>
 </plist>

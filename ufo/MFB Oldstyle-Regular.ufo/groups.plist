@@ -1092,6 +1092,8 @@
       <string>f_f_f_t.liga</string>
       <string>f_f_t.liga</string>
       <string>f_t.liga</string>
+      <string>c_t.dlig</string>
+      <string>s_t.dlig</string>
     </array>
     <key>public.kern1.t.sc</key>
     <array>
@@ -1805,6 +1807,7 @@
       <string>ccedillaacute</string>
       <string>ccircumflex</string>
       <string>cdotaccent</string>
+      <string>c_t.dlig</string>
     </array>
     <key>public.kern2.c.sc</key>
     <array>
@@ -2307,6 +2310,7 @@
       <string>sdotaccent</string>
       <string>sdotbelow</string>
       <string>sdotbelowdotaccent</string>
+      <string>s_t.dlig</string>
     </array>
     <key>public.kern2.s.sc</key>
     <array>

@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="bstroke.sc" format="2">
+  <advance width="589"/>
+  <outline>
+    <contour>
+      <point x="30" y="143" type="line"/>
+      <point x="300" y="143" type="line"/>
+      <point x="310" y="182" type="line"/>
+      <point x="40" y="182" type="line"/>
+    </contour>
+    <component base="b.sc"/>
+  </outline>
+</glyph>

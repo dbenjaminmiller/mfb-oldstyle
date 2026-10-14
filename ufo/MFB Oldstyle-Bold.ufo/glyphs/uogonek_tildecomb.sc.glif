@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uogonek_tildecomb.sc" format="2">
+  <advance width="579"/>
+  <outline>
+    <component base="uogonek.sc"/>
+    <component base="tildecomb.sc" xOffset="148"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026-10-14 03:42:30 +0000</string>
+    </dict>
+  </lib>
+</glyph>

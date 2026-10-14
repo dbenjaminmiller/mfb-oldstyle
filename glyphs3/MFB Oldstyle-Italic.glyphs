@@ -1,7 +1,7 @@
 {
-.appVersion = "3260";
+.appVersion = "3532";
 .formatVersion = 3;
-date = "2024-08-05 16:00:01 +0000";
+date = "2026-10-14 04:00:00 +0000";
 familyName = "MFB Oldstyle";
 featurePrefixes = (
 {
@@ -34,8 +34,13 @@ feature numr;
 feature dnom;
 feature frac;
 feature ordn;
+feature lnum;
 feature pnum;
 feature tnum;
+feature onum;
+feature c2sc;
+feature smcp;
+feature case;
 ";
 tag = aalt;
 },
@@ -224,6 +229,21 @@ tag = ordn;
 },
 {
 automatic = 1;
+code = "sub zero.osf by zero.lf;
+sub one.osf by one.lf;
+sub two.osf by two.lf;
+sub three.osf by three.lf;
+sub four.osf by four.lf;
+sub five.osf by five.lf;
+sub six.osf by six.lf;
+sub seven.osf by seven.lf;
+sub eight.osf by eight.lf;
+sub nine.osf by nine.lf;
+";
+tag = lnum;
+},
+{
+automatic = 1;
 code = "sub zero by zero.lf;
 sub one by one.lf;
 sub two by two.lf;
@@ -234,6 +254,16 @@ sub six by six.lf;
 sub seven by seven.lf;
 sub eight by eight.lf;
 sub nine by nine.lf;
+sub zero.tosf by zero.osf;
+sub one.tosf by one.osf;
+sub two.tosf by two.osf;
+sub three.tosf by three.osf;
+sub four.tosf by four.osf;
+sub five.tosf by five.osf;
+sub six.tosf by six.osf;
+sub seven.tosf by seven.osf;
+sub eight.tosf by eight.osf;
+sub nine.tosf by nine.osf;
 ";
 tag = pnum;
 },
@@ -249,6 +279,16 @@ sub six.lf by six;
 sub seven.lf by seven;
 sub eight.lf by eight;
 sub nine.lf by nine;
+sub zero.osf by zero.tosf;
+sub one.osf by one.tosf;
+sub two.osf by two.tosf;
+sub three.osf by three.tosf;
+sub four.osf by four.tosf;
+sub five.osf by five.tosf;
+sub six.osf by six.tosf;
+sub seven.osf by seven.tosf;
+sub eight.osf by eight.tosf;
+sub nine.osf by nine.tosf;
 sub zero by zero.tf;
 sub one by one.tf;
 sub two by two.tf;
@@ -261,6 +301,780 @@ sub eight by eight.tf;
 sub nine by nine.tf;
 ";
 tag = tnum;
+},
+{
+code = "sub zero by zero.tosf;
+sub one by one.tosf;
+sub two by two.tosf;
+sub three by three.tosf;
+sub four by four.tosf;
+sub five by five.tosf;
+sub six by six.tosf;
+sub seven by seven.tosf;
+sub eight by eight.tosf;
+sub nine by nine.tosf;
+sub zero.lf by zero.osf;
+sub one.lf by one.osf;
+sub two.lf by two.osf;
+sub three.lf by three.osf;
+sub four.lf by four.osf;
+sub five.lf by five.osf;
+sub six.lf by six.osf;
+sub seven.lf by seven.osf;
+sub eight.lf by eight.osf;
+sub nine.lf by nine.osf;
+sub zero.tf by zero.tosf;
+sub one.tf by one.tosf;
+sub two.tf by two.tosf;
+sub three.tf by three.tosf;
+sub four.tf by four.tosf;
+sub five.tf by five.tosf;
+sub six.tf by six.tosf;
+sub seven.tf by seven.tosf;
+sub eight.tf by eight.tosf;
+sub nine.tf by nine.tosf;
+";
+tag = onum;
+},
+{
+automatic = 1;
+code = "sub A by a.sc;
+sub Aacute by aacute.sc;
+sub Abreve by abreve.sc;
+sub Abreveacute by abreveacute.sc;
+sub Abrevedotbelow by abrevedotbelow.sc;
+sub Abrevegrave by abrevegrave.sc;
+sub Abrevehookabove by abrevehookabove.sc;
+sub Abrevetilde by abrevetilde.sc;
+sub Acaron by acaron.sc;
+sub Acircumflex by acircumflex.sc;
+sub Acircumflexacute by acircumflexacute.sc;
+sub Acircumflexdotbelow by acircumflexdotbelow.sc;
+sub Acircumflexgrave by acircumflexgrave.sc;
+sub Acircumflexhookabove by acircumflexhookabove.sc;
+sub Acircumflextilde by acircumflextilde.sc;
+sub Adblgrave by adblgrave.sc;
+sub Adieresis by adieresis.sc;
+sub Adieresismacron by adieresismacron.sc;
+sub Adotaccent by adotaccent.sc;
+sub Adotbelow by adotbelow.sc;
+sub Adotmacron by adotmacron.sc;
+sub Agrave by agrave.sc;
+sub Ahookabove by ahookabove.sc;
+sub Ainvertedbreve by ainvertedbreve.sc;
+sub Amacron by amacron.sc;
+sub Amacron_gravecomb by amacron_gravecomb.sc;
+sub Aogonek by aogonek.sc;
+sub Aogonek_acutecomb by aogonek_acutecomb.sc;
+sub Aogonek_tildecomb by aogonek_tildecomb.sc;
+sub Aring by aring.sc;
+sub Aringacute by aringacute.sc;
+sub Aringbelow by aringbelow.sc;
+sub Atilde by atilde.sc;
+sub AE by ae.sc;
+sub AEacute by aeacute.sc;
+sub AEmacron by aemacron.sc;
+sub B by b.sc;
+sub Bdotaccent by bdotaccent.sc;
+sub Bdotbelow by bdotbelow.sc;
+sub Bmacronbelow by bmacronbelow.sc;
+sub Bstroke by bstroke.sc;
+sub C by c.sc;
+sub C_dieresiscomb by c_dieresiscomb.sc;
+sub Cacute by cacute.sc;
+sub Ccaron by ccaron.sc;
+sub Ccedilla by ccedilla.sc;
+sub Ccedillaacute by ccedillaacute.sc;
+sub Ccircumflex by ccircumflex.sc;
+sub Cdotaccent by cdotaccent.sc;
+sub D by d.sc;
+sub Dcaron by dcaron.sc;
+sub Dcedilla by dcedilla.sc;
+sub Dcircumflexbelow by dcircumflexbelow.sc;
+sub Dcroat by dcroat.sc;
+sub Ddotaccent by ddotaccent.sc;
+sub Ddotbelow by ddotbelow.sc;
+sub Dmacronbelow by dmacronbelow.sc;
+sub Eth by eth.sc;
+sub E by e.sc;
+sub Eacute by eacute.sc;
+sub Ebreve by ebreve.sc;
+sub Ecaron by ecaron.sc;
+sub Ecedilla by ecedilla.sc;
+sub Ecedillabreve by ecedillabreve.sc;
+sub Ecircumflex by ecircumflex.sc;
+sub Ecircumflex_caroncomb by ecircumflex_caroncomb.sc;
+sub Ecircumflex_macroncomb by ecircumflex_macroncomb.sc;
+sub Ecircumflexacute by ecircumflexacute.sc;
+sub Ecircumflexbelow by ecircumflexbelow.sc;
+sub Ecircumflexdotbelow by ecircumflexdotbelow.sc;
+sub Ecircumflexgrave by ecircumflexgrave.sc;
+sub Ecircumflexhookabove by ecircumflexhookabove.sc;
+sub Ecircumflextilde by ecircumflextilde.sc;
+sub Edblgrave by edblgrave.sc;
+sub Edieresis by edieresis.sc;
+sub Edotaccent by edotaccent.sc;
+sub Edotaccent_acutecomb by edotaccent_acutecomb.sc;
+sub Edotaccent_tildecomb by edotaccent_tildecomb.sc;
+sub Edotbelow by edotbelow.sc;
+sub Egrave by egrave.sc;
+sub Ehookabove by ehookabove.sc;
+sub Einvertedbreve by einvertedbreve.sc;
+sub Emacron by emacron.sc;
+sub Emacronacute by emacronacute.sc;
+sub Emacrongrave by emacrongrave.sc;
+sub Eogonek by eogonek.sc;
+sub Eogonek_acutecomb by eogonek_acutecomb.sc;
+sub Eogonek_tildecomb by eogonek_tildecomb.sc;
+sub Etilde by etilde.sc;
+sub Etildebelow by etildebelow.sc;
+sub F by f.sc;
+sub Fdotaccent by fdotaccent.sc;
+sub G by g.sc;
+sub Gacute by gacute.sc;
+sub Gbreve by gbreve.sc;
+sub Gcaron by gcaron.sc;
+sub Gcircumflex by gcircumflex.sc;
+sub Gcommaaccent by gcommaaccent.sc;
+sub Gdotaccent by gdotaccent.sc;
+sub Gmacron by gmacron.sc;
+sub H by h.sc;
+sub Hbar by hbar.sc;
+sub Hbrevebelow by hbrevebelow.sc;
+sub Hcaron by hcaron.sc;
+sub Hcedilla by hcedilla.sc;
+sub Hcircumflex by hcircumflex.sc;
+sub Hdieresis by hdieresis.sc;
+sub Hdotaccent by hdotaccent.sc;
+sub Hdotbelow by hdotbelow.sc;
+sub I by i.sc;
+sub IJ by ij.sc;
+sub Iacute by iacute.sc;
+sub Ibreve by ibreve.sc;
+sub Icaron by icaron.sc;
+sub Icircumflex by icircumflex.sc;
+sub Idblgrave by idblgrave.sc;
+sub Idieresis by idieresis.sc;
+sub Idieresisacute by idieresisacute.sc;
+sub Idotaccent by idotaccent.sc;
+sub Idotbelow by idotbelow.sc;
+sub Igrave by igrave.sc;
+sub Ihookabove by ihookabove.sc;
+sub Iinvertedbreve by iinvertedbreve.sc;
+sub Imacron by imacron.sc;
+sub Imacron_gravecomb by imacron_gravecomb.sc;
+sub Iogonek by iogonek.sc;
+sub Itilde by itilde.sc;
+sub J by j.sc;
+sub J_tildecomb by j_tildecomb.sc;
+sub Jacute by jacute.sc;
+sub Jcircumflex by jcircumflex.sc;
+sub K by k.sc;
+sub Kacute by kacute.sc;
+sub Kcaron by kcaron.sc;
+sub Kcommaaccent by kcommaaccent.sc;
+sub Kdotbelow by kdotbelow.sc;
+sub Kmacronbelow by kmacronbelow.sc;
+sub L by l.sc;
+sub L_tildecomb by l_tildecomb.sc;
+sub Lacute by lacute.sc;
+sub Lcaron by lcaron.sc;
+sub Lcircumflexbelow by lcircumflexbelow.sc;
+sub Lcommaaccent by lcommaaccent.sc;
+sub Ldot by ldot.sc;
+sub Ldotbelow by ldotbelow.sc;
+sub Ldotbelowmacron by ldotbelowmacron.sc;
+sub Lmacronbelow by lmacronbelow.sc;
+sub Lslash by lslash.sc;
+sub M by m.sc;
+sub M_tildecomb by m_tildecomb.sc;
+sub Macute by macute.sc;
+sub Mdotaccent by mdotaccent.sc;
+sub Mdotbelow by mdotbelow.sc;
+sub N by n.sc;
+sub Nacute by nacute.sc;
+sub Ncaron by ncaron.sc;
+sub Ncircumflexbelow by ncircumflexbelow.sc;
+sub Ncommaaccent by ncommaaccent.sc;
+sub Ndotaccent by ndotaccent.sc;
+sub Ndotbelow by ndotbelow.sc;
+sub Ngrave by ngrave.sc;
+sub Nmacronbelow by nmacronbelow.sc;
+sub Ntilde by ntilde.sc;
+sub O by o.sc;
+sub Oacute by oacute.sc;
+sub Obreve by obreve.sc;
+sub Ocaron by ocaron.sc;
+sub Ocircumflex by ocircumflex.sc;
+sub Ocircumflexacute by ocircumflexacute.sc;
+sub Ocircumflexdotbelow by ocircumflexdotbelow.sc;
+sub Ocircumflexgrave by ocircumflexgrave.sc;
+sub Ocircumflexhookabove by ocircumflexhookabove.sc;
+sub Ocircumflextilde by ocircumflextilde.sc;
+sub Odblgrave by odblgrave.sc;
+sub Odieresis by odieresis.sc;
+sub Odieresismacron by odieresismacron.sc;
+sub Odotaccent by odotaccent.sc;
+sub Odotaccentmacron by odotaccentmacron.sc;
+sub Odotbelow by odotbelow.sc;
+sub Ograve by ograve.sc;
+sub Ohookabove by ohookabove.sc;
+sub Ohorn by ohorn.sc;
+sub Ohornacute by ohornacute.sc;
+sub Ohorndotbelow by ohorndotbelow.sc;
+sub Ohorngrave by ohorngrave.sc;
+sub Ohornhookabove by ohornhookabove.sc;
+sub Ohorntilde by ohorntilde.sc;
+sub Ohungarumlaut by ohungarumlaut.sc;
+sub Oinvertedbreve by oinvertedbreve.sc;
+sub Omacron by omacron.sc;
+sub Omacronacute by omacronacute.sc;
+sub Omacrongrave by omacrongrave.sc;
+sub Oogonek by oogonek.sc;
+sub Oogonekmacron by oogonekmacron.sc;
+sub Oslash by oslash.sc;
+sub Oslashacute by oslashacute.sc;
+sub Otilde by otilde.sc;
+sub Otildeacute by otildeacute.sc;
+sub Otildedieresis by otildedieresis.sc;
+sub Otildemacron by otildemacron.sc;
+sub OE by oe.sc;
+sub P by p.sc;
+sub Pacute by pacute.sc;
+sub Pdotaccent by pdotaccent.sc;
+sub Thorn by thorn.sc;
+sub Q by q.sc;
+sub Q_tildecomb by q_tildecomb.sc;
+sub R by r.sc;
+sub R_tildecomb by r_tildecomb.sc;
+sub Racute by racute.sc;
+sub Rcaron by rcaron.sc;
+sub Rcommaaccent by rcommaaccent.sc;
+sub Rdblgrave by rdblgrave.sc;
+sub Rdotaccent by rdotaccent.sc;
+sub Rdotbelow by rdotbelow.sc;
+sub Rdotbelowmacron by rdotbelowmacron.sc;
+sub Rinvertedbreve by rinvertedbreve.sc;
+sub Rmacronbelow by rmacronbelow.sc;
+sub S by s.sc;
+sub S_dieresiscomb by s_dieresiscomb.sc;
+sub Sacute by sacute.sc;
+sub Sacutedotaccent by sacutedotaccent.sc;
+sub Scaron by scaron.sc;
+sub Scarondotaccent by scarondotaccent.sc;
+sub Scedilla by scedilla.sc;
+sub Scircumflex by scircumflex.sc;
+sub Scommaaccent by scommaaccent.sc;
+sub Sdotaccent by sdotaccent.sc;
+sub Sdotbelow by sdotbelow.sc;
+sub Sdotbelowdotaccent by sdotbelowdotaccent.sc;
+sub Germandbls by germandbls.sc;
+sub T by t.sc;
+sub Tcaron by tcaron.sc;
+sub Tcedilla by tcedilla.sc;
+sub Tcircumflexbelow by tcircumflexbelow.sc;
+sub Tcommaaccent by tcommaaccent.sc;
+sub Tdotaccent by tdotaccent.sc;
+sub Tdotbelow by tdotbelow.sc;
+sub Tmacronbelow by tmacronbelow.sc;
+sub U by u.sc;
+sub Uacute by uacute.sc;
+sub Ubreve by ubreve.sc;
+sub Ucaron by ucaron.sc;
+sub Ucircumflex by ucircumflex.sc;
+sub Ucircumflexbelow by ucircumflexbelow.sc;
+sub Udblgrave by udblgrave.sc;
+sub Udieresis by udieresis.sc;
+sub Udieresisacute by udieresisacute.sc;
+sub Udieresisbelow by udieresisbelow.sc;
+sub Udieresiscaron by udieresiscaron.sc;
+sub Udieresisgrave by udieresisgrave.sc;
+sub Udieresismacron by udieresismacron.sc;
+sub Udotbelow by udotbelow.sc;
+sub Ugrave by ugrave.sc;
+sub Uhookabove by uhookabove.sc;
+sub Uhorn by uhorn.sc;
+sub Uhornacute by uhornacute.sc;
+sub Uhorndotbelow by uhorndotbelow.sc;
+sub Uhorngrave by uhorngrave.sc;
+sub Uhornhookabove by uhornhookabove.sc;
+sub Uhorntilde by uhorntilde.sc;
+sub Uhungarumlaut by uhungarumlaut.sc;
+sub Uinvertedbreve by uinvertedbreve.sc;
+sub Umacron by umacron.sc;
+sub Umacron_gravecomb by umacron_gravecomb.sc;
+sub Umacron_acutecomb by umacron_acutecomb.sc;
+sub Umacron_tildecomb by umacron_tildecomb.sc;
+sub Umacrondieresis by umacrondieresis.sc;
+sub Uogonek by uogonek.sc;
+sub Uogonek_acutecomb by uogonek_acutecomb.sc;
+sub Uogonek_tildecomb by uogonek_tildecomb.sc;
+sub Uring by uring.sc;
+sub Utilde by utilde.sc;
+sub Utildeacute by utildeacute.sc;
+sub Utildebelow by utildebelow.sc;
+sub V by v.sc;
+sub Vdotbelow by vdotbelow.sc;
+sub Vtilde by vtilde.sc;
+sub W by w.sc;
+sub Wacute by wacute.sc;
+sub Wcircumflex by wcircumflex.sc;
+sub Wdieresis by wdieresis.sc;
+sub Wdotaccent by wdotaccent.sc;
+sub Wdotbelow by wdotbelow.sc;
+sub Wgrave by wgrave.sc;
+sub X by x.sc;
+sub X_circumflexcomb by x_circumflexcomb.sc;
+sub Xdieresis by xdieresis.sc;
+sub Xdotaccent by xdotaccent.sc;
+sub Y by y.sc;
+sub Yacute by yacute.sc;
+sub Ycircumflex by ycircumflex.sc;
+sub Ydieresis by ydieresis.sc;
+sub Ydotaccent by ydotaccent.sc;
+sub Ydotbelow by ydotbelow.sc;
+sub Ygrave by ygrave.sc;
+sub Yhookabove by yhookabove.sc;
+sub Ymacron by ymacron.sc;
+sub Ytilde by ytilde.sc;
+sub Z by z.sc;
+sub Zacute by zacute.sc;
+sub Zcaron by zcaron.sc;
+sub Zcircumflex by zcircumflex.sc;
+sub Zdotaccent by zdotaccent.sc;
+sub Zdotbelow by zdotbelow.sc;
+sub Zmacronbelow by zmacronbelow.sc;
+sub Saltillo by saltillo.sc;
+sub dieresiscomb by dieresiscomb.sc;
+sub dotaccentcomb by dotaccentcomb.sc;
+sub gravecomb by gravecomb.sc;
+sub acutecomb by acutecomb.sc;
+sub hungarumlautcomb by hungarumlautcomb.sc;
+sub circumflexcomb by circumflexcomb.sc;
+sub circumflexcomb_gravecomb by circumflexcomb_gravecomb.sc;
+sub circumflexcomb_acutecomb by circumflexcomb_acutecomb.sc;
+sub circumflexcomb_caroncomb by circumflexcomb_caroncomb.sc;
+sub circumflexcomb_tildecomb by circumflexcomb_tildecomb.sc;
+sub circumflexcomb_hookabovecomb by circumflexcomb_hookabovecomb.sc;
+sub caroncomb by caroncomb.sc;
+sub brevecomb by brevecomb.sc;
+sub brevecomb_gravecomb by brevecomb_gravecomb.sc;
+sub brevecomb_acutecomb by brevecomb_acutecomb.sc;
+sub brevecomb_tildecomb by brevecomb_tildecomb.sc;
+sub brevecomb_hookabovecomb by brevecomb_hookabovecomb.sc;
+sub ringcomb by ringcomb.sc;
+sub tildecomb by tildecomb.sc;
+sub macroncomb by macroncomb.sc;
+sub hookabovecomb by hookabovecomb.sc;
+sub dblgravecomb by dblgravecomb.sc;
+sub commaturnedabovecomb by commaturnedabovecomb.sc;
+sub horncomb by horncomb.sc;
+sub dieresis by dieresis.sc;
+sub dotaccent by dotaccent.sc;
+sub grave by grave.sc;
+sub acute by acute.sc;
+sub hungarumlaut by hungarumlaut.sc;
+sub circumflex by circumflex.sc;
+sub caron by caron.sc;
+sub breve by breve.sc;
+sub ring by ring.sc;
+sub tilde by tilde.sc;
+sub macron by macron.sc;
+";
+tag = c2sc;
+},
+{
+automatic = 1;
+code = "sub a by a.sc;
+sub aacute by aacute.sc;
+sub abreve by abreve.sc;
+sub abreveacute by abreveacute.sc;
+sub abrevedotbelow by abrevedotbelow.sc;
+sub abrevegrave by abrevegrave.sc;
+sub abrevehookabove by abrevehookabove.sc;
+sub abrevetilde by abrevetilde.sc;
+sub acaron by acaron.sc;
+sub acircumflex by acircumflex.sc;
+sub acircumflexacute by acircumflexacute.sc;
+sub acircumflexdotbelow by acircumflexdotbelow.sc;
+sub acircumflexgrave by acircumflexgrave.sc;
+sub acircumflexhookabove by acircumflexhookabove.sc;
+sub acircumflextilde by acircumflextilde.sc;
+sub adblgrave by adblgrave.sc;
+sub adieresis by adieresis.sc;
+sub adieresismacron by adieresismacron.sc;
+sub adotaccent by adotaccent.sc;
+sub adotbelow by adotbelow.sc;
+sub adotmacron by adotmacron.sc;
+sub agrave by agrave.sc;
+sub ahookabove by ahookabove.sc;
+sub ainvertedbreve by ainvertedbreve.sc;
+sub amacron by amacron.sc;
+sub amacron_gravecomb by amacron_gravecomb.sc;
+sub aogonek by aogonek.sc;
+sub aogonek_acutecomb by aogonek_acutecomb.sc;
+sub aogonek_tildecomb by aogonek_tildecomb.sc;
+sub arighthalfring by arighthalfring.sc;
+sub aring by aring.sc;
+sub aringacute by aringacute.sc;
+sub aringbelow by aringbelow.sc;
+sub atilde by atilde.sc;
+sub ae by ae.sc;
+sub aeacute by aeacute.sc;
+sub aemacron by aemacron.sc;
+sub b by b.sc;
+sub bdotaccent by bdotaccent.sc;
+sub bdotbelow by bdotbelow.sc;
+sub bmacronbelow by bmacronbelow.sc;
+sub bstroke by bstroke.sc;
+sub c by c.sc;
+sub c_dieresiscomb by c_dieresiscomb.sc;
+sub cacute by cacute.sc;
+sub ccaron by ccaron.sc;
+sub ccedilla by ccedilla.sc;
+sub ccedillaacute by ccedillaacute.sc;
+sub ccircumflex by ccircumflex.sc;
+sub cdotaccent by cdotaccent.sc;
+sub d by d.sc;
+sub dcaron by dcaron.sc;
+sub dcedilla by dcedilla.sc;
+sub dcircumflexbelow by dcircumflexbelow.sc;
+sub dcroat by dcroat.sc;
+sub ddotaccent by ddotaccent.sc;
+sub ddotbelow by ddotbelow.sc;
+sub dmacronbelow by dmacronbelow.sc;
+sub eth by eth.sc;
+sub e by e.sc;
+sub eacute by eacute.sc;
+sub ebreve by ebreve.sc;
+sub ecaron by ecaron.sc;
+sub ecedilla by ecedilla.sc;
+sub ecedillabreve by ecedillabreve.sc;
+sub ecircumflex by ecircumflex.sc;
+sub ecircumflex_caroncomb by ecircumflex_caroncomb.sc;
+sub ecircumflex_macroncomb by ecircumflex_macroncomb.sc;
+sub ecircumflexacute by ecircumflexacute.sc;
+sub ecircumflexbelow by ecircumflexbelow.sc;
+sub ecircumflexdotbelow by ecircumflexdotbelow.sc;
+sub ecircumflexgrave by ecircumflexgrave.sc;
+sub ecircumflexhookabove by ecircumflexhookabove.sc;
+sub ecircumflextilde by ecircumflextilde.sc;
+sub edblgrave by edblgrave.sc;
+sub edieresis by edieresis.sc;
+sub edotaccent by edotaccent.sc;
+sub edotaccent_acutecomb by edotaccent_acutecomb.sc;
+sub edotaccent_tildecomb by edotaccent_tildecomb.sc;
+sub edotbelow by edotbelow.sc;
+sub egrave by egrave.sc;
+sub ehookabove by ehookabove.sc;
+sub einvertedbreve by einvertedbreve.sc;
+sub emacron by emacron.sc;
+sub emacronacute by emacronacute.sc;
+sub emacrongrave by emacrongrave.sc;
+sub eogonek by eogonek.sc;
+sub eogonek_acutecomb by eogonek_acutecomb.sc;
+sub eogonek_tildecomb by eogonek_tildecomb.sc;
+sub etilde by etilde.sc;
+sub etildebelow by etildebelow.sc;
+sub f by f.sc;
+sub fdotaccent by fdotaccent.sc;
+sub g by g.sc;
+sub gacute by gacute.sc;
+sub gbreve by gbreve.sc;
+sub gcaron by gcaron.sc;
+sub gcircumflex by gcircumflex.sc;
+sub gcommaaccent by gcommaaccent.sc;
+sub gdotaccent by gdotaccent.sc;
+sub gmacron by gmacron.sc;
+sub h by h.sc;
+sub hbar by hbar.sc;
+sub hbrevebelow by hbrevebelow.sc;
+sub hcaron by hcaron.sc;
+sub hcedilla by hcedilla.sc;
+sub hcircumflex by hcircumflex.sc;
+sub hdieresis by hdieresis.sc;
+sub hdotaccent by hdotaccent.sc;
+sub hdotbelow by hdotbelow.sc;
+sub hmacronbelow by hmacronbelow.sc;
+sub i by i.sc;
+sub idotless by idotless.sc;
+sub iacute by iacute.sc;
+sub ibreve by ibreve.sc;
+sub icaron by icaron.sc;
+sub icircumflex by icircumflex.sc;
+sub idblgrave by idblgrave.sc;
+sub idieresis by idieresis.sc;
+sub idieresisacute by idieresisacute.sc;
+sub idotaccent by idotaccent.sc;
+sub idotbelow by idotbelow.sc;
+sub igrave by igrave.sc;
+sub ihookabove by ihookabove.sc;
+sub iinvertedbreve by iinvertedbreve.sc;
+sub imacron by imacron.sc;
+sub imacron_gravecomb by imacron_gravecomb.sc;
+sub iogonek by iogonek.sc;
+sub itilde by itilde.sc;
+sub ij by ij.sc;
+sub j by j.sc;
+sub jdotless by jdotless.sc;
+sub j_tildecomb by j_tildecomb.sc;
+sub jacute by jacute.sc;
+sub jcaron by jcaron.sc;
+sub jcircumflex by jcircumflex.sc;
+sub k by k.sc;
+sub kacute by kacute.sc;
+sub kcaron by kcaron.sc;
+sub kcommaaccent by kcommaaccent.sc;
+sub kdotbelow by kdotbelow.sc;
+sub kmacronbelow by kmacronbelow.sc;
+sub l by l.sc;
+sub l_tildecomb by l_tildecomb.sc;
+sub lacute by lacute.sc;
+sub lcaron by lcaron.sc;
+sub lcircumflexbelow by lcircumflexbelow.sc;
+sub lcommaaccent by lcommaaccent.sc;
+sub ldot by ldot.sc;
+sub ldotbelow by ldotbelow.sc;
+sub ldotbelowmacron by ldotbelowmacron.sc;
+sub lmacronbelow by lmacronbelow.sc;
+sub longsdotaccent by longsdotaccent.sc;
+sub lslash by lslash.sc;
+sub m by m.sc;
+sub m_tildecomb by m_tildecomb.sc;
+sub macute by macute.sc;
+sub mdotaccent by mdotaccent.sc;
+sub mdotbelow by mdotbelow.sc;
+sub n by n.sc;
+sub nacute by nacute.sc;
+sub ncaron by ncaron.sc;
+sub ncircumflexbelow by ncircumflexbelow.sc;
+sub ncommaaccent by ncommaaccent.sc;
+sub ndotaccent by ndotaccent.sc;
+sub ndotbelow by ndotbelow.sc;
+sub ngrave by ngrave.sc;
+sub nmacronbelow by nmacronbelow.sc;
+sub ntilde by ntilde.sc;
+sub o by o.sc;
+sub oacute by oacute.sc;
+sub obreve by obreve.sc;
+sub ocaron by ocaron.sc;
+sub ocircumflex by ocircumflex.sc;
+sub ocircumflexacute by ocircumflexacute.sc;
+sub ocircumflexdotbelow by ocircumflexdotbelow.sc;
+sub ocircumflexgrave by ocircumflexgrave.sc;
+sub ocircumflexhookabove by ocircumflexhookabove.sc;
+sub ocircumflextilde by ocircumflextilde.sc;
+sub odblgrave by odblgrave.sc;
+sub odieresis by odieresis.sc;
+sub odieresismacron by odieresismacron.sc;
+sub odotaccent by odotaccent.sc;
+sub odotaccentmacron by odotaccentmacron.sc;
+sub odotbelow by odotbelow.sc;
+sub ograve by ograve.sc;
+sub ohookabove by ohookabove.sc;
+sub ohorn by ohorn.sc;
+sub ohornacute by ohornacute.sc;
+sub ohorndotbelow by ohorndotbelow.sc;
+sub ohorngrave by ohorngrave.sc;
+sub ohornhookabove by ohornhookabove.sc;
+sub ohorntilde by ohorntilde.sc;
+sub ohungarumlaut by ohungarumlaut.sc;
+sub oinvertedbreve by oinvertedbreve.sc;
+sub omacron by omacron.sc;
+sub omacronacute by omacronacute.sc;
+sub omacrongrave by omacrongrave.sc;
+sub oogonek by oogonek.sc;
+sub oogonekmacron by oogonekmacron.sc;
+sub oslash by oslash.sc;
+sub oslashacute by oslashacute.sc;
+sub otilde by otilde.sc;
+sub otildeacute by otildeacute.sc;
+sub otildedieresis by otildedieresis.sc;
+sub otildemacron by otildemacron.sc;
+sub oe by oe.sc;
+sub p by p.sc;
+sub pacute by pacute.sc;
+sub pdotaccent by pdotaccent.sc;
+sub thorn by thorn.sc;
+sub q by q.sc;
+sub q_tildecomb by q_tildecomb.sc;
+sub r by r.sc;
+sub r_tildecomb by r_tildecomb.sc;
+sub racute by racute.sc;
+sub rcaron by rcaron.sc;
+sub rcommaaccent by rcommaaccent.sc;
+sub rdblgrave by rdblgrave.sc;
+sub rdotaccent by rdotaccent.sc;
+sub rdotbelow by rdotbelow.sc;
+sub rdotbelowmacron by rdotbelowmacron.sc;
+sub rinvertedbreve by rinvertedbreve.sc;
+sub rmacronbelow by rmacronbelow.sc;
+sub s by s.sc;
+sub s_dieresiscomb by s_dieresiscomb.sc;
+sub sacute by sacute.sc;
+sub sacutedotaccent by sacutedotaccent.sc;
+sub scaron by scaron.sc;
+sub scarondotaccent by scarondotaccent.sc;
+sub scedilla by scedilla.sc;
+sub scircumflex by scircumflex.sc;
+sub scommaaccent by scommaaccent.sc;
+sub sdotaccent by sdotaccent.sc;
+sub sdotbelow by sdotbelow.sc;
+sub sdotbelowdotaccent by sdotbelowdotaccent.sc;
+sub germandbls by germandbls.sc;
+sub longs by longs.sc;
+sub t by t.sc;
+sub tcaron by tcaron.sc;
+sub tcedilla by tcedilla.sc;
+sub tcircumflexbelow by tcircumflexbelow.sc;
+sub tcommaaccent by tcommaaccent.sc;
+sub tdieresis by tdieresis.sc;
+sub tdotaccent by tdotaccent.sc;
+sub tdotbelow by tdotbelow.sc;
+sub tmacronbelow by tmacronbelow.sc;
+sub u by u.sc;
+sub uacute by uacute.sc;
+sub ubreve by ubreve.sc;
+sub ucaron by ucaron.sc;
+sub ucircumflex by ucircumflex.sc;
+sub ucircumflexbelow by ucircumflexbelow.sc;
+sub udblgrave by udblgrave.sc;
+sub udieresis by udieresis.sc;
+sub udieresisacute by udieresisacute.sc;
+sub udieresisbelow by udieresisbelow.sc;
+sub udieresiscaron by udieresiscaron.sc;
+sub udieresisgrave by udieresisgrave.sc;
+sub udieresismacron by udieresismacron.sc;
+sub udotbelow by udotbelow.sc;
+sub ugrave by ugrave.sc;
+sub uhookabove by uhookabove.sc;
+sub uhorn by uhorn.sc;
+sub uhornacute by uhornacute.sc;
+sub uhorndotbelow by uhorndotbelow.sc;
+sub uhorngrave by uhorngrave.sc;
+sub uhornhookabove by uhornhookabove.sc;
+sub uhorntilde by uhorntilde.sc;
+sub uhungarumlaut by uhungarumlaut.sc;
+sub uinvertedbreve by uinvertedbreve.sc;
+sub umacron by umacron.sc;
+sub umacron_gravecomb by umacron_gravecomb.sc;
+sub umacron_acutecomb by umacron_acutecomb.sc;
+sub umacron_tildecomb by umacron_tildecomb.sc;
+sub umacrondieresis by umacrondieresis.sc;
+sub uogonek by uogonek.sc;
+sub uogonek_acutecomb by uogonek_acutecomb.sc;
+sub uogonek_tildecomb by uogonek_tildecomb.sc;
+sub uring by uring.sc;
+sub utilde by utilde.sc;
+sub utildeacute by utildeacute.sc;
+sub utildebelow by utildebelow.sc;
+sub v by v.sc;
+sub vdotbelow by vdotbelow.sc;
+sub vtilde by vtilde.sc;
+sub w by w.sc;
+sub wacute by wacute.sc;
+sub wcircumflex by wcircumflex.sc;
+sub wdieresis by wdieresis.sc;
+sub wdotaccent by wdotaccent.sc;
+sub wdotbelow by wdotbelow.sc;
+sub wgrave by wgrave.sc;
+sub wring by wring.sc;
+sub x by x.sc;
+sub x_circumflexcomb by x_circumflexcomb.sc;
+sub xdieresis by xdieresis.sc;
+sub xdotaccent by xdotaccent.sc;
+sub y by y.sc;
+sub yacute by yacute.sc;
+sub ycircumflex by ycircumflex.sc;
+sub ydieresis by ydieresis.sc;
+sub ydotaccent by ydotaccent.sc;
+sub ydotbelow by ydotbelow.sc;
+sub ygrave by ygrave.sc;
+sub yhookabove by yhookabove.sc;
+sub ymacron by ymacron.sc;
+sub yring by yring.sc;
+sub ytilde by ytilde.sc;
+sub z by z.sc;
+sub zacute by zacute.sc;
+sub zcaron by zcaron.sc;
+sub zcircumflex by zcircumflex.sc;
+sub zdotaccent by zdotaccent.sc;
+sub zdotbelow by zdotbelow.sc;
+sub zmacronbelow by zmacronbelow.sc;
+sub saltillo by saltillo.sc;
+sub lcommaaccent.loclMAH by lcommaaccent.sc;
+sub ncommaaccent.loclMAH by ncommaaccent.sc;
+sub fi by fi.sc;
+sub fl by fl.sc;
+sub dieresiscomb by dieresiscomb.sc;
+sub dotaccentcomb by dotaccentcomb.sc;
+sub gravecomb by gravecomb.sc;
+sub acutecomb by acutecomb.sc;
+sub hungarumlautcomb by hungarumlautcomb.sc;
+sub circumflexcomb by circumflexcomb.sc;
+sub circumflexcomb_caroncomb by circumflexcomb_caroncomb.sc;
+sub caroncomb by caroncomb.sc;
+sub brevecomb by brevecomb.sc;
+sub ringcomb by ringcomb.sc;
+sub tildecomb by tildecomb.sc;
+sub macroncomb by macroncomb.sc;
+sub hookabovecomb by hookabovecomb.sc;
+sub dblgravecomb by dblgravecomb.sc;
+sub commaturnedabovecomb by commaturnedabovecomb.sc;
+sub horncomb by horncomb.sc;
+sub brevecomb_acutecomb by brevecomb_acutecomb.sc;
+sub brevecomb_gravecomb by brevecomb_gravecomb.sc;
+sub brevecomb_hookabovecomb by brevecomb_hookabovecomb.sc;
+sub brevecomb_tildecomb by brevecomb_tildecomb.sc;
+sub circumflexcomb_acutecomb by circumflexcomb_acutecomb.sc;
+sub circumflexcomb_gravecomb by circumflexcomb_gravecomb.sc;
+sub circumflexcomb_hookabovecomb by circumflexcomb_hookabovecomb.sc;
+sub circumflexcomb_tildecomb by circumflexcomb_tildecomb.sc;
+sub dieresis by dieresis.sc;
+sub dotaccent by dotaccent.sc;
+sub grave by grave.sc;
+sub acute by acute.sc;
+sub hungarumlaut by hungarumlaut.sc;
+sub circumflex by circumflex.sc;
+sub caron by caron.sc;
+sub breve by breve.sc;
+sub ring by ring.sc;
+sub tilde by tilde.sc;
+sub macron by macron.sc;
+";
+tag = smcp;
+},
+{
+automatic = 1;
+code = "sub zero.osf by zero.lf;
+sub one.osf by one.lf;
+sub two.osf by two.lf;
+sub three.osf by three.lf;
+sub four.osf by four.lf;
+sub five.osf by five.lf;
+sub six.osf by six.lf;
+sub seven.osf by seven.lf;
+sub eight.osf by eight.lf;
+sub nine.osf by nine.lf;
+sub zero.tosf by zero;
+sub one.tosf by one;
+sub two.tosf by two;
+sub three.tosf by three;
+sub four.tosf by four;
+sub five.tosf by five;
+sub six.tosf by six;
+sub seven.tosf by seven;
+sub eight.tosf by eight;
+sub nine.tosf by nine;
+";
+tag = case;
+},
+{
+code = "lookupflag IgnoreMarks;
+sub c t by c_t.dlig;
+sub s t by s_t.dlig;
+";
+tag = dlig;
 },
 {
 automatic = 1;
@@ -294,14 +1108,50 @@ tag = liga;
 );
 fontMaster = (
 {
+customParameters = (
+{
+name = typoAscender;
+value = 962;
+},
+{
+name = typoDescender;
+value = -283;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = hheaAscender;
+value = 962;
+},
+{
+name = hheaDescender;
+value = -283;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 1185;
+},
+{
+name = winDescent;
+value = 365;
+}
+);
 id = m01;
 metricValues = (
 {
 pos = 952;
 },
 {
+pos = 721;
 },
 {
+pos = 482;
 },
 {
 },
@@ -309,7 +1159,7 @@ pos = 952;
 pos = -283;
 },
 {
-pos = 11;
+pos = 15;
 }
 );
 name = Italic;
@@ -4980,7 +5830,7 @@ pos = (379,0);
 },
 {
 name = top;
-pos = (492,741);
+pos = (525,741);
 }
 );
 layerId = m01;
@@ -5041,7 +5891,7 @@ shapes = (
 ref = O;
 },
 {
-pos = (306,247);
+pos = (339,247);
 ref = acutecomb;
 }
 );
@@ -5063,7 +5913,7 @@ shapes = (
 ref = O;
 },
 {
-pos = (203,247);
+pos = (236,247);
 ref = brevecomb;
 }
 );
@@ -5085,7 +5935,7 @@ shapes = (
 ref = O;
 },
 {
-pos = (210,247);
+pos = (243,247);
 ref = caroncomb;
 }
 );
@@ -5107,7 +5957,7 @@ shapes = (
 ref = O;
 },
 {
-pos = (206,247);
+pos = (239,247);
 ref = circumflexcomb;
 }
 );
@@ -5129,7 +5979,7 @@ shapes = (
 ref = O;
 },
 {
-pos = (206,247);
+pos = (239,247);
 ref = circumflexcomb_acutecomb;
 }
 );
@@ -5155,7 +6005,7 @@ pos = (260,0);
 ref = dotbelowcomb;
 },
 {
-pos = (206,247);
+pos = (239,247);
 ref = circumflexcomb;
 }
 );
@@ -5177,7 +6027,7 @@ shapes = (
 ref = O;
 },
 {
-pos = (206,247);
+pos = (239,247);
 ref = circumflexcomb_gravecomb;
 }
 );
@@ -5199,7 +6049,7 @@ shapes = (
 ref = O;
 },
 {
-pos = (206,247);
+pos = (239,247);
 ref = circumflexcomb_hookabovecomb;
 }
 );
@@ -5221,7 +6071,7 @@ shapes = (
 ref = O;
 },
 {
-pos = (206,247);
+pos = (239,247);
 ref = circumflexcomb_tildecomb;
 }
 );
@@ -5243,7 +6093,7 @@ shapes = (
 ref = O;
 },
 {
-pos = (111,247);
+pos = (144,247);
 ref = dblgravecomb;
 }
 );
@@ -5265,7 +6115,7 @@ shapes = (
 ref = O;
 },
 {
-pos = (209,247);
+pos = (242,247);
 ref = dieresiscomb;
 }
 );
@@ -5287,11 +6137,11 @@ shapes = (
 ref = O;
 },
 {
-pos = (209,247);
+pos = (242,247);
 ref = dieresiscomb;
 },
 {
-pos = (264,412);
+pos = (297,412);
 ref = macroncomb;
 }
 );
@@ -5313,7 +6163,7 @@ shapes = (
 ref = O;
 },
 {
-pos = (282,183);
+pos = (315,183);
 ref = dotaccentcomb;
 }
 );
@@ -5335,11 +6185,11 @@ shapes = (
 ref = O;
 },
 {
-pos = (282,183);
+pos = (315,183);
 ref = dotaccentcomb;
 },
 {
-pos = (268,412);
+pos = (301,412);
 ref = macroncomb;
 }
 );
@@ -5383,7 +6233,7 @@ shapes = (
 ref = O;
 },
 {
-pos = (188,247);
+pos = (221,247);
 ref = gravecomb;
 }
 );
@@ -5405,7 +6255,7 @@ shapes = (
 ref = O;
 },
 {
-pos = (211,247);
+pos = (244,247);
 ref = hookabovecomb;
 }
 );
@@ -5449,7 +6299,7 @@ shapes = (
 ref = Ohorn;
 },
 {
-pos = (306,247);
+pos = (339,247);
 ref = acutecomb;
 }
 );
@@ -5493,7 +6343,7 @@ shapes = (
 ref = Ohorn;
 },
 {
-pos = (188,247);
+pos = (221,247);
 ref = gravecomb;
 }
 );
@@ -5515,7 +6365,7 @@ shapes = (
 ref = Ohorn;
 },
 {
-pos = (211,247);
+pos = (244,247);
 ref = hookabovecomb;
 }
 );
@@ -5537,7 +6387,7 @@ shapes = (
 ref = Ohorn;
 },
 {
-pos = (214,247);
+pos = (247,247);
 ref = tildecomb;
 }
 );
@@ -5559,7 +6409,7 @@ shapes = (
 ref = O;
 },
 {
-pos = (256,247);
+pos = (289,247);
 ref = hungarumlautcomb;
 }
 );
@@ -5581,7 +6431,7 @@ shapes = (
 ref = O;
 },
 {
-pos = (203,247);
+pos = (236,247);
 ref = breveinvertedcomb;
 }
 );
@@ -5603,7 +6453,7 @@ shapes = (
 ref = O;
 },
 {
-pos = (235,247);
+pos = (268,247);
 ref = macroncomb;
 }
 );
@@ -5625,11 +6475,11 @@ shapes = (
 ref = O;
 },
 {
-pos = (235,247);
+pos = (268,247);
 ref = macroncomb;
 },
 {
-pos = (339,412);
+pos = (372,412);
 ref = acutecomb;
 }
 );
@@ -5651,11 +6501,11 @@ shapes = (
 ref = O;
 },
 {
-pos = (235,247);
+pos = (268,247);
 ref = macroncomb;
 },
 {
-pos = (221,412);
+pos = (254,412);
 ref = gravecomb;
 }
 );
@@ -5703,7 +6553,7 @@ pos = (299,0);
 ref = ogonekcomb;
 },
 {
-pos = (235,247);
+pos = (268,247);
 ref = macroncomb;
 }
 );
@@ -5716,86 +6566,22 @@ unicode = 492;
 glyphname = Oslash;
 kernLeft = O;
 kernRight = O;
-lastChange = "2024-08-06 02:24:23 +0000";
+lastChange = "2026-10-13 18:33:24 +0000";
 layers = (
 {
-anchors = (
-{
-name = dotbelow;
-pos = (292,0);
-},
-{
-name = ogonek;
-pos = (379,0);
-},
-{
-name = top;
-pos = (492,741);
-}
-);
 layerId = m01;
 shapes = (
 {
 closed = 1;
 nodes = (
-(528,-18,o),
-(707,235,o),
-(707,441,cs),
-(707,515,o),
-(684,587,o),
-(641,643,c),
 (691,704,l),
 (659,730,l),
-(614,675,l),
-(573,714,o),
-(519,739,o),
-(455,739,cs),
-(260,739,o),
-(66,505,o),
-(66,274,cs),
-(66,196,o),
-(88,132,o),
-(125,81,c),
 (75,19,l),
-(107,-9,l),
-(154,49,l),
-(198,6,o),
-(256,-18,o),
-(320,-18,cs)
+(107,-9,l)
 );
 },
 {
-closed = 1;
-nodes = (
-(255,22,o),
-(215,52,o),
-(191,95,c),
-(594,585,l),
-(600,562,o),
-(603,541,o),
-(603,504,cs),
-(603,286,o),
-(496,22,o),
-(316,22,cs)
-);
-},
-{
-closed = 1;
-nodes = (
-(168,165,o),
-(166,181,o),
-(166,207,cs),
-(166,363,o),
-(239,561,o),
-(315,640,cs),
-(355,682,o),
-(407,699,o),
-(453,699,cs),
-(508,699,o),
-(550,675,o),
-(576,628,c),
-(174,141,l)
-);
+ref = O;
 }
 );
 width = 706;
@@ -5816,7 +6602,7 @@ shapes = (
 ref = Oslash;
 },
 {
-pos = (306,247);
+pos = (339,247);
 ref = acutecomb;
 }
 );
@@ -5838,7 +6624,7 @@ shapes = (
 ref = O;
 },
 {
-pos = (214,247);
+pos = (247,247);
 ref = tildecomb;
 }
 );
@@ -5860,11 +6646,11 @@ shapes = (
 ref = O;
 },
 {
-pos = (214,247);
+pos = (247,247);
 ref = tildecomb;
 },
 {
-pos = (344,412);
+pos = (377,412);
 ref = acutecomb;
 }
 );
@@ -5886,11 +6672,11 @@ shapes = (
 ref = O;
 },
 {
-pos = (214,247);
+pos = (247,247);
 ref = tildecomb;
 },
 {
-pos = (247,412);
+pos = (280,412);
 ref = dieresiscomb;
 }
 );
@@ -5912,11 +6698,11 @@ shapes = (
 ref = O;
 },
 {
-pos = (214,247);
+pos = (247,247);
 ref = tildecomb;
 },
 {
-pos = (273,412);
+pos = (306,412);
 ref = macroncomb;
 }
 );
@@ -7051,7 +7837,7 @@ nodes = (
 width = 891;
 }
 );
-metricLeft = I;
+metricLeft = "=I+15";
 unicode = 7838;
 },
 {
@@ -8367,7 +9153,7 @@ unicode = 7804;
 glyphname = W;
 kernLeft = V;
 kernRight = V;
-lastChange = "2024-08-06 02:24:29 +0000";
+lastChange = "2026-10-14 04:27:15 +0000";
 layers = (
 {
 anchors = (
@@ -8403,11 +9189,11 @@ nodes = (
 (803,593,o),
 (798,582,cs),
 (608,174,l),
-(571,589,ls),
-(569,611,o),
-(566,621,o),
-(566,636,cs),
-(566,657,o),
+(573,566,ls),
+(571,591,o),
+(570,621,o),
+(570,636,cs),
+(570,657,o),
 (572,678,o),
 (653,681,c),
 (663,721,l),
@@ -8418,9 +9204,11 @@ nodes = (
 (466,618,cs),
 (470,584,l),
 (279,174,l),
-(241,589,l),
-(239,628,ls),
-(239,661,o),
+(244,558,ls),
+(242,582,o),
+(241,614,o),
+(241,628,cs),
+(241,661,o),
 (249,678,o),
 (321,681,c),
 (331,721,l),
@@ -19933,7 +20721,7 @@ width = 985;
 }
 );
 metricLeft = f;
-metricRight = j;
+metricRight = "=j+5";
 },
 {
 glyphname = f_f_f_k.liga;
@@ -20863,7 +21651,7 @@ width = 743;
 }
 );
 metricLeft = f;
-metricRight = j;
+metricRight = "=j+5";
 },
 {
 glyphname = f_f_k.liga;
@@ -21547,7 +22335,7 @@ width = 500;
 }
 );
 metricLeft = f;
-metricRight = j;
+metricRight = "=j+4";
 },
 {
 glyphname = f_k.liga;
@@ -21828,6 +22616,218 @@ metricLeft = f;
 metricRight = t;
 },
 {
+glyphname = c_t.dlig;
+kernLeft = c;
+kernRight = t;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(235,-14,o),
+(304,69,o),
+(346,121,c),
+(319,143,l),
+(279,101,o),
+(224,34,o),
+(169,34,cs),
+(130,34,o),
+(112,67,o),
+(112,112,cs),
+(112,159,o),
+(131,240,o),
+(160,312,cs),
+(187,379,o),
+(224,442,o),
+(275,442,cs),
+(286,442,o),
+(294,439,o),
+(294,425,cs),
+(294,417,o),
+(291,409,o),
+(291,398,cs),
+(291,375,o),
+(305,348,o),
+(338,348,cs),
+(364,348,o),
+(386,369,o),
+(386,400,cs),
+(386,467,o),
+(278,498,o),
+(278,557,cs),
+(278,593,o),
+(318,594,o),
+(340,594,cs),
+(379,594,o),
+(492,590,o),
+(556,584,c),
+(526,468,l),
+(460,468,l),
+(448,425,l),
+(514,425,l),
+(432,117,ls),
+(426,94,o),
+(420,72,o),
+(420,51,cs),
+(420,16,o),
+(436,-14,o),
+(478,-14,cs),
+(553,-14,o),
+(609,80,o),
+(642,133,c),
+(613,154,l),
+(588,114,o),
+(545,48,o),
+(519,48,cs),
+(509,48,o),
+(508,57,o),
+(508,62,cs),
+(508,74,o),
+(513,98,o),
+(518,117,cs),
+(600,425,l),
+(697,425,l),
+(708,468,l),
+(612,468,l),
+(660,648,l),
+(626,649,o),
+(432,654,o),
+(380,654,cs),
+(355,654,o),
+(237,653,o),
+(237,571,cs),
+(237,534,o),
+(261,507,o),
+(287,482,c),
+(223,482,o),
+(169,439,o),
+(128,392,cs),
+(67,322,o),
+(24,232,o),
+(24,149,cs),
+(24,55,o),
+(79,-14,o),
+(153,-14,cs)
+);
+}
+);
+width = 677;
+}
+);
+metricLeft = c;
+metricRight = t;
+},
+{
+glyphname = s_t.dlig;
+kernLeft = s;
+kernRight = t;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(239,-14,o),
+(320,59,o),
+(320,142,cs),
+(320,267,o),
+(135,292,o),
+(135,377,cs),
+(135,409,o),
+(161,440,o),
+(207,440,cs),
+(250,440,o),
+(254,412,o),
+(263,390,cs),
+(270,373,o),
+(284,351,o),
+(311,351,cs),
+(336,351,o),
+(356,370,o),
+(356,397,cs),
+(356,458,o),
+(243,487,o),
+(243,555,cs),
+(243,593,o),
+(280,594,o),
+(310,594,cs),
+(378,594,o),
+(453,591,o),
+(526,584,c),
+(496,468,l),
+(430,468,l),
+(418,425,l),
+(484,425,l),
+(402,117,ls),
+(396,94,o),
+(390,72,o),
+(390,51,cs),
+(390,16,o),
+(406,-14,o),
+(448,-14,cs),
+(523,-14,o),
+(579,80,o),
+(612,133,c),
+(583,154,l),
+(558,114,o),
+(515,48,o),
+(489,48,cs),
+(479,48,o),
+(478,57,o),
+(478,62,cs),
+(478,74,o),
+(483,98,o),
+(488,117,cs),
+(570,425,l),
+(667,425,l),
+(678,468,l),
+(582,468,l),
+(630,648,l),
+(564,650,o),
+(433,654,o),
+(349,654,cs),
+(309,654,o),
+(202,653,o),
+(202,569,cs),
+(202,543,o),
+(212,511,o),
+(232,482,c),
+(145,482,o),
+(67,418,o),
+(67,340,cs),
+(67,222,o),
+(249,200,o),
+(249,106,cs),
+(249,62,o),
+(208,30,o),
+(159,30,cs),
+(125,30,o),
+(111,43,o),
+(103,63,cs),
+(95,83,o),
+(86,133,o),
+(45,133,cs),
+(19,133,o),
+(-4,114,o),
+(-4,82,cs),
+(-4,31,o),
+(57,-14,o),
+(137,-14,cs)
+);
+}
+);
+width = 647;
+}
+);
+metricLeft = s;
+metricRight = t;
+},
+{
 glyphname = fi;
 kernLeft = f;
 kernRight = i;
@@ -21866,6 +22866,8708 @@ width = 545;
 metricLeft = f;
 metricRight = l;
 unicode = 64258;
+},
+{
+glyphname = a.sc;
+kernLeft = a.sc;
+kernRight = a.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+anchors = (
+{
+name = dotbelow;
+pos = (240,0);
+},
+{
+name = ogonek;
+pos = (404,0);
+},
+{
+name = top;
+pos = (392,518);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(188,0,l),
+(198,39,l),
+(168,40,o),
+(138,44,o),
+(138,64,cs),
+(138,70,o),
+(139,78,o),
+(148,97,cs),
+(185,175,l),
+(357,175,l),
+(369,112,ls),
+(371,102,o),
+(377,79,o),
+(377,61,cs),
+(377,42,o),
+(359,41,o),
+(317,38,c),
+(309,0,l),
+(510,0,l),
+(521,39,l),
+(480,39,o),
+(468,39,o),
+(458,89,cs),
+(374,530,l),
+(356,524,o),
+(325,514,o),
+(299,509,c),
+(99,110,ls),
+(76,63,o),
+(63,46,o),
+(18,38,c),
+(7,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(310,443,l),
+(348,218,l),
+(206,218,l)
+);
+}
+);
+width = 524;
+}
+);
+},
+{
+glyphname = aacute.sc;
+kernLeft = a.sc;
+kernRight = a.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = a.sc;
+},
+{
+pos = (206,24);
+ref = acutecomb.sc;
+}
+);
+width = 524;
+}
+);
+},
+{
+glyphname = abreve.sc;
+kernLeft = a.sc;
+kernRight = a.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = a.sc;
+},
+{
+pos = (103,24);
+ref = brevecomb.sc;
+}
+);
+width = 524;
+}
+);
+},
+{
+glyphname = abreveacute.sc;
+kernLeft = a.sc;
+kernRight = a.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = a.sc;
+},
+{
+pos = (103,24);
+ref = brevecomb_acutecomb.sc;
+}
+);
+width = 524;
+}
+);
+},
+{
+glyphname = abrevedotbelow.sc;
+kernLeft = a.sc;
+kernRight = a.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = a.sc;
+},
+{
+pos = (103,24);
+ref = brevecomb.sc;
+},
+{
+pos = (208,0);
+ref = dotbelowcomb;
+}
+);
+width = 524;
+}
+);
+},
+{
+glyphname = abrevegrave.sc;
+kernLeft = a.sc;
+kernRight = a.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = a.sc;
+},
+{
+pos = (103,24);
+ref = brevecomb_gravecomb.sc;
+}
+);
+width = 524;
+}
+);
+},
+{
+glyphname = abrevehookabove.sc;
+kernLeft = a.sc;
+kernRight = a.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = a.sc;
+},
+{
+pos = (103,24);
+ref = brevecomb_hookabovecomb.sc;
+}
+);
+width = 524;
+}
+);
+},
+{
+glyphname = abrevetilde.sc;
+kernLeft = a.sc;
+kernRight = a.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = a.sc;
+},
+{
+pos = (103,24);
+ref = brevecomb_tildecomb.sc;
+}
+);
+width = 524;
+}
+);
+},
+{
+glyphname = acaron.sc;
+kernLeft = a.sc;
+kernRight = a.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = a.sc;
+},
+{
+pos = (110,24);
+ref = caroncomb.sc;
+}
+);
+width = 524;
+}
+);
+},
+{
+glyphname = acircumflex.sc;
+kernLeft = a.sc;
+kernRight = a.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = a.sc;
+},
+{
+pos = (106,24);
+ref = circumflexcomb.sc;
+}
+);
+width = 524;
+}
+);
+},
+{
+glyphname = acircumflexacute.sc;
+kernLeft = a.sc;
+kernRight = a.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = a.sc;
+},
+{
+pos = (106,24);
+ref = circumflexcomb_acutecomb.sc;
+}
+);
+width = 524;
+}
+);
+},
+{
+glyphname = acircumflexdotbelow.sc;
+kernLeft = a.sc;
+kernRight = a.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = a.sc;
+},
+{
+pos = (208,0);
+ref = dotbelowcomb;
+},
+{
+pos = (106,24);
+ref = circumflexcomb.sc;
+}
+);
+width = 524;
+}
+);
+},
+{
+glyphname = acircumflexgrave.sc;
+kernLeft = a.sc;
+kernRight = a.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = a.sc;
+},
+{
+pos = (106,24);
+ref = circumflexcomb_gravecomb.sc;
+}
+);
+width = 524;
+}
+);
+},
+{
+glyphname = acircumflexhookabove.sc;
+kernLeft = a.sc;
+kernRight = a.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = a.sc;
+},
+{
+pos = (106,24);
+ref = circumflexcomb_hookabovecomb.sc;
+}
+);
+width = 524;
+}
+);
+},
+{
+glyphname = acircumflextilde.sc;
+kernLeft = a.sc;
+kernRight = a.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = a.sc;
+},
+{
+pos = (106,24);
+ref = circumflexcomb_tildecomb.sc;
+}
+);
+width = 524;
+}
+);
+},
+{
+glyphname = adblgrave.sc;
+kernLeft = a.sc;
+kernRight = a.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = a.sc;
+},
+{
+pos = (11,24);
+ref = dblgravecomb.sc;
+}
+);
+width = 524;
+}
+);
+},
+{
+glyphname = adieresis.sc;
+kernLeft = a.sc;
+kernRight = a.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = a.sc;
+},
+{
+pos = (109,24);
+ref = dieresiscomb.sc;
+}
+);
+width = 524;
+}
+);
+},
+{
+glyphname = adieresismacron.sc;
+kernLeft = a.sc;
+kernRight = a.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = a.sc;
+},
+{
+pos = (109,24);
+ref = dieresiscomb.sc;
+},
+{
+pos = (164,189);
+ref = macroncomb.sc;
+}
+);
+width = 524;
+}
+);
+},
+{
+glyphname = adotaccent.sc;
+kernLeft = a.sc;
+kernRight = a.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = a.sc;
+},
+{
+pos = (182,-40);
+ref = dotaccentcomb.sc;
+}
+);
+width = 524;
+}
+);
+},
+{
+glyphname = adotbelow.sc;
+kernLeft = a.sc;
+kernRight = a.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = a.sc;
+},
+{
+pos = (208,0);
+ref = dotbelowcomb;
+}
+);
+width = 524;
+}
+);
+},
+{
+glyphname = adotmacron.sc;
+kernLeft = a.sc;
+kernRight = a.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = a.sc;
+},
+{
+pos = (182,-40);
+ref = dotaccentcomb.sc;
+},
+{
+pos = (168,189);
+ref = macroncomb.sc;
+}
+);
+width = 524;
+}
+);
+},
+{
+glyphname = agrave.sc;
+kernLeft = a.sc;
+kernRight = a.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = a.sc;
+},
+{
+pos = (88,24);
+ref = gravecomb.sc;
+}
+);
+width = 524;
+}
+);
+},
+{
+glyphname = ahookabove.sc;
+kernLeft = a.sc;
+kernRight = a.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = a.sc;
+},
+{
+pos = (111,24);
+ref = hookabovecomb.sc;
+}
+);
+width = 524;
+}
+);
+},
+{
+glyphname = ainvertedbreve.sc;
+kernLeft = a.sc;
+kernRight = a.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = a.sc;
+},
+{
+pos = (103,24);
+ref = breveinvertedcomb;
+}
+);
+width = 524;
+}
+);
+},
+{
+glyphname = amacron.sc;
+kernLeft = a.sc;
+kernRight = a.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = a.sc;
+},
+{
+pos = (135,24);
+ref = macroncomb.sc;
+}
+);
+width = 524;
+}
+);
+},
+{
+glyphname = amacron_gravecomb.sc;
+kernLeft = a.sc;
+kernRight = a.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = a.sc;
+},
+{
+pos = (135,24);
+ref = macroncomb.sc;
+},
+{
+pos = (121,189);
+ref = gravecomb.sc;
+}
+);
+width = 524;
+}
+);
+},
+{
+glyphname = aogonek.sc;
+kernLeft = a.sc;
+kernRight = a.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = a.sc;
+},
+{
+pos = (324,0);
+ref = ogonekcomb;
+}
+);
+width = 524;
+}
+);
+},
+{
+glyphname = aogonek_acutecomb.sc;
+kernLeft = a.sc;
+kernRight = a.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = aogonek.sc;
+},
+{
+pos = (206,24);
+ref = acutecomb.sc;
+}
+);
+width = 524;
+}
+);
+},
+{
+glyphname = aogonek_tildecomb.sc;
+kernLeft = a.sc;
+kernRight = a.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = aogonek.sc;
+},
+{
+pos = (114,24);
+ref = tildecomb.sc;
+}
+);
+width = 524;
+}
+);
+},
+{
+glyphname = arighthalfring.sc;
+kernLeft = a.sc;
+kernRight = a.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = a.sc;
+},
+{
+alignment = -1;
+pos = (377,14);
+ref = ringhalfright;
+}
+);
+width = 524;
+}
+);
+},
+{
+glyphname = aring.sc;
+kernLeft = a.sc;
+kernRight = a.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = a.sc;
+},
+{
+pos = (144,24);
+ref = ringcomb.sc;
+}
+);
+width = 524;
+}
+);
+},
+{
+glyphname = aringacute.sc;
+kernLeft = a.sc;
+kernRight = a.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = a.sc;
+},
+{
+pos = (144,24);
+ref = ringcomb.sc;
+},
+{
+pos = (243,222);
+ref = acutecomb.sc;
+}
+);
+width = 524;
+}
+);
+},
+{
+glyphname = aringbelow.sc;
+kernLeft = a.sc;
+kernRight = a.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = a.sc;
+},
+{
+pos = (172,0);
+ref = ringbelowcomb;
+}
+);
+width = 524;
+}
+);
+},
+{
+glyphname = atilde.sc;
+kernLeft = a.sc;
+kernRight = a.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = a.sc;
+},
+{
+pos = (114,24);
+ref = tildecomb.sc;
+}
+);
+width = 524;
+}
+);
+},
+{
+glyphname = ae.sc;
+kernLeft = a.sc;
+kernRight = e.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+anchors = (
+{
+name = top;
+pos = (604,518);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(148,0,l),
+(156,38,l),
+(115,44,o),
+(103,51,o),
+(103,65,cs),
+(103,71,o),
+(105,75,o),
+(125,99,cs),
+(186,172,l),
+(380,172,l),
+(357,85,ls),
+(345,40,o),
+(319,40,o),
+(282,38,c),
+(272,0,l),
+(688,0,l),
+(755,130,l),
+(721,150,l),
+(670,97,o),
+(621,41,o),
+(494,41,cs),
+(462,41,o),
+(438,42,o),
+(438,59,cs),
+(438,63,o),
+(438,70,o),
+(442,85,cs),
+(486,249,l),
+(534,246,o),
+(558,246,o),
+(578,226,cs),
+(582,222,o),
+(587,216,o),
+(587,192,cs),
+(587,178,o),
+(585,161,o),
+(584,152,c),
+(623,152,l),
+(680,363,l),
+(641,363,l),
+(611,304,o),
+(600,288,o),
+(497,288,c),
+(531,415,ls),
+(548,476,o),
+(557,476,o),
+(596,476,cs),
+(681,476,o),
+(710,431,o),
+(740,372,c),
+(779,379,l),
+(755,516,l),
+(337,516,l),
+(319,478,l),
+(373,478,ls),
+(379,478,o),
+(383,477,o),
+(383,472,cs),
+(383,467,o),
+(377,457,o),
+(368,447,cs),
+(68,112,ls),
+(31,71,o),
+(13,50,o),
+(-37,37,c),
+(-47,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(432,452,ls),
+(447,469,o),
+(451,482,o),
+(457,482,cs),
+(459,482,o),
+(461,479,o),
+(461,476,c),
+(391,216,l),
+(223,216,l)
+);
+}
+);
+width = 797;
+}
+);
+metricRight = e.sc;
+},
+{
+glyphname = aeacute.sc;
+kernLeft = a.sc;
+kernRight = e.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = ae.sc;
+},
+{
+pos = (418,24);
+ref = acutecomb.sc;
+}
+);
+width = 797;
+}
+);
+},
+{
+glyphname = aemacron.sc;
+kernLeft = a.sc;
+kernRight = e.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = ae.sc;
+},
+{
+pos = (347,24);
+ref = macroncomb.sc;
+}
+);
+width = 797;
+}
+);
+},
+{
+glyphname = b.sc;
+kernLeft = b.sc;
+kernRight = b.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+anchors = (
+{
+name = dotbelow;
+pos = (211,0);
+},
+{
+name = top;
+pos = (398,518);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(213,0,ls),
+(254,0,o),
+(331,4,o),
+(375,19,cs),
+(410,31,o),
+(484,75,o),
+(484,157,cs),
+(484,230,o),
+(424,263,o),
+(378,274,c),
+(456,289,o),
+(523,329,o),
+(523,399,cs),
+(523,431,o),
+(514,516,o),
+(309,516,cs),
+(127,516,l),
+(117,477,l),
+(168,477,o),
+(183,474,o),
+(183,452,cs),
+(183,448,o),
+(183,444,o),
+(178,426,cs),
+(87,85,ls),
+(74,39,o),
+(47,40,o),
+(11,39,c),
+(0,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(194,39,o),
+(168,42,o),
+(168,59,cs),
+(168,63,o),
+(169,74,o),
+(172,85,cs),
+(218,254,l),
+(279,254,ls),
+(316,254,o),
+(396,254,o),
+(396,182,cs),
+(396,142,o),
+(376,96,o),
+(353,73,cs),
+(320,40,o),
+(258,39,o),
+(228,39,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(261,415,ls),
+(278,476,o),
+(289,476,o),
+(333,476,cs),
+(370,476,o),
+(434,472,o),
+(434,410,cs),
+(434,379,o),
+(415,311,o),
+(338,298,cs),
+(308,293,o),
+(284,293,o),
+(228,293,c)
+);
+}
+);
+width = 529;
+}
+);
+},
+{
+glyphname = bdotaccent.sc;
+kernLeft = b.sc;
+kernRight = b.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = b.sc;
+},
+{
+pos = (188,-40);
+ref = dotaccentcomb.sc;
+}
+);
+width = 529;
+}
+);
+},
+{
+glyphname = bdotbelow.sc;
+kernLeft = b.sc;
+kernRight = b.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = b.sc;
+},
+{
+pos = (179,0);
+ref = dotbelowcomb;
+}
+);
+width = 529;
+}
+);
+},
+{
+glyphname = bmacronbelow.sc;
+kernLeft = b.sc;
+kernRight = b.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = b.sc;
+},
+{
+pos = (117,0);
+ref = macronbelowcomb;
+}
+);
+width = 529;
+}
+);
+},
+{
+glyphname = bstroke.sc;
+kernLeft = b.sc;
+kernRight = b.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(300,143,l),
+(310,182,l),
+(40,182,l),
+(30,143,l)
+);
+},
+{
+ref = b.sc;
+}
+);
+width = 529;
+}
+);
+},
+{
+glyphname = c.sc;
+kernLeft = c.sc;
+kernRight = c.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+anchors = (
+{
+name = attachcedilla;
+pos = (208,-17);
+},
+{
+name = top;
+pos = (393,518);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(381,-18,o),
+(453,86,o),
+(488,147,c),
+(454,169,l),
+(431,133,o),
+(378,49,o),
+(280,49,cs),
+(170,49,o),
+(148,146,o),
+(148,200,cs),
+(148,277,o),
+(207,490,o),
+(349,490,cs),
+(430,490,o),
+(465,405,o),
+(483,362,c),
+(526,368,l),
+(502,525,l),
+(487,517,o),
+(463,503,o),
+(449,503,cs),
+(421,503,o),
+(417,534,o),
+(347,534,cs),
+(228,534,o),
+(55,383,o),
+(55,191,cs),
+(55,122,o),
+(98,-18,o),
+(254,-18,cs)
+);
+}
+);
+width = 530;
+}
+);
+},
+{
+glyphname = c_dieresiscomb.sc;
+kernLeft = c.sc;
+kernRight = c.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = c.sc;
+},
+{
+pos = (110,24);
+ref = dieresiscomb.sc;
+}
+);
+width = 530;
+}
+);
+},
+{
+glyphname = cacute.sc;
+kernLeft = c.sc;
+kernRight = c.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = c.sc;
+},
+{
+pos = (207,24);
+ref = acutecomb.sc;
+}
+);
+width = 530;
+}
+);
+},
+{
+glyphname = ccaron.sc;
+kernLeft = c.sc;
+kernRight = c.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = c.sc;
+},
+{
+pos = (111,24);
+ref = caroncomb.sc;
+}
+);
+width = 530;
+}
+);
+},
+{
+glyphname = ccedilla.sc;
+kernLeft = c.sc;
+kernRight = c.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = c.sc;
+},
+{
+pos = (133,-17);
+ref = cedillacomb;
+}
+);
+width = 530;
+}
+);
+},
+{
+glyphname = ccedillaacute.sc;
+kernLeft = c.sc;
+kernRight = c.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = c.sc;
+},
+{
+pos = (133,-17);
+ref = cedillacomb;
+},
+{
+pos = (207,24);
+ref = acutecomb.sc;
+}
+);
+width = 530;
+}
+);
+},
+{
+glyphname = ccircumflex.sc;
+kernLeft = c.sc;
+kernRight = c.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = c.sc;
+},
+{
+pos = (107,24);
+ref = circumflexcomb.sc;
+}
+);
+width = 530;
+}
+);
+},
+{
+glyphname = cdotaccent.sc;
+kernLeft = c.sc;
+kernRight = c.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = c.sc;
+},
+{
+pos = (183,-40);
+ref = dotaccentcomb.sc;
+}
+);
+width = 530;
+}
+);
+},
+{
+glyphname = d.sc;
+kernLeft = d.sc;
+kernRight = d.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+anchors = (
+{
+name = commaaccentbelow;
+pos = (219,0);
+},
+{
+name = dotbelow;
+pos = (204,0);
+},
+{
+name = top;
+pos = (412,518);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(217,0,ls),
+(328,0,o),
+(396,46,o),
+(425,69,cs),
+(461,97,o),
+(544,177,o),
+(544,311,cs),
+(544,416,o),
+(489,459,o),
+(460,479,cs),
+(409,514,o),
+(350,516,o),
+(315,516,cs),
+(127,516,l),
+(117,477,l),
+(169,477,o),
+(183,474,o),
+(183,452,cs),
+(183,448,o),
+(183,448,o),
+(177,426,cs),
+(86,85,ls),
+(74,40,o),
+(47,40,o),
+(11,38,c),
+(0,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(177,39,o),
+(166,44,o),
+(166,54,cs),
+(166,59,o),
+(166,63,o),
+(172,85,cs),
+(261,415,ls),
+(277,475,o),
+(287,477,o),
+(324,477,cs),
+(371,477,o),
+(454,462,o),
+(454,354,cs),
+(454,272,o),
+(423,162,o),
+(372,104,cs),
+(320,44,o),
+(248,39,o),
+(212,39,cs)
+);
+}
+);
+width = 555;
+}
+);
+},
+{
+glyphname = dcaron.sc;
+kernLeft = d.sc;
+kernRight = d.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = d.sc;
+},
+{
+pos = (130,24);
+ref = caroncomb.sc;
+}
+);
+width = 555;
+}
+);
+},
+{
+glyphname = dcedilla.sc;
+kernLeft = d.sc;
+kernRight = d.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = d.sc;
+},
+{
+pos = (178,0);
+ref = commaaccentcomb;
+}
+);
+width = 555;
+}
+);
+},
+{
+glyphname = dcircumflexbelow.sc;
+kernLeft = d.sc;
+kernRight = d.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = d.sc;
+},
+{
+pos = (78,0);
+ref = circumflexbelowcomb;
+}
+);
+width = 555;
+}
+);
+},
+{
+glyphname = dcroat.sc;
+kernLeft = d.sc;
+kernRight = d.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = eth.sc;
+}
+);
+width = 555;
+}
+);
+},
+{
+glyphname = ddotaccent.sc;
+kernLeft = d.sc;
+kernRight = d.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = d.sc;
+},
+{
+pos = (202,-40);
+ref = dotaccentcomb.sc;
+}
+);
+width = 555;
+}
+);
+},
+{
+glyphname = ddotbelow.sc;
+kernLeft = d.sc;
+kernRight = d.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = d.sc;
+},
+{
+pos = (172,0);
+ref = dotbelowcomb;
+}
+);
+width = 555;
+}
+);
+},
+{
+glyphname = dmacronbelow.sc;
+kernLeft = d.sc;
+kernRight = d.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = d.sc;
+},
+{
+pos = (110,0);
+ref = macronbelowcomb;
+}
+);
+width = 555;
+}
+);
+},
+{
+glyphname = eth.sc;
+kernLeft = d.sc;
+kernRight = d.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(335,245,l),
+(345,283,l),
+(76,283,l),
+(66,245,l)
+);
+},
+{
+ref = d.sc;
+}
+);
+width = 555;
+}
+);
+},
+{
+glyphname = e.sc;
+kernLeft = e.sc;
+kernRight = e.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+anchors = (
+{
+name = attachcedilla;
+pos = (183,-17);
+},
+{
+name = dotbelow;
+pos = (202,0);
+},
+{
+name = ogonek;
+pos = (272,0);
+},
+{
+name = top;
+pos = (384,518);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(427,0,l),
+(492,130,l),
+(462,148,l),
+(410,95,o),
+(358,41,o),
+(227,41,cs),
+(194,41,o),
+(167,42,o),
+(167,59,cs),
+(167,63,o),
+(168,70,o),
+(172,85,cs),
+(216,249,l),
+(269,246,o),
+(292,246,o),
+(310,226,cs),
+(319,216,o),
+(321,201,o),
+(321,193,cs),
+(321,177,o),
+(320,161,o),
+(318,152,c),
+(357,152,l),
+(413,363,l),
+(375,363,l),
+(344,304,o),
+(334,288,o),
+(227,288,c),
+(261,415,ls),
+(278,476,o),
+(288,476,o),
+(329,476,cs),
+(447,476,o),
+(473,417,o),
+(495,370,c),
+(533,378,l),
+(509,516,l),
+(127,516,l),
+(117,477,l),
+(169,477,o),
+(183,474,o),
+(183,452,cs),
+(183,448,o),
+(183,444,o),
+(178,426,cs),
+(87,85,ls),
+(74,39,o),
+(46,40,o),
+(11,39,c),
+(0,0,l)
+);
+}
+);
+width = 534;
+}
+);
+},
+{
+glyphname = eacute.sc;
+kernLeft = e.sc;
+kernRight = e.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = e.sc;
+},
+{
+pos = (198,24);
+ref = acutecomb.sc;
+}
+);
+width = 534;
+}
+);
+},
+{
+glyphname = ebreve.sc;
+kernLeft = e.sc;
+kernRight = e.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = e.sc;
+},
+{
+pos = (95,24);
+ref = brevecomb.sc;
+}
+);
+width = 534;
+}
+);
+},
+{
+glyphname = ecaron.sc;
+kernLeft = e.sc;
+kernRight = e.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = e.sc;
+},
+{
+pos = (102,24);
+ref = caroncomb.sc;
+}
+);
+width = 534;
+}
+);
+},
+{
+glyphname = ecedilla.sc;
+kernLeft = e.sc;
+kernRight = e.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = e.sc;
+},
+{
+pos = (108,-17);
+ref = cedillacomb;
+}
+);
+width = 534;
+}
+);
+},
+{
+glyphname = ecedillabreve.sc;
+kernLeft = e.sc;
+kernRight = e.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = ecedilla.sc;
+},
+{
+pos = (95,24);
+ref = brevecomb.sc;
+}
+);
+width = 534;
+}
+);
+},
+{
+glyphname = ecircumflex.sc;
+kernLeft = e.sc;
+kernRight = e.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = e.sc;
+},
+{
+pos = (98,24);
+ref = circumflexcomb.sc;
+}
+);
+width = 534;
+}
+);
+},
+{
+glyphname = ecircumflex_caroncomb.sc;
+kernLeft = e.sc;
+kernRight = e.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = e.sc;
+},
+{
+pos = (98,24);
+ref = circumflexcomb_caroncomb;
+}
+);
+width = 534;
+}
+);
+},
+{
+glyphname = ecircumflex_macroncomb.sc;
+kernLeft = e.sc;
+kernRight = e.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = e.sc;
+},
+{
+pos = (98,24);
+ref = circumflexcomb.sc;
+},
+{
+pos = (175,206);
+ref = macroncomb.sc;
+}
+);
+width = 534;
+}
+);
+},
+{
+glyphname = ecircumflexacute.sc;
+kernLeft = e.sc;
+kernRight = e.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = e.sc;
+},
+{
+pos = (98,24);
+ref = circumflexcomb_acutecomb.sc;
+}
+);
+width = 534;
+}
+);
+},
+{
+glyphname = ecircumflexbelow.sc;
+kernLeft = e.sc;
+kernRight = e.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = e.sc;
+},
+{
+pos = (76,0);
+ref = circumflexbelowcomb;
+}
+);
+width = 534;
+}
+);
+},
+{
+glyphname = ecircumflexdotbelow.sc;
+kernLeft = e.sc;
+kernRight = e.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = e.sc;
+},
+{
+pos = (170,0);
+ref = dotbelowcomb;
+},
+{
+pos = (98,24);
+ref = circumflexcomb.sc;
+}
+);
+width = 534;
+}
+);
+},
+{
+glyphname = ecircumflexgrave.sc;
+kernLeft = e.sc;
+kernRight = e.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = e.sc;
+},
+{
+pos = (98,24);
+ref = circumflexcomb_gravecomb.sc;
+}
+);
+width = 534;
+}
+);
+},
+{
+glyphname = ecircumflexhookabove.sc;
+kernLeft = e.sc;
+kernRight = e.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = e.sc;
+},
+{
+pos = (98,24);
+ref = circumflexcomb_hookabovecomb.sc;
+}
+);
+width = 534;
+}
+);
+},
+{
+glyphname = ecircumflextilde.sc;
+kernLeft = e.sc;
+kernRight = e.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = e.sc;
+},
+{
+pos = (98,24);
+ref = circumflexcomb_tildecomb.sc;
+}
+);
+width = 534;
+}
+);
+},
+{
+glyphname = edblgrave.sc;
+kernLeft = e.sc;
+kernRight = e.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = e.sc;
+},
+{
+pos = (3,24);
+ref = dblgravecomb.sc;
+}
+);
+width = 534;
+}
+);
+},
+{
+glyphname = edieresis.sc;
+kernLeft = e.sc;
+kernRight = e.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = e.sc;
+},
+{
+pos = (101,24);
+ref = dieresiscomb.sc;
+}
+);
+width = 534;
+}
+);
+},
+{
+glyphname = edotaccent.sc;
+kernLeft = e.sc;
+kernRight = e.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = e.sc;
+},
+{
+pos = (174,-40);
+ref = dotaccentcomb.sc;
+}
+);
+width = 534;
+}
+);
+},
+{
+glyphname = edotaccent_acutecomb.sc;
+kernLeft = e.sc;
+kernRight = e.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = e.sc;
+},
+{
+pos = (174,-40);
+ref = dotaccentcomb.sc;
+},
+{
+pos = (231,189);
+ref = acutecomb.sc;
+}
+);
+width = 534;
+}
+);
+},
+{
+glyphname = edotaccent_tildecomb.sc;
+kernLeft = e.sc;
+kernRight = e.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = e.sc;
+},
+{
+pos = (174,-40);
+ref = dotaccentcomb.sc;
+},
+{
+pos = (139,189);
+ref = tildecomb.sc;
+}
+);
+width = 534;
+}
+);
+},
+{
+glyphname = edotbelow.sc;
+kernLeft = e.sc;
+kernRight = e.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = e.sc;
+},
+{
+pos = (170,0);
+ref = dotbelowcomb;
+}
+);
+width = 534;
+}
+);
+},
+{
+glyphname = egrave.sc;
+kernLeft = e.sc;
+kernRight = e.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = e.sc;
+},
+{
+pos = (80,24);
+ref = gravecomb.sc;
+}
+);
+width = 534;
+}
+);
+},
+{
+glyphname = ehookabove.sc;
+kernLeft = e.sc;
+kernRight = e.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = e.sc;
+},
+{
+pos = (103,24);
+ref = hookabovecomb.sc;
+}
+);
+width = 534;
+}
+);
+},
+{
+glyphname = einvertedbreve.sc;
+kernLeft = e.sc;
+kernRight = e.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = e.sc;
+},
+{
+pos = (95,24);
+ref = breveinvertedcomb;
+}
+);
+width = 534;
+}
+);
+},
+{
+glyphname = emacron.sc;
+kernLeft = e.sc;
+kernRight = e.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = e.sc;
+},
+{
+pos = (127,24);
+ref = macroncomb.sc;
+}
+);
+width = 534;
+}
+);
+},
+{
+glyphname = emacronacute.sc;
+kernLeft = e.sc;
+kernRight = e.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = e.sc;
+},
+{
+pos = (127,24);
+ref = macroncomb.sc;
+},
+{
+pos = (231,189);
+ref = acutecomb.sc;
+}
+);
+width = 534;
+}
+);
+},
+{
+glyphname = emacrongrave.sc;
+kernLeft = e.sc;
+kernRight = e.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = e.sc;
+},
+{
+pos = (127,24);
+ref = macroncomb.sc;
+},
+{
+pos = (113,189);
+ref = gravecomb.sc;
+}
+);
+width = 534;
+}
+);
+},
+{
+glyphname = eogonek.sc;
+kernLeft = e.sc;
+kernRight = e.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = e.sc;
+},
+{
+pos = (192,0);
+ref = ogonekcomb;
+}
+);
+width = 534;
+}
+);
+},
+{
+glyphname = eogonek_acutecomb.sc;
+kernLeft = e.sc;
+kernRight = e.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = eogonek.sc;
+},
+{
+pos = (198,24);
+ref = acutecomb.sc;
+}
+);
+width = 534;
+}
+);
+},
+{
+glyphname = eogonek_tildecomb.sc;
+kernLeft = e.sc;
+kernRight = e.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = eogonek.sc;
+},
+{
+pos = (106,24);
+ref = tildecomb.sc;
+}
+);
+width = 534;
+}
+);
+},
+{
+glyphname = etilde.sc;
+kernLeft = e.sc;
+kernRight = e.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = e.sc;
+},
+{
+pos = (106,24);
+ref = tildecomb.sc;
+}
+);
+width = 534;
+}
+);
+},
+{
+glyphname = etildebelow.sc;
+kernLeft = e.sc;
+kernRight = e.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = e.sc;
+},
+{
+pos = (106,0);
+ref = tildebelowcomb;
+}
+);
+width = 534;
+}
+);
+},
+{
+glyphname = f.sc;
+kernLeft = e.sc;
+kernRight = f.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+anchors = (
+{
+name = top;
+pos = (384,518);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(229,0,l),
+(240,39,l),
+(204,39,o),
+(168,41,o),
+(168,59,cs),
+(168,63,o),
+(169,74,o),
+(172,85,cs),
+(216,246,l),
+(270,243,o),
+(295,239,o),
+(308,226,cs),
+(317,217,o),
+(317,197,o),
+(317,186,cs),
+(317,171,o),
+(317,159,o),
+(316,150,c),
+(357,150,l),
+(413,363,l),
+(375,363,l),
+(345,304,o),
+(334,288,o),
+(227,288,c),
+(261,415,ls),
+(277,474,o),
+(287,474,o),
+(330,474,cs),
+(447,474,o),
+(474,418,o),
+(499,361,c),
+(536,371,l),
+(512,516,l),
+(127,516,l),
+(117,477,l),
+(168,477,o),
+(183,474,o),
+(183,452,cs),
+(183,448,o),
+(183,444,o),
+(178,426,cs),
+(87,85,ls),
+(74,39,o),
+(47,40,o),
+(11,39,c),
+(0,0,l)
+);
+}
+);
+width = 467;
+}
+);
+},
+{
+glyphname = fdotaccent.sc;
+kernLeft = e.sc;
+kernRight = f.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = f.sc;
+},
+{
+pos = (174,-40);
+ref = dotaccentcomb.sc;
+}
+);
+width = 467;
+}
+);
+},
+{
+glyphname = g.sc;
+kernLeft = g.sc;
+kernRight = g.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+anchors = (
+{
+name = commaaccentbelow;
+pos = (212,0);
+},
+{
+name = top;
+pos = (406,518);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(303,-18,o),
+(308,1,o),
+(358,11,cs),
+(378,15,o),
+(410,15,o),
+(424,16,c),
+(452,119,ls),
+(469,181,o),
+(471,179,o),
+(525,182,c),
+(536,220,l),
+(327,220,l),
+(317,182,l),
+(354,182,o),
+(382,180,o),
+(382,160,cs),
+(382,153,o),
+(379,139,o),
+(376,127,cs),
+(354,42,o),
+(295,26,o),
+(257,26,cs),
+(162,26,o),
+(146,113,o),
+(146,165,cs),
+(146,340,o),
+(248,490,o),
+(348,490,cs),
+(430,490,o),
+(464,402,o),
+(481,362,c),
+(522,367,l),
+(501,522,l),
+(488,516,o),
+(463,504,o),
+(450,504,cs),
+(420,504,o),
+(410,534,o),
+(341,534,cs),
+(221,534,o),
+(56,382,o),
+(56,188,cs),
+(56,123,o),
+(93,-18,o),
+(245,-18,cs)
+);
+}
+);
+width = 562;
+}
+);
+},
+{
+glyphname = gacute.sc;
+kernLeft = g.sc;
+kernRight = g.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = g.sc;
+},
+{
+pos = (220,24);
+ref = acutecomb.sc;
+}
+);
+width = 562;
+}
+);
+},
+{
+glyphname = gbreve.sc;
+kernLeft = g.sc;
+kernRight = g.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = g.sc;
+},
+{
+pos = (117,24);
+ref = brevecomb.sc;
+}
+);
+width = 562;
+}
+);
+},
+{
+glyphname = gcaron.sc;
+kernLeft = g.sc;
+kernRight = g.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = g.sc;
+},
+{
+pos = (124,24);
+ref = caroncomb.sc;
+}
+);
+width = 562;
+}
+);
+},
+{
+glyphname = gcircumflex.sc;
+kernLeft = g.sc;
+kernRight = g.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = g.sc;
+},
+{
+pos = (120,24);
+ref = circumflexcomb.sc;
+}
+);
+width = 562;
+}
+);
+},
+{
+glyphname = gcommaaccent.sc;
+kernLeft = g.sc;
+kernRight = g.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = g.sc;
+},
+{
+pos = (171,0);
+ref = commaaccentcomb;
+}
+);
+width = 562;
+}
+);
+},
+{
+glyphname = gdotaccent.sc;
+kernLeft = g.sc;
+kernRight = g.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = g.sc;
+},
+{
+pos = (196,-40);
+ref = dotaccentcomb.sc;
+}
+);
+width = 562;
+}
+);
+},
+{
+glyphname = gmacron.sc;
+kernLeft = g.sc;
+kernRight = g.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = g.sc;
+},
+{
+pos = (149,24);
+ref = macroncomb.sc;
+}
+);
+width = 562;
+}
+);
+},
+{
+glyphname = h.sc;
+kernLeft = h.sc;
+kernRight = h.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+anchors = (
+{
+name = attachcedilla;
+pos = (80,-17);
+},
+{
+name = dotbelow;
+pos = (253,0);
+},
+{
+name = top;
+pos = (438,518);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(224,0,l),
+(235,39,l),
+(197,39,o),
+(168,41,o),
+(168,59,cs),
+(168,63,o),
+(169,74,o),
+(172,85,cs),
+(216,245,l),
+(420,245,l),
+(377,85,ls),
+(364,39,o),
+(337,40,o),
+(301,39,c),
+(291,0,l),
+(515,0,l),
+(526,39,l),
+(471,39,o),
+(458,44,o),
+(458,61,cs),
+(458,64,o),
+(458,66,o),
+(463,85,cs),
+(551,415,ls),
+(566,471,o),
+(570,475,o),
+(632,478,c),
+(642,516,l),
+(418,516,l),
+(408,477,l),
+(445,477,o),
+(474,475,o),
+(474,456,cs),
+(474,449,o),
+(472,437,o),
+(469,426,cs),
+(432,289,l),
+(227,289,l),
+(261,415,ls),
+(277,472,o),
+(280,475,o),
+(341,478,c),
+(352,516,l),
+(127,516,l),
+(117,477,l),
+(168,477,o),
+(183,474,o),
+(183,452,cs),
+(183,448,o),
+(183,444,o),
+(178,426,cs),
+(87,85,ls),
+(74,39,o),
+(47,40,o),
+(11,39,c),
+(0,0,l)
+);
+}
+);
+width = 596;
+}
+);
+},
+{
+glyphname = hbar.sc;
+kernLeft = h.sc;
+kernRight = h.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(598,351,l),
+(608,390,l),
+(94,390,l),
+(84,351,l)
+);
+},
+{
+ref = h.sc;
+}
+);
+width = 596;
+}
+);
+},
+{
+glyphname = hbrevebelow.sc;
+kernLeft = h.sc;
+kernRight = h.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = h.sc;
+},
+{
+pos = (124,0);
+ref = brevebelowcomb;
+}
+);
+width = 596;
+}
+);
+},
+{
+glyphname = hcaron.sc;
+kernLeft = h.sc;
+kernRight = h.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = h.sc;
+},
+{
+pos = (156,24);
+ref = caroncomb.sc;
+}
+);
+width = 596;
+}
+);
+},
+{
+glyphname = hcedilla.sc;
+kernLeft = h.sc;
+kernRight = h.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = h.sc;
+},
+{
+pos = (5,-17);
+ref = cedillacomb;
+}
+);
+width = 596;
+}
+);
+},
+{
+glyphname = hcircumflex.sc;
+kernLeft = h.sc;
+kernRight = h.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = h.sc;
+},
+{
+pos = (152,24);
+ref = circumflexcomb.sc;
+}
+);
+width = 596;
+}
+);
+},
+{
+glyphname = hdieresis.sc;
+kernLeft = h.sc;
+kernRight = h.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = h.sc;
+},
+{
+pos = (155,24);
+ref = dieresiscomb.sc;
+}
+);
+width = 596;
+}
+);
+},
+{
+glyphname = hdotaccent.sc;
+kernLeft = h.sc;
+kernRight = h.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = h.sc;
+},
+{
+pos = (228,-40);
+ref = dotaccentcomb.sc;
+}
+);
+width = 596;
+}
+);
+},
+{
+glyphname = hdotbelow.sc;
+kernLeft = h.sc;
+kernRight = h.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = h.sc;
+},
+{
+pos = (221,0);
+ref = dotbelowcomb;
+}
+);
+width = 596;
+}
+);
+},
+{
+glyphname = hmacronbelow.sc;
+kernLeft = h.sc;
+kernRight = h.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = h.sc;
+},
+{
+pos = (159,0);
+ref = macronbelowcomb;
+}
+);
+width = 596;
+}
+);
+},
+{
+glyphname = i.sc;
+kernLeft = i.sc;
+kernRight = i.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = idotless.sc;
+}
+);
+width = 303;
+}
+);
+},
+{
+glyphname = idotless.sc;
+kernLeft = i.sc;
+kernRight = i.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+anchors = (
+{
+name = dotbelow;
+pos = (105,0);
+},
+{
+name = ogonek;
+pos = (96,0);
+},
+{
+name = top;
+pos = (296,518);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(224,0,l),
+(235,39,l),
+(198,39,o),
+(167,41,o),
+(167,59,cs),
+(167,63,o),
+(168,70,o),
+(172,85,cs),
+(261,415,ls),
+(276,472,o),
+(279,475,o),
+(341,478,c),
+(352,516,l),
+(126,516,l),
+(116,477,l),
+(168,477,o),
+(183,474,o),
+(183,452,cs),
+(183,448,o),
+(183,448,o),
+(177,426,cs),
+(86,85,ls),
+(74,40,o),
+(46,40,o),
+(10,39,c),
+(-1,0,l)
+);
+}
+);
+width = 303;
+}
+);
+},
+{
+glyphname = iacute.sc;
+kernLeft = i.sc;
+kernRight = i.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = i.sc;
+},
+{
+pos = (110,24);
+ref = acutecomb.sc;
+}
+);
+width = 303;
+}
+);
+},
+{
+glyphname = ibreve.sc;
+kernLeft = i.sc;
+kernRight = i.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = i.sc;
+},
+{
+pos = (7,24);
+ref = brevecomb.sc;
+}
+);
+width = 303;
+}
+);
+},
+{
+glyphname = icaron.sc;
+kernLeft = i.sc;
+kernRight = i.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = i.sc;
+},
+{
+pos = (14,24);
+ref = caroncomb.sc;
+}
+);
+width = 303;
+}
+);
+},
+{
+glyphname = icircumflex.sc;
+kernLeft = i.sc;
+kernRight = i.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = i.sc;
+},
+{
+pos = (10,24);
+ref = circumflexcomb.sc;
+}
+);
+width = 303;
+}
+);
+},
+{
+glyphname = idblgrave.sc;
+kernLeft = i.sc;
+kernRight = i.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = i.sc;
+},
+{
+pos = (-85,24);
+ref = dblgravecomb.sc;
+}
+);
+width = 303;
+}
+);
+},
+{
+glyphname = idieresis.sc;
+kernLeft = i.sc;
+kernRight = i.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = i.sc;
+},
+{
+pos = (13,24);
+ref = dieresiscomb.sc;
+}
+);
+width = 303;
+}
+);
+},
+{
+glyphname = idieresisacute.sc;
+kernLeft = i.sc;
+kernRight = i.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = i.sc;
+},
+{
+pos = (13,24);
+ref = dieresiscomb.sc;
+},
+{
+pos = (139,189);
+ref = acutecomb.sc;
+}
+);
+width = 303;
+}
+);
+},
+{
+glyphname = idotaccent.sc;
+kernLeft = i.sc;
+kernRight = i.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = i.sc;
+},
+{
+pos = (86,-40);
+ref = dotaccentcomb.sc;
+}
+);
+width = 303;
+}
+);
+},
+{
+glyphname = idotbelow.sc;
+kernLeft = i.sc;
+kernRight = i.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = i.sc;
+},
+{
+pos = (73,0);
+ref = dotbelowcomb;
+}
+);
+width = 303;
+}
+);
+},
+{
+glyphname = igrave.sc;
+kernLeft = i.sc;
+kernRight = i.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = i.sc;
+},
+{
+pos = (-8,24);
+ref = gravecomb.sc;
+}
+);
+width = 303;
+}
+);
+},
+{
+glyphname = ihookabove.sc;
+kernLeft = i.sc;
+kernRight = i.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = i.sc;
+},
+{
+pos = (15,24);
+ref = hookabovecomb.sc;
+}
+);
+width = 303;
+}
+);
+},
+{
+glyphname = iinvertedbreve.sc;
+kernLeft = i.sc;
+kernRight = i.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = i.sc;
+},
+{
+pos = (7,24);
+ref = breveinvertedcomb;
+}
+);
+width = 303;
+}
+);
+},
+{
+glyphname = imacron.sc;
+kernLeft = i.sc;
+kernRight = i.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = i.sc;
+},
+{
+pos = (39,24);
+ref = macroncomb.sc;
+}
+);
+width = 303;
+}
+);
+},
+{
+glyphname = imacron_gravecomb.sc;
+kernLeft = i.sc;
+kernRight = i.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = imacron.sc;
+},
+{
+pos = (25,189);
+ref = gravecomb.sc;
+}
+);
+width = 303;
+}
+);
+},
+{
+glyphname = iogonek.sc;
+kernLeft = i.sc;
+kernRight = i.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = i.sc;
+},
+{
+pos = (16,0);
+ref = ogonekcomb;
+}
+);
+width = 303;
+}
+);
+},
+{
+glyphname = itilde.sc;
+kernLeft = i.sc;
+kernRight = i.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = i.sc;
+},
+{
+pos = (18,24);
+ref = tildecomb.sc;
+}
+);
+width = 303;
+}
+);
+},
+{
+glyphname = ij.sc;
+kernLeft = i.sc;
+kernRight = j.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = i.sc;
+},
+{
+pos = (303,0);
+ref = j.sc;
+}
+);
+width = 569;
+}
+);
+},
+{
+glyphname = j.sc;
+kernLeft = j.sc;
+kernRight = j.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = jdotless.sc;
+}
+);
+width = 266;
+}
+);
+},
+{
+glyphname = jdotless.sc;
+kernLeft = j.sc;
+kernRight = j.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+anchors = (
+{
+name = top;
+pos = (278,518);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(19,-130,o),
+(59,-95,o),
+(75,-78,cs),
+(122,-29,o),
+(142,44,o),
+(153,85,cs),
+(242,415,ls),
+(257,471,o),
+(261,475,o),
+(323,478,c),
+(333,516,l),
+(109,516,l),
+(99,477,l),
+(136,477,o),
+(165,476,o),
+(165,454,cs),
+(165,445,o),
+(163,437,o),
+(160,426,cs),
+(68,85,ls),
+(41,-16,o),
+(27,-72,o),
+(13,-72,cs),
+(3,-72,o),
+(3,-33,o),
+(-37,-33,cs),
+(-62,-33,o),
+(-88,-51,o),
+(-88,-81,cs),
+(-88,-95,o),
+(-74,-130,o),
+(-28,-130,cs)
+);
+}
+);
+width = 266;
+}
+);
+},
+{
+glyphname = j_tildecomb.sc;
+kernLeft = j.sc;
+kernRight = j.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = j.sc;
+},
+{
+pos = (0,24);
+ref = tildecomb.sc;
+}
+);
+width = 266;
+}
+);
+},
+{
+glyphname = jacute.sc;
+kernLeft = j.sc;
+kernRight = j.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = j.sc;
+},
+{
+pos = (92,24);
+ref = acutecomb.sc;
+}
+);
+width = 266;
+}
+);
+},
+{
+glyphname = jcaron.sc;
+kernLeft = j.sc;
+kernRight = j.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = j.sc;
+},
+{
+pos = (-4,24);
+ref = caroncomb.sc;
+}
+);
+width = 266;
+}
+);
+},
+{
+glyphname = jcircumflex.sc;
+kernLeft = j.sc;
+kernRight = j.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = j.sc;
+},
+{
+pos = (-8,24);
+ref = circumflexcomb.sc;
+}
+);
+width = 266;
+}
+);
+},
+{
+glyphname = k.sc;
+kernLeft = k.sc;
+kernRight = k.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+anchors = (
+{
+name = commaaccentbelow;
+pos = (235,0);
+},
+{
+name = dotbelow;
+pos = (235,0);
+},
+{
+name = top;
+pos = (406,518);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(223,0,l),
+(233,39,l),
+(195,39,o),
+(167,41,o),
+(167,59,cs),
+(167,63,o),
+(167,66,o),
+(172,85,cs),
+(201,196,l),
+(280,265,l),
+(350,88,ls),
+(356,73,o),
+(359,63,o),
+(359,56,cs),
+(359,40,o),
+(332,40,o),
+(294,39,c),
+(284,0,l),
+(505,0,l),
+(515,39,l),
+(470,40,o),
+(453,47,o),
+(436,90,cs),
+(345,318,l),
+(429,391,ls),
+(486,441,o),
+(515,469,o),
+(580,478,c),
+(589,516,l),
+(398,516,l),
+(388,477,l),
+(424,477,o),
+(440,475,o),
+(440,466,cs),
+(440,455,o),
+(423,441,o),
+(416,435,cs),
+(221,268,l),
+(261,415,ls),
+(277,474,o),
+(278,475,o),
+(340,478,c),
+(351,516,l),
+(127,516,l),
+(117,477,l),
+(169,477,o),
+(183,474,o),
+(183,452,cs),
+(183,448,o),
+(183,448,o),
+(177,426,cs),
+(86,85,ls),
+(74,40,o),
+(47,40,o),
+(11,38,c),
+(0,0,l)
+);
+}
+);
+width = 537;
+}
+);
+},
+{
+glyphname = kacute.sc;
+kernLeft = k.sc;
+kernRight = k.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = k.sc;
+},
+{
+pos = (220,24);
+ref = acutecomb.sc;
+}
+);
+width = 537;
+}
+);
+},
+{
+glyphname = kcaron.sc;
+kernLeft = k.sc;
+kernRight = k.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = k.sc;
+},
+{
+pos = (124,24);
+ref = caroncomb.sc;
+}
+);
+width = 537;
+}
+);
+},
+{
+glyphname = kcommaaccent.sc;
+kernLeft = k.sc;
+kernRight = k.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = k.sc;
+},
+{
+pos = (194,0);
+ref = commaaccentcomb;
+}
+);
+width = 537;
+}
+);
+},
+{
+glyphname = kdotbelow.sc;
+kernLeft = k.sc;
+kernRight = k.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = k.sc;
+},
+{
+pos = (203,0);
+ref = dotbelowcomb;
+}
+);
+width = 537;
+}
+);
+},
+{
+glyphname = kmacronbelow.sc;
+kernLeft = k.sc;
+kernRight = k.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = k.sc;
+},
+{
+pos = (141,0);
+ref = macronbelowcomb;
+}
+);
+width = 537;
+}
+);
+},
+{
+glyphname = l.sc;
+kernLeft = l.sc;
+kernRight = l.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+anchors = (
+{
+name = caroncombalt;
+pos = (493,526);
+},
+{
+name = commaaccentbelow;
+pos = (190,0);
+},
+{
+name = dotbelow;
+pos = (190,0);
+},
+{
+name = ldot;
+pos = (291,214);
+},
+{
+name = top;
+pos = (295,518);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(404,0,l),
+(472,132,l),
+(441,150,l),
+(386,96,o),
+(344,41,o),
+(217,41,cs),
+(178,41,o),
+(168,45,o),
+(168,54,cs),
+(168,68,o),
+(169,74,o),
+(172,85,cs),
+(261,415,ls),
+(277,472,o),
+(280,475,o),
+(341,478,c),
+(352,516,l),
+(127,516,l),
+(117,477,l),
+(168,477,o),
+(183,474,o),
+(183,452,cs),
+(183,448,o),
+(183,444,o),
+(178,426,cs),
+(87,85,ls),
+(74,39,o),
+(47,40,o),
+(11,39,c),
+(0,0,l)
+);
+}
+);
+width = 491;
+}
+);
+},
+{
+glyphname = l_tildecomb.sc;
+kernLeft = l.sc;
+kernRight = l.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = l.sc;
+},
+{
+pos = (17,24);
+ref = tildecomb.sc;
+}
+);
+width = 491;
+}
+);
+},
+{
+glyphname = lacute.sc;
+kernLeft = l.sc;
+kernRight = l.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = l.sc;
+},
+{
+pos = (109,24);
+ref = acutecomb.sc;
+}
+);
+width = 491;
+}
+);
+},
+{
+glyphname = lcaron.sc;
+kernLeft = l.sc;
+kernRight = l.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = l.sc;
+},
+{
+pos = (301,-209);
+ref = caroncomb.alt;
+}
+);
+width = 491;
+}
+);
+},
+{
+glyphname = lcircumflexbelow.sc;
+kernLeft = l.sc;
+kernRight = l.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = l.sc;
+},
+{
+pos = (64,0);
+ref = circumflexbelowcomb;
+}
+);
+width = 491;
+}
+);
+},
+{
+glyphname = lcommaaccent.sc;
+kernLeft = l.sc;
+kernRight = l.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = l.sc;
+},
+{
+pos = (149,0);
+ref = commaaccentcomb;
+}
+);
+width = 491;
+}
+);
+},
+{
+glyphname = ldot.sc;
+kernLeft = l.sc;
+kernRight = l.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = l.sc;
+},
+{
+pos = (237,33);
+ref = periodcentered;
+}
+);
+width = 491;
+}
+);
+},
+{
+glyphname = ldotbelow.sc;
+kernLeft = l.sc;
+kernRight = l.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = l.sc;
+},
+{
+pos = (158,0);
+ref = dotbelowcomb;
+}
+);
+width = 491;
+}
+);
+},
+{
+glyphname = ldotbelowmacron.sc;
+kernLeft = l.sc;
+kernRight = l.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = l.sc;
+},
+{
+pos = (158,0);
+ref = dotbelowcomb;
+},
+{
+pos = (38,24);
+ref = macroncomb.sc;
+}
+);
+width = 491;
+}
+);
+},
+{
+glyphname = lmacronbelow.sc;
+kernLeft = l.sc;
+kernRight = l.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = l.sc;
+},
+{
+pos = (96,0);
+ref = macronbelowcomb;
+}
+);
+width = 491;
+}
+);
+},
+{
+glyphname = longsdotaccent.sc;
+kernLeft = s.sc;
+kernRight = s.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = s.sc;
+},
+{
+pos = (128,-40);
+ref = dotaccentcomb.sc;
+}
+);
+width = 426;
+}
+);
+},
+{
+glyphname = lslash.sc;
+kernLeft = l.sc;
+kernRight = l.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+anchors = (
+{
+name = caroncombalt;
+pos = (493,526);
+},
+{
+name = commaaccentbelow;
+pos = (190,0);
+},
+{
+name = dotbelow;
+pos = (190,0);
+},
+{
+name = ldot;
+pos = (272,214);
+},
+{
+name = top;
+pos = (295,518);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(404,0,l),
+(472,132,l),
+(441,150,l),
+(386,96,o),
+(344,41,o),
+(217,41,cs),
+(178,41,o),
+(168,45,o),
+(168,54,cs),
+(168,68,o),
+(169,74,o),
+(172,85,cs),
+(216,245,l),
+(384,330,l),
+(369,365,l),
+(229,295,l),
+(261,415,ls),
+(276,471,o),
+(281,475,o),
+(341,478,c),
+(352,516,l),
+(127,516,l),
+(117,477,l),
+(168,477,o),
+(183,474,o),
+(183,452,cs),
+(183,448,o),
+(182,441,o),
+(178,426,cs),
+(132,255,l),
+(39,209,l),
+(54,173,l),
+(119,205,l),
+(87,85,ls),
+(74,39,o),
+(47,40,o),
+(11,39,c),
+(0,0,l)
+);
+}
+);
+width = 491;
+}
+);
+},
+{
+glyphname = m.sc;
+kernLeft = m.sc;
+kernRight = m.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+anchors = (
+{
+name = dotbelow;
+pos = (269,0);
+},
+{
+name = top;
+pos = (460,518);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(183,0,l),
+(194,38,l),
+(165,43,o),
+(147,43,o),
+(138,55,cs),
+(135,59,o),
+(134,59,o),
+(134,72,cs),
+(134,77,o),
+(136,96,o),
+(140,111,cs),
+(219,408,l),
+(255,0,l),
+(286,0,l),
+(538,420,l),
+(448,85,ls),
+(435,38,o),
+(410,40,o),
+(373,38,c),
+(363,0,l),
+(585,0,l),
+(595,39,l),
+(557,39,o),
+(529,40,o),
+(529,61,cs),
+(529,64,o),
+(529,66,o),
+(534,85,cs),
+(623,415,ls),
+(638,471,o),
+(641,475,o),
+(703,478,c),
+(713,516,l),
+(546,516,l),
+(324,148,l),
+(293,516,l),
+(128,516,l),
+(118,477,l),
+(183,477,o),
+(183,464,o),
+(183,452,cs),
+(183,448,o),
+(182,441,o),
+(178,426,cs),
+(93,110,ls),
+(79,58,o),
+(65,48,o),
+(11,38,c),
+(1,0,l)
+);
+}
+);
+width = 666;
+}
+);
+},
+{
+glyphname = m_tildecomb.sc;
+kernLeft = m.sc;
+kernRight = m.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = m.sc;
+},
+{
+pos = (182,24);
+ref = tildecomb.sc;
+}
+);
+width = 666;
+}
+);
+},
+{
+glyphname = macute.sc;
+kernLeft = m.sc;
+kernRight = m.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = m.sc;
+},
+{
+pos = (274,24);
+ref = acutecomb.sc;
+}
+);
+width = 666;
+}
+);
+},
+{
+glyphname = mdotaccent.sc;
+kernLeft = m.sc;
+kernRight = m.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = m.sc;
+},
+{
+pos = (250,-40);
+ref = dotaccentcomb.sc;
+}
+);
+width = 666;
+}
+);
+},
+{
+glyphname = mdotbelow.sc;
+kernLeft = m.sc;
+kernRight = m.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = m.sc;
+},
+{
+pos = (237,0);
+ref = dotbelowcomb;
+}
+);
+width = 666;
+}
+);
+},
+{
+glyphname = n.sc;
+kernLeft = n.sc;
+kernRight = n.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+anchors = (
+{
+name = commaaccentbelow;
+pos = (237,0);
+},
+{
+name = dotbelow;
+pos = (234,0);
+},
+{
+name = top;
+pos = (410,518);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(427,-13,l),
+(538,406,ls),
+(557,478,o),
+(585,476,o),
+(621,478,c),
+(630,516,l),
+(448,516,l),
+(439,478,l),
+(487,473,o),
+(490,464,o),
+(494,460,cs),
+(497,457,o),
+(498,456,o),
+(498,446,cs),
+(498,435,o),
+(496,424,o),
+(491,405,cs),
+(420,138,l),
+(261,516,l),
+(129,516,l),
+(119,477,l),
+(159,477,o),
+(178,473,o),
+(186,456,c),
+(94,110,ls),
+(80,58,o),
+(66,48,o),
+(12,38,c),
+(2,0,l),
+(193,0,l),
+(204,38,l),
+(156,40,o),
+(149,48,o),
+(143,55,cs),
+(137,62,o),
+(137,69,o),
+(137,77,cs),
+(137,88,o),
+(138,100,o),
+(141,111,cs),
+(220,404,l),
+(393,-13,l)
+);
+}
+);
+width = 574;
+}
+);
+},
+{
+glyphname = nacute.sc;
+kernLeft = n.sc;
+kernRight = n.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = n.sc;
+},
+{
+pos = (224,24);
+ref = acutecomb.sc;
+}
+);
+width = 574;
+}
+);
+},
+{
+glyphname = ncaron.sc;
+kernLeft = n.sc;
+kernRight = n.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = n.sc;
+},
+{
+pos = (128,24);
+ref = caroncomb.sc;
+}
+);
+width = 574;
+}
+);
+},
+{
+glyphname = ncircumflexbelow.sc;
+kernLeft = n.sc;
+kernRight = n.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = n.sc;
+},
+{
+pos = (108,0);
+ref = circumflexbelowcomb;
+}
+);
+width = 574;
+}
+);
+},
+{
+glyphname = ncommaaccent.sc;
+kernLeft = n.sc;
+kernRight = n.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = n.sc;
+},
+{
+pos = (196,0);
+ref = commaaccentcomb;
+}
+);
+width = 574;
+}
+);
+},
+{
+glyphname = ndotaccent.sc;
+kernLeft = n.sc;
+kernRight = n.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = n.sc;
+},
+{
+pos = (200,-40);
+ref = dotaccentcomb.sc;
+}
+);
+width = 574;
+}
+);
+},
+{
+glyphname = ndotbelow.sc;
+kernLeft = n.sc;
+kernRight = n.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = n.sc;
+},
+{
+pos = (202,0);
+ref = dotbelowcomb;
+}
+);
+width = 574;
+}
+);
+},
+{
+glyphname = ngrave.sc;
+kernLeft = n.sc;
+kernRight = n.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = n.sc;
+},
+{
+pos = (106,24);
+ref = gravecomb.sc;
+}
+);
+width = 574;
+}
+);
+},
+{
+glyphname = nmacronbelow.sc;
+kernLeft = n.sc;
+kernRight = n.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = n.sc;
+},
+{
+pos = (140,0);
+ref = macronbelowcomb;
+}
+);
+width = 574;
+}
+);
+},
+{
+glyphname = ntilde.sc;
+kernLeft = n.sc;
+kernRight = n.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = n.sc;
+},
+{
+pos = (132,24);
+ref = tildecomb.sc;
+}
+);
+width = 574;
+}
+);
+},
+{
+glyphname = o.sc;
+kernLeft = o.sc;
+kernRight = o.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+anchors = (
+{
+name = attachhorn;
+pos = (480,368);
+},
+{
+name = dotbelow;
+pos = (220,0);
+},
+{
+name = ogonek;
+pos = (254,0);
+},
+{
+name = top;
+pos = (417,518);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(445,-18,o),
+(531,230,o),
+(531,314,cs),
+(531,377,o),
+(493,534,o),
+(343,534,cs),
+(223,534,o),
+(55,393,o),
+(55,197,cs),
+(55,127,o),
+(100,-18,o),
+(244,-18,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(156,26,o),
+(141,111,o),
+(141,159,cs),
+(141,282,o),
+(206,413,o),
+(244,451,cs),
+(278,485,o),
+(318,490,o),
+(338,490,cs),
+(380,490,o),
+(442,470,o),
+(442,347,cs),
+(442,167,o),
+(347,26,o),
+(244,26,cs)
+);
+}
+);
+width = 538;
+}
+);
+},
+{
+glyphname = oacute.sc;
+kernLeft = o.sc;
+kernRight = o.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = o.sc;
+},
+{
+pos = (231,24);
+ref = acutecomb.sc;
+}
+);
+width = 538;
+}
+);
+},
+{
+glyphname = obreve.sc;
+kernLeft = o.sc;
+kernRight = o.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = o.sc;
+},
+{
+pos = (128,24);
+ref = brevecomb.sc;
+}
+);
+width = 538;
+}
+);
+},
+{
+glyphname = ocaron.sc;
+kernLeft = o.sc;
+kernRight = o.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = o.sc;
+},
+{
+pos = (135,24);
+ref = caroncomb.sc;
+}
+);
+width = 538;
+}
+);
+},
+{
+glyphname = ocircumflex.sc;
+kernLeft = o.sc;
+kernRight = o.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = o.sc;
+},
+{
+pos = (131,24);
+ref = circumflexcomb.sc;
+}
+);
+width = 538;
+}
+);
+},
+{
+glyphname = ocircumflexacute.sc;
+kernLeft = o.sc;
+kernRight = o.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = o.sc;
+},
+{
+pos = (131,24);
+ref = circumflexcomb_acutecomb.sc;
+}
+);
+width = 538;
+}
+);
+},
+{
+glyphname = ocircumflexdotbelow.sc;
+kernLeft = o.sc;
+kernRight = o.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = o.sc;
+},
+{
+pos = (188,0);
+ref = dotbelowcomb;
+},
+{
+pos = (131,24);
+ref = circumflexcomb.sc;
+}
+);
+width = 538;
+}
+);
+},
+{
+glyphname = ocircumflexgrave.sc;
+kernLeft = o.sc;
+kernRight = o.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = o.sc;
+},
+{
+pos = (131,24);
+ref = circumflexcomb_gravecomb.sc;
+}
+);
+width = 538;
+}
+);
+},
+{
+glyphname = ocircumflexhookabove.sc;
+kernLeft = o.sc;
+kernRight = o.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = o.sc;
+},
+{
+pos = (131,24);
+ref = circumflexcomb_hookabovecomb.sc;
+}
+);
+width = 538;
+}
+);
+},
+{
+glyphname = ocircumflextilde.sc;
+kernLeft = o.sc;
+kernRight = o.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = o.sc;
+},
+{
+pos = (131,24);
+ref = circumflexcomb_tildecomb.sc;
+}
+);
+width = 538;
+}
+);
+},
+{
+glyphname = odblgrave.sc;
+kernLeft = o.sc;
+kernRight = o.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = o.sc;
+},
+{
+pos = (36,24);
+ref = dblgravecomb.sc;
+}
+);
+width = 538;
+}
+);
+},
+{
+glyphname = odieresis.sc;
+kernLeft = o.sc;
+kernRight = o.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = o.sc;
+},
+{
+pos = (134,24);
+ref = dieresiscomb.sc;
+}
+);
+width = 538;
+}
+);
+},
+{
+glyphname = odieresismacron.sc;
+kernLeft = o.sc;
+kernRight = o.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = o.sc;
+},
+{
+pos = (134,24);
+ref = dieresiscomb.sc;
+},
+{
+pos = (189,189);
+ref = macroncomb.sc;
+}
+);
+width = 538;
+}
+);
+},
+{
+glyphname = odotaccent.sc;
+kernLeft = o.sc;
+kernRight = o.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = o.sc;
+},
+{
+pos = (207,-40);
+ref = dotaccentcomb.sc;
+}
+);
+width = 538;
+}
+);
+},
+{
+glyphname = odotaccentmacron.sc;
+kernLeft = o.sc;
+kernRight = o.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = o.sc;
+},
+{
+pos = (207,-40);
+ref = dotaccentcomb.sc;
+},
+{
+pos = (193,189);
+ref = macroncomb.sc;
+}
+);
+width = 538;
+}
+);
+},
+{
+glyphname = odotbelow.sc;
+kernLeft = o.sc;
+kernRight = o.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = o.sc;
+},
+{
+pos = (188,0);
+ref = dotbelowcomb;
+}
+);
+width = 538;
+}
+);
+},
+{
+glyphname = ograve.sc;
+kernLeft = o.sc;
+kernRight = o.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = o.sc;
+},
+{
+pos = (113,24);
+ref = gravecomb.sc;
+}
+);
+width = 538;
+}
+);
+},
+{
+glyphname = ohookabove.sc;
+kernLeft = o.sc;
+kernRight = o.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = o.sc;
+},
+{
+pos = (136,24);
+ref = hookabovecomb.sc;
+}
+);
+width = 538;
+}
+);
+},
+{
+glyphname = ohorn.sc;
+kernLeft = o.sc;
+kernRight = horn.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = o.sc;
+},
+{
+pos = (381,-142);
+ref = horncomb.sc;
+}
+);
+width = 538;
+}
+);
+},
+{
+glyphname = ohornacute.sc;
+kernLeft = o.sc;
+kernRight = horn.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = ohorn.sc;
+},
+{
+pos = (231,24);
+ref = acutecomb.sc;
+}
+);
+width = 538;
+}
+);
+},
+{
+glyphname = ohorndotbelow.sc;
+kernLeft = o.sc;
+kernRight = horn.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = ohorn.sc;
+},
+{
+pos = (188,0);
+ref = dotbelowcomb;
+}
+);
+width = 538;
+}
+);
+},
+{
+glyphname = ohorngrave.sc;
+kernLeft = o.sc;
+kernRight = horn.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = ohorn.sc;
+},
+{
+pos = (113,24);
+ref = gravecomb.sc;
+}
+);
+width = 538;
+}
+);
+},
+{
+glyphname = ohornhookabove.sc;
+kernLeft = o.sc;
+kernRight = horn.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = ohorn.sc;
+},
+{
+pos = (136,24);
+ref = hookabovecomb.sc;
+}
+);
+width = 538;
+}
+);
+},
+{
+glyphname = ohorntilde.sc;
+kernLeft = o.sc;
+kernRight = horn.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = ohorn.sc;
+},
+{
+pos = (139,24);
+ref = tildecomb.sc;
+}
+);
+width = 538;
+}
+);
+},
+{
+glyphname = ohungarumlaut.sc;
+kernLeft = o.sc;
+kernRight = o.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = o.sc;
+},
+{
+pos = (181,24);
+ref = hungarumlautcomb.sc;
+}
+);
+width = 538;
+}
+);
+},
+{
+glyphname = oinvertedbreve.sc;
+kernLeft = o.sc;
+kernRight = o.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = o.sc;
+},
+{
+pos = (161,24);
+ref = breveinvertedcomb;
+}
+);
+width = 538;
+}
+);
+},
+{
+glyphname = omacron.sc;
+kernLeft = o.sc;
+kernRight = o.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = o.sc;
+},
+{
+pos = (160,24);
+ref = macroncomb.sc;
+}
+);
+width = 538;
+}
+);
+},
+{
+glyphname = omacronacute.sc;
+kernLeft = o.sc;
+kernRight = o.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = o.sc;
+},
+{
+pos = (160,24);
+ref = macroncomb.sc;
+},
+{
+pos = (264,189);
+ref = acutecomb.sc;
+}
+);
+width = 538;
+}
+);
+},
+{
+glyphname = omacrongrave.sc;
+kernLeft = o.sc;
+kernRight = o.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = o.sc;
+},
+{
+pos = (160,24);
+ref = macroncomb.sc;
+},
+{
+pos = (146,189);
+ref = gravecomb.sc;
+}
+);
+width = 538;
+}
+);
+},
+{
+glyphname = oogonek.sc;
+kernLeft = o.sc;
+kernRight = o.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = o.sc;
+},
+{
+pos = (174,0);
+ref = ogonekcomb;
+}
+);
+width = 538;
+}
+);
+},
+{
+glyphname = oogonekmacron.sc;
+kernLeft = o.sc;
+kernRight = o.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = o.sc;
+},
+{
+pos = (174,0);
+ref = ogonekcomb;
+},
+{
+pos = (160,24);
+ref = macroncomb.sc;
+}
+);
+width = 538;
+}
+);
+},
+{
+glyphname = oslash.sc;
+kernLeft = o.sc;
+kernRight = o.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(520,500,l),
+(488,525,l),
+(61,17,l),
+(93,-9,l)
+);
+},
+{
+ref = o.sc;
+}
+);
+width = 538;
+}
+);
+},
+{
+glyphname = oslashacute.sc;
+kernLeft = o.sc;
+kernRight = o.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = oslash.sc;
+},
+{
+pos = (231,24);
+ref = acutecomb.sc;
+}
+);
+width = 538;
+}
+);
+},
+{
+glyphname = otilde.sc;
+kernLeft = o.sc;
+kernRight = o.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = o.sc;
+},
+{
+pos = (139,24);
+ref = tildecomb.sc;
+}
+);
+width = 538;
+}
+);
+},
+{
+glyphname = otildeacute.sc;
+kernLeft = o.sc;
+kernRight = o.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = o.sc;
+},
+{
+pos = (139,24);
+ref = tildecomb.sc;
+},
+{
+pos = (269,189);
+ref = acutecomb.sc;
+}
+);
+width = 538;
+}
+);
+},
+{
+glyphname = otildedieresis.sc;
+kernLeft = o.sc;
+kernRight = o.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = o.sc;
+},
+{
+pos = (139,24);
+ref = tildecomb.sc;
+},
+{
+pos = (172,189);
+ref = dieresiscomb.sc;
+}
+);
+width = 538;
+}
+);
+},
+{
+glyphname = otildemacron.sc;
+kernLeft = o.sc;
+kernRight = o.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = o.sc;
+},
+{
+pos = (139,24);
+ref = tildecomb.sc;
+},
+{
+pos = (198,189);
+ref = macroncomb.sc;
+}
+);
+width = 538;
+}
+);
+},
+{
+glyphname = oe.sc;
+kernLeft = o.sc;
+kernRight = e.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+anchors = (
+{
+name = top;
+pos = (535,518);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(619,0,l),
+(684,128,l),
+(652,149,l),
+(601,97,o),
+(569,41,o),
+(446,41,cs),
+(412,41,o),
+(390,42,o),
+(390,61,cs),
+(390,63,o),
+(390,63,o),
+(396,85,cs),
+(439,249,l),
+(461,247,o),
+(499,248,o),
+(517,226,cs),
+(526,215,o),
+(526,202,o),
+(526,193,cs),
+(526,176,o),
+(525,161,o),
+(524,152,c),
+(563,152,l),
+(619,363,l),
+(580,363,l),
+(550,304,o),
+(537,288,o),
+(450,288,c),
+(484,415,ls),
+(500,476,o),
+(509,476,o),
+(547,476,cs),
+(630,476,o),
+(651,429,o),
+(678,370,c),
+(716,377,l),
+(695,516,l),
+(340,516,ls),
+(257,516,o),
+(53,433,o),
+(53,211,cs),
+(53,146,o),
+(84,0,o),
+(251,0,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(208,40,o),
+(135,53,o),
+(135,163,cs),
+(135,204,o),
+(146,323,o),
+(220,413,cs),
+(266,469,o),
+(311,477,o),
+(343,477,cs),
+(398,477,o),
+(403,451,o),
+(403,434,cs),
+(403,425,o),
+(402,422,o),
+(399,411,cs),
+(315,101,ls),
+(300,45,o),
+(289,40,o),
+(250,40,cs)
+);
+}
+);
+width = 727;
+}
+);
+metricRight = e.sc;
+},
+{
+glyphname = p.sc;
+kernLeft = p.sc;
+kernRight = p.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+anchors = (
+{
+name = top;
+pos = (358,518);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(229,0,l),
+(239,39,l),
+(181,39,o),
+(168,44,o),
+(168,57,cs),
+(168,66,o),
+(169,78,o),
+(171,85,cs),
+(212,233,l),
+(214,233,o),
+(231,233,o),
+(237,233,cs),
+(269,233,o),
+(340,233,o),
+(389,248,cs),
+(425,259,o),
+(508,306,o),
+(508,395,cs),
+(508,435,o),
+(482,516,o),
+(330,516,cs),
+(126,516,l),
+(116,477,l),
+(167,477,o),
+(183,474,o),
+(183,452,cs),
+(183,448,o),
+(183,448,o),
+(177,426,cs),
+(86,85,ls),
+(73,39,o),
+(46,40,o),
+(10,39,c),
+(-1,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(260,415,ls),
+(274,467,o),
+(285,477,o),
+(319,477,cs),
+(417,477,o),
+(417,437,o),
+(417,412,cs),
+(417,350,o),
+(384,306,o),
+(363,292,cs),
+(336,274,o),
+(280,274,o),
+(222,274,c)
+);
+}
+);
+width = 482;
+}
+);
+},
+{
+glyphname = pacute.sc;
+kernLeft = p.sc;
+kernRight = p.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = p.sc;
+},
+{
+pos = (172,24);
+ref = acutecomb.sc;
+}
+);
+width = 482;
+}
+);
+},
+{
+glyphname = pdotaccent.sc;
+kernLeft = p.sc;
+kernRight = p.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = p.sc;
+},
+{
+pos = (148,-40);
+ref = dotaccentcomb.sc;
+}
+);
+width = 482;
+}
+);
+},
+{
+glyphname = thorn.sc;
+kernLeft = p.sc;
+kernRight = p.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(229,0,l),
+(239,39,l),
+(181,39,o),
+(168,43,o),
+(168,59,cs),
+(168,64,o),
+(168,75,o),
+(171,85,cs),
+(182,121,l),
+(186,121,o),
+(195,121,o),
+(206,121,cs),
+(239,121,o),
+(311,121,o),
+(360,137,cs),
+(397,149,o),
+(479,194,o),
+(479,284,cs),
+(479,323,o),
+(453,405,o),
+(301,405,cs),
+(258,405,l),
+(260,415,ls),
+(272,475,o),
+(279,475,o),
+(341,478,c),
+(351,516,l),
+(126,516,l),
+(116,477,l),
+(167,477,o),
+(183,474,o),
+(183,452,cs),
+(183,448,o),
+(183,448,o),
+(177,426,cs),
+(86,85,ls),
+(73,39,o),
+(46,40,o),
+(10,39,c),
+(-1,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(230,303,ls),
+(247,366,o),
+(256,366,o),
+(294,366,cs),
+(388,366,o),
+(388,325,o),
+(388,300,cs),
+(388,237,o),
+(347,189,o),
+(333,180,cs),
+(305,162,o),
+(250,162,o),
+(192,162,c)
+);
+}
+);
+width = 483;
+}
+);
+},
+{
+glyphname = q.sc;
+kernLeft = q.sc;
+kernRight = q.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+anchors = (
+{
+name = top;
+pos = (385,518);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(399,-88,o),
+(433,-43,o),
+(450,-2,c),
+(416,13,l),
+(402,-12,o),
+(388,-32,o),
+(373,-32,cs),
+(359,-32,o),
+(347,-3,o),
+(341,13,c),
+(412,50,o),
+(524,173,o),
+(524,315,cs),
+(524,375,o),
+(488,534,o),
+(338,534,cs),
+(220,534,o),
+(54,395,o),
+(54,202,cs),
+(54,131,o),
+(103,-18,o),
+(231,-18,cs),
+(242,-18,o),
+(249,-12,o),
+(258,-11,c),
+(261,-42,o),
+(283,-88,o),
+(341,-88,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(179,24,o),
+(168,67,o),
+(168,86,cs),
+(168,106,o),
+(183,139,o),
+(216,139,cs),
+(233,139,o),
+(263,130,o),
+(263,75,cs),
+(263,54,o),
+(260,44,o),
+(258,24,c),
+(253,24,o),
+(256,24,o),
+(243,24,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(321,120,o),
+(282,178,o),
+(220,178,cs),
+(185,178,o),
+(151,156,o),
+(142,132,c),
+(141,136,o),
+(141,148,o),
+(141,166,cs),
+(141,301,o),
+(209,420,o),
+(240,451,cs),
+(274,485,o),
+(314,490,o),
+(334,490,cs),
+(374,490,o),
+(435,469,o),
+(435,350,cs),
+(435,234,o),
+(378,103,o),
+(330,56,c)
+);
+}
+);
+width = 533;
+}
+);
+},
+{
+glyphname = q_tildecomb.sc;
+kernLeft = q.sc;
+kernRight = q.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = q.sc;
+},
+{
+pos = (107,24);
+ref = tildecomb.sc;
+}
+);
+width = 533;
+}
+);
+},
+{
+glyphname = r.sc;
+kernLeft = r.sc;
+kernRight = r.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+anchors = (
+{
+name = commaaccentbelow;
+pos = (219,0);
+},
+{
+name = dotbelow;
+pos = (219,0);
+},
+{
+name = top;
+pos = (385,518);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(218,0,l),
+(229,39,l),
+(176,39,o),
+(168,45,o),
+(168,59,cs),
+(168,69,o),
+(171,81,o),
+(172,85,cs),
+(215,245,l),
+(260,245,l),
+(335,0,l),
+(471,0,l),
+(482,38,l),
+(425,40,o),
+(411,39,o),
+(398,80,cs),
+(345,249,l),
+(394,249,o),
+(517,290,o),
+(517,397,cs),
+(517,442,o),
+(484,516,o),
+(330,516,cs),
+(127,516,l),
+(117,477,l),
+(169,477,o),
+(183,474,o),
+(183,452,cs),
+(183,448,o),
+(182,441,o),
+(178,426,cs),
+(87,85,ls),
+(74,39,o),
+(47,40,o),
+(11,39,c),
+(0,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(261,415,ls),
+(278,477,o),
+(289,477,o),
+(330,477,cs),
+(424,477,o),
+(426,438,o),
+(426,412,cs),
+(426,368,o),
+(401,321,o),
+(368,300,cs),
+(341,283,o),
+(289,283,o),
+(225,283,c)
+);
+}
+);
+width = 509;
+}
+);
+},
+{
+glyphname = r_tildecomb.sc;
+kernLeft = r.sc;
+kernRight = r.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = r.sc;
+},
+{
+pos = (107,24);
+ref = tildecomb.sc;
+}
+);
+width = 509;
+}
+);
+},
+{
+glyphname = racute.sc;
+kernLeft = r.sc;
+kernRight = r.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = r.sc;
+},
+{
+pos = (199,24);
+ref = acutecomb.sc;
+}
+);
+width = 509;
+}
+);
+},
+{
+glyphname = rcaron.sc;
+kernLeft = r.sc;
+kernRight = r.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = r.sc;
+},
+{
+pos = (103,24);
+ref = caroncomb.sc;
+}
+);
+width = 509;
+}
+);
+},
+{
+glyphname = rcommaaccent.sc;
+kernLeft = r.sc;
+kernRight = r.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = r.sc;
+},
+{
+pos = (178,0);
+ref = commaaccentcomb;
+}
+);
+width = 509;
+}
+);
+},
+{
+glyphname = rdblgrave.sc;
+kernLeft = r.sc;
+kernRight = r.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = r.sc;
+},
+{
+pos = (4,24);
+ref = dblgravecomb.sc;
+}
+);
+width = 509;
+}
+);
+},
+{
+glyphname = rdotaccent.sc;
+kernLeft = r.sc;
+kernRight = r.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = r.sc;
+},
+{
+pos = (175,-40);
+ref = dotaccentcomb.sc;
+}
+);
+width = 509;
+}
+);
+},
+{
+glyphname = rdotbelow.sc;
+kernLeft = r.sc;
+kernRight = r.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = r.sc;
+},
+{
+pos = (187,0);
+ref = dotbelowcomb;
+}
+);
+width = 509;
+}
+);
+},
+{
+glyphname = rdotbelowmacron.sc;
+kernLeft = r.sc;
+kernRight = r.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = r.sc;
+},
+{
+pos = (187,0);
+ref = dotbelowcomb;
+},
+{
+pos = (128,24);
+ref = macroncomb.sc;
+}
+);
+width = 509;
+}
+);
+},
+{
+glyphname = rinvertedbreve.sc;
+kernLeft = r.sc;
+kernRight = r.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = r.sc;
+},
+{
+pos = (96,24);
+ref = breveinvertedcomb;
+}
+);
+width = 509;
+}
+);
+},
+{
+glyphname = rmacronbelow.sc;
+kernLeft = r.sc;
+kernRight = r.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = r.sc;
+},
+{
+pos = (125,0);
+ref = macronbelowcomb;
+}
+);
+width = 509;
+}
+);
+},
+{
+glyphname = s.sc;
+kernLeft = s.sc;
+kernRight = s.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+anchors = (
+{
+name = attachcedilla;
+pos = (158,-17);
+},
+{
+name = commaaccentbelow;
+pos = (177,0);
+},
+{
+name = dotbelow;
+pos = (177,0);
+},
+{
+name = top;
+pos = (338,518);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(350,-18,o),
+(394,109,o),
+(394,162,cs),
+(394,319,o),
+(171,292,o),
+(171,406,cs),
+(171,465,o),
+(229,485,o),
+(264,485,cs),
+(344,485,o),
+(374,413,o),
+(392,365,c),
+(434,371,l),
+(421,521,l),
+(402,515,o),
+(374,505,o),
+(366,505,cs),
+(342,505,o),
+(334,534,o),
+(266,534,cs),
+(144,534,o),
+(99,425,o),
+(99,374,cs),
+(99,232,o),
+(319,243,o),
+(319,129,cs),
+(319,55,o),
+(250,31,o),
+(214,31,cs),
+(135,31,o),
+(90,109,o),
+(63,163,c),
+(22,153,l),
+(40,-5,l),
+(68,9,o),
+(93,20,o),
+(101,20,cs),
+(115,20,o),
+(150,-18,o),
+(214,-18,cs)
+);
+}
+);
+width = 426;
+}
+);
+},
+{
+glyphname = s_dieresiscomb.sc;
+kernLeft = s.sc;
+kernRight = s.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = s.sc;
+},
+{
+pos = (55,24);
+ref = dieresiscomb.sc;
+}
+);
+width = 426;
+}
+);
+},
+{
+glyphname = sacute.sc;
+kernLeft = s.sc;
+kernRight = s.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = s.sc;
+},
+{
+pos = (152,24);
+ref = acutecomb.sc;
+}
+);
+width = 426;
+}
+);
+},
+{
+glyphname = sacutedotaccent.sc;
+kernLeft = s.sc;
+kernRight = s.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = s.sc;
+},
+{
+pos = (152,24);
+ref = acutecomb.sc;
+},
+{
+pos = (220,125);
+ref = dotaccentcomb.sc;
+}
+);
+width = 426;
+}
+);
+},
+{
+glyphname = scaron.sc;
+kernLeft = s.sc;
+kernRight = s.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = s.sc;
+},
+{
+pos = (56,24);
+ref = caroncomb.sc;
+}
+);
+width = 426;
+}
+);
+},
+{
+glyphname = scarondotaccent.sc;
+kernLeft = s.sc;
+kernRight = s.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = s.sc;
+},
+{
+pos = (56,24);
+ref = caroncomb.sc;
+},
+{
+pos = (140,109);
+ref = dotaccentcomb.sc;
+}
+);
+width = 426;
+}
+);
+},
+{
+glyphname = scedilla.sc;
+kernLeft = s.sc;
+kernRight = s.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = s.sc;
+},
+{
+pos = (83,-17);
+ref = cedillacomb;
+}
+);
+width = 426;
+}
+);
+},
+{
+glyphname = scircumflex.sc;
+kernLeft = s.sc;
+kernRight = s.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = s.sc;
+},
+{
+pos = (52,24);
+ref = circumflexcomb.sc;
+}
+);
+width = 426;
+}
+);
+},
+{
+glyphname = scommaaccent.sc;
+kernLeft = s.sc;
+kernRight = s.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = s.sc;
+},
+{
+pos = (136,0);
+ref = commaaccentcomb;
+}
+);
+width = 426;
+}
+);
+},
+{
+glyphname = sdotaccent.sc;
+kernLeft = s.sc;
+kernRight = s.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = s.sc;
+},
+{
+pos = (128,-40);
+ref = dotaccentcomb.sc;
+}
+);
+width = 426;
+}
+);
+},
+{
+glyphname = sdotbelow.sc;
+kernLeft = s.sc;
+kernRight = s.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = s.sc;
+},
+{
+pos = (145,0);
+ref = dotbelowcomb;
+}
+);
+width = 426;
+}
+);
+},
+{
+glyphname = sdotbelowdotaccent.sc;
+kernLeft = s.sc;
+kernRight = s.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = s.sc;
+},
+{
+pos = (145,0);
+ref = dotbelowcomb;
+},
+{
+pos = (128,-40);
+ref = dotaccentcomb.sc;
+}
+);
+width = 426;
+}
+);
+},
+{
+glyphname = germandbls.sc;
+kernLeft = i.sc;
+kernRight = s.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(633,-18,o),
+(678,110,o),
+(678,162,cs),
+(678,315,o),
+(438,302,o),
+(438,406,cs),
+(438,466,o),
+(507,485,o),
+(555,485,c),
+(599,534,l),
+(342,534,ls),
+(206,534,o),
+(170,447,o),
+(156,385,cs),
+(89,85,l),
+(76,39,o),
+(54,40,o),
+(10,39,c),
+(-1,0,l),
+(231,0,l),
+(241,39,l),
+(192,39,o),
+(170,45,o),
+(170,59,cs),
+(170,68,o),
+(173,76,o),
+(175,85,cs),
+(246,390,ls),
+(267,482,o),
+(323,482,o),
+(412,482,c),
+(379,457,o),
+(367,401,o),
+(367,375,cs),
+(367,222,o),
+(604,248,o),
+(604,129,cs),
+(604,55,o),
+(530,31,o),
+(492,31,cs),
+(407,31,o),
+(357,109,o),
+(328,162,c),
+(289,153,l),
+(310,-3,l),
+(340,11,o),
+(363,20,o),
+(372,20,cs),
+(390,20,o),
+(425,-18,o),
+(492,-18,cs)
+);
+}
+);
+width = 670;
+}
+);
+metricLeft = "=i.sc+11";
+metricRight = s.sc;
+},
+{
+glyphname = longs.sc;
+kernLeft = s.sc;
+kernRight = s.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = s.sc;
+}
+);
+width = 426;
+}
+);
+},
+{
+glyphname = t.sc;
+kernLeft = t.sc;
+kernRight = t.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+anchors = (
+{
+name = attachcedilla;
+pos = (182,-17);
+},
+{
+name = commaaccentbelow;
+pos = (199,0);
+},
+{
+name = dotbelow;
+pos = (198,0);
+},
+{
+name = top;
+pos = (398,518);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(321,0,l),
+(330,39,l),
+(272,39,o),
+(260,44,o),
+(260,60,cs),
+(260,68,o),
+(262,74,o),
+(265,85,cs),
+(359,436,ls),
+(370,477,o),
+(382,477,o),
+(396,477,cs),
+(465,477,o),
+(494,404,o),
+(507,369,c),
+(546,376,l),
+(527,516,l),
+(129,516,l),
+(58,390,l),
+(84,368,l),
+(119,399,o),
+(209,477,o),
+(258,477,cs),
+(269,477,o),
+(277,472,o),
+(277,459,cs),
+(277,457,o),
+(277,451,o),
+(273,436,cs),
+(179,85,ls),
+(166,39,o),
+(144,40,o),
+(98,39,c),
+(89,0,l)
+);
+}
+);
+width = 489;
+}
+);
+},
+{
+glyphname = tcaron.sc;
+kernLeft = t.sc;
+kernRight = t.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = t.sc;
+},
+{
+pos = (116,24);
+ref = caroncomb.sc;
+}
+);
+width = 489;
+}
+);
+},
+{
+glyphname = tcedilla.sc;
+kernLeft = t.sc;
+kernRight = t.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = t.sc;
+},
+{
+pos = (107,-17);
+ref = cedillacomb;
+}
+);
+width = 489;
+}
+);
+},
+{
+glyphname = tcircumflexbelow.sc;
+kernLeft = t.sc;
+kernRight = t.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = t.sc;
+},
+{
+pos = (72,0);
+ref = circumflexbelowcomb;
+}
+);
+width = 489;
+}
+);
+},
+{
+glyphname = tcommaaccent.sc;
+kernLeft = t.sc;
+kernRight = t.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = t.sc;
+},
+{
+pos = (158,0);
+ref = commaaccentcomb;
+}
+);
+width = 489;
+}
+);
+},
+{
+glyphname = tdieresis.sc;
+kernLeft = t.sc;
+kernRight = t.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = t.sc;
+},
+{
+pos = (115,24);
+ref = dieresiscomb.sc;
+}
+);
+width = 489;
+}
+);
+},
+{
+glyphname = tdotaccent.sc;
+kernLeft = t.sc;
+kernRight = t.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = t.sc;
+},
+{
+pos = (188,-40);
+ref = dotaccentcomb.sc;
+}
+);
+width = 489;
+}
+);
+},
+{
+glyphname = tdotbelow.sc;
+kernLeft = t.sc;
+kernRight = t.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = t.sc;
+},
+{
+pos = (166,0);
+ref = dotbelowcomb;
+}
+);
+width = 489;
+}
+);
+},
+{
+glyphname = tmacronbelow.sc;
+kernLeft = t.sc;
+kernRight = t.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = t.sc;
+},
+{
+pos = (104,0);
+ref = macronbelowcomb;
+}
+);
+width = 489;
+}
+);
+},
+{
+glyphname = u.sc;
+kernLeft = u.sc;
+kernRight = u.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+anchors = (
+{
+name = attachhorn;
+pos = (575,368);
+},
+{
+name = dotbelow;
+pos = (241,0);
+},
+{
+name = ogonek;
+pos = (283,0);
+},
+{
+name = top;
+pos = (437,518);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(421,-18,o),
+(454,114,o),
+(469,170,cs),
+(535,415,ls),
+(549,468,o),
+(567,471,o),
+(609,478,c),
+(620,516,l),
+(442,516,l),
+(431,478,l),
+(484,469,o),
+(493,457,o),
+(493,441,cs),
+(493,431,o),
+(491,424,o),
+(488,413,cs),
+(425,181,ls),
+(417,151,o),
+(399,90,o),
+(357,55,cs),
+(345,45,o),
+(321,29,o),
+(279,29,cs),
+(189,29,o),
+(181,91,o),
+(181,119,cs),
+(181,154,o),
+(193,191,o),
+(198,209,cs),
+(253,415,ls),
+(268,471,o),
+(269,475,o),
+(333,477,c),
+(343,516,l),
+(126,516,l),
+(116,477,l),
+(167,477,o),
+(175,470,o),
+(175,456,cs),
+(175,444,o),
+(173,437,o),
+(170,426,cs),
+(113,213,ls),
+(109,198,o),
+(98,164,o),
+(98,126,cs),
+(98,79,o),
+(124,-18,o),
+(261,-18,cs)
+);
+}
+);
+width = 561;
+}
+);
+},
+{
+glyphname = uacute.sc;
+kernLeft = u.sc;
+kernRight = u.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = u.sc;
+},
+{
+pos = (251,24);
+ref = acutecomb.sc;
+}
+);
+width = 561;
+}
+);
+},
+{
+glyphname = ubreve.sc;
+kernLeft = u.sc;
+kernRight = u.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = u.sc;
+},
+{
+pos = (148,24);
+ref = brevecomb.sc;
+}
+);
+width = 561;
+}
+);
+},
+{
+glyphname = ucaron.sc;
+kernLeft = u.sc;
+kernRight = u.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = u.sc;
+},
+{
+pos = (155,24);
+ref = caroncomb.sc;
+}
+);
+width = 561;
+}
+);
+},
+{
+glyphname = ucircumflex.sc;
+kernLeft = u.sc;
+kernRight = u.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = u.sc;
+},
+{
+pos = (151,24);
+ref = circumflexcomb.sc;
+}
+);
+width = 561;
+}
+);
+},
+{
+glyphname = ucircumflexbelow.sc;
+kernLeft = u.sc;
+kernRight = u.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = u.sc;
+},
+{
+pos = (115,0);
+ref = circumflexbelowcomb;
+}
+);
+width = 561;
+}
+);
+},
+{
+glyphname = udblgrave.sc;
+kernLeft = u.sc;
+kernRight = u.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = u.sc;
+},
+{
+pos = (56,24);
+ref = dblgravecomb.sc;
+}
+);
+width = 561;
+}
+);
+},
+{
+glyphname = udieresis.sc;
+kernLeft = u.sc;
+kernRight = u.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = u.sc;
+},
+{
+pos = (154,24);
+ref = dieresiscomb.sc;
+}
+);
+width = 561;
+}
+);
+},
+{
+glyphname = udieresisacute.sc;
+kernLeft = u.sc;
+kernRight = u.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = u.sc;
+},
+{
+pos = (154,24);
+ref = dieresiscomb.sc;
+},
+{
+pos = (280,189);
+ref = acutecomb.sc;
+}
+);
+width = 561;
+}
+);
+},
+{
+glyphname = udieresisbelow.sc;
+kernLeft = u.sc;
+kernRight = u.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = u.sc;
+},
+{
+pos = (122,0);
+ref = dieresisbelowcomb;
+}
+);
+width = 561;
+}
+);
+},
+{
+glyphname = udieresiscaron.sc;
+kernLeft = u.sc;
+kernRight = u.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = u.sc;
+},
+{
+pos = (154,24);
+ref = dieresiscomb.sc;
+},
+{
+pos = (184,189);
+ref = caroncomb.sc;
+}
+);
+width = 561;
+}
+);
+},
+{
+glyphname = udieresisgrave.sc;
+kernLeft = u.sc;
+kernRight = u.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = u.sc;
+},
+{
+pos = (154,24);
+ref = dieresiscomb.sc;
+},
+{
+pos = (162,189);
+ref = gravecomb.sc;
+}
+);
+width = 561;
+}
+);
+},
+{
+glyphname = udieresismacron.sc;
+kernLeft = u.sc;
+kernRight = u.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = u.sc;
+},
+{
+pos = (154,24);
+ref = dieresiscomb.sc;
+},
+{
+pos = (209,189);
+ref = macroncomb.sc;
+}
+);
+width = 561;
+}
+);
+},
+{
+glyphname = udotbelow.sc;
+kernLeft = u.sc;
+kernRight = u.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = u.sc;
+},
+{
+pos = (209,0);
+ref = dotbelowcomb;
+}
+);
+width = 561;
+}
+);
+},
+{
+glyphname = ugrave.sc;
+kernLeft = u.sc;
+kernRight = u.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = u.sc;
+},
+{
+pos = (133,24);
+ref = gravecomb.sc;
+}
+);
+width = 561;
+}
+);
+},
+{
+glyphname = uhookabove.sc;
+kernLeft = u.sc;
+kernRight = u.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = u.sc;
+},
+{
+pos = (156,24);
+ref = hookabovecomb.sc;
+}
+);
+width = 561;
+}
+);
+},
+{
+glyphname = uhorn.sc;
+kernLeft = u.sc;
+kernRight = horn.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(619,362,o),
+(771,433,o),
+(771,530,cs),
+(771,578,o),
+(731,583,o),
+(719,583,cs),
+(686,583,o),
+(668,559,o),
+(668,535,cs),
+(668,504,o),
+(699,498,o),
+(699,483,cs),
+(699,451,o),
+(585,393,o),
+(539,377,c),
+(528,335,l)
+);
+},
+{
+ref = u.sc;
+}
+);
+width = 653;
+}
+);
+},
+{
+glyphname = uhornacute.sc;
+kernLeft = u.sc;
+kernRight = horn.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = uhorn.sc;
+},
+{
+pos = (251,24);
+ref = acutecomb.sc;
+}
+);
+width = 653;
+}
+);
+},
+{
+glyphname = uhorndotbelow.sc;
+kernLeft = u.sc;
+kernRight = horn.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = uhorn.sc;
+},
+{
+pos = (209,0);
+ref = dotbelowcomb;
+}
+);
+width = 653;
+}
+);
+},
+{
+glyphname = uhorngrave.sc;
+kernLeft = u.sc;
+kernRight = horn.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = uhorn.sc;
+},
+{
+pos = (133,24);
+ref = gravecomb.sc;
+}
+);
+width = 653;
+}
+);
+},
+{
+glyphname = uhornhookabove.sc;
+kernLeft = u.sc;
+kernRight = horn.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = uhorn.sc;
+},
+{
+pos = (156,24);
+ref = hookabovecomb.sc;
+}
+);
+width = 653;
+}
+);
+},
+{
+glyphname = uhorntilde.sc;
+kernLeft = u.sc;
+kernRight = horn.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = uhorn.sc;
+},
+{
+pos = (159,24);
+ref = tildecomb.sc;
+}
+);
+width = 653;
+}
+);
+},
+{
+glyphname = uhungarumlaut.sc;
+kernLeft = u.sc;
+kernRight = u.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = u.sc;
+},
+{
+pos = (201,24);
+ref = hungarumlautcomb.sc;
+}
+);
+width = 561;
+}
+);
+},
+{
+glyphname = uinvertedbreve.sc;
+kernLeft = u.sc;
+kernRight = u.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = u.sc;
+},
+{
+pos = (148,24);
+ref = breveinvertedcomb;
+}
+);
+width = 561;
+}
+);
+},
+{
+glyphname = umacron.sc;
+kernLeft = u.sc;
+kernRight = u.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = u.sc;
+},
+{
+pos = (180,24);
+ref = macroncomb.sc;
+}
+);
+width = 561;
+}
+);
+},
+{
+glyphname = umacron_gravecomb.sc;
+kernLeft = u.sc;
+kernRight = u.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = u.sc;
+},
+{
+pos = (180,24);
+ref = macroncomb.sc;
+},
+{
+pos = (166,189);
+ref = gravecomb.sc;
+}
+);
+width = 561;
+}
+);
+},
+{
+glyphname = umacron_acutecomb.sc;
+kernLeft = u.sc;
+kernRight = u.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = u.sc;
+},
+{
+pos = (180,24);
+ref = macroncomb.sc;
+},
+{
+pos = (284,189);
+ref = acutecomb.sc;
+}
+);
+width = 561;
+}
+);
+},
+{
+glyphname = umacron_tildecomb.sc;
+kernLeft = u.sc;
+kernRight = u.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = u.sc;
+},
+{
+pos = (180,24);
+ref = macroncomb.sc;
+},
+{
+pos = (192,189);
+ref = tildecomb.sc;
+}
+);
+width = 561;
+}
+);
+},
+{
+glyphname = umacrondieresis.sc;
+kernLeft = u.sc;
+kernRight = u.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = u.sc;
+},
+{
+pos = (180,24);
+ref = macroncomb.sc;
+},
+{
+pos = (187,189);
+ref = dieresiscomb.sc;
+}
+);
+width = 561;
+}
+);
+},
+{
+glyphname = uogonek.sc;
+kernLeft = u.sc;
+kernRight = u.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+anchors = (
+{
+name = attachhorn;
+pos = (575,368);
+},
+{
+name = dotbelow;
+pos = (241,0);
+},
+{
+name = ogonek;
+pos = (283,0);
+},
+{
+name = top;
+pos = (437,518);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(346,-136,o),
+(372,-116,o),
+(379,-112,c),
+(369,-81,l),
+(356,-87,o),
+(348,-93,o),
+(330,-93,cs),
+(313,-93,o),
+(300,-86,o),
+(300,-68,cs),
+(300,-44,o),
+(324,-15,o),
+(358,8,c),
+(436,46,o),
+(459,132,o),
+(469,170,cs),
+(535,415,ls),
+(549,468,o),
+(567,471,o),
+(609,478,c),
+(620,516,l),
+(442,516,l),
+(431,478,l),
+(484,469,o),
+(493,457,o),
+(493,441,cs),
+(493,431,o),
+(491,424,o),
+(488,413,cs),
+(425,181,ls),
+(417,151,o),
+(399,90,o),
+(357,55,cs),
+(345,45,o),
+(321,29,o),
+(279,29,cs),
+(189,29,o),
+(181,91,o),
+(181,119,cs),
+(181,154,o),
+(193,191,o),
+(198,209,cs),
+(253,415,ls),
+(268,471,o),
+(269,475,o),
+(333,477,c),
+(343,516,l),
+(126,516,l),
+(116,477,l),
+(167,477,o),
+(175,470,o),
+(175,456,cs),
+(175,444,o),
+(173,437,o),
+(170,426,cs),
+(113,213,ls),
+(109,198,o),
+(98,164,o),
+(98,126,cs),
+(98,78,o),
+(124,-18,o),
+(264,-18,cs),
+(281,-18,o),
+(277,-12,o),
+(284,-11,c),
+(258,-26,o),
+(242,-58,o),
+(242,-86,cs),
+(242,-99,o),
+(244,-136,o),
+(303,-136,cs)
+);
+}
+);
+width = 561;
+}
+);
+},
+{
+glyphname = uogonek_acutecomb.sc;
+kernLeft = u.sc;
+kernRight = u.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = uogonek.sc;
+},
+{
+pos = (251,24);
+ref = acutecomb.sc;
+}
+);
+width = 561;
+}
+);
+},
+{
+glyphname = uogonek_tildecomb.sc;
+kernLeft = u.sc;
+kernRight = u.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = uogonek.sc;
+},
+{
+pos = (159,24);
+ref = tildecomb.sc;
+}
+);
+width = 561;
+}
+);
+},
+{
+glyphname = uring.sc;
+kernLeft = u.sc;
+kernRight = u.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = u.sc;
+},
+{
+pos = (189,24);
+ref = ringcomb.sc;
+}
+);
+width = 561;
+}
+);
+},
+{
+glyphname = utilde.sc;
+kernLeft = u.sc;
+kernRight = u.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = u.sc;
+},
+{
+pos = (159,24);
+ref = tildecomb.sc;
+}
+);
+width = 561;
+}
+);
+},
+{
+glyphname = utildeacute.sc;
+kernLeft = u.sc;
+kernRight = u.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = u.sc;
+},
+{
+pos = (159,24);
+ref = tildecomb.sc;
+},
+{
+pos = (289,189);
+ref = acutecomb.sc;
+}
+);
+width = 561;
+}
+);
+},
+{
+glyphname = utildebelow.sc;
+kernLeft = u.sc;
+kernRight = u.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = u.sc;
+},
+{
+pos = (145,0);
+ref = tildebelowcomb;
+}
+);
+width = 561;
+}
+);
+},
+{
+glyphname = v.sc;
+kernLeft = v.sc;
+kernRight = v.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+anchors = (
+{
+name = dotbelow;
+pos = (163,0);
+},
+{
+name = top;
+pos = (366,518);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(235,-13,l),
+(461,414,ls),
+(488,465,o),
+(501,464,o),
+(531,480,c),
+(540,516,l),
+(376,516,l),
+(366,478,l),
+(402,474,o),
+(425,468,o),
+(425,457,cs),
+(425,447,o),
+(417,428,o),
+(410,415,cs),
+(255,120,l),
+(197,420,ls),
+(196,425,o),
+(193,439,o),
+(193,452,cs),
+(193,469,o),
+(205,475,o),
+(260,477,c),
+(270,516,l),
+(63,516,l),
+(52,478,l),
+(102,470,o),
+(101,469,o),
+(108,436,cs),
+(200,-13,l)
+);
+}
+);
+width = 479;
+}
+);
+},
+{
+glyphname = vdotbelow.sc;
+kernLeft = v.sc;
+kernRight = v.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = v.sc;
+},
+{
+pos = (131,0);
+ref = dotbelowcomb;
+}
+);
+width = 479;
+}
+);
+},
+{
+glyphname = vtilde.sc;
+kernLeft = v.sc;
+kernRight = v.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = v.sc;
+},
+{
+pos = (88,24);
+ref = tildecomb.sc;
+}
+);
+width = 479;
+}
+);
+},
+{
+glyphname = w.sc;
+kernLeft = w.sc;
+kernRight = w.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+anchors = (
+{
+name = dotbelow;
+pos = (259,0);
+},
+{
+name = top;
+pos = (451,518);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(194,-13,l),
+(356,334,l),
+(396,-13,l),
+(431,-13,l),
+(633,414,ls),
+(657,465,o),
+(659,465,o),
+(708,479,c),
+(717,516,l),
+(546,516,l),
+(536,478,l),
+(573,474,o),
+(595,470,o),
+(595,456,cs),
+(595,448,o),
+(591,431,o),
+(583,414,cs),
+(459,151,l),
+(433,404,ls),
+(431,423,o),
+(431,438,o),
+(431,453,cs),
+(431,469,o),
+(434,476,o),
+(489,477,c),
+(499,516,l),
+(286,516,l),
+(275,477,l),
+(343,475,o),
+(338,472,o),
+(343,436,cs),
+(346,414,l),
+(221,151,l),
+(196,398,ls),
+(194,420,o),
+(193,433,o),
+(193,447,cs),
+(193,474,o),
+(208,476,o),
+(249,478,c),
+(259,516,l),
+(75,516,l),
+(65,478,l),
+(98,475,o),
+(107,461,o),
+(109,437,cs),
+(111,413,l),
+(159,-13,l)
+);
+}
+);
+width = 634;
+}
+);
+},
+{
+glyphname = wacute.sc;
+kernLeft = w.sc;
+kernRight = w.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = w.sc;
+},
+{
+pos = (265,24);
+ref = acutecomb.sc;
+}
+);
+width = 634;
+}
+);
+},
+{
+glyphname = wcircumflex.sc;
+kernLeft = w.sc;
+kernRight = w.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = w.sc;
+},
+{
+pos = (165,24);
+ref = circumflexcomb.sc;
+}
+);
+width = 634;
+}
+);
+},
+{
+glyphname = wdieresis.sc;
+kernLeft = w.sc;
+kernRight = w.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = w.sc;
+},
+{
+pos = (168,24);
+ref = dieresiscomb.sc;
+}
+);
+width = 634;
+}
+);
+},
+{
+glyphname = wdotaccent.sc;
+kernLeft = w.sc;
+kernRight = w.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = w.sc;
+},
+{
+pos = (241,-40);
+ref = dotaccentcomb.sc;
+}
+);
+width = 634;
+}
+);
+},
+{
+glyphname = wdotbelow.sc;
+kernLeft = w.sc;
+kernRight = w.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = w.sc;
+},
+{
+pos = (227,0);
+ref = dotbelowcomb;
+}
+);
+width = 634;
+}
+);
+},
+{
+glyphname = wgrave.sc;
+kernLeft = w.sc;
+kernRight = w.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = w.sc;
+},
+{
+pos = (147,24);
+ref = gravecomb.sc;
+}
+);
+width = 634;
+}
+);
+},
+{
+glyphname = wring.sc;
+kernLeft = w.sc;
+kernRight = w.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = w.sc;
+},
+{
+pos = (203,24);
+ref = ringcomb.sc;
+}
+);
+width = 634;
+}
+);
+},
+{
+glyphname = x.sc;
+kernLeft = x.sc;
+kernRight = x.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+anchors = (
+{
+name = top;
+pos = (389,518);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(160,0,l),
+(171,39,l),
+(121,39,o),
+(117,51,o),
+(117,59,cs),
+(117,70,o),
+(127,81,o),
+(143,98,cs),
+(255,217,l),
+(305,84,ls),
+(311,68,o),
+(314,60,o),
+(314,56,cs),
+(314,43,o),
+(309,39,o),
+(250,39,c),
+(241,0,l),
+(466,0,l),
+(477,39,l),
+(425,39,o),
+(409,39,o),
+(393,81,cs),
+(317,280,l),
+(445,412,ls),
+(500,469,o),
+(514,474,o),
+(551,478,c),
+(559,516,l),
+(386,516,l),
+(376,477,l),
+(390,477,o),
+(424,476,o),
+(424,466,cs),
+(424,453,o),
+(398,427,o),
+(388,416,cs),
+(303,322,l),
+(261,432,ls),
+(253,453,o),
+(251,460,o),
+(251,464,cs),
+(251,474,o),
+(268,477,o),
+(311,477,c),
+(320,516,l),
+(112,516,l),
+(101,477,l),
+(130,477,o),
+(158,475,o),
+(173,436,cs),
+(240,263,l),
+(90,104,ls),
+(37,47,o),
+(18,43,o),
+(-26,38,c),
+(-34,0,l)
+);
+}
+);
+width = 493;
+}
+);
+},
+{
+glyphname = x_circumflexcomb.sc;
+kernLeft = x.sc;
+kernRight = x.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = x.sc;
+},
+{
+pos = (103,24);
+ref = circumflexcomb.sc;
+}
+);
+width = 493;
+}
+);
+},
+{
+glyphname = xdieresis.sc;
+kernLeft = x.sc;
+kernRight = x.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = x.sc;
+},
+{
+pos = (106,24);
+ref = dieresiscomb.sc;
+}
+);
+width = 493;
+}
+);
+},
+{
+glyphname = xdotaccent.sc;
+kernLeft = x.sc;
+kernRight = x.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = x.sc;
+},
+{
+pos = (179,-40);
+ref = dotaccentcomb.sc;
+}
+);
+width = 493;
+}
+);
+},
+{
+glyphname = y.sc;
+kernLeft = y.sc;
+kernRight = y.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+anchors = (
+{
+name = dotbelow;
+pos = (184,0);
+},
+{
+name = top;
+pos = (381,518);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(310,0,l),
+(320,39,l),
+(263,39,o),
+(248,45,o),
+(248,59,cs),
+(248,65,o),
+(250,78,o),
+(252,85,cs),
+(288,216,l),
+(458,413,ls),
+(514,478,o),
+(526,474,o),
+(557,478,c),
+(566,516,l),
+(384,516,l),
+(373,477,l),
+(409,477,o),
+(430,475,o),
+(430,460,cs),
+(430,446,o),
+(414,430,o),
+(402,416,cs),
+(269,260,l),
+(225,428,ls),
+(221,443,o),
+(217,446,o),
+(217,460,cs),
+(217,475,o),
+(235,477,o),
+(277,477,c),
+(286,516,l),
+(79,516,l),
+(68,477,l),
+(97,477,o),
+(125,477,o),
+(136,436,cs),
+(199,204,l),
+(167,85,ls),
+(154,39,o),
+(138,40,o),
+(85,39,c),
+(75,0,l)
+);
+}
+);
+width = 480;
+}
+);
+},
+{
+glyphname = yacute.sc;
+kernLeft = y.sc;
+kernRight = y.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = y.sc;
+},
+{
+pos = (195,24);
+ref = acutecomb.sc;
+}
+);
+width = 480;
+}
+);
+},
+{
+glyphname = ycircumflex.sc;
+kernLeft = y.sc;
+kernRight = y.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = y.sc;
+},
+{
+pos = (95,24);
+ref = circumflexcomb.sc;
+}
+);
+width = 480;
+}
+);
+},
+{
+glyphname = ydieresis.sc;
+kernLeft = y.sc;
+kernRight = y.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = y.sc;
+},
+{
+pos = (98,24);
+ref = dieresiscomb.sc;
+}
+);
+width = 480;
+}
+);
+},
+{
+glyphname = ydotaccent.sc;
+kernLeft = y.sc;
+kernRight = y.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = y.sc;
+},
+{
+pos = (171,-40);
+ref = dotaccentcomb.sc;
+}
+);
+width = 480;
+}
+);
+},
+{
+glyphname = ydotbelow.sc;
+kernLeft = y.sc;
+kernRight = y.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = y.sc;
+},
+{
+pos = (152,0);
+ref = dotbelowcomb;
+}
+);
+width = 480;
+}
+);
+},
+{
+glyphname = ygrave.sc;
+kernLeft = y.sc;
+kernRight = y.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = y.sc;
+},
+{
+pos = (77,24);
+ref = gravecomb.sc;
+}
+);
+width = 480;
+}
+);
+},
+{
+glyphname = yhookabove.sc;
+kernLeft = y.sc;
+kernRight = y.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = y.sc;
+},
+{
+pos = (100,24);
+ref = hookabovecomb.sc;
+}
+);
+width = 480;
+}
+);
+},
+{
+glyphname = ymacron.sc;
+kernLeft = y.sc;
+kernRight = y.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = y.sc;
+},
+{
+pos = (124,24);
+ref = macroncomb.sc;
+}
+);
+width = 480;
+}
+);
+},
+{
+glyphname = yring.sc;
+kernLeft = y.sc;
+kernRight = y.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = y.sc;
+},
+{
+pos = (133,24);
+ref = ringcomb.sc;
+}
+);
+width = 480;
+}
+);
+},
+{
+glyphname = ytilde.sc;
+kernLeft = y.sc;
+kernRight = y.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = y.sc;
+},
+{
+pos = (103,24);
+ref = tildecomb.sc;
+}
+);
+width = 480;
+}
+);
+},
+{
+glyphname = z.sc;
+kernLeft = z.sc;
+kernRight = z.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+anchors = (
+{
+name = dotbelow;
+pos = (173,0);
+},
+{
+name = top;
+pos = (369,518);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(361,0,l),
+(431,133,l),
+(396,151,l),
+(344,89,o),
+(291,43,o),
+(162,43,cs),
+(122,43,l),
+(501,501,l),
+(492,516,l),
+(154,516,l),
+(90,388,l),
+(122,372,l),
+(170,422,o),
+(220,475,o),
+(344,475,cs),
+(378,475,l),
+(-3,17,l),
+(5,0,l)
+);
+}
+);
+width = 466;
+}
+);
+},
+{
+glyphname = zacute.sc;
+kernLeft = z.sc;
+kernRight = z.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = z.sc;
+},
+{
+pos = (183,24);
+ref = acutecomb.sc;
+}
+);
+width = 466;
+}
+);
+},
+{
+glyphname = zcaron.sc;
+kernLeft = z.sc;
+kernRight = z.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = z.sc;
+},
+{
+pos = (87,24);
+ref = caroncomb.sc;
+}
+);
+width = 466;
+}
+);
+},
+{
+glyphname = zcircumflex.sc;
+kernLeft = z.sc;
+kernRight = z.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = z.sc;
+},
+{
+pos = (83,24);
+ref = circumflexcomb.sc;
+}
+);
+width = 466;
+}
+);
+},
+{
+glyphname = zdotaccent.sc;
+kernLeft = z.sc;
+kernRight = z.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = z.sc;
+},
+{
+pos = (159,-40);
+ref = dotaccentcomb.sc;
+}
+);
+width = 466;
+}
+);
+},
+{
+glyphname = zdotbelow.sc;
+kernLeft = z.sc;
+kernRight = z.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = z.sc;
+},
+{
+pos = (141,0);
+ref = dotbelowcomb;
+}
+);
+width = 466;
+}
+);
+},
+{
+glyphname = zmacronbelow.sc;
+kernLeft = z.sc;
+kernRight = z.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = z.sc;
+},
+{
+pos = (79,0);
+ref = macronbelowcomb;
+}
+);
+width = 466;
+}
+);
+},
+{
+glyphname = saltillo.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(178,297,ls),
+(200,378,o),
+(266,427,o),
+(266,472,cs),
+(266,497,o),
+(240,515,o),
+(199,515,cs),
+(156,515,o),
+(142,495,o),
+(142,400,cs),
+(142,315,o),
+(121,257,o),
+(105,185,c),
+(145,179,l)
+);
+}
+);
+width = 296;
+}
+);
+},
+{
+glyphname = fi.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = f.sc;
+},
+{
+pos = (467,0);
+ref = i.sc;
+}
+);
+width = 770;
+}
+);
+},
+{
+glyphname = fl.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = f.sc;
+},
+{
+pos = (467,0);
+ref = l.sc;
+}
+);
+width = 958;
+}
+);
 },
 {
 glyphname = ordfeminine;
@@ -22925,8 +32627,570 @@ width = 526;
 );
 },
 {
+glyphname = zero.osf;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(516,450,o),
+(443,535,o),
+(337,535,cs),
+(185,535,o),
+(36,364,o),
+(36,188,cs),
+(36,67,o),
+(110,-18,o),
+(215,-18,cs),
+(367,-18,o),
+(516,153,o),
+(516,329,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(430,196,o),
+(319,26,o),
+(218,26,cs),
+(162,26,o),
+(125,82,o),
+(125,169,cs),
+(125,322,o),
+(236,491,o),
+(337,491,cs),
+(394,491,o),
+(430,435,o),
+(430,349,cs)
+);
+}
+);
+width = 541;
+}
+);
+},
+{
+glyphname = one.osf;
+lastChange = "2026-10-13 22:21:22 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(340,0,l),
+(352,43,l),
+(246,43,o),
+(220,50,o),
+(220,79,cs),
+(220,88,o),
+(222,95,o),
+(227,114,cs),
+(346,557,l),
+(266,520,o),
+(222,498,o),
+(91,485,c),
+(80,443,l),
+(185,443,o),
+(215,442,o),
+(215,409,cs),
+(215,395,o),
+(210,375,o),
+(203,349,cs),
+(141,120,ls),
+(124,59,o),
+(122,50,o),
+(2,43,c),
+(-10,0,l)
+);
+}
+);
+width = 423;
+}
+);
+},
+{
+glyphname = two.osf;
+lastChange = "2026-10-13 22:21:22 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(405,0,l),
+(473,173,l),
+(441,194,l),
+(376,82,o),
+(337,82,o),
+(260,82,cs),
+(73,82,l),
+(122,127,o),
+(178,159,o),
+(277,215,cs),
+(378,272,o),
+(475,315,o),
+(475,402,cs),
+(475,477,o),
+(406,541,o),
+(297,541,cs),
+(163,541,o),
+(72,444,o),
+(72,377,cs),
+(72,343,o),
+(96,317,o),
+(131,317,cs),
+(172,317,o),
+(187,354,o),
+(187,407,cs),
+(187,454,o),
+(212,496,o),
+(287,496,cs),
+(342,496,o),
+(383,473,o),
+(383,429,cs),
+(383,359,o),
+(319,307,o),
+(207,236,cs),
+(125,184,o),
+(41,129,o),
+(-11,59,c),
+(-26,0,l)
+);
+}
+);
+width = 530;
+}
+);
+},
+{
+glyphname = three.osf;
+lastChange = "2026-10-13 22:21:22 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(287,-186,o),
+(399,-88,o),
+(399,40,cs),
+(399,129,o),
+(344,167,o),
+(275,191,c),
+(367,192,o),
+(469,274,o),
+(469,380,cs),
+(469,470,o),
+(395,535,o),
+(290,535,cs),
+(188,535,o),
+(91,474,o),
+(91,408,cs),
+(91,378,o),
+(111,350,o),
+(147,350,cs),
+(230,350,o),
+(178,494,o),
+(295,494,cs),
+(354,494,o),
+(374,458,o),
+(374,404,cs),
+(374,303,o),
+(305,214,o),
+(231,214,cs),
+(208,214,o),
+(192,223,o),
+(171,223,cs),
+(148,223,o),
+(138,213,o),
+(138,194,cs),
+(138,171,o),
+(154,162,o),
+(179,162,cs),
+(199,162,o),
+(211,168,o),
+(231,168,cs),
+(284,168,o),
+(303,118,o),
+(303,69,cs),
+(303,-17,o),
+(246,-145,o),
+(140,-145,cs),
+(89,-145,o),
+(64,-116,o),
+(64,-89,cs),
+(64,-70,o),
+(77,-53,o),
+(77,-29,cs),
+(77,4,o),
+(51,30,o),
+(19,30,cs),
+(-12,30,o),
+(-38,7,o),
+(-38,-37,cs),
+(-38,-109,o),
+(34,-186,o),
+(153,-186,cs)
+);
+}
+);
+width = 492;
+}
+);
+},
+{
+glyphname = four.osf;
+lastChange = "2026-10-13 22:21:22 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(264,-161,l),
+(310,14,l),
+(433,14,l),
+(447,63,l),
+(324,63,l),
+(453,548,l),
+(384,548,l),
+(-41,55,l),
+(-52,14,l),
+(216,14,l),
+(170,-161,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(320,401,l),
+(230,63,l),
+(28,63,l)
+);
+}
+);
+width = 514;
+}
+);
+},
+{
+glyphname = five.osf;
+lastChange = "2026-10-13 22:21:22 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(295,-186,o),
+(416,-67,o),
+(416,83,cs),
+(416,191,o),
+(353,277,o),
+(243,277,cs),
+(191,277,o),
+(152,258,o),
+(114,226,c),
+(194,437,l),
+(453,437,l),
+(492,516,l),
+(174,516,l),
+(43,162,l),
+(74,146,l),
+(116,187,o),
+(161,228,o),
+(224,228,cs),
+(274,228,o),
+(320,203,o),
+(320,120,cs),
+(320,29,o),
+(265,-145,o),
+(144,-145,cs),
+(95,-145,o),
+(71,-116,o),
+(71,-88,cs),
+(71,-68,o),
+(84,-52,o),
+(84,-30,cs),
+(84,-2,o),
+(63,28,o),
+(24,28,cs),
+(-17,28,o),
+(-31,-4,o),
+(-31,-38,cs),
+(-31,-118,o),
+(47,-186,o),
+(154,-186,cs)
+);
+}
+);
+width = 503;
+}
+);
+},
+{
+glyphname = six.osf;
+lastChange = "2026-10-13 22:21:22 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(359,-18,o),
+(488,111,o),
+(488,257,cs),
+(488,351,o),
+(435,429,o),
+(335,429,cs),
+(273,429,o),
+(229,399,o),
+(167,328,c),
+(228,526,o),
+(313,658,o),
+(392,658,cs),
+(459,658,o),
+(435,562,o),
+(502,562,cs),
+(534,562,o),
+(561,584,o),
+(561,620,cs),
+(561,670,o),
+(508,703,o),
+(434,703,cs),
+(332,703,o),
+(256,641,o),
+(200,576,cs),
+(119,482,o),
+(50,349,o),
+(50,211,cs),
+(50,95,o),
+(98,-18,o),
+(224,-18,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(163,23,o),
+(137,70,o),
+(137,147,cs),
+(137,187,o),
+(144,228,o),
+(152,258,c),
+(215,348,o),
+(269,379,o),
+(312,379,cs),
+(353,379,o),
+(391,352,o),
+(391,284,cs),
+(391,204,o),
+(339,23,o),
+(222,23,cs)
+);
+}
+);
+width = 529;
+}
+);
+},
+{
+glyphname = seven.osf;
+lastChange = "2026-10-13 22:21:22 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(135,-186,o),
+(156,-166,o),
+(167,-120,cs),
+(226,125,o),
+(408,331,o),
+(517,467,c),
+(530,516,l),
+(137,516,l),
+(40,325,l),
+(75,306,l),
+(157,438,o),
+(175,441,o),
+(302,441,cs),
+(441,441,l),
+(345,331,o),
+(238,203,o),
+(150,72,cs),
+(115,20,o),
+(57,-65,o),
+(57,-129,cs),
+(57,-154,o),
+(66,-186,o),
+(105,-186,cs)
+);
+}
+);
+width = 474;
+}
+);
+},
+{
+glyphname = eight.osf;
+lastChange = "2026-10-13 22:21:22 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(362,-18,o),
+(460,70,o),
+(460,183,cs),
+(460,256,o),
+(420,310,o),
+(362,355,c),
+(471,397,o),
+(528,461,o),
+(528,544,cs),
+(528,642,o),
+(447,703,o),
+(347,703,cs),
+(226,703,o),
+(132,613,o),
+(132,499,cs),
+(132,425,o),
+(171,394,o),
+(209,355,c),
+(101,321,o),
+(5,261,o),
+(5,155,cs),
+(5,54,o),
+(91,-18,o),
+(220,-18,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(157,23,o),
+(95,56,o),
+(95,140,cs),
+(95,240,o),
+(181,304,o),
+(239,325,c),
+(327,261,o),
+(376,225,o),
+(376,152,cs),
+(376,65,o),
+(306,23,o),
+(227,23,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(301,409,o),
+(267,429,o),
+(237,462,c),
+(228,470,o),
+(208,498,o),
+(208,538,cs),
+(208,611,o),
+(274,662,o),
+(340,662,cs),
+(391,662,o),
+(448,632,o),
+(448,551,cs),
+(448,470,o),
+(391,401,o),
+(332,381,c)
+);
+}
+);
+width = 511;
+}
+);
+},
+{
+glyphname = nine.osf;
+lastChange = "2026-10-13 22:21:22 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(196,-186,o),
+(283,-122,o),
+(342,-53,cs),
+(422,40,o),
+(490,187,o),
+(490,312,cs),
+(490,419,o),
+(440,535,o),
+(313,535,cs),
+(177,535,o),
+(50,403,o),
+(50,260,cs),
+(50,167,o),
+(103,87,o),
+(201,87,cs),
+(265,87,o),
+(318,121,o),
+(364,175,c),
+(304,-23,o),
+(219,-140,o),
+(142,-140,cs),
+(71,-140,o),
+(96,-42,o),
+(28,-42,cs),
+(-3,-42,o),
+(-31,-63,o),
+(-31,-99,cs),
+(-31,-150,o),
+(24,-186,o),
+(98,-186,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(185,139,o),
+(145,166,o),
+(145,228,cs),
+(145,297,o),
+(195,491,o),
+(314,491,cs),
+(371,491,o),
+(403,446,o),
+(403,383,cs),
+(403,344,o),
+(391,284,o),
+(384,254,c),
+(317,164,o),
+(267,139,o),
+(227,139,cs)
+);
+}
+);
+width = 526;
+}
+);
+},
+{
 glyphname = zero.tf;
-kernLeft = "0";
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
@@ -22942,8 +33206,6 @@ width = 514;
 },
 {
 glyphname = one.tf;
-kernLeft = "1";
-kernRight = "1";
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
@@ -22959,8 +33221,6 @@ width = 514;
 },
 {
 glyphname = two.tf;
-kernLeft = "2";
-kernRight = "2";
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
@@ -22976,8 +33236,6 @@ width = 514;
 },
 {
 glyphname = three.tf;
-kernLeft = "3";
-kernRight = "3";
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
@@ -22993,8 +33251,6 @@ width = 514;
 },
 {
 glyphname = four.tf;
-kernLeft = "4";
-kernRight = "4";
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
@@ -23010,8 +33266,6 @@ width = 514;
 },
 {
 glyphname = five.tf;
-kernLeft = "5";
-kernRight = "5";
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
@@ -23027,8 +33281,6 @@ width = 514;
 },
 {
 glyphname = six.tf;
-kernLeft = "6";
-kernRight = "6";
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
@@ -23044,8 +33296,6 @@ width = 514;
 },
 {
 glyphname = seven.tf;
-kernLeft = "7";
-kernRight = "7";
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
@@ -23061,8 +33311,6 @@ width = 514;
 },
 {
 glyphname = eight.tf;
-kernLeft = "8";
-kernRight = "8";
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
@@ -23078,8 +33326,6 @@ width = 514;
 },
 {
 glyphname = nine.tf;
-kernLeft = "9";
-kernRight = "9";
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
 {
@@ -23087,6 +33333,176 @@ layerId = m01;
 shapes = (
 {
 ref = nine;
+}
+);
+width = 514;
+}
+);
+},
+{
+glyphname = zero.tosf;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+pos = (-14,0);
+ref = zero.osf;
+}
+);
+width = 514;
+}
+);
+},
+{
+glyphname = one.tosf;
+lastChange = "2026-10-13 22:21:22 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+pos = (43,0);
+ref = one.osf;
+}
+);
+width = 514;
+}
+);
+},
+{
+glyphname = two.tosf;
+lastChange = "2026-10-13 22:21:22 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+pos = (-9,0);
+ref = two.osf;
+}
+);
+width = 514;
+}
+);
+},
+{
+glyphname = three.tosf;
+lastChange = "2026-10-13 22:21:22 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+pos = (15,0);
+ref = three.osf;
+}
+);
+width = 514;
+}
+);
+},
+{
+glyphname = four.tosf;
+lastChange = "2026-10-13 22:21:22 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+pos = (7,0);
+ref = four.osf;
+}
+);
+width = 514;
+}
+);
+},
+{
+glyphname = five.tosf;
+lastChange = "2026-10-13 22:21:22 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+pos = (4,0);
+ref = five.osf;
+}
+);
+width = 514;
+}
+);
+},
+{
+glyphname = six.tosf;
+lastChange = "2026-10-13 22:21:22 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+pos = (-9,0);
+ref = six.osf;
+}
+);
+width = 514;
+}
+);
+},
+{
+glyphname = seven.tosf;
+lastChange = "2026-10-13 22:21:22 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+pos = (22,0);
+ref = seven.osf;
+}
+);
+width = 514;
+}
+);
+},
+{
+glyphname = eight.tosf;
+lastChange = "2026-10-13 22:21:22 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+pos = (1,0);
+ref = eight.osf;
+}
+);
+width = 514;
+}
+);
+},
+{
+glyphname = nine.tosf;
+lastChange = "2026-10-13 22:21:22 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+pos = (-5,0);
+ref = nine.osf;
 }
 );
 width = 514;
@@ -24547,6 +34963,60 @@ width = 173;
 }
 );
 unicode = 8239;
+},
+{
+glyphname = .notdef;
+lastChange = "2022-12-16 05:44:27 +0000";
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+origin = (1,0);
+target = (0,0);
+type = Stem;
+},
+{
+horizontal = 1;
+origin = (0,1);
+target = (1,3);
+type = Stem;
+},
+{
+origin = (1,0);
+target = (0,0);
+type = Stem;
+},
+{
+origin = (0,3);
+target = (1,1);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(50,50,l),
+(50,630,l),
+(435,630,l),
+(435,50,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(0,0,l),
+(485,0,l),
+(485,680,l),
+(0,680,l)
+);
+}
+);
+width = 485;
+}
+);
 },
 {
 glyphname = period;
@@ -30421,6 +40891,366 @@ width = 269;
 );
 },
 {
+glyphname = dieresiscomb.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = dieresiscomb;
+}
+);
+width = 275;
+}
+);
+},
+{
+glyphname = dotaccentcomb.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = dotaccentcomb;
+}
+);
+width = 106;
+}
+);
+},
+{
+glyphname = gravecomb.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = gravecomb;
+}
+);
+width = 171;
+}
+);
+},
+{
+glyphname = acutecomb.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = acutecomb;
+}
+);
+width = 195;
+}
+);
+},
+{
+glyphname = hungarumlautcomb.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = hungarumlautcomb;
+}
+);
+width = 264;
+}
+);
+},
+{
+glyphname = circumflexcomb.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = circumflexcomb;
+}
+);
+width = 269;
+}
+);
+},
+{
+glyphname = circumflexcomb_gravecomb.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = circumflexcomb_gravecomb;
+}
+);
+width = 269;
+}
+);
+},
+{
+glyphname = circumflexcomb_acutecomb.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = circumflexcomb_acutecomb;
+}
+);
+width = 269;
+}
+);
+},
+{
+glyphname = circumflexcomb_caroncomb.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = circumflexcomb_caroncomb;
+}
+);
+width = 269;
+}
+);
+},
+{
+glyphname = circumflexcomb_tildecomb.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = circumflexcomb_tildecomb;
+}
+);
+width = 269;
+}
+);
+},
+{
+glyphname = circumflexcomb_hookabovecomb.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = circumflexcomb_hookabovecomb;
+}
+);
+width = 269;
+}
+);
+},
+{
+glyphname = caroncomb.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = caroncomb;
+}
+);
+width = 269;
+}
+);
+},
+{
+glyphname = brevecomb.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = brevecomb;
+}
+);
+width = 268;
+}
+);
+},
+{
+glyphname = brevecomb_gravecomb.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = brevecomb_gravecomb;
+}
+);
+width = 268;
+}
+);
+},
+{
+glyphname = brevecomb_acutecomb.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = brevecomb_acutecomb;
+}
+);
+width = 268;
+}
+);
+},
+{
+glyphname = brevecomb_tildecomb.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = brevecomb_tildecomb;
+}
+);
+width = 268;
+}
+);
+},
+{
+glyphname = brevecomb_hookabovecomb.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = brevecomb_hookabovecomb;
+}
+);
+width = 268;
+}
+);
+},
+{
+glyphname = ringcomb.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = ringcomb;
+}
+);
+width = 177;
+}
+);
+},
+{
+glyphname = tildecomb.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = tildecomb;
+}
+);
+width = 266;
+}
+);
+},
+{
+glyphname = macroncomb.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = macroncomb;
+}
+);
+width = 223;
+}
+);
+},
+{
+glyphname = hookabovecomb.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = hookabovecomb;
+}
+);
+width = 217;
+}
+);
+},
+{
+glyphname = dblgravecomb.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = dblgravecomb;
+}
+);
+width = 315;
+}
+);
+},
+{
+glyphname = commaturnedabovecomb.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = commaturnedabovecomb;
+}
+);
+width = 114;
+}
+);
+},
+{
+glyphname = horncomb.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = horncomb;
+}
+);
+width = 143;
+}
+);
+},
+{
 glyphname = dieresis;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
@@ -30629,6 +41459,171 @@ width = 216;
 unicode = 731;
 },
 {
+glyphname = dieresis.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = dieresiscomb;
+}
+);
+width = 275;
+}
+);
+},
+{
+glyphname = dotaccent.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = dotaccentcomb;
+}
+);
+width = 106;
+}
+);
+},
+{
+glyphname = grave.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = gravecomb;
+}
+);
+width = 171;
+}
+);
+},
+{
+glyphname = acute.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = acutecomb;
+}
+);
+width = 195;
+}
+);
+},
+{
+glyphname = hungarumlaut.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = hungarumlautcomb;
+}
+);
+width = 264;
+}
+);
+},
+{
+glyphname = circumflex.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = circumflexcomb;
+}
+);
+width = 269;
+}
+);
+},
+{
+glyphname = caron.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = caroncomb;
+}
+);
+width = 269;
+}
+);
+},
+{
+glyphname = breve.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = brevecomb;
+}
+);
+width = 268;
+}
+);
+},
+{
+glyphname = ring.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = ringcomb;
+}
+);
+width = 177;
+}
+);
+},
+{
+glyphname = tilde.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = tildecomb;
+}
+);
+width = 266;
+}
+);
+},
+{
+glyphname = macron.sc;
+lastChange = "2026-10-14 06:03:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = macroncomb;
+}
+);
+width = 223;
+}
+);
+},
+{
 glyphname = apostrophemod;
 lastChange = "2024-08-01 23:18:37 +0000";
 layers = (
@@ -30764,7 +41759,7 @@ instanceInterpolations = {
 m01 = 1;
 };
 isItalic = 1;
-linkStyle = "MFB Oldstyle";
+linkStyle = Regular;
 name = Italic;
 }
 );
@@ -30853,6 +41848,19 @@ period = -59.45946;
 comma = 24.86486;
 hyphen = 29.18919;
 period = 32.43243;
+"@MMK_R_a.sc" = 49;
+"@MMK_R_b.sc" = 68;
+"@MMK_R_c.sc" = -10;
+"@MMK_R_d.sc" = 68;
+"@MMK_R_e.sc" = 68;
+"@MMK_R_g.sc" = -13;
+"@MMK_R_p.sc" = 68;
+"@MMK_R_s.sc" = 2;
+"@MMK_R_t.sc" = 4;
+"@MMK_R_u.sc" = -17;
+"@MMK_R_v.sc" = -29;
+"@MMK_R_w.sc" = -29;
+"@MMK_R_y.sc" = -37;
 };
 "@MMK_L_B" = {
 "@MMK_R_A" = -43.24324;
@@ -30882,6 +41890,12 @@ period = 32.43243;
 "@MMK_R_u" = -8.64865;
 comma = 18.37838;
 period = 21.62162;
+"@MMK_R_a.sc" = -38;
+"@MMK_R_b.sc" = -11;
+"@MMK_R_d.sc" = -11;
+"@MMK_R_e.sc" = -11;
+"@MMK_R_t.sc" = -28;
+"@MMK_R_u.sc" = -13;
 };
 "@MMK_L_C" = {
 "@MMK_R_A" = -45.40541;
@@ -30894,6 +41908,13 @@ period = 21.62162;
 "@MMK_R_k" = -8.64865;
 "@MMK_R_l" = -10.81081;
 "@MMK_R_t" = -14.05405;
+"@MMK_R_a.sc" = -42;
+"@MMK_R_e.sc" = -23;
+"@MMK_R_h.sc" = -23;
+"@MMK_R_k.sc" = -23;
+"@MMK_R_l.sc" = -23;
+"@MMK_R_o.sc" = 3;
+"@MMK_R_t.sc" = -37;
 };
 "@MMK_L_D" = {
 "@MMK_R_A" = -52.97297;
@@ -30919,6 +41940,10 @@ period = 21.62162;
 "@MMK_R_o" = 4.32432;
 "@MMK_R_y" = 7.56757;
 comma = -4.32432;
+"@MMK_R_a.sc" = -32;
+"@MMK_R_e.sc" = -3;
+"@MMK_R_o.sc" = 2;
+"@MMK_R_y.sc" = 17;
 };
 "@MMK_L_E" = {
 "@MMK_R_A" = -30.27027;
@@ -30947,6 +41972,17 @@ comma = -4.32432;
 "@MMK_R_v" = -25.94595;
 "@MMK_R_w" = -20.54054;
 period = 20.54054;
+"@MMK_R_c.sc" = -5;
+"@MMK_R_d.sc" = -21;
+"@MMK_R_e.sc" = -21;
+"@MMK_R_g.sc" = -4;
+"@MMK_R_i.sc" = -21;
+"@MMK_R_p.sc" = -21;
+"@MMK_R_q.sc" = -2;
+"@MMK_R_s.sc" = -12;
+"@MMK_R_u.sc" = -30;
+"@MMK_R_v.sc" = -27;
+"@MMK_R_w.sc" = -27;
 };
 "@MMK_L_F" = {
 "@MMK_R_A" = -80;
@@ -30969,6 +42005,18 @@ period = 20.54054;
 "@MMK_R_w" = -45.40541;
 comma = -73.51351;
 period = -68.10811;
+"@MMK_R_a.sc" = -85;
+"@MMK_R_e.sc" = -5;
+"@MMK_R_g.sc" = -55;
+"@MMK_R_i.sc" = -5;
+"@MMK_R_l.sc" = -5;
+"@MMK_R_o.sc" = -54;
+"@MMK_R_r.sc" = -5;
+"@MMK_R_s.sc" = -46;
+"@MMK_R_t.sc" = -17;
+"@MMK_R_u.sc" = -3;
+"@MMK_R_v.sc" = -5;
+"@MMK_R_w.sc" = -5;
 };
 "@MMK_L_G" = {
 "@MMK_R_A" = -55.13514;
@@ -30996,6 +42044,17 @@ period = -68.10811;
 "@MMK_R_u" = -7.56757;
 "@MMK_R_v" = -16.21622;
 comma = -1.08108;
+"@MMK_R_a.sc" = -49;
+"@MMK_R_e.sc" = -19;
+"@MMK_R_i.sc" = -19;
+"@MMK_R_k.sc" = -19;
+"@MMK_R_l.sc" = -19;
+"@MMK_R_o.sc" = 1;
+"@MMK_R_r.sc" = -19;
+"@MMK_R_t.sc" = -10;
+"@MMK_R_u.sc" = -24;
+"@MMK_R_v.sc" = -29;
+"@MMK_R_w.sc" = -29;
 };
 "@MMK_L_H" = {
 "@MMK_R_G" = -18.37838;
@@ -31011,6 +42070,13 @@ comma = -1.08108;
 "@MMK_R_o" = -18.37838;
 "@MMK_R_u" = -27.02703;
 "@MMK_R_y" = -37.83784;
+"@MMK_R_a.sc" = 26;
+"@MMK_R_e.sc" = 5;
+"@MMK_R_g.sc" = -16;
+"@MMK_R_i.sc" = -2;
+"@MMK_R_o.sc" = -19;
+"@MMK_R_u.sc" = -27;
+"@MMK_R_y.sc" = -21;
 };
 "@MMK_L_I" = {
 "@MMK_R_B" = -4.32432;
@@ -31047,6 +42113,18 @@ comma = -1.08108;
 "@MMK_R_v" = -25.94595;
 "@MMK_R_w" = -24.86486;
 period = -2.16216;
+"@MMK_R_a.sc" = 25;
+"@MMK_R_c.sc" = -19;
+"@MMK_R_d.sc" = -5;
+"@MMK_R_e.sc" = -5;
+"@MMK_R_g.sc" = -16;
+"@MMK_R_l.sc" = -5;
+"@MMK_R_o.sc" = -19;
+"@MMK_R_q.sc" = -14;
+"@MMK_R_s.sc" = -6;
+"@MMK_R_u.sc" = -12;
+"@MMK_R_v.sc" = -18;
+"@MMK_R_w.sc" = -18;
 };
 "@MMK_L_J" = {
 "@MMK_R_A" = -55.13514;
@@ -31055,6 +42133,10 @@ period = -2.16216;
 "@MMK_R_e" = -17.2973;
 "@MMK_R_o" = -11.89189;
 "@MMK_R_u" = -20.54054;
+"@MMK_R_a.sc" = -49;
+"@MMK_R_e.sc" = -29;
+"@MMK_R_o.sc" = -14;
+"@MMK_R_u.sc" = -30;
 };
 "@MMK_L_K" = {
 "@MMK_R_G" = -54.05405;
@@ -31082,6 +42164,21 @@ period = -2.16216;
 "@MMK_R_y" = -72.43243;
 comma = 1.08108;
 period = 3.24324;
+"@MMK_R_a.sc" = 45;
+"@MMK_R_d.sc" = 35;
+"@MMK_R_e.sc" = 35;
+"@MMK_R_g.sc" = -24;
+"@MMK_R_i.sc" = 13;
+"@MMK_R_l.sc" = 35;
+"@MMK_R_m.sc" = 35;
+"@MMK_R_n.sc" = 35;
+"@MMK_R_o.sc" = -21;
+"@MMK_R_s.sc" = 3;
+"@MMK_R_t.sc" = -30;
+"@MMK_R_u.sc" = -42;
+"@MMK_R_v.sc" = -43;
+"@MMK_R_w.sc" = -43;
+"@MMK_R_y.sc" = -16;
 };
 "@MMK_L_L" = {
 "@MMK_R_C" = -12.97297;
@@ -31110,6 +42207,19 @@ period = 3.24324;
 "@MMK_R_z" = 0;
 comma = 38.91892;
 period = 38.91892;
+"@MMK_R_a.sc" = 16;
+"@MMK_R_c.sc" = 3;
+"@MMK_R_d.sc" = -3;
+"@MMK_R_e.sc" = -3;
+"@MMK_R_g.sc" = 3;
+"@MMK_R_i.sc" = -3;
+"@MMK_R_o.sc" = 5;
+"@MMK_R_s.sc" = 2;
+"@MMK_R_t.sc" = 13;
+"@MMK_R_u.sc" = -48;
+"@MMK_R_v.sc" = -5;
+"@MMK_R_w.sc" = -5;
+"@MMK_R_y.sc" = -17;
 };
 "@MMK_L_M" = {
 "@MMK_R_G" = -18.37838;
@@ -31123,6 +42233,11 @@ period = 38.91892;
 "@MMK_R_s" = -2.16216;
 "@MMK_R_u" = -10.81081;
 comma = -11.89189;
+"@MMK_R_a.sc" = 25;
+"@MMK_R_e.sc" = 6;
+"@MMK_R_o.sc" = -19;
+"@MMK_R_s.sc" = -6;
+"@MMK_R_u.sc" = -28;
 };
 "@MMK_L_N" = {
 "@MMK_R_A" = -54.05405;
@@ -31144,6 +42259,15 @@ comma = -11.89189;
 "@MMK_R_u" = -21.62162;
 comma = -4.32432;
 period = -2.16216;
+"@MMK_R_a.sc" = -47;
+"@MMK_R_c.sc" = -17;
+"@MMK_R_d.sc" = -23;
+"@MMK_R_e.sc" = -23;
+"@MMK_R_g.sc" = -16;
+"@MMK_R_i.sc" = -33;
+"@MMK_R_j.sc" = -25;
+"@MMK_R_o.sc" = -14;
+"@MMK_R_u.sc" = -28;
 };
 "@MMK_L_O" = {
 "@MMK_R_I" = -17.2973;
@@ -31169,6 +42293,23 @@ period = -2.16216;
 "@MMK_R_w" = 3.24324;
 "@MMK_R_z" = 6.48649;
 period = 1.08108;
+"@MMK_R_b.sc" = -4;
+"@MMK_R_e.sc" = -4;
+"@MMK_R_h.sc" = -4;
+"@MMK_R_i.sc" = -4;
+"@MMK_R_j.sc" = 8;
+"@MMK_R_k.sc" = -4;
+"@MMK_R_l.sc" = -4;
+"@MMK_R_m.sc" = -4;
+"@MMK_R_n.sc" = -4;
+"@MMK_R_p.sc" = -4;
+"@MMK_R_r.sc" = -4;
+"@MMK_R_s.sc" = 11;
+"@MMK_R_t.sc" = 1;
+"@MMK_R_u.sc" = 3;
+"@MMK_R_v.sc" = 31;
+"@MMK_R_w.sc" = 31;
+"@MMK_R_z.sc" = 4;
 };
 "@MMK_L_P" = {
 "@MMK_R_A" = -82.16216;
@@ -31184,6 +42325,13 @@ period = 1.08108;
 "@MMK_R_o" = -42.16216;
 "@MMK_R_u" = -19.45946;
 hyphen = -7.56757;
+"@MMK_R_a.sc" = -84;
+"@MMK_R_e.sc" = -6;
+"@MMK_R_i.sc" = -6;
+"@MMK_R_l.sc" = -6;
+"@MMK_R_o.sc" = -38;
+"@MMK_R_t.sc" = -2;
+"@MMK_R_u.sc" = -3;
 };
 "@MMK_L_Q" = {
 "@MMK_R_U" = -22.7027;
@@ -31207,6 +42355,13 @@ hyphen = -7.56757;
 "@MMK_R_u" = -23.78378;
 comma = 3.24324;
 period = 5.40541;
+"@MMK_R_a.sc" = 48;
+"@MMK_R_c.sc" = -8;
+"@MMK_R_d.sc" = 40;
+"@MMK_R_e.sc" = 40;
+"@MMK_R_i.sc" = 16;
+"@MMK_R_o.sc" = -12;
+"@MMK_R_u.sc" = -5;
 };
 "@MMK_L_S" = {
 "@MMK_R_A" = -27.02703;
@@ -31229,6 +42384,16 @@ period = 5.40541;
 "@MMK_R_y" = -16.21622;
 comma = 27.02703;
 period = 30.27027;
+"@MMK_R_a.sc" = -27;
+"@MMK_R_c.sc" = 7;
+"@MMK_R_d.sc" = -14;
+"@MMK_R_e.sc" = -14;
+"@MMK_R_o.sc" = 7;
+"@MMK_R_p.sc" = -14;
+"@MMK_R_t.sc" = -9;
+"@MMK_R_v.sc" = -5;
+"@MMK_R_w.sc" = -5;
+"@MMK_R_y.sc" = -15;
 };
 "@MMK_L_T" = {
 "@MMK_R_A" = -78.91892;
@@ -31256,6 +42421,19 @@ period = 30.27027;
 comma = -75.67567;
 hyphen = -44.32433;
 period = -69.18919;
+"@MMK_R_a.sc" = -89;
+"@MMK_R_e.sc" = -67;
+"@MMK_R_g.sc" = -89;
+"@MMK_R_h.sc" = -67;
+"@MMK_R_l.sc" = -67;
+"@MMK_R_o.sc" = -93;
+"@MMK_R_r.sc" = -67;
+"@MMK_R_s.sc" = -67;
+"@MMK_R_u.sc" = -75;
+"@MMK_R_v.sc" = -72;
+"@MMK_R_w.sc" = -72;
+"@MMK_R_y.sc" = -78;
+"@MMK_R_z.sc" = -97;
 };
 "@MMK_L_U" = {
 "@MMK_R_A" = -58.37838;
@@ -31284,6 +42462,23 @@ period = -69.18919;
 "@MMK_R_z" = -19.45946;
 comma = -14.05405;
 period = -10.81081;
+"@MMK_R_a.sc" = -53;
+"@MMK_R_c.sc" = -19;
+"@MMK_R_d.sc" = -38;
+"@MMK_R_e.sc" = -38;
+"@MMK_R_g.sc" = -20;
+"@MMK_R_i.sc" = -45;
+"@MMK_R_k.sc" = -38;
+"@MMK_R_l.sc" = -38;
+"@MMK_R_m.sc" = -38;
+"@MMK_R_n.sc" = -38;
+"@MMK_R_p.sc" = -38;
+"@MMK_R_r.sc" = -38;
+"@MMK_R_s.sc" = -16;
+"@MMK_R_t.sc" = -23;
+"@MMK_R_v.sc" = -22;
+"@MMK_R_w.sc" = -22;
+"@MMK_R_z.sc" = -34;
 };
 "@MMK_L_V" = {
 "@MMK_R_A" = -80;
@@ -31297,6 +42492,11 @@ period = -10.81081;
 "@MMK_R_u" = -6.48649;
 comma = -59.45946;
 period = -54.05405;
+"@MMK_R_a.sc" = -87;
+"@MMK_R_e.sc" = -40;
+"@MMK_R_i.sc" = -30;
+"@MMK_R_o.sc" = -41;
+"@MMK_R_u.sc" = -11;
 };
 "@MMK_L_X" = {
 "@MMK_R_A" = 9.72973;
@@ -31305,12 +42505,17 @@ period = -54.05405;
 "@MMK_R_a" = -2.16216;
 "@MMK_R_e" = -11.89189;
 "@MMK_R_i" = -18.37838;
+"@MMK_R_a.sc" = 17;
+"@MMK_R_e.sc" = 39;
+"@MMK_R_i.sc" = 17;
 };
 "@MMK_L_Y" = {
 "@MMK_R_O" = -62.7027;
 "@MMK_R_S" = -20.54054;
 "@MMK_R_o" = -86.48649;
 "@MMK_R_p" = -84.32433;
+"@MMK_R_o.sc" = -82;
+"@MMK_R_p.sc" = -54;
 };
 "@MMK_L_Z" = {
 "@MMK_R_A" = -25.94595;
@@ -31329,6 +42534,13 @@ period = -54.05405;
 "@MMK_R_w" = -19.45946;
 comma = 21.62162;
 period = 29.18919;
+"@MMK_R_a.sc" = -22;
+"@MMK_R_e.sc" = -18;
+"@MMK_R_i.sc" = -18;
+"@MMK_R_o.sc" = -2;
+"@MMK_R_u.sc" = -39;
+"@MMK_R_v.sc" = -13;
+"@MMK_R_w.sc" = -13;
 };
 "@MMK_L_a" = {
 "@MMK_R_R" = -12.97297;
@@ -31685,6 +42897,350 @@ zero = {
 "@MMK_R_4" = -1.08108;
 "@MMK_R_7" = -14.05405;
 };
+"@MMK_L_a.sc" = {
+"@MMK_R_I" = 68;
+"@MMK_R_T" = -39;
+"@MMK_R_U" = -48;
+"@MMK_R_V" = -76;
+"@MMK_R_Y" = -24;
+"@MMK_R_a.sc" = 40;
+"@MMK_R_b.sc" = 63;
+"@MMK_R_c.sc" = -15;
+"@MMK_R_d.sc" = 63;
+"@MMK_R_g.sc" = -17;
+"@MMK_R_p.sc" = 63;
+"@MMK_R_s.sc" = 10;
+"@MMK_R_t.sc" = -16;
+"@MMK_R_u.sc" = -30;
+"@MMK_R_v.sc" = -43;
+"@MMK_R_y.sc" = -9;
+comma = 21;
+period = 26;
+};
+"@MMK_L_b.sc" = {
+"@MMK_R_I" = -16;
+"@MMK_R_T" = -90;
+"@MMK_R_b.sc" = -14;
+"@MMK_R_e.sc" = -14;
+"@MMK_R_h.sc" = -14;
+"@MMK_R_i.sc" = -14;
+"@MMK_R_k.sc" = -14;
+"@MMK_R_l.sc" = -14;
+"@MMK_R_m.sc" = -14;
+"@MMK_R_n.sc" = -14;
+"@MMK_R_p.sc" = -14;
+"@MMK_R_r.sc" = -14;
+"@MMK_R_s.sc" = 3;
+"@MMK_R_t.sc" = -1;
+"@MMK_R_u.sc" = -15;
+"@MMK_R_v.sc" = -6;
+"@MMK_R_w.sc" = -6;
+"@MMK_R_z.sc" = -10;
+comma = 10;
+period = 12;
+};
+"@MMK_L_c.sc" = {
+"@MMK_R_A" = -21;
+"@MMK_R_I" = -24;
+"@MMK_R_T" = -111;
+"@MMK_R_h.sc" = -15;
+"@MMK_R_k.sc" = -15;
+"@MMK_R_l.sc" = -15;
+"@MMK_R_m.sc" = -15;
+"@MMK_R_t.sc" = -3;
+};
+"@MMK_L_d.sc" = {
+"@MMK_R_a.sc" = -33;
+"@MMK_R_d.sc" = -16;
+"@MMK_R_e.sc" = -16;
+"@MMK_R_v.sc" = -12;
+"@MMK_R_w.sc" = -12;
+"@MMK_R_y.sc" = -19;
+comma = -9;
+};
+"@MMK_L_e.sc" = {
+"@MMK_R_I" = -9;
+"@MMK_R_S" = -6;
+"@MMK_R_T" = -90;
+"@MMK_R_U" = -34;
+"@MMK_R_V" = -77;
+"@MMK_R_b.sc" = -13;
+"@MMK_R_e.sc" = -13;
+"@MMK_R_h.sc" = -13;
+"@MMK_R_i.sc" = -13;
+"@MMK_R_j.sc" = -18;
+"@MMK_R_k.sc" = -13;
+"@MMK_R_l.sc" = -13;
+"@MMK_R_m.sc" = -13;
+"@MMK_R_n.sc" = -11;
+"@MMK_R_p.sc" = -13;
+"@MMK_R_r.sc" = -13;
+"@MMK_R_u.sc" = -17;
+"@MMK_R_v.sc" = -11;
+"@MMK_R_w.sc" = -11;
+"@MMK_R_x.sc" = 7;
+"@MMK_R_z.sc" = -9;
+comma = 6;
+period = 14;
+};
+"@MMK_L_f.sc" = {
+"@MMK_R_a.sc" = -59;
+"@MMK_R_g.sc" = -5;
+"@MMK_R_o.sc" = -3;
+"@MMK_R_v.sc" = 15;
+"@MMK_R_w.sc" = 15;
+"@MMK_R_z.sc" = 5;
+comma = -58;
+period = -53;
+};
+"@MMK_L_g.sc" = {
+"@MMK_R_a.sc" = -41;
+"@MMK_R_e.sc" = -27;
+"@MMK_R_s.sc" = -10;
+"@MMK_R_v.sc" = -21;
+"@MMK_R_w.sc" = -21;
+comma = -11;
+};
+"@MMK_L_h.sc" = {
+"@MMK_R_a.sc" = 21;
+"@MMK_R_g.sc" = -14;
+"@MMK_R_o.sc" = -13;
+"@MMK_R_q.sc" = -11;
+"@MMK_R_t.sc" = 8;
+"@MMK_R_u.sc" = 3;
+"@MMK_R_v.sc" = 21;
+"@MMK_R_w.sc" = 21;
+"@MMK_R_y.sc" = 21;
+comma = -6;
+period = -4;
+};
+"@MMK_L_i.sc" = {
+"@MMK_R_a.sc" = 21;
+"@MMK_R_c.sc" = -15;
+"@MMK_R_g.sc" = -13;
+"@MMK_R_o.sc" = -12;
+"@MMK_R_q.sc" = -11;
+"@MMK_R_v.sc" = 24;
+"@MMK_R_w.sc" = 24;
+"@MMK_R_z.sc" = -6;
+period = -4;
+};
+"@MMK_L_j.sc" = {
+"@MMK_R_a.sc" = -38;
+"@MMK_R_e.sc" = 4;
+"@MMK_R_o.sc" = -4;
+"@MMK_R_u.sc" = 8;
+};
+"@MMK_L_k.sc" = {
+"@MMK_R_a.sc" = 41;
+"@MMK_R_d.sc" = 31;
+"@MMK_R_e.sc" = 31;
+"@MMK_R_g.sc" = -28;
+"@MMK_R_o.sc" = -26;
+"@MMK_R_u.sc" = -6;
+"@MMK_R_v.sc" = 21;
+"@MMK_R_w.sc" = 21;
+"@MMK_R_y.sc" = 22;
+comma = 2;
+hyphen = -8;
+period = 3;
+};
+"@MMK_L_l.sc" = {
+"@MMK_R_c.sc" = -6;
+"@MMK_R_g.sc" = -6;
+"@MMK_R_o.sc" = -4;
+"@MMK_R_v.sc" = -41;
+"@MMK_R_w.sc" = -41;
+"@MMK_R_y.sc" = -34;
+comma = 28;
+period = 28;
+};
+"@MMK_L_m.sc" = {
+"@MMK_R_I" = 6;
+"@MMK_R_a.sc" = 21;
+"@MMK_R_g.sc" = -13;
+"@MMK_R_o.sc" = -12;
+"@MMK_R_u.sc" = 3;
+"@MMK_R_v.sc" = 21;
+"@MMK_R_w.sc" = 21;
+comma = -12;
+period = -4;
+};
+"@MMK_L_n.sc" = {
+"@MMK_R_T" = -93;
+"@MMK_R_a.sc" = -39;
+"@MMK_R_c.sc" = -11;
+"@MMK_R_d.sc" = 8;
+"@MMK_R_e.sc" = 8;
+"@MMK_R_g.sc" = -9;
+"@MMK_R_o.sc" = -8;
+"@MMK_R_p.sc" = 8;
+"@MMK_R_q.sc" = -10;
+"@MMK_R_t.sc" = 10;
+"@MMK_R_u.sc" = 6;
+"@MMK_R_v.sc" = 24;
+"@MMK_R_w.sc" = 24;
+comma = -6;
+period = -6;
+};
+"@MMK_L_o.sc" = {
+"@MMK_R_T" = -106;
+"@MMK_R_U" = -23;
+"@MMK_R_V" = -46;
+"@MMK_R_b.sc" = -12;
+"@MMK_R_e.sc" = -12;
+"@MMK_R_h.sc" = -12;
+"@MMK_R_i.sc" = -12;
+"@MMK_R_j.sc" = -3;
+"@MMK_R_k.sc" = -12;
+"@MMK_R_l.sc" = -12;
+"@MMK_R_m.sc" = -12;
+"@MMK_R_n.sc" = -12;
+"@MMK_R_p.sc" = -12;
+"@MMK_R_r.sc" = -12;
+"@MMK_R_s.sc" = 5;
+"@MMK_R_t.sc" = -10;
+"@MMK_R_u.sc" = -13;
+"@MMK_R_v.sc" = -4;
+"@MMK_R_w.sc" = -4;
+"@MMK_R_z.sc" = -7;
+period = 3;
+};
+"@MMK_L_p.sc" = {
+"@MMK_R_T" = -119;
+"@MMK_R_e.sc" = -25;
+"@MMK_R_h.sc" = -25;
+"@MMK_R_i.sc" = -25;
+"@MMK_R_l.sc" = -25;
+"@MMK_R_p.sc" = -25;
+"@MMK_R_r.sc" = -25;
+"@MMK_R_s.sc" = -5;
+"@MMK_R_t.sc" = 14;
+"@MMK_R_u.sc" = -22;
+};
+"@MMK_L_q.sc" = {
+"@MMK_R_u.sc" = -15;
+};
+"@MMK_L_r.sc" = {
+"@MMK_R_A" = 44;
+"@MMK_R_S" = -11;
+"@MMK_R_T" = -56;
+"@MMK_R_a.sc" = 40;
+"@MMK_R_b.sc" = 31;
+"@MMK_R_c.sc" = -10;
+"@MMK_R_d.sc" = 31;
+"@MMK_R_e.sc" = 31;
+"@MMK_R_g.sc" = -8;
+"@MMK_R_h.sc" = 31;
+"@MMK_R_i.sc" = 8;
+"@MMK_R_k.sc" = 31;
+"@MMK_R_l.sc" = 31;
+"@MMK_R_m.sc" = 31;
+"@MMK_R_n.sc" = 31;
+"@MMK_R_o.sc" = -7;
+"@MMK_R_r.sc" = 31;
+"@MMK_R_s.sc" = -3;
+"@MMK_R_t.sc" = 3;
+"@MMK_R_u.sc" = -16;
+"@MMK_R_z.sc" = 24;
+comma = -2;
+};
+"@MMK_L_s.sc" = {
+"@MMK_R_T" = -76;
+"@MMK_R_V" = -53;
+"@MMK_R_Y" = -58;
+"@MMK_R_a.sc" = -12;
+"@MMK_R_b.sc" = -12;
+"@MMK_R_c.sc" = 2;
+"@MMK_R_d.sc" = -12;
+"@MMK_R_e.sc" = -12;
+"@MMK_R_g.sc" = 1;
+"@MMK_R_o.sc" = 2;
+"@MMK_R_p.sc" = -12;
+"@MMK_R_s.sc" = 13;
+"@MMK_R_t.sc" = 16;
+"@MMK_R_v.sc" = 8;
+"@MMK_R_w.sc" = 8;
+"@MMK_R_y.sc" = 4;
+comma = 19;
+period = 22;
+};
+"@MMK_L_t.sc" = {
+"@MMK_R_S" = -13;
+"@MMK_R_a.sc" = -48;
+"@MMK_R_d.sc" = 4;
+"@MMK_R_e.sc" = 4;
+"@MMK_R_g.sc" = 7;
+"@MMK_R_o.sc" = 4;
+"@MMK_R_q.sc" = 6;
+"@MMK_R_v.sc" = 30;
+"@MMK_R_w.sc" = 30;
+"@MMK_R_y.sc" = 24;
+comma = -50;
+period = -46;
+};
+"@MMK_L_u.sc" = {
+"@MMK_R_T" = -98;
+"@MMK_R_a.sc" = -34;
+"@MMK_R_b.sc" = -109;
+"@MMK_R_c.sc" = -10;
+"@MMK_R_d.sc" = 3;
+"@MMK_R_e.sc" = 3;
+"@MMK_R_g.sc" = -10;
+"@MMK_R_k.sc" = -10;
+"@MMK_R_l.sc" = -10;
+"@MMK_R_o.sc" = -10;
+"@MMK_R_p.sc" = 3;
+"@MMK_R_s.sc" = -2;
+"@MMK_R_t.sc" = 10;
+"@MMK_R_u.sc" = -18;
+"@MMK_R_v.sc" = 23;
+"@MMK_R_w.sc" = 23;
+comma = -15;
+period = -9;
+};
+"@MMK_L_v.sc" = {
+"@MMK_R_A" = -48;
+"@MMK_R_a.sc" = -53;
+"@MMK_R_e.sc" = 21;
+"@MMK_R_o.sc" = -13;
+"@MMK_R_v.sc" = 64;
+"@MMK_R_w.sc" = 64;
+comma = -45;
+period = -37;
+};
+"@MMK_L_w.sc" = {
+"@MMK_R_A" = -48;
+"@MMK_R_a.sc" = -53;
+"@MMK_R_e.sc" = 21;
+"@MMK_R_o.sc" = -13;
+"@MMK_R_v.sc" = 65;
+"@MMK_R_w.sc" = 65;
+comma = -45;
+period = -37;
+};
+"@MMK_L_x.sc" = {
+"@MMK_R_a.sc" = 11;
+"@MMK_R_d.sc" = 35;
+"@MMK_R_e.sc" = 35;
+"@MMK_R_t.sc" = 12;
+};
+"@MMK_L_y.sc" = {
+"@MMK_R_o.sc" = -33;
+"@MMK_R_p.sc" = 21;
+};
+"@MMK_L_z.sc" = {
+"@MMK_R_U" = -45;
+"@MMK_R_V" = -16;
+"@MMK_R_a.sc" = -15;
+"@MMK_R_g.sc" = -13;
+"@MMK_R_o.sc" = -11;
+"@MMK_R_s.sc" = -4;
+"@MMK_R_v.sc" = 34;
+"@MMK_R_w.sc" = 34;
+comma = 14;
+period = 17;
+};
 };
 };
 metrics = (
@@ -31720,6 +43276,6 @@ m01 = {
 };
 };
 };
-versionMajor = 1;
+versionMajor = 2;
 versionMinor = 0;
 }
