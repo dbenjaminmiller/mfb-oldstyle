@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Omegapsilioxia.brevecomb.allcaps" format="2">
+  <advance width="808"/>
+  <outline>
+    <component base="Omega"/>
+    <component base="brevecomb.grek.allcaps" xOffset="286" yOffset="247"/>
+    <component base="commaabovecomb_acutecomb.allcaps" xOffset="231" yOffset="453"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.glyph.userData</key>
+      <dict>
+        <key>com.mfb.greek.allcaps</key>
+        <integer>1</integer>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="etadasiavariaypogegrammeni" format="2">
+  <advance width="556"/>
+  <unicode hex="1F93"/>
+  <outline>
+    <component base="eta"/>
+    <component base="commareversedabovecomb_gravecomb" xOffset="109"/>
+    <component base="ypogegrammenicomb" xOffset="42"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.glyph.userData</key>
+      <dict>
+        <key>com.mfb.greek.italic.support</key>
+        <integer>1</integer>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

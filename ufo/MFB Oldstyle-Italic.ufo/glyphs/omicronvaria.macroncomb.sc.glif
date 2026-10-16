@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="omicronvaria.macroncomb.sc" format="2">
+  <advance width="538"/>
+  <outline>
+    <component base="omicron.sc"/>
+    <component base="macroncomb.grek.sc" xOffset="149" yOffset="-16"/>
+    <component base="gravecomb.sc" xOffset="131" yOffset="134" identifier="5F2A450A"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026-10-16 15:51:59 +0000</string>
+      <key>com.schriftgestaltung.glyph.userData</key>
+      <dict>
+        <key>com.mfb.greek.smallcaps.composite</key>
+        <integer>1</integer>
+      </dict>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>5F2A450A</key>
+        <dict>
+          <key>com.schriftgestaltung.anchor</key>
+          <string>top_grave</string>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

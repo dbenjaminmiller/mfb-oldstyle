@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dialytikaoxia" format="2">
+  <advance width="275"/>
+  <unicode hex="1FEE"/>
+  <anchor x="283" y="494" name="_top"/>
+  <anchor x="404" y="824" name="top"/>
+  <outline>
+    <component base="dieresiscomb_acutecomb"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.glyph.userData</key>
+      <dict>
+        <key>com.mfb.greek.italic.support</key>
+        <integer>1</integer>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

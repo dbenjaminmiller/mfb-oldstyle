@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Alphadasiavariaprosgegrammeni" format="2">
+  <advance width="1214"/>
+  <unicode hex="1F8B"/>
+  <outline>
+    <component base="Alpha" xOffset="152"/>
+    <component base="commareversedabovecomb_gravecomb.case" xOffset="-132" yOffset="35" identifier="C5D75B1A"/>
+    <component base="iota.adscript" xOffset="871"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026-10-16 15:50:45 +0000</string>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>=+152</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>=+303</string>
+      <key>com.schriftgestaltung.glyph.userData</key>
+      <dict>
+        <key>com.mfb.greek.bolditalic.support</key>
+        <integer>1</integer>
+      </dict>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>C5D75B1A</key>
+        <dict>
+          <key>com.schriftgestaltung.anchor</key>
+          <string>topleft_grave</string>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

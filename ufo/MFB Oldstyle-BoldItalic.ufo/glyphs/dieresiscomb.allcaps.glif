@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dieresiscomb.allcaps" format="2">
+  <advance width="301"/>
+  <anchor x="296" y="494" name="_top"/>
+  <anchor x="331" y="692" name="top"/>
+  <anchor x="347" y="692" name="top_perispomeni"/>
+  <outline>
+    <component base="dieresiscomb.grek.allcaps"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>=dieresiscomb.grek.allcaps</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>=dieresiscomb.grek.allcaps</string>
+    </dict>
+  </lib>
+</glyph>

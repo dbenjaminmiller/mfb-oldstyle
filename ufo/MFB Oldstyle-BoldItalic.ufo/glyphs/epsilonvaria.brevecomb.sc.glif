@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="epsilonvaria.brevecomb.sc" format="2">
+  <advance width="587"/>
+  <outline>
+    <component base="epsilon.sc"/>
+    <component base="brevecomb.grek.sc" xOffset="127" yOffset="23"/>
+    <component base="gravecomb.sc" xOffset="138" yOffset="202" identifier="E73BEACE"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026-10-16 15:50:45 +0000</string>
+      <key>com.schriftgestaltung.glyph.userData</key>
+      <dict>
+        <key>com.mfb.greek.smallcaps.composite</key>
+        <integer>1</integer>
+      </dict>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>E73BEACE</key>
+        <dict>
+          <key>com.schriftgestaltung.anchor</key>
+          <string>top_grave</string>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

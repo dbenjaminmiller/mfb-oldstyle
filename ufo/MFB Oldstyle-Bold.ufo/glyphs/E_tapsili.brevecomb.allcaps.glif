@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Etapsili.brevecomb.allcaps" format="2">
+  <advance width="805"/>
+  <outline>
+    <component base="Eta"/>
+    <component base="brevecomb.allcaps" xOffset="256" yOffset="272"/>
+    <component base="commaabovecomb.allcaps" xOffset="312" yOffset="440"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.glyph.userData</key>
+      <dict>
+        <key>com.mfb.greek.allcaps</key>
+        <integer>1</integer>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

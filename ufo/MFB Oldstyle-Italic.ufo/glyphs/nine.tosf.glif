@@ -2,15 +2,15 @@
 <glyph name="nine.tosf" format="2">
   <advance width="514"/>
   <outline>
-    <component base="nine.osf" xOffset="-5" identifier="70584B30"/>
+    <component base="nine.osf" xOffset="-5" identifier="D99BF720"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2026-10-13 22:21:22 +0000</string>
+      <string>2026-10-16 15:51:59 +0000</string>
       <key>public.objectLibs</key>
       <dict>
-        <key>70584B30</key>
+        <key>D99BF720</key>
         <dict>
           <key>com.schriftgestaltung.alignment</key>
           <integer>-1</integer>

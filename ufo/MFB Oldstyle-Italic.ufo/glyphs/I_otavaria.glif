@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Iotavaria" format="2">
+  <advance width="458"/>
+  <unicode hex="1FDA"/>
+  <outline>
+    <component base="Iota" xOffset="90"/>
+    <component base="gravecomb.case" xOffset="-96" yOffset="70"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>=+90</string>
+      <key>com.schriftgestaltung.glyph.userData</key>
+      <dict>
+        <key>com.mfb.greek.italic.support</key>
+        <integer>1</integer>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

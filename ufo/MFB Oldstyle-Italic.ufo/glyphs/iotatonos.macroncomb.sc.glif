@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="iotatonos.macroncomb.sc" format="2">
+  <advance width="303"/>
+  <outline>
+    <component base="iota.sc"/>
+    <component base="macroncomb.grek.sc" xOffset="28" yOffset="-16"/>
+    <component base="acutecomb.sc" xOffset="128" yOffset="134" identifier="07CE7DCB"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026-10-16 15:51:59 +0000</string>
+      <key>com.schriftgestaltung.glyph.userData</key>
+      <dict>
+        <key>com.mfb.greek.smallcaps.composite</key>
+        <integer>1</integer>
+      </dict>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>07CE7DCB</key>
+        <dict>
+          <key>com.schriftgestaltung.anchor</key>
+          <string>top_acute</string>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

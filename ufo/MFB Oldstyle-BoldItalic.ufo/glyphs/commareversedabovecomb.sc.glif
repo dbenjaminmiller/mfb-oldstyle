@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="commareversedabovecomb.sc" format="2">
+  <advance width="194"/>
+  <anchor x="218" y="494" name="_top"/>
+  <anchor x="259" y="735" name="top"/>
+  <anchor x="400" y="494" name="top_acute"/>
+  <anchor x="562" y="494" name="top_grave"/>
+  <anchor x="307" y="699" name="top_perispomeni"/>
+  <outline>
+    <component base="commareversedabovecomb"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.glyph.userData</key>
+      <dict>
+        <key>com.mfb.greek.smallcaps.composite</key>
+        <integer>1</integer>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

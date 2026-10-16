@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="psilioxia" format="2">
+  <advance width="628"/>
+  <unicode hex="1FCE"/>
+  <anchor x="338" y="494" name="_top"/>
+  <anchor x="379" y="735" name="top"/>
+  <outline>
+    <component base="commaabovecomb_acutecomb"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.glyph.userData</key>
+      <dict>
+        <key>com.mfb.greek.bolditalic.support</key>
+        <integer>1</integer>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

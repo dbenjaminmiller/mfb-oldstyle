@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="commareversedabovecomb_gravecomb" format="2">
+  <advance width="446"/>
+  <anchor x="223" y="558" name="_top"/>
+  <anchor x="223" y="758" name="top"/>
+  <outline>
+    <component base="commareversedabovecomb"/>
+    <component base="gravecomb" xOffset="185" identifier="F2196245"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026-10-16 12:25:41 +0000</string>
+      <key>com.schriftgestaltung.glyph.userData</key>
+      <dict>
+        <key>com.mfb.greek.bold.support</key>
+        <integer>1</integer>
+        <key>com.mfb.greek.polytonicTemplate</key>
+        <integer>1</integer>
+      </dict>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>F2196245</key>
+        <dict>
+          <key>com.schriftgestaltung.anchor</key>
+          <string>top_grave</string>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

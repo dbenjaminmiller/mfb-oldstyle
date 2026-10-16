@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Alphatonos.brevecomb.allcaps" format="2">
+  <advance width="686"/>
+  <outline>
+    <component base="Alpha"/>
+    <component base="brevecomb.allcaps" xOffset="210" yOffset="272"/>
+    <component base="acutecomb.allcaps" xOffset="276" yOffset="440"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.glyph.userData</key>
+      <dict>
+        <key>com.mfb.greek.allcaps</key>
+        <integer>1</integer>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

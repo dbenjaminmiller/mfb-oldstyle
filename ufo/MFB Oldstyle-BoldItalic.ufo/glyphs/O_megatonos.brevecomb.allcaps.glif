@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Omegatonos.brevecomb.allcaps" format="2">
+  <advance width="808"/>
+  <outline>
+    <component base="Omega"/>
+    <component base="brevecomb.grek.allcaps" xOffset="286" yOffset="247"/>
+    <component base="acutecomb.allcaps" xOffset="423" yOffset="426" identifier="88650B70"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026-10-16 15:50:45 +0000</string>
+      <key>com.schriftgestaltung.glyph.userData</key>
+      <dict>
+        <key>com.mfb.greek.allcaps</key>
+        <integer>1</integer>
+      </dict>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>88650B70</key>
+        <dict>
+          <key>com.schriftgestaltung.anchor</key>
+          <string>top_acute</string>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

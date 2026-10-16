@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Beta" format="2">
+  <advance width="663"/>
+  <unicode hex="0392"/>
+  <anchor x="623" y="0" name="adscript"/>
+  <anchor x="315" y="0" name="bottom"/>
+  <anchor x="315" y="0" name="dotbelow"/>
+  <anchor x="315" y="813" name="top"/>
+  <anchor x="20" y="650" name="topleft"/>
+  <outline>
+    <component base="B"/>
+  </outline>
+</glyph>

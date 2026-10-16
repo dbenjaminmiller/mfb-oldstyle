@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="prosgegrammeni" format="2">
+  <advance width="298"/>
+  <unicode hex="1FBE"/>
+  <anchor x="86" y="0" name="bottom"/>
+  <anchor x="86" y="0" name="dotbelow"/>
+  <anchor x="264" y="494" name="top"/>
+  <outline>
+    <component base="iota"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.glyph.userData</key>
+      <dict>
+        <key>com.mfb.greek.italic.support</key>
+        <integer>1</integer>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

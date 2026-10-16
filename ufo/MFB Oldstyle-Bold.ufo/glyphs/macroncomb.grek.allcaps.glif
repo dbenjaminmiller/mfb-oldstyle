@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="macroncomb.grek.allcaps" format="2">
+  <advance width="274"/>
+  <anchor x="136" y="558" name="_top"/>
+  <anchor x="136" y="726" name="top"/>
+  <outline>
+    <component base="macroncomb.allcaps"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>=macroncomb.allcaps</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>=macroncomb.allcaps</string>
+    </dict>
+  </lib>
+</glyph>

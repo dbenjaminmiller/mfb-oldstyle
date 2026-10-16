@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Alphapsiliperispomeni.lengthbreve" format="2">
+  <advance width="791"/>
+  <outline>
+    <component base="Alphapsiliperispomeni"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>=Alphapsiliperispomeni</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>=Alphapsiliperispomeni</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="macroncomb.grek.sc" format="2">
+  <advance width="239"/>
+  <anchor x="278" y="534" name="_top"/>
+  <anchor x="272" y="661" name="top"/>
+  <anchor x="302" y="655" name="top_acute"/>
+  <anchor x="302" y="655" name="top_grave"/>
+  <anchor x="296" y="634" name="top_perispomeni"/>
+  <outline>
+    <component base="macroncomb.grek"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.glyph.userData</key>
+      <dict>
+        <key>com.mfb.greek.smallcaps.composite</key>
+        <integer>1</integer>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

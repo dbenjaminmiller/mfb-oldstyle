@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Alphapsiliperispomeni.lengthmacron" format="2">
+  <advance width="789"/>
+  <outline>
+    <component base="Alphapsiliperispomeni.lengthmacron.base" xOffset="30"/>
+    <component base="commaabovecomb_perispomenicomb.case" xOffset="-106" yOffset="35" identifier="BAD8DFE1"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026-10-16 15:50:45 +0000</string>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>=+30</string>
+      <key>com.schriftgestaltung.glyph.userData</key>
+      <dict>
+        <key>com.mfb.greek.italic.initialLengthSpacing</key>
+        <integer>1</integer>
+        <key>com.mfb.greek.italic.initialLengthSpacing.lengthMark</key>
+        <string>macroncomb.grek</string>
+        <key>com.mfb.greek.italic.initialLengthSpacing.shift</key>
+        <integer>19</integer>
+        <key>com.mfb.greek.italic.initialLengthSpacing.source</key>
+        <string>Alphapsiliperispomeni</string>
+      </dict>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>BAD8DFE1</key>
+        <dict>
+          <key>com.schriftgestaltung.anchor</key>
+          <string>topleft_perispomeni</string>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

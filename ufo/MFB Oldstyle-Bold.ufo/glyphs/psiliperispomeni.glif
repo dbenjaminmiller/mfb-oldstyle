@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="psiliperispomeni" format="2">
+  <advance width="303"/>
+  <unicode hex="1FCF"/>
+  <anchor x="150" y="558" name="_top"/>
+  <anchor x="150" y="926" name="top"/>
+  <outline>
+    <component base="commaabovecomb_perispomenicomb"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.glyph.userData</key>
+      <dict>
+        <key>com.mfb.greek.bold.support</key>
+        <integer>1</integer>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

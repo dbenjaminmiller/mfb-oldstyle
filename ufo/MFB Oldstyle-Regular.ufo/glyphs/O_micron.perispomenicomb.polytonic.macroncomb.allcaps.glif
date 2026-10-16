@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Omicron.perispomenicomb.polytonic.macroncomb.allcaps" format="2">
+  <advance width="707"/>
+  <outline>
+    <component base="Omicron"/>
+    <component base="macroncomb.allcaps" xOffset="234" yOffset="255"/>
+    <component base="perispomenicomb.allcaps" xOffset="217" yOffset="423"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.glyph.userData</key>
+      <dict>
+        <key>com.mfb.greek.allcaps</key>
+        <integer>1</integer>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

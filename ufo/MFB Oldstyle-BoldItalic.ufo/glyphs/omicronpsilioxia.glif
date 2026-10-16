@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="omicronpsilioxia" format="2">
+  <advance width="561"/>
+  <unicode hex="1F44"/>
+  <outline>
+    <component base="omicron"/>
+    <component base="commaabovecomb_acutecomb" xOffset="29" identifier="D0FC5A0D"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026-10-16 15:50:45 +0000</string>
+      <key>com.schriftgestaltung.glyph.userData</key>
+      <dict>
+        <key>com.mfb.greek.bolditalic.support</key>
+        <integer>1</integer>
+      </dict>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>D0FC5A0D</key>
+        <dict>
+          <key>com.schriftgestaltung.anchor</key>
+          <string>top_breathing</string>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

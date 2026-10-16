@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Omegapsiliperispomeni" format="2">
+  <advance width="980"/>
+  <unicode hex="1F6E"/>
+  <outline>
+    <component base="Omega" xOffset="233"/>
+    <component base="commaabovecomb_perispomenicomb.case" xOffset="32" yOffset="50"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>=+233</string>
+    </dict>
+  </lib>
+</glyph>

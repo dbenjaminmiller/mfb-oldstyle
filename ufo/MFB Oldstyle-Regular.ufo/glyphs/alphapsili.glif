@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="alphapsili" format="2">
+  <advance width="594"/>
+  <unicode hex="1F00"/>
+  <outline>
+    <component base="alpha"/>
+    <component base="commaabovecomb" xOffset="195"/>
+  </outline>
+</glyph>

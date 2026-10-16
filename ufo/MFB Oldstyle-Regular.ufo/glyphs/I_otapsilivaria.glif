@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Iotapsilivaria" format="2">
+  <advance width="754"/>
+  <unicode hex="1F3A"/>
+  <outline>
+    <component base="Iota" xOffset="400"/>
+    <component base="commaabovecomb_gravecomb.case" xOffset="11" yOffset="50"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>=+400</string>
+    </dict>
+  </lib>
+</glyph>

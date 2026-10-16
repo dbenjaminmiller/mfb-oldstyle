@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="circumflexcomb_caroncomb" format="2">
+  <advance width="269"/>
+  <outline>
+    <component base="circumflexcomb"/>
+    <component base="caroncomb" xOffset="57" yOffset="214" identifier="0C0AC5BF"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026-10-16 15:50:45 +0000</string>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>0C0AC5BF</key>
+        <dict>
+          <key>com.schriftgestaltung.alignment</key>
+          <integer>-1</integer>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

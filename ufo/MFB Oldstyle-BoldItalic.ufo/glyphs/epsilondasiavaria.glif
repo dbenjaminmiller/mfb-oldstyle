@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="epsilondasiavaria" format="2">
+  <advance width="517"/>
+  <unicode hex="1F13"/>
+  <outline>
+    <component base="epsilon"/>
+    <component base="commareversedabovecomb_gravecomb" xOffset="-22" identifier="8E0B1F58"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026-10-16 15:50:45 +0000</string>
+      <key>com.schriftgestaltung.glyph.userData</key>
+      <dict>
+        <key>com.mfb.greek.bolditalic.support</key>
+        <integer>1</integer>
+      </dict>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>8E0B1F58</key>
+        <dict>
+          <key>com.schriftgestaltung.anchor</key>
+          <string>top_breathing</string>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

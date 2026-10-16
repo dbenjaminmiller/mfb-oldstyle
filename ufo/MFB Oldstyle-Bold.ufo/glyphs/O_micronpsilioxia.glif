@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Omicronpsilioxia" format="2">
+  <advance width="1067"/>
+  <unicode hex="1F4C"/>
+  <outline>
+    <component base="Omicron" xOffset="302"/>
+    <component base="commaabovecomb_acutecomb.case" xOffset="13" yOffset="30"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>=+302</string>
+      <key>com.schriftgestaltung.glyph.userData</key>
+      <dict>
+        <key>com.mfb.greek.bold.support</key>
+        <integer>1</integer>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

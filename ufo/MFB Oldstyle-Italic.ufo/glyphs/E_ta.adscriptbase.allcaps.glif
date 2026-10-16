@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Eta.adscriptbase.allcaps" format="2">
+  <advance width="762"/>
+  <anchor x="762" y="0" name="adscript"/>
+  <anchor x="314" y="0" name="bottom"/>
+  <anchor x="314" y="0" name="dotbelow"/>
+  <anchor x="557" y="741" name="top"/>
+  <anchor x="145" y="720" name="topleft"/>
+  <outline>
+    <component base="Eta"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.glyph.userData</key>
+      <dict>
+        <key>com.mfb.greek.allcaps</key>
+        <integer>1</integer>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

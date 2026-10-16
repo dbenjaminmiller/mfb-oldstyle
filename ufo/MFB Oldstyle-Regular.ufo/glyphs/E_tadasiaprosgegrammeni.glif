@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Etadasiaprosgegrammeni" format="2">
+  <advance width="1139"/>
+  <unicode hex="1F99"/>
+  <outline>
+    <component base="Eta" xOffset="163"/>
+    <component base="commareversedabovecomb.case" xOffset="19" yOffset="50"/>
+    <component base="iota.adscript" xOffset="861"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>=+163</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>=+238</string>
+    </dict>
+  </lib>
+</glyph>

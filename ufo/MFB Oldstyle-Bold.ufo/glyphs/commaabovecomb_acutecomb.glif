@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="commaabovecomb_acutecomb" format="2">
+  <advance width="376"/>
+  <anchor x="188" y="558" name="_top"/>
+  <anchor x="188" y="758" name="top"/>
+  <outline>
+    <component base="commaabovecomb"/>
+    <component base="acutecomb" xOffset="113" identifier="25AE39FA"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026-10-16 12:25:41 +0000</string>
+      <key>com.schriftgestaltung.glyph.userData</key>
+      <dict>
+        <key>com.mfb.greek.bold.support</key>
+        <integer>1</integer>
+        <key>com.mfb.greek.polytonicTemplate</key>
+        <integer>1</integer>
+      </dict>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>25AE39FA</key>
+        <dict>
+          <key>com.schriftgestaltung.anchor</key>
+          <string>top_acute</string>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

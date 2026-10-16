@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="theta" format="2">
+  <advance width="579"/>
+  <unicode hex="03B8"/>
+  <anchor x="290" y="0" name="bottom"/>
+  <anchor x="290" y="0" name="dotbelow"/>
+  <anchor x="290" y="819" name="top"/>
+  <outline>
+    <contour>
+      <point x="42" y="586.344"/>
+      <point x="42" y="365.005" type="curve" smooth="yes"/>
+      <point x="42" y="145.688"/>
+      <point x="145.709" y="-14"/>
+      <point x="284.364" y="-14" type="curve" smooth="yes"/>
+      <point x="423.018" y="-14"/>
+      <point x="526.727" y="145.688"/>
+      <point x="526.727" y="365.005" type="curve" smooth="yes"/>
+      <point x="526.727" y="586.344"/>
+      <point x="421.891" y="743"/>
+      <point x="284.364" y="743" type="curve" smooth="yes"/>
+      <point x="146.836" y="743"/>
+    </contour>
+    <contour>
+      <point x="193.008" y="341" type="curve"/>
+      <point x="375.735" y="341" type="line"/>
+      <point x="374.573" y="163.258"/>
+      <point x="350.061" y="35"/>
+      <point x="284.74" y="35" type="curve" smooth="yes"/>
+      <point x="214.778" y="35"/>
+      <point x="194.228" y="182.063"/>
+    </contour>
+    <contour>
+      <point x="215.096" y="694"/>
+      <point x="283.987" y="694" type="curve" smooth="yes"/>
+      <point x="342.331" y="694"/>
+      <point x="372.415" y="590.209"/>
+      <point x="375.512" y="400" type="curve"/>
+      <point x="193.184" y="400" type="line"/>
+      <point x="195.464" y="549.646"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.glyph.userData</key>
+      <dict>
+        <key>com.mfb.greek.bold.bowls</key>
+        <integer>1</integer>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Digamma" format="2">
+  <advance width="661"/>
+  <unicode hex="03DC"/>
+  <anchor x="343" y="813" name="top"/>
+  <anchor x="22" y="650" name="topleft"/>
+  <anchor x="344" y="0" name="bottom"/>
+  <anchor x="344" y="0" name="dotbelow"/>
+  <outline>
+    <component base="F"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>=F</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>=F</string>
+    </dict>
+  </lib>
+</glyph>

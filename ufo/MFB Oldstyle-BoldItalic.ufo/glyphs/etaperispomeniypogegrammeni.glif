@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="etaperispomeniypogegrammeni" format="2">
+  <advance width="661"/>
+  <unicode hex="1FC7"/>
+  <outline>
+    <component base="eta"/>
+    <component base="perispomenicomb" xOffset="191"/>
+    <component base="ypogegrammenicomb" xOffset="35"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.glyph.userData</key>
+      <dict>
+        <key>com.mfb.greek.bolditalic.support</key>
+        <integer>1</integer>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

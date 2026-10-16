@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Zeta" format="2">
+  <advance width="624"/>
+  <unicode hex="0396"/>
+  <anchor x="584" y="0" name="adscript"/>
+  <anchor x="289" y="0" name="bottom"/>
+  <anchor x="289" y="0" name="dotbelow"/>
+  <anchor x="339" y="813" name="top"/>
+  <anchor x="21" y="650" name="topleft"/>
+  <outline>
+    <component base="Z"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.glyph.userData</key>
+      <dict>
+        <key>com.mfb.greek.bold.capitals</key>
+        <integer>1</integer>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

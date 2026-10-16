@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="omegapsilivariaprosgegrammeni.sc" format="2">
+  <advance width="955"/>
+  <outline>
+    <component base="omega.sc"/>
+    <component base="commaabovecomb_gravecomb.sc" xOffset="77"/>
+    <component base="iota.adscript.sc" xOffset="610"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>=+345</string>
+      <key>com.schriftgestaltung.glyph.userData</key>
+      <dict>
+        <key>com.mfb.greek.smallcaps.composite</key>
+        <integer>1</integer>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Alphadasiaperispomeni.lengthmacron.base" format="2">
+  <advance width="686"/>
+  <anchor x="646" y="0" name="adscript"/>
+  <anchor x="290" y="0" name="bottom"/>
+  <anchor x="290" y="0" name="dotbelow"/>
+  <anchor x="354" y="813" name="top"/>
+  <anchor x="193" y="680" name="topleft"/>
+  <anchor x="165" y="680" name="topleft_grave"/>
+  <anchor x="213" y="680" name="topleft_perispomeni"/>
+  <outline>
+    <component base="Alpha"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>=Alpha</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>=Alpha</string>
+    </dict>
+  </lib>
+</glyph>

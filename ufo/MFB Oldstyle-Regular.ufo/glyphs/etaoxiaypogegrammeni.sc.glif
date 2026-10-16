@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="etaoxiaypogegrammeni.sc" format="2">
+  <advance width="873"/>
+  <outline>
+    <component base="eta.sc"/>
+    <component base="acutecomb.sc" xOffset="218"/>
+    <component base="iota.adscript.sc" xOffset="574"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>=+299</string>
+      <key>com.schriftgestaltung.glyph.userData</key>
+      <dict>
+        <key>com.mfb.greek.smallcaps.composite</key>
+        <integer>1</integer>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

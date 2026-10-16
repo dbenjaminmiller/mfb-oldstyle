@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="etapsilivaria.brevecomb.sc" format="2">
+  <advance width="631"/>
+  <outline>
+    <component base="eta.sc"/>
+    <component base="brevecomb.sc" xOffset="172" yOffset="17"/>
+    <component base="commaabovecomb_gravecomb.sc" xOffset="90" yOffset="185"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.glyph.userData</key>
+      <dict>
+        <key>com.mfb.greek.smallcaps.composite</key>
+        <integer>1</integer>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dialytikaoxia" format="2">
+  <advance width="277"/>
+  <unicode hex="1FEE"/>
+  <anchor x="138" y="558" name="_top"/>
+  <anchor x="138" y="894" name="top"/>
+  <outline>
+    <component base="dieresiscomb_acutecomb"/>
+  </outline>
+</glyph>

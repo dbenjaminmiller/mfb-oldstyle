@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="upsilon.sc" format="2">
+  <advance width="530"/>
+  <anchor x="502" y="0" name="adscript"/>
+  <anchor x="208" y="0" name="bottom"/>
+  <anchor x="208" y="0" name="dotbelow"/>
+  <anchor x="407" y="517" name="top"/>
+  <outline>
+    <component base="y.sc"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.glyph.userData</key>
+      <dict>
+        <key>com.mfb.greek.bolditalic</key>
+        <integer>1</integer>
+        <key>com.mfb.greek.italic.capitals</key>
+        <integer>1</integer>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

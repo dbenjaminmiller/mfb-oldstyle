@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="theta.sc" format="2">
+  <advance width="530"/>
+  <anchor x="502" y="0" name="adscript"/>
+  <anchor x="265" y="0" name="bottom"/>
+  <anchor x="265" y="0" name="dotbelow"/>
+  <anchor x="263" y="558" name="top"/>
+  <outline>
+    <component base="o.sc"/>
+    <contour>
+      <point x="204" y="200" type="line"/>
+      <point x="204" y="217" type="line" smooth="yes"/>
+      <point x="204" y="232"/>
+      <point x="211" y="237"/>
+      <point x="231" y="237" type="curve" smooth="yes"/>
+      <point x="299" y="237" type="line" smooth="yes"/>
+      <point x="319" y="237"/>
+      <point x="326" y="232"/>
+      <point x="326" y="217" type="curve" smooth="yes"/>
+      <point x="326" y="200" type="line"/>
+      <point x="366" y="200" type="line"/>
+      <point x="366" y="317" type="line"/>
+      <point x="326" y="317" type="line"/>
+      <point x="326" y="300" type="line" smooth="yes"/>
+      <point x="326" y="285"/>
+      <point x="319" y="280"/>
+      <point x="299" y="280" type="curve" smooth="yes"/>
+      <point x="231" y="280" type="line" smooth="yes"/>
+      <point x="211" y="280"/>
+      <point x="204" y="285"/>
+      <point x="204" y="300" type="curve" smooth="yes"/>
+      <point x="204" y="317" type="line"/>
+      <point x="164" y="317" type="line"/>
+      <point x="164" y="200" type="line"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="upsilonpsili" format="2">
+  <advance width="550"/>
+  <unicode hex="1F50"/>
+  <outline>
+    <component base="upsilon"/>
+    <component base="commaabovecomb" xOffset="191"/>
+  </outline>
+</glyph>

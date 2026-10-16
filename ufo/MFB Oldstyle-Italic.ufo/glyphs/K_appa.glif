@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Kappa" format="2">
+  <advance width="714"/>
+  <unicode hex="039A"/>
+  <anchor x="674" y="0" name="adscript"/>
+  <anchor x="297" y="0" name="bottom"/>
+  <anchor x="297" y="0" name="dotbelow"/>
+  <anchor x="517" y="741" name="top"/>
+  <anchor x="145" y="720" name="topleft"/>
+  <outline>
+    <component base="K"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.glyph.userData</key>
+      <dict>
+        <key>com.mfb.greek.italic.capitals</key>
+        <integer>1</integer>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

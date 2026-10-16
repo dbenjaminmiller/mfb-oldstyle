@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="commaabovecomb.sc" format="2">
+  <advance width="150"/>
+  <anchor x="75" y="558" name="_top"/>
+  <anchor x="75" y="742" name="top"/>
+  <anchor x="169" y="558" name="top_acute"/>
+  <anchor x="294" y="558" name="top_grave"/>
+  <anchor x="75" y="744" name="top_perispomeni"/>
+  <outline>
+    <component base="commaabovecomb"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.glyph.userData</key>
+      <dict>
+        <key>com.mfb.greek.smallcaps.composite</key>
+        <integer>1</integer>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

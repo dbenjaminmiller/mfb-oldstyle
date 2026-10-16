@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dieresiscomb.grek.allcaps" format="2">
+  <advance width="304"/>
+  <anchor x="151" y="558" name="_top"/>
+  <anchor x="151" y="726" name="top"/>
+  <outline>
+    <component base="dieresiscomb.allcaps"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>=dieresiscomb.allcaps</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>=dieresiscomb.allcaps</string>
+    </dict>
+  </lib>
+</glyph>

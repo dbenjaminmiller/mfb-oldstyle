@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Alphadasiaprosgegrammeni" format="2">
+  <advance width="1092"/>
+  <unicode hex="1F89"/>
+  <outline>
+    <component base="Alpha" xOffset="30"/>
+    <component base="commareversedabovecomb.case" xOffset="21" yOffset="35"/>
+    <component base="iota.adscript" xOffset="749"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>=+30</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>=+303</string>
+      <key>com.schriftgestaltung.glyph.userData</key>
+      <dict>
+        <key>com.mfb.greek.bolditalic.support</key>
+        <integer>1</integer>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

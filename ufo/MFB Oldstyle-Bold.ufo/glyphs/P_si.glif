@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Psi" format="2">
+  <advance width="915"/>
+  <unicode hex="03A8"/>
+  <anchor x="875" y="0" name="adscript"/>
+  <anchor x="457.5" y="0" name="bottom"/>
+  <anchor x="457.5" y="0" name="dotbelow"/>
+  <anchor x="457.5" y="813" name="top"/>
+  <anchor x="23" y="650" name="topleft"/>
+  <outline>
+    <component base="I" xOffset="253.5" identifier="13D0BF6F"/>
+    <contour>
+      <point x="209" y="721"/>
+      <point x="43" y="721" type="curve"/>
+      <point x="43" y="678" type="line"/>
+      <point x="101" y="678"/>
+      <point x="125" y="650"/>
+      <point x="125" y="575" type="curve" smooth="yes"/>
+      <point x="125" y="459" type="line" smooth="yes"/>
+      <point x="125" y="283.23"/>
+      <point x="291.25" y="180"/>
+      <point x="457.5" y="180" type="curve" smooth="yes"/>
+      <point x="623.75" y="180"/>
+      <point x="790" y="283.23"/>
+      <point x="790" y="459" type="curve" smooth="yes"/>
+      <point x="790" y="575" type="line" smooth="yes"/>
+      <point x="790" y="650"/>
+      <point x="814" y="678"/>
+      <point x="872" y="678" type="curve"/>
+      <point x="872" y="721" type="line"/>
+      <point x="706" y="721"/>
+      <point x="635" y="687"/>
+      <point x="635" y="554" type="curve" smooth="yes"/>
+      <point x="635" y="459" type="line" smooth="yes"/>
+      <point x="635" y="324"/>
+      <point x="560.45" y="231"/>
+      <point x="457.5" y="231" type="curve" smooth="yes"/>
+      <point x="354.55" y="231"/>
+      <point x="280" y="324"/>
+      <point x="280" y="459" type="curve" smooth="yes"/>
+      <point x="280" y="554" type="line" smooth="yes"/>
+      <point x="280" y="687"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026-10-16 12:25:41 +0000</string>
+      <key>com.schriftgestaltung.glyph.userData</key>
+      <dict>
+        <key>com.mfb.greek.bold.capitals</key>
+        <integer>1</integer>
+      </dict>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>13D0BF6F</key>
+        <dict>
+          <key>com.schriftgestaltung.alignment</key>
+          <integer>-1</integer>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

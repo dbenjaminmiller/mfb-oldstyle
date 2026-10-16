@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="etadasiaperispomeni.brevecomb.sc" format="2">
+  <advance width="596"/>
+  <outline>
+    <component base="eta.sc"/>
+    <component base="brevecomb.grek.sc" xOffset="149" yOffset="24"/>
+    <component base="commareversedabovecomb_perispomenicomb.sc" xOffset="123" yOffset="213"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.glyph.userData</key>
+      <dict>
+        <key>com.mfb.greek.smallcaps.composite</key>
+        <integer>1</integer>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

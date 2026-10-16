@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Omegapsilioxia" format="2">
+  <advance width="893"/>
+  <unicode hex="1F6C"/>
+  <outline>
+    <component base="Omega" xOffset="147"/>
+    <component base="commaabovecomb_acutecomb.case" xOffset="-122" yOffset="70"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>=+147</string>
+      <key>com.schriftgestaltung.glyph.userData</key>
+      <dict>
+        <key>com.mfb.greek.italic.support</key>
+        <integer>1</integer>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

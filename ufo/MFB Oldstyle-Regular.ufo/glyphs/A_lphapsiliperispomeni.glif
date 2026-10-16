@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Alphapsiliperispomeni" format="2">
+  <advance width="791"/>
+  <unicode hex="1F0E"/>
+  <outline>
+    <component base="Alpha" xOffset="148"/>
+    <component base="commaabovecomb_perispomenicomb.case" xOffset="32" yOffset="50" identifier="42A925F3"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026-10-16 15:53:00 +0000</string>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>=+148</string>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>42A925F3</key>
+        <dict>
+          <key>com.schriftgestaltung.anchor</key>
+          <string>topleft_perispomeni</string>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

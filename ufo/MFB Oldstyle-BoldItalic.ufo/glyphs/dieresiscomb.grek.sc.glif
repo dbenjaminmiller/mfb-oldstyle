@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dieresiscomb.grek.sc" format="2">
+  <advance width="301"/>
+  <anchor x="296" y="494" name="_top"/>
+  <anchor x="331" y="692" name="top"/>
+  <anchor x="347" y="692" name="top_perispomeni"/>
+  <outline>
+    <component base="dieresiscomb.grek"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.glyph.userData</key>
+      <dict>
+        <key>com.mfb.greek.smallcaps.composite</key>
+        <integer>1</integer>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

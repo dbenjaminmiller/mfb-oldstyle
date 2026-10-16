@@ -27,7 +27,7 @@
     <key>openTypeOS2TypoLineGap</key>
     <integer>0</integer>
     <key>openTypeOS2WinAscent</key>
-    <integer>1185</integer>
+    <integer>1300</integer>
     <key>openTypeOS2WinDescent</key>
     <integer>365</integer>
     <key>postscriptFontName</key>
@@ -39,7 +39,7 @@
     <key>versionMajor</key>
     <integer>2</integer>
     <key>versionMinor</key>
-    <integer>1</integer>
+    <integer>100</integer>
     <key>xHeight</key>
     <integer>468</integer>
   </dict>

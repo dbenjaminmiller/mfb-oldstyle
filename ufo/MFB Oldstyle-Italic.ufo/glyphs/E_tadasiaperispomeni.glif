@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Etadasiaperispomeni" format="2">
+  <advance width="913"/>
+  <unicode hex="1F2F"/>
+  <outline>
+    <component base="Eta" xOffset="151"/>
+    <component base="commareversedabovecomb_perispomenicomb.case" xOffset="-180" yOffset="70"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>=+151</string>
+      <key>com.schriftgestaltung.glyph.userData</key>
+      <dict>
+        <key>com.mfb.greek.italic.support</key>
+        <integer>1</integer>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

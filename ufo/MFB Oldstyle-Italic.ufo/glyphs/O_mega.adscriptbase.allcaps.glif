@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Omega.adscriptbase.allcaps" format="2">
+  <advance width="746"/>
+  <anchor x="746" y="0" name="adscript"/>
+  <anchor x="312" y="0" name="bottom"/>
+  <anchor x="312" y="0" name="dotbelow"/>
+  <anchor x="545" y="741" name="top"/>
+  <anchor x="223" y="720" name="topleft"/>
+  <outline>
+    <component base="Omega"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.glyph.userData</key>
+      <dict>
+        <key>com.mfb.greek.allcaps</key>
+        <integer>1</integer>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

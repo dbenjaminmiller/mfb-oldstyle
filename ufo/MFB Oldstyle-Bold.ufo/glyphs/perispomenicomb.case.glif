@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="perispomenicomb.case" format="2">
+  <advance width="303"/>
+  <anchor x="338" y="650" name="_topleft"/>
+  <outline>
+    <component base="perispomenicomb"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.glyph.userData</key>
+      <dict>
+        <key>com.mfb.greek.bold.support</key>
+        <integer>1</integer>
+        <key>com.mfb.greek.polytonicTemplate</key>
+        <integer>1</integer>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

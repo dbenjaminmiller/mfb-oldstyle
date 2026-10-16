@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Kappa" format="2">
+  <advance width="703"/>
+  <unicode hex="039A"/>
+  <anchor x="663" y="0" name="adscript"/>
+  <anchor x="351" y="0" name="bottom"/>
+  <anchor x="351" y="0" name="dotbelow"/>
+  <anchor x="351" y="813" name="top"/>
+  <anchor x="20" y="650" name="topleft"/>
+  <outline>
+    <component base="K"/>
+  </outline>
+</glyph>

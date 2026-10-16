@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Upsilon.commaabovecomb_gravecomb.polytonic" format="2">
+  <advance width="1020"/>
+  <outline>
+    <component base="Upsilon" xOffset="436"/>
+    <component base="commaabovecomb_gravecomb.case" xOffset="11" yOffset="50"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>=+436</string>
+    </dict>
+  </lib>
+</glyph>

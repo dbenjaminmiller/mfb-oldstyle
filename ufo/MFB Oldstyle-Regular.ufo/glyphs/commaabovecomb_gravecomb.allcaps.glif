@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="commaabovecomb_gravecomb.allcaps" format="2">
+  <advance width="396"/>
+  <anchor x="197.55" y="558" name="_top"/>
+  <anchor x="197.55" y="742" name="top"/>
+  <outline>
+    <component base="commaabovecomb_gravecomb"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.glyph.userData</key>
+      <dict>
+        <key>com.mfb.greek.allcaps</key>
+        <integer>1</integer>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

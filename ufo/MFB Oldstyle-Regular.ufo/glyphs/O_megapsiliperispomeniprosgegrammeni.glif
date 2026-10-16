@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Omegapsiliperispomeniprosgegrammeni" format="2">
+  <advance width="1218"/>
+  <unicode hex="1FAE"/>
+  <outline>
+    <component base="Omega" xOffset="233"/>
+    <component base="commaabovecomb_perispomenicomb.case" xOffset="32" yOffset="50"/>
+    <component base="iota.adscript" xOffset="940"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>=+233</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>=+238</string>
+    </dict>
+  </lib>
+</glyph>

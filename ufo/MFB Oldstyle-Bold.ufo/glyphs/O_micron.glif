@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Omicron" format="2">
+  <advance width="765"/>
+  <unicode hex="039F"/>
+  <anchor x="725" y="0" name="adscript"/>
+  <anchor x="381" y="0" name="bottom"/>
+  <anchor x="381" y="0" name="dotbelow"/>
+  <anchor x="381" y="813" name="top"/>
+  <anchor x="103" y="680" name="topleft"/>
+  <anchor x="95" y="680" name="topleft_grave"/>
+  <outline>
+    <component base="O"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.glyph.userData</key>
+      <dict>
+        <key>com.mfb.greek.bold.capitals</key>
+        <integer>1</integer>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

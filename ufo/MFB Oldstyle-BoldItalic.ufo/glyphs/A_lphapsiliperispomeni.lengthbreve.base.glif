@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Alphapsiliperispomeni.lengthbreve.base" format="2">
+  <advance width="759"/>
+  <anchor x="719" y="0" name="adscript"/>
+  <anchor x="340" y="0" name="bottom"/>
+  <anchor x="340" y="0" name="dotbelow"/>
+  <anchor x="537" y="741" name="top"/>
+  <anchor x="333" y="685" name="topleft"/>
+  <anchor x="309" y="685" name="topleft_grave"/>
+  <anchor x="310" y="685" name="topleft_perispomeni"/>
+  <outline>
+    <component base="Alpha"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>=Alpha</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>=Alpha</string>
+      <key>com.schriftgestaltung.glyph.userData</key>
+      <dict>
+        <key>com.mfb.greek.italic.initialLengthSpacing</key>
+        <integer>1</integer>
+        <key>com.mfb.greek.italic.initialLengthSpacing.base</key>
+        <string>Alpha</string>
+        <key>com.mfb.greek.italic.initialLengthSpacing.selectedAnchor</key>
+        <string>topleft_perispomeni</string>
+        <key>com.mfb.greek.italic.initialLengthSpacing.topleftShift</key>
+        <integer>-59</integer>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

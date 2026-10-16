@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="alphapsiliperispomeniprosgegrammeni.brevecomb.sc" format="2">
+  <advance width="827"/>
+  <outline>
+    <component base="alpha.sc"/>
+    <component base="brevecomb.grek.sc" xOffset="103" yOffset="24"/>
+    <component base="commaabovecomb_perispomenicomb.sc" xOffset="77" yOffset="213"/>
+    <component base="iota.adscript.sc" xOffset="524"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>=+303</string>
+      <key>com.schriftgestaltung.glyph.userData</key>
+      <dict>
+        <key>com.mfb.greek.smallcaps.composite</key>
+        <integer>1</integer>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

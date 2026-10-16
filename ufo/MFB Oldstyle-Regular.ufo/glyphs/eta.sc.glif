@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="eta.sc" format="2">
+  <advance width="574"/>
+  <anchor x="574" y="0" name="adscript"/>
+  <anchor x="288" y="0" name="bottom"/>
+  <anchor x="288" y="0" name="dotbelow"/>
+  <anchor x="288" y="558" name="top"/>
+  <outline>
+    <component base="h.sc"/>
+  </outline>
+</glyph>

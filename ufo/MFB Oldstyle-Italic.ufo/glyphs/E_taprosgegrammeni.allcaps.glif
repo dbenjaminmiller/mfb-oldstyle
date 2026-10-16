@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Etaprosgegrammeni.allcaps" format="2">
+  <advance width="1130"/>
+  <outline>
+    <component base="Eta.adscriptbase.allcaps"/>
+    <component base="Iota.adscript.allcaps" xOffset="762"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>=+368</string>
+      <key>com.schriftgestaltung.glyph.userData</key>
+      <dict>
+        <key>com.mfb.greek.allcaps</key>
+        <integer>1</integer>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

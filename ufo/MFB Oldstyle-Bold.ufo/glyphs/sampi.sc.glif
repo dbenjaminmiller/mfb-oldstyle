@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="sampi.sc" format="2">
+  <advance width="438"/>
+  <anchor x="225.66" y="548.191" name="top"/>
+  <anchor x="225.66" y="0" name="bottom"/>
+  <anchor x="225.66" y="0" name="dotbelow"/>
+  <outline>
+    <contour>
+      <point x="46.699" y="518" type="line"/>
+      <point x="187.86551" y="521.9115"/>
+      <point x="285.73862" y="465.45831"/>
+      <point x="343.01831" y="372.59387" type="curve" smooth="yes"/>
+      <point x="344.65848" y="369.93475"/>
+      <point x="346.26547" y="367.24564"/>
+      <point x="347.8392" y="364.52722" type="curve" smooth="yes"/>
+      <point x="353.76797" y="354.28616"/>
+      <point x="359.22522" y="343.6293"/>
+      <point x="364.21432" y="332.58676" type="curve" smooth="yes"/>
+      <point x="405.09445" y="242.10547"/>
+      <point x="414.5437" y="125.72831"/>
+      <point x="394.427" y="0" type="curve"/>
+      <point x="268.69901" y="0" type="line"/>
+      <point x="276.05078" y="50.52635"/>
+      <point x="281.98505" y="99.06319"/>
+      <point x="285.09979" y="144.51392" type="curve"/>
+      <point x="127.165" y="79.029" type="line"/>
+      <point x="120.699" y="125.01" type="line"/>
+      <point x="287.36142" y="195.44991" type="line"/>
+      <point x="288.00458" y="232.62958"/>
+      <point x="286.12784" y="267.17728"/>
+      <point x="280.81982" y="298.38013" type="curve"/>
+      <point x="89.087" y="224.87399" type="line"/>
+      <point x="82.621" y="270.854" type="line"/>
+      <point x="269.72247" y="343.95645" type="line"/>
+      <point x="241.61292" y="429.11761"/>
+      <point x="176.23788" y="478.81827"/>
+      <point x="46.699" y="472.01901" type="curve"/>
+    </contour>
+  </outline>
+</glyph>

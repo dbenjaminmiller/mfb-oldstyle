@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Alphadasiaperispomeniprosgegrammeni" format="2">
+  <advance width="1112"/>
+  <unicode hex="1F8F"/>
+  <outline>
+    <component base="Alpha" xOffset="157"/>
+    <component base="commareversedabovecomb_perispomenicomb.case" xOffset="32" yOffset="30" identifier="6C806A0C"/>
+    <component base="iota.adscript" xOffset="803"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026-10-16 12:25:41 +0000</string>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>=+157</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>=+269</string>
+      <key>com.schriftgestaltung.glyph.userData</key>
+      <dict>
+        <key>com.mfb.greek.bold.support</key>
+        <integer>1</integer>
+      </dict>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>6C806A0C</key>
+        <dict>
+          <key>com.schriftgestaltung.anchor</key>
+          <string>topleft_perispomeni</string>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

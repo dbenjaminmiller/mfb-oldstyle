@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Alphavaria" format="2">
+  <advance width="777"/>
+  <unicode hex="1FBA"/>
+  <outline>
+    <component base="Alpha" xOffset="134"/>
+    <component base="gravecomb.case" xOffset="32" yOffset="50" identifier="446902EF"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026-10-16 15:53:00 +0000</string>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>=+134</string>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>446902EF</key>
+        <dict>
+          <key>com.schriftgestaltung.anchor</key>
+          <string>topleft_grave</string>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

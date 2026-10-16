@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Omegadasiaoxia" format="2">
+  <advance width="1033"/>
+  <unicode hex="1F6D"/>
+  <outline>
+    <component base="Omega" xOffset="286"/>
+    <component base="commareversedabovecomb_acutecomb.case" xOffset="19" yOffset="50"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>=+286</string>
+    </dict>
+  </lib>
+</glyph>

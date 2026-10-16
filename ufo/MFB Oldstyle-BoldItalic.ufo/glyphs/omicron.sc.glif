@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="omicron.sc" format="2">
+  <advance width="590"/>
+  <anchor x="562" y="0" name="adscript"/>
+  <anchor x="247" y="0" name="bottom"/>
+  <anchor x="247" y="0" name="dotbelow"/>
+  <anchor x="446" y="517" name="top"/>
+  <outline>
+    <component base="o.sc"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.glyph.userData</key>
+      <dict>
+        <key>com.mfb.greek.bolditalic</key>
+        <integer>1</integer>
+        <key>com.mfb.greek.italic.capitals</key>
+        <integer>1</integer>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

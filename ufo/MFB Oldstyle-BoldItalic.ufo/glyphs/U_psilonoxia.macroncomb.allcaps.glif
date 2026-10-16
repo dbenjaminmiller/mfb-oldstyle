@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Upsilonoxia.macroncomb.allcaps" format="2">
+  <advance width="688"/>
+  <outline>
+    <component base="Upsilon"/>
+    <component base="macroncomb.grek.allcaps" xOffset="229" yOffset="207"/>
+    <component base="acutecomb.allcaps" xOffset="338" yOffset="368" identifier="FFC119ED"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026-10-16 15:50:45 +0000</string>
+      <key>com.schriftgestaltung.glyph.userData</key>
+      <dict>
+        <key>com.mfb.greek.allcaps</key>
+        <integer>1</integer>
+      </dict>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>FFC119ED</key>
+        <dict>
+          <key>com.schriftgestaltung.anchor</key>
+          <string>top_acute</string>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

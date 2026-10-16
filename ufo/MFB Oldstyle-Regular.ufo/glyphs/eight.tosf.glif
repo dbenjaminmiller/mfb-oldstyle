@@ -2,15 +2,15 @@
 <glyph name="eight.tosf" format="2">
   <advance width="535"/>
   <outline>
-    <component base="eight.osf" xOffset="13" identifier="C1E6CDA9"/>
+    <component base="eight.osf" xOffset="13" identifier="E384B371"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2024-08-03 06:58:12 +0000</string>
+      <string>2026-10-16 15:53:00 +0000</string>
       <key>public.objectLibs</key>
       <dict>
-        <key>C1E6CDA9</key>
+        <key>E384B371</key>
         <dict>
           <key>com.schriftgestaltung.alignment</key>
           <integer>-1</integer>

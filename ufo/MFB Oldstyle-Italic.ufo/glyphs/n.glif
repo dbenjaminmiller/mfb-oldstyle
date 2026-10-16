@@ -2,6 +2,7 @@
 <glyph name="n" format="2">
   <advance width="572"/>
   <unicode hex="006E"/>
+  <anchor x="225" y="0" name="attachcedilla"/>
   <anchor x="225" y="0" name="commaaccentbelow"/>
   <anchor x="222" y="0" name="dotbelow"/>
   <anchor x="413" y="494" name="top"/>

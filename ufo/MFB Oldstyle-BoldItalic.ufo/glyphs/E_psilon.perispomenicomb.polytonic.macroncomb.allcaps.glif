@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Epsilon.perispomenicomb.polytonic.macroncomb.allcaps" format="2">
+  <advance width="748"/>
+  <outline>
+    <component base="Epsilon"/>
+    <component base="macroncomb.grek.allcaps" xOffset="239" yOffset="207"/>
+    <component base="perispomenicomb.allcaps" xOffset="252" yOffset="347" identifier="711A01FD"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026-10-16 15:50:45 +0000</string>
+      <key>com.schriftgestaltung.glyph.userData</key>
+      <dict>
+        <key>com.mfb.greek.allcaps</key>
+        <integer>1</integer>
+      </dict>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>711A01FD</key>
+        <dict>
+          <key>com.schriftgestaltung.anchor</key>
+          <string>top_perispomeni</string>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

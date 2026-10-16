@@ -4,16 +4,16 @@
   <unicode hex="012F"/>
   <outline>
     <component base="idotless"/>
-    <component base="dotaccentcomb" xOffset="83" yOffset="64" identifier="12510982"/>
+    <component base="dotaccentcomb" xOffset="83" yOffset="64" identifier="4DBFBE9C"/>
     <component base="ogonekcomb" xOffset="60"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2024-08-03 06:58:11 +0000</string>
+      <string>2026-10-16 15:53:00 +0000</string>
       <key>public.objectLibs</key>
       <dict>
-        <key>12510982</key>
+        <key>4DBFBE9C</key>
         <dict>
           <key>com.schriftgestaltung.anchor</key>
           <string>top_dot</string>

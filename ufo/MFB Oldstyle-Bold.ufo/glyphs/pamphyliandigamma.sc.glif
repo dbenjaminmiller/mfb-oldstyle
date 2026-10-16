@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="pamphyliandigamma.sc" format="2">
+  <advance width="631"/>
+  <anchor x="315" y="558" name="top"/>
+  <anchor x="315" y="0" name="bottom"/>
+  <anchor x="315" y="0" name="dotbelow"/>
+  <outline>
+    <contour>
+      <point x="43" y="0" type="line"/>
+      <point x="298" y="0" type="line"/>
+      <point x="298" y="43" type="line"/>
+      <point x="246.065" y="44.96"/>
+      <point x="237.34" y="43.079"/>
+      <point x="237.01" y="93.812" type="curve" smooth="yes"/>
+      <point x="237.007" y="94.224"/>
+      <point x="237.005" y="94.639"/>
+      <point x="237.004" y="95.058" type="curve"/>
+      <point x="393" y="328.726" type="line"/>
+      <point x="393" y="284" type="line"/>
+      <point x="392.99" y="284" type="line"/>
+      <point x="392.99" y="235" type="line"/>
+      <point x="393" y="235" type="line"/>
+      <point x="393" y="97" type="line" smooth="yes"/>
+      <point x="393" y="95.914"/>
+      <point x="392.997" y="94.851"/>
+      <point x="392.99" y="93.81" type="curve" smooth="yes"/>
+      <point x="392.99" y="0" type="line"/>
+      <point x="587" y="0" type="line"/>
+      <point x="587" y="43" type="line"/>
+      <point x="534" y="45"/>
+      <point x="523" y="43"/>
+      <point x="523" y="97" type="curve" smooth="yes"/>
+      <point x="523" y="419" type="line" smooth="yes"/>
+      <point x="523" y="467"/>
+      <point x="532" y="465"/>
+      <point x="587" y="467" type="curve"/>
+      <point x="587" y="510" type="line"/>
+      <point x="331" y="510" type="line"/>
+      <point x="331" y="467" type="line"/>
+      <point x="383.914" y="465.04"/>
+      <point x="392.66" y="466.921"/>
+      <point x="392.99" y="421.835" type="curve" smooth="yes"/>
+      <point x="392.997" y="420.91"/>
+      <point x="393" y="419.965"/>
+      <point x="393" y="419" type="curve" smooth="yes"/>
+      <point x="393" y="414.947" type="line"/>
+      <point x="237" y="181.274" type="line"/>
+      <point x="237" y="235" type="line"/>
+      <point x="237.01" y="235" type="line"/>
+      <point x="237.01" y="284" type="line"/>
+      <point x="237" y="284" type="line"/>
+      <point x="237" y="419" type="line" smooth="yes"/>
+      <point x="237" y="420.026"/>
+      <point x="237.003" y="421.03"/>
+      <point x="237.01" y="422.011" type="curve" smooth="yes"/>
+      <point x="237.321" y="466.916"/>
+      <point x="245.155" y="465.043"/>
+      <point x="298" y="467" type="curve"/>
+      <point x="298" y="510" type="line"/>
+      <point x="43" y="510" type="line"/>
+      <point x="43" y="467" type="line"/>
+      <point x="97" y="465"/>
+      <point x="107" y="467"/>
+      <point x="107" y="419" type="curve" smooth="yes"/>
+      <point x="107" y="97" type="line" smooth="yes"/>
+      <point x="107" y="43"/>
+      <point x="97" y="45"/>
+      <point x="43" y="43" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>=h.sc</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>=h.sc</string>
+    </dict>
+  </lib>
+</glyph>

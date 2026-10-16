@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Etadasiaoxiaprosgegrammeni.macroncomb.noaccent.allcaps" format="2">
+  <advance width="1273"/>
+  <outline>
+    <component base="Eta.adscriptbase.allcaps"/>
+    <component base="macroncomb.grek.allcaps" xOffset="321" yOffset="207"/>
+    <component base="Iota.adscript.allcaps" xOffset="838"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>=+435</string>
+      <key>com.schriftgestaltung.glyph.userData</key>
+      <dict>
+        <key>com.mfb.greek.allcaps</key>
+        <integer>1</integer>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

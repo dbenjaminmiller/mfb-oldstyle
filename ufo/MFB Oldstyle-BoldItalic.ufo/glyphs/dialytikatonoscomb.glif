@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dialytikatonoscomb" format="2">
+  <advance width="301"/>
+  <unicode hex="0344"/>
+  <anchor x="296" y="494" name="_top"/>
+  <anchor x="435" y="893" name="top"/>
+  <outline>
+    <component base="dieresiscomb_acutecomb"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.glyph.userData</key>
+      <dict>
+        <key>com.mfb.greek.bolditalic.support</key>
+        <integer>1</integer>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

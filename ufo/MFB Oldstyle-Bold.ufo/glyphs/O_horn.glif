@@ -3,21 +3,21 @@
   <advance width="812"/>
   <unicode hex="01A0"/>
   <outline>
-    <component base="O" identifier="53368E1F"/>
-    <component base="horncomb" xOffset="623" identifier="1457F2E8"/>
+    <component base="O" identifier="FAA8A157"/>
+    <component base="horncomb" xOffset="623" identifier="1F5E2B91"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2024-08-06 00:43:28 +0000</string>
+      <string>2026-10-16 12:25:41 +0000</string>
       <key>public.objectLibs</key>
       <dict>
-        <key>1457F2E8</key>
+        <key>1F5E2B91</key>
         <dict>
           <key>com.schriftgestaltung.alignment</key>
           <integer>-1</integer>
         </dict>
-        <key>53368E1F</key>
+        <key>FAA8A157</key>
         <dict>
           <key>com.schriftgestaltung.alignment</key>
           <integer>-1</integer>

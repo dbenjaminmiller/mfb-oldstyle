@@ -15,15 +15,15 @@
       <point x="508" y="332" type="line"/>
       <point x="57" y="332" type="line"/>
     </contour>
-    <component base="C" xOffset="63" identifier="0D01D644"/>
+    <component base="C" xOffset="63" identifier="33F0B2F2"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2024-08-06 00:44:58 +0000</string>
+      <string>2026-10-16 12:25:41 +0000</string>
       <key>public.objectLibs</key>
       <dict>
-        <key>0D01D644</key>
+        <key>33F0B2F2</key>
         <dict>
           <key>com.schriftgestaltung.alignment</key>
           <integer>-1</integer>

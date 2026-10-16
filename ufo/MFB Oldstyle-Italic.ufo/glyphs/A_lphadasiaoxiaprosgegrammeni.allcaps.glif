@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Alphadasiaoxiaprosgegrammeni.allcaps" format="2">
+  <advance width="1057"/>
+  <outline>
+    <component base="Alpha.adscriptbase.allcaps"/>
+    <component base="commareversedabovecomb_acutecomb.allcaps" xOffset="186" yOffset="247"/>
+    <component base="Iota.adscript.allcaps" xOffset="689"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>=+368</string>
+      <key>com.schriftgestaltung.glyph.userData</key>
+      <dict>
+        <key>com.mfb.greek.allcaps</key>
+        <integer>1</integer>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

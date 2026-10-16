@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Alphapsilivaria" format="2">
+  <advance width="810"/>
+  <unicode hex="1F0A"/>
+  <outline>
+    <component base="Alpha" xOffset="121"/>
+    <component base="commaabovecomb_gravecomb.case" xOffset="-122" yOffset="70" identifier="B9483BF6"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026-10-16 15:51:59 +0000</string>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>=+121</string>
+      <key>com.schriftgestaltung.glyph.userData</key>
+      <dict>
+        <key>com.mfb.greek.italic.support</key>
+        <integer>1</integer>
+      </dict>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>B9483BF6</key>
+        <dict>
+          <key>com.schriftgestaltung.anchor</key>
+          <string>topleft_grave</string>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

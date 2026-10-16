@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="omegapsiliypogegrammeni" format="2">
+  <advance width="797"/>
+  <unicode hex="1FA0"/>
+  <outline>
+    <component base="omega"/>
+    <component base="commaabovecomb" xOffset="260" identifier="A415B450"/>
+    <component base="ypogegrammenicomb" xOffset="270"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026-10-16 15:50:45 +0000</string>
+      <key>com.schriftgestaltung.glyph.userData</key>
+      <dict>
+        <key>com.mfb.greek.bolditalic.support</key>
+        <integer>1</integer>
+      </dict>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>A415B450</key>
+        <dict>
+          <key>com.schriftgestaltung.anchor</key>
+          <string>top_breathing</string>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

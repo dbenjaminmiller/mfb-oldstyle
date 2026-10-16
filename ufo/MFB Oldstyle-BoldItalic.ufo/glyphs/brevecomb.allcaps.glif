@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="brevecomb.allcaps" format="2">
+  <advance width="274"/>
+  <anchor x="292" y="494" name="_top"/>
+  <anchor x="283" y="700" name="top"/>
+  <anchor x="330" y="673" name="top_acute"/>
+  <anchor x="330" y="673" name="top_grave"/>
+  <anchor x="330" y="673" name="top_perispomeni"/>
+  <outline>
+    <component base="brevecomb.grek.allcaps"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>=brevecomb.grek.allcaps</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>=brevecomb.grek.allcaps</string>
+    </dict>
+  </lib>
+</glyph>

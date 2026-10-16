@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Etaoxia" format="2">
+  <advance width="996"/>
+  <unicode hex="1FCB"/>
+  <outline>
+    <component base="Eta" xOffset="258"/>
+    <component base="acutecomb.case" xOffset="32" yOffset="50"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>=+258</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Iotavrachy" format="2">
+  <advance width="435"/>
+  <unicode hex="1FD8"/>
+  <outline>
+    <component base="Iota"/>
+    <component base="brevecomb.grek" xOffset="104" yOffset="247"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.glyph.userData</key>
+      <dict>
+        <key>com.mfb.greek.bolditalic.support</key>
+        <integer>1</integer>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="perispomeni" format="2">
+  <advance width="281"/>
+  <unicode hex="1FC0"/>
+  <anchor x="137" y="558" name="_top"/>
+  <anchor x="137" y="726" name="top"/>
+  <outline>
+    <component base="perispomenicomb"/>
+  </outline>
+</glyph>

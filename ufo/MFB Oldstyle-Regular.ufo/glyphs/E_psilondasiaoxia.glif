@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Epsilondasiaoxia" format="2">
+  <advance width="1051"/>
+  <unicode hex="1F1D"/>
+  <outline>
+    <component base="Epsilon" xOffset="381"/>
+    <component base="commareversedabovecomb_acutecomb.case" xOffset="19" yOffset="50"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>=+381</string>
+    </dict>
+  </lib>
+</glyph>

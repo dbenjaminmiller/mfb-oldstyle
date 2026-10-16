@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Omegapsilivaria" format="2">
+  <advance width="1052"/>
+  <unicode hex="1F6A"/>
+  <outline>
+    <component base="Omega" xOffset="305"/>
+    <component base="commaabovecomb_gravecomb.case" xOffset="11" yOffset="50"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>=+305</string>
+    </dict>
+  </lib>
+</glyph>

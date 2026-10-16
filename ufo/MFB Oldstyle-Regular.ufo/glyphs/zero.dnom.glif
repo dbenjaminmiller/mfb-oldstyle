@@ -2,15 +2,15 @@
 <glyph name="zero.dnom" format="2">
   <advance width="355"/>
   <outline>
-    <component base="zeroinferior" yOffset="150" identifier="E227EF45"/>
+    <component base="zeroinferior" yOffset="150" identifier="36FFDD1A"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2024-08-05 07:45:25 +0000</string>
+      <string>2026-10-16 15:53:00 +0000</string>
       <key>public.objectLibs</key>
       <dict>
-        <key>E227EF45</key>
+        <key>36FFDD1A</key>
         <dict>
           <key>com.schriftgestaltung.alignment</key>
           <integer>-1</integer>

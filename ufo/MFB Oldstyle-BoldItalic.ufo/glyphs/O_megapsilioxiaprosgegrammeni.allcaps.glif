@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Omegapsilioxiaprosgegrammeni.allcaps" format="2">
+  <advance width="1243"/>
+  <outline>
+    <component base="Omega.adscriptbase.allcaps"/>
+    <component base="commaabovecomb_acutecomb.allcaps" xOffset="240" yOffset="247"/>
+    <component base="Iota.adscript.allcaps" xOffset="808"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>=+435</string>
+      <key>com.schriftgestaltung.glyph.userData</key>
+      <dict>
+        <key>com.mfb.greek.allcaps</key>
+        <integer>1</integer>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

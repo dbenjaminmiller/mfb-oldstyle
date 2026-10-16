@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="upsilonpsilioxia" format="2">
+  <advance width="622"/>
+  <unicode hex="1F54"/>
+  <outline>
+    <component base="upsilon"/>
+    <component base="commaabovecomb_acutecomb" xOffset="114"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.glyph.userData</key>
+      <dict>
+        <key>com.mfb.greek.bold.support</key>
+        <integer>1</integer>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

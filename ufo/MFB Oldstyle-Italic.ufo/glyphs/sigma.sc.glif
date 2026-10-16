@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="sigma.sc" format="2">
+  <advance width="534"/>
+  <anchor x="506" y="0" name="adscript"/>
+  <anchor x="202" y="0" name="bottom"/>
+  <anchor x="202" y="0" name="dotbelow"/>
+  <anchor x="384" y="518" name="top"/>
+  <outline>
+    <contour>
+      <point x="0" y="0" type="line"/>
+      <point x="427" y="0" type="line"/>
+      <point x="492" y="130" type="line"/>
+      <point x="462" y="148" type="line"/>
+      <point x="410" y="95"/>
+      <point x="358" y="41"/>
+      <point x="227" y="41" type="curve" smooth="yes"/>
+      <point x="79.445" y="41" type="line"/>
+      <point x="342.726" y="266.457" type="line"/>
+      <point x="213.877" y="476" type="line"/>
+      <point x="329" y="476" type="line" smooth="yes"/>
+      <point x="447" y="476"/>
+      <point x="473" y="417"/>
+      <point x="495" y="370" type="curve"/>
+      <point x="533" y="378" type="line"/>
+      <point x="509" y="516" type="line"/>
+      <point x="127" y="516" type="line"/>
+      <point x="117" y="477" type="line"/>
+      <point x="256.865" y="249.543" type="line"/>
+      <point x="11" y="39" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.glyph.userData</key>
+      <dict>
+        <key>com.mfb.greek.italic.capitals</key>
+        <integer>1</integer>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

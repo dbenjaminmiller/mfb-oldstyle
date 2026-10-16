@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="alphapsili.macroncomb.sc" format="2">
+  <advance width="524"/>
+  <outline>
+    <component base="alpha.sc"/>
+    <component base="macroncomb.grek.sc" xOffset="124" yOffset="-16"/>
+    <component base="commaabovecomb.sc" xOffset="177" yOffset="134"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.glyph.userData</key>
+      <dict>
+        <key>com.mfb.greek.smallcaps.composite</key>
+        <integer>1</integer>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Omegapsiliprosgegrammeni.brevecomb.allcaps" format="2">
+  <advance width="1213"/>
+  <outline>
+    <component base="Omega.adscriptbase.allcaps"/>
+    <component base="brevecomb.allcaps" xOffset="257" yOffset="272"/>
+    <component base="commaabovecomb.allcaps" xOffset="313" yOffset="440"/>
+    <component base="Iota.adscript.allcaps" xOffset="805"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>=+408</string>
+      <key>com.schriftgestaltung.glyph.userData</key>
+      <dict>
+        <key>com.mfb.greek.allcaps</key>
+        <integer>1</integer>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

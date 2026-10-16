@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="rho.gravecomb.polytonic.brevecomb.sc" format="2">
+  <advance width="537"/>
+  <outline>
+    <component base="rho.sc"/>
+    <component base="brevecomb.grek.sc" xOffset="97" yOffset="23"/>
+    <component base="gravecomb.sc" xOffset="108" yOffset="202" identifier="5ED79A4A"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026-10-16 15:50:45 +0000</string>
+      <key>com.schriftgestaltung.glyph.userData</key>
+      <dict>
+        <key>com.mfb.greek.smallcaps.composite</key>
+        <integer>1</integer>
+      </dict>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>5ED79A4A</key>
+        <dict>
+          <key>com.schriftgestaltung.anchor</key>
+          <string>top_grave</string>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

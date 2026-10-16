@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="rho.sc" format="2">
+  <advance width="533"/>
+  <anchor x="505" y="0" name="adscript"/>
+  <anchor x="266.5" y="0" name="bottom"/>
+  <anchor x="266.5" y="0" name="dotbelow"/>
+  <anchor x="258" y="558" name="top"/>
+  <outline>
+    <component base="p.sc"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.glyph.userData</key>
+      <dict>
+        <key>com.mfb.greek.bold.capitals</key>
+        <integer>1</integer>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

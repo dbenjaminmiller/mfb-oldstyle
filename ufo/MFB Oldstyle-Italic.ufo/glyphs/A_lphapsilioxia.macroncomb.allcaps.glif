@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Alphapsilioxia.macroncomb.allcaps" format="2">
+  <advance width="689"/>
+  <outline>
+    <component base="Alpha"/>
+    <component base="macroncomb.grek.allcaps" xOffset="231" yOffset="207"/>
+    <component base="commaabovecomb_acutecomb.allcaps" xOffset="182" yOffset="357"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.glyph.userData</key>
+      <dict>
+        <key>com.mfb.greek.allcaps</key>
+        <integer>1</integer>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

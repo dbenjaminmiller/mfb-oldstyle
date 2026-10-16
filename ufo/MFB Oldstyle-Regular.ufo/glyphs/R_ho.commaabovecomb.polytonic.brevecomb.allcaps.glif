@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Rho.commaabovecomb.polytonic.brevecomb.allcaps" format="2">
+  <advance width="621"/>
+  <outline>
+    <component base="Rho"/>
+    <component base="brevecomb.allcaps" xOffset="169" yOffset="272"/>
+    <component base="commaabovecomb.allcaps" xOffset="227" yOffset="440"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.glyph.userData</key>
+      <dict>
+        <key>com.mfb.greek.allcaps</key>
+        <integer>1</integer>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

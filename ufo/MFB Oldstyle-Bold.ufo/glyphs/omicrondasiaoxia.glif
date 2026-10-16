@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="omicrondasiaoxia" format="2">
+  <advance width="569"/>
+  <unicode hex="1F45"/>
+  <outline>
+    <component base="omicron"/>
+    <component base="commareversedabovecomb_acutecomb" xOffset="72"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.glyph.userData</key>
+      <dict>
+        <key>com.mfb.greek.bold.support</key>
+        <integer>1</integer>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

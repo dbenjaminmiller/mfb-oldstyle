@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Upsilondasiaoxia.brevecomb.allcaps" format="2">
+  <advance width="688"/>
+  <outline>
+    <component base="Upsilon"/>
+    <component base="brevecomb.grek.allcaps" xOffset="215" yOffset="247"/>
+    <component base="commareversedabovecomb_acutecomb.allcaps" xOffset="149" yOffset="453"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.glyph.userData</key>
+      <dict>
+        <key>com.mfb.greek.allcaps</key>
+        <integer>1</integer>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

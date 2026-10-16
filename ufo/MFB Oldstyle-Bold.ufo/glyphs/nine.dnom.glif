@@ -2,15 +2,15 @@
 <glyph name="nine.dnom" format="2">
   <advance width="411"/>
   <outline>
-    <component base="ninesuperior" yOffset="-355" identifier="32F47A5C"/>
+    <component base="ninesuperior" yOffset="-355" identifier="DB241BCB"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2024-08-06 00:43:28 +0000</string>
+      <string>2026-10-16 12:25:41 +0000</string>
       <key>public.objectLibs</key>
       <dict>
-        <key>32F47A5C</key>
+        <key>DB241BCB</key>
         <dict>
           <key>com.schriftgestaltung.alignment</key>
           <integer>-1</integer>

@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="koppa.sc" format="2">
+  <advance width="374"/>
+  <anchor x="170.9" y="0" name="bottom"/>
+  <anchor x="170.9" y="0" name="dotbelow"/>
+  <anchor x="170.9" y="544" name="top"/>
+  <outline>
+    <contour>
+      <point x="39.68" y="501" type="line"/>
+      <point x="180.32" y="501" type="line"/>
+      <point x="180.32" y="470" type="line"/>
+      <point x="148.32" y="469"/>
+      <point x="144.32" y="465"/>
+      <point x="144.32" y="440" type="curve"/>
+      <point x="143.123" y="440" type="line"/>
+      <point x="132.32" y="268.5" type="line"/>
+      <point x="293.12" y="268.5" type="line"/>
+      <point x="266.841" y="48.051" type="line"/>
+      <point x="268.962" y="34.477"/>
+      <point x="276.721" y="31.794"/>
+      <point x="302.12" y="31" type="curve"/>
+      <point x="302.12" y="0" type="line"/>
+      <point x="161.48" y="0" type="line"/>
+      <point x="161.48" y="31" type="line"/>
+      <point x="193.48" y="32"/>
+      <point x="197.48" y="36"/>
+      <point x="197.48" y="61" type="curve"/>
+      <point x="199.176" y="61" type="line"/>
+      <point x="214.48" y="232.5" type="line"/>
+      <point x="53.68" y="232.5" type="line"/>
+      <point x="75.04" y="452.406" type="line"/>
+      <point x="73.04" y="466.452"/>
+      <point x="65.413" y="469.196"/>
+      <point x="39.68" y="470" type="curve"/>
+    </contour>
+  </outline>
+</glyph>

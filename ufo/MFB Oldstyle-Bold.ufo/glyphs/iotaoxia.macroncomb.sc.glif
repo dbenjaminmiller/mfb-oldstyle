@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="iotaoxia.macroncomb.sc" format="2">
+  <advance width="345"/>
+  <outline>
+    <component base="iota.sc"/>
+    <component base="macroncomb.sc" xOffset="36"/>
+    <component base="acutecomb.sc" xOffset="94" yOffset="168"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.glyph.userData</key>
+      <dict>
+        <key>com.mfb.greek.smallcaps.composite</key>
+        <integer>1</integer>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

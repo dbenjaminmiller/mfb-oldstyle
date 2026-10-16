@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Epsilonpsili" format="2">
+  <advance width="833"/>
+  <unicode hex="1F18"/>
+  <outline>
+    <component base="Epsilon" xOffset="163"/>
+    <component base="commaabovecomb.case" xOffset="11" yOffset="50"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>=+163</string>
+    </dict>
+  </lib>
+</glyph>

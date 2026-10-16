@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Etapsilioxiaprosgegrammeni" format="2">
+  <advance width="1457"/>
+  <unicode hex="1F9C"/>
+  <outline>
+    <component base="Eta" xOffset="383"/>
+    <component base="commaabovecomb_acutecomb.case" xOffset="13" yOffset="30"/>
+    <component base="iota.adscript" xOffset="1148"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>=+383</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>=+269</string>
+      <key>com.schriftgestaltung.glyph.userData</key>
+      <dict>
+        <key>com.mfb.greek.bold.support</key>
+        <integer>1</integer>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

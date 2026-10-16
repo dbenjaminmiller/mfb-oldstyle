@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Iotadasiaperispomeni" format="2">
+  <advance width="682"/>
+  <unicode hex="1F3F"/>
+  <outline>
+    <component base="Iota" xOffset="328"/>
+    <component base="commareversedabovecomb_perispomenicomb.case" xOffset="32" yOffset="50"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>=+328</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Alphamacron" format="2">
+  <advance width="686"/>
+  <unicode hex="1FB9"/>
+  <outline>
+    <component base="Alpha"/>
+    <component base="macroncomb" xOffset="218" yOffset="255"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.glyph.userData</key>
+      <dict>
+        <key>com.mfb.greek.bold.support</key>
+        <integer>1</integer>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Alpha.adscriptbase.allcaps" format="2">
+  <advance width="759"/>
+  <anchor x="759" y="0" name="adscript"/>
+  <anchor x="340" y="0" name="bottom"/>
+  <anchor x="340" y="0" name="dotbelow"/>
+  <anchor x="537" y="741" name="top"/>
+  <anchor x="333" y="685" name="topleft"/>
+  <anchor x="309" y="685" name="topleft_grave"/>
+  <anchor x="369" y="685" name="topleft_perispomeni"/>
+  <outline>
+    <component base="Alpha"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.glyph.userData</key>
+      <dict>
+        <key>com.mfb.greek.allcaps</key>
+        <integer>1</integer>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

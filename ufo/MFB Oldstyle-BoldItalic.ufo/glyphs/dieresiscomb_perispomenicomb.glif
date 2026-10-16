@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dieresiscomb_perispomenicomb" format="2">
+  <advance width="301"/>
+  <anchor x="296" y="494" name="_top"/>
+  <anchor x="392" y="881" name="top"/>
+  <outline>
+    <component base="dieresiscomb.grek"/>
+    <component base="perispomenicomb" xOffset="64" yOffset="198" identifier="00456A45"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026-10-16 15:50:45 +0000</string>
+      <key>com.schriftgestaltung.glyph.userData</key>
+      <dict>
+        <key>com.mfb.greek.bolditalic.support</key>
+        <integer>1</integer>
+        <key>com.mfb.greek.polytonicTemplate</key>
+        <integer>1</integer>
+      </dict>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>00456A45</key>
+        <dict>
+          <key>com.schriftgestaltung.anchor</key>
+          <string>top_perispomeni</string>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

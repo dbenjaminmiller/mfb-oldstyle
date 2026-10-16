@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="rho.perispomenicomb.polytonic.macroncomb.sc" format="2">
+  <advance width="537"/>
+  <outline>
+    <component base="rho.sc"/>
+    <component base="macroncomb.grek.sc" xOffset="111" yOffset="-17"/>
+    <component base="perispomenicomb.sc" xOffset="124" yOffset="123" identifier="95AA0F0B"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026-10-16 15:50:45 +0000</string>
+      <key>com.schriftgestaltung.glyph.userData</key>
+      <dict>
+        <key>com.mfb.greek.smallcaps.composite</key>
+        <integer>1</integer>
+      </dict>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>95AA0F0B</key>
+        <dict>
+          <key>com.schriftgestaltung.anchor</key>
+          <string>top_perispomeni</string>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

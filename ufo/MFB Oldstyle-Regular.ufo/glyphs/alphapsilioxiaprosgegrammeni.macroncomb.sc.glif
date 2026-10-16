@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="alphapsilioxiaprosgegrammeni.macroncomb.sc" format="2">
+  <advance width="782"/>
+  <outline>
+    <component base="alpha.sc"/>
+    <component base="macroncomb.sc" xOffset="123"/>
+    <component base="commaabovecomb_acutecomb.sc" xOffset="77" yOffset="168"/>
+    <component base="iota.adscript.sc" xOffset="483"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>=+299</string>
+      <key>com.schriftgestaltung.glyph.userData</key>
+      <dict>
+        <key>com.mfb.greek.smallcaps.composite</key>
+        <integer>1</integer>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

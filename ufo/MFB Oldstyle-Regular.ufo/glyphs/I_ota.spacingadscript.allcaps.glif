@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Iota.spacingadscript.allcaps" format="2">
+  <advance width="354"/>
+  <anchor x="314" y="0" name="adscript"/>
+  <anchor x="177" y="0" name="bottom"/>
+  <anchor x="177" y="0" name="dotbelow"/>
+  <anchor x="177" y="813" name="top"/>
+  <anchor x="20" y="700" name="topleft"/>
+  <outline>
+    <component base="Iota"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>=Iota</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>=Iota</string>
+    </dict>
+  </lib>
+</glyph>

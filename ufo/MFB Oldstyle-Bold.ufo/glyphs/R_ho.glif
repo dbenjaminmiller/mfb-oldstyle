@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Rho" format="2">
+  <advance width="683"/>
+  <unicode hex="03A1"/>
+  <anchor x="643" y="0" name="adscript"/>
+  <anchor x="341.5" y="0" name="bottom"/>
+  <anchor x="341.5" y="0" name="dotbelow"/>
+  <anchor x="347" y="813" name="top"/>
+  <anchor x="22" y="680" name="topleft"/>
+  <outline>
+    <component base="P"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.glyph.userData</key>
+      <dict>
+        <key>com.mfb.greek.bold.capitals</key>
+        <integer>1</integer>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Upsilonvrachy" format="2">
+  <advance width="626"/>
+  <unicode hex="1FE8"/>
+  <outline>
+    <component base="Upsilon"/>
+    <component base="brevecomb.grek" xOffset="187" yOffset="247"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.glyph.userData</key>
+      <dict>
+        <key>com.mfb.greek.italic.support</key>
+        <integer>1</integer>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

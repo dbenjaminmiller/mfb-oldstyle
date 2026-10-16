@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dialytikaperispomeni" format="2">
+  <advance width="275"/>
+  <unicode hex="1FC1"/>
+  <anchor x="283" y="494" name="_top"/>
+  <anchor x="366" y="824" name="top"/>
+  <outline>
+    <component base="dieresiscomb_perispomenicomb"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.glyph.userData</key>
+      <dict>
+        <key>com.mfb.greek.italic.support</key>
+        <integer>1</integer>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

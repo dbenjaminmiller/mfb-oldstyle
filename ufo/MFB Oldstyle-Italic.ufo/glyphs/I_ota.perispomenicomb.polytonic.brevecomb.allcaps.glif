@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Iota.perispomenicomb.polytonic.brevecomb.allcaps" format="2">
+  <advance width="368"/>
+  <outline>
+    <component base="Iota"/>
+    <component base="brevecomb.grek.allcaps" xOffset="74" yOffset="247"/>
+    <component base="perispomenicomb.allcaps" xOffset="117" yOffset="402" identifier="9B776063"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026-10-16 15:51:59 +0000</string>
+      <key>com.schriftgestaltung.glyph.userData</key>
+      <dict>
+        <key>com.mfb.greek.allcaps</key>
+        <integer>1</integer>
+      </dict>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>9B776063</key>
+        <dict>
+          <key>com.schriftgestaltung.anchor</key>
+          <string>top_perispomeni</string>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

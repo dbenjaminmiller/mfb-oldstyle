@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Alphaoxia" format="2">
+  <advance width="749"/>
+  <unicode hex="1FBB"/>
+  <outline>
+    <component base="Alpha" xOffset="106"/>
+    <component base="acutecomb.case" xOffset="32" yOffset="50"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>=+106</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dasiaoxia" format="2">
+  <advance width="361"/>
+  <unicode hex="1FDE"/>
+  <anchor x="180.2" y="558" name="_top"/>
+  <anchor x="180.2" y="742" name="top"/>
+  <outline>
+    <component base="commareversedabovecomb_acutecomb"/>
+  </outline>
+</glyph>

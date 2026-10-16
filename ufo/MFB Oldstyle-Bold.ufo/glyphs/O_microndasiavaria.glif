@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Omicrondasiavaria" format="2">
+  <advance width="1149"/>
+  <unicode hex="1F4B"/>
+  <outline>
+    <component base="Omicron" xOffset="384"/>
+    <component base="commareversedabovecomb_gravecomb.case" xOffset="15" yOffset="30" identifier="7502C783"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026-10-16 12:25:41 +0000</string>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>=+384</string>
+      <key>com.schriftgestaltung.glyph.userData</key>
+      <dict>
+        <key>com.mfb.greek.bold.support</key>
+        <integer>1</integer>
+      </dict>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>7502C783</key>
+        <dict>
+          <key>com.schriftgestaltung.anchor</key>
+          <string>topleft_grave</string>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

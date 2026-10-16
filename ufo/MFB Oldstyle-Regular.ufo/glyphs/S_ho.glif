@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Sho" format="2">
+  <advance width="621"/>
+  <unicode hex="03F7"/>
+  <anchor x="310" y="0" name="bottom"/>
+  <anchor x="310" y="0" name="dotbelow"/>
+  <anchor x="302" y="813" name="top"/>
+  <anchor x="20" y="700" name="topleft"/>
+  <outline>
+    <component base="Thorn"/>
+  </outline>
+</glyph>

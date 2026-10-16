@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="delta.sc" format="2">
+  <advance width="483"/>
+  <anchor x="455" y="0" name="adscript"/>
+  <anchor x="241.5" y="0" name="bottom"/>
+  <anchor x="241.5" y="0" name="dotbelow"/>
+  <anchor x="243" y="558" name="top"/>
+  <outline>
+    <contour>
+      <point x="203" y="495" type="line"/>
+      <point x="33.976" y="0" type="line"/>
+      <point x="445.517" y="0" type="line"/>
+      <point x="274" y="517" type="line"/>
+    </contour>
+    <contour>
+      <point x="341.167" y="40" type="line"/>
+      <point x="98.667" y="40" type="line"/>
+      <point x="228" y="428" type="line"/>
+    </contour>
+  </outline>
+</glyph>

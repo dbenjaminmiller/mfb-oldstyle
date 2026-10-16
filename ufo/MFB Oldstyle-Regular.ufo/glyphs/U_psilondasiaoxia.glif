@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Upsilondasiaoxia" format="2">
+  <advance width="1001"/>
+  <unicode hex="1F5D"/>
+  <outline>
+    <component base="Upsilon" xOffset="417"/>
+    <component base="commareversedabovecomb_acutecomb.case" xOffset="19" yOffset="50"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>=+417</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Omegavaria.brevecomb.allcaps" format="2">
+  <advance width="747"/>
+  <outline>
+    <component base="Omega"/>
+    <component base="brevecomb.allcaps" xOffset="241" yOffset="272"/>
+    <component base="gravecomb.allcaps" xOffset="243" yOffset="440"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.glyph.userData</key>
+      <dict>
+        <key>com.mfb.greek.allcaps</key>
+        <integer>1</integer>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

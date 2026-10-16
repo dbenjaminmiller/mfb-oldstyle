@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Chi" format="2">
+  <advance width="690"/>
+  <unicode hex="03A7"/>
+  <anchor x="650" y="0" name="adscript"/>
+  <anchor x="345" y="0" name="bottom"/>
+  <anchor x="345" y="0" name="dotbelow"/>
+  <anchor x="362" y="813" name="top"/>
+  <anchor x="22" y="650" name="topleft"/>
+  <outline>
+    <component base="X"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.glyph.userData</key>
+      <dict>
+        <key>com.mfb.greek.bold.capitals</key>
+        <integer>1</integer>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="commaabovecomb_perispomenicomb.case" format="2">
+  <advance width="266"/>
+  <anchor x="476" y="650" name="_topleft"/>
+  <outline>
+    <component base="commaabovecomb_perispomenicomb"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.glyph.userData</key>
+      <dict>
+        <key>com.mfb.greek.italic.support</key>
+        <integer>1</integer>
+        <key>com.mfb.greek.polytonicTemplate</key>
+        <integer>1</integer>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

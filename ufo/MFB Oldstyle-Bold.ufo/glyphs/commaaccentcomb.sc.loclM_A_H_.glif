@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="commaaccentcomb.sc.loclMAH" format="2">
+  <advance width="232"/>
+  <anchor x="121" y="0" name="_commaaccentbelow"/>
+  <outline>
+    <component base="commaaccentcomb.loclMAH" identifier="1F27A20A"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>1F27A20A</key>
+        <dict>
+          <key>com.schriftgestaltung.alignment</key>
+          <integer>-1</integer>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

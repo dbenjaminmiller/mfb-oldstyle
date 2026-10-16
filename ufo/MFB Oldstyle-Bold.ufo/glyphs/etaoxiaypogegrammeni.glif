@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="etaoxiaypogegrammeni" format="2">
+  <advance width="630"/>
+  <unicode hex="1FC4"/>
+  <outline>
+    <component base="eta"/>
+    <component base="acutecomb" xOffset="269"/>
+    <component base="ypogegrammenicomb" xOffset="108"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.glyph.userData</key>
+      <dict>
+        <key>com.mfb.greek.bold.support</key>
+        <integer>1</integer>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

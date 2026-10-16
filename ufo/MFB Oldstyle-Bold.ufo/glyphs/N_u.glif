@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Nu" format="2">
+  <advance width="752"/>
+  <unicode hex="039D"/>
+  <anchor x="712" y="0" name="adscript"/>
+  <anchor x="356" y="0" name="bottom"/>
+  <anchor x="356" y="0" name="dotbelow"/>
+  <anchor x="375" y="813" name="top"/>
+  <anchor x="20" y="650" name="topleft"/>
+  <outline>
+    <component base="N"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.glyph.userData</key>
+      <dict>
+        <key>com.mfb.greek.bold.capitals</key>
+        <integer>1</integer>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

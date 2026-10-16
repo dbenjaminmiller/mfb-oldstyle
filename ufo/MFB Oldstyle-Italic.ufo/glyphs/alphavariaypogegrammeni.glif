@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="alphavariaypogegrammeni" format="2">
+  <advance width="559"/>
+  <unicode hex="1FB2"/>
+  <outline>
+    <component base="alpha"/>
+    <component base="gravecomb" xOffset="67"/>
+    <component base="ypogegrammenicomb" xOffset="132"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.glyph.userData</key>
+      <dict>
+        <key>com.mfb.greek.italic.support</key>
+        <integer>1</integer>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

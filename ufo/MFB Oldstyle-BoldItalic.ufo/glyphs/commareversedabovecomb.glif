@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="commareversedabovecomb" format="2">
+  <advance width="194"/>
+  <unicode hex="0314"/>
+  <anchor x="218" y="494" name="_top"/>
+  <anchor x="259" y="735" name="top"/>
+  <anchor x="400" y="494" name="top_acute"/>
+  <anchor x="562" y="494" name="top_grave"/>
+  <anchor x="307" y="699" name="top_perispomeni"/>
+  <outline>
+    <contour>
+      <point x="320.355" y="667" type="curve"/>
+      <point x="327.054" y="692" type="line" smooth="yes"/>
+      <point x="327.538" y="693.808"/>
+      <point x="327.773" y="695.585"/>
+      <point x="327.773" y="697.321" type="curve" smooth="yes"/>
+      <point x="327.773" y="712.862"/>
+      <point x="308.984" y="725"/>
+      <point x="282.896" y="725" type="curve" smooth="yes"/>
+      <point x="226.896" y="725"/>
+      <point x="180.518" y="690"/>
+      <point x="167.389" y="641" type="curve" smooth="yes"/>
+      <point x="165.491" y="633.919"/>
+      <point x="164.566" y="627.1"/>
+      <point x="164.566" y="620.555" type="curve" smooth="yes"/>
+      <point x="164.566" y="580.882"/>
+      <point x="198.552" y="551.309"/>
+      <point x="255.986" y="535" type="curve"/>
+      <point x="276.828" y="568" type="line"/>
+      <point x="245.406" y="577.329"/>
+      <point x="229.575" y="593.849"/>
+      <point x="229.575" y="613.902" type="curve" smooth="yes"/>
+      <point x="229.575" y="617.495"/>
+      <point x="230.083" y="621.201"/>
+      <point x="231.101" y="625" type="curve" smooth="yes"/>
+      <point x="238.068" y="651"/>
+      <point x="273.355" y="667"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.glyph.userData</key>
+      <dict>
+        <key>com.mfb.greek.bolditalic.support</key>
+        <integer>1</integer>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

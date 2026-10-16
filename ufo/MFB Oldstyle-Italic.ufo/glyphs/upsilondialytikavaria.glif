@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="upsilondialytikavaria" format="2">
+  <advance width="508"/>
+  <unicode hex="1FE2"/>
+  <outline>
+    <component base="upsilon"/>
+    <component base="dieresiscomb_gravecomb" xOffset="70"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.glyph.userData</key>
+      <dict>
+        <key>com.mfb.greek.italic.support</key>
+        <integer>1</integer>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

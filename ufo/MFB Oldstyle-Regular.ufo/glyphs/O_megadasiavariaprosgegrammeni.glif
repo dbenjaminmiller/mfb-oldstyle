@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Omegadasiavariaprosgegrammeni" format="2">
+  <advance width="1290"/>
+  <unicode hex="1FAB"/>
+  <outline>
+    <component base="Omega" xOffset="305"/>
+    <component base="commareversedabovecomb_gravecomb.case" xOffset="19" yOffset="50"/>
+    <component base="iota.adscript" xOffset="1012"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>=+305</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>=+238</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Tau" format="2">
+  <advance width="678"/>
+  <unicode hex="03A4"/>
+  <anchor x="638" y="0" name="adscript"/>
+  <anchor x="275" y="0" name="bottom"/>
+  <anchor x="275" y="0" name="dotbelow"/>
+  <anchor x="527" y="741" name="top"/>
+  <anchor x="107" y="685" name="topleft"/>
+  <outline>
+    <component base="T"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.glyph.userData</key>
+      <dict>
+        <key>com.mfb.greek.bolditalic</key>
+        <integer>1</integer>
+        <key>com.mfb.greek.italic.capitals</key>
+        <integer>1</integer>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

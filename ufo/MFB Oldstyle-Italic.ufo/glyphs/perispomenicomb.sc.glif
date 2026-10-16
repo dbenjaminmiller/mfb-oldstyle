@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="perispomenicomb.sc" format="2">
+  <advance width="266"/>
+  <anchor x="278" y="494" name="_top"/>
+  <anchor x="316" y="659" name="top"/>
+  <outline>
+    <component base="tildecomb.sc"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.glyph.userData</key>
+      <dict>
+        <key>com.mfb.greek.smallcaps.composite</key>
+        <integer>1</integer>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

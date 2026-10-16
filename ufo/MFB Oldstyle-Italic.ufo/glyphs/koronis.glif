@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="koronis" format="2">
+  <advance width="180"/>
+  <unicode hex="1FBD"/>
+  <anchor x="204" y="494" name="_top"/>
+  <anchor x="234" y="694" name="top"/>
+  <anchor x="332" y="494" name="top_acute"/>
+  <anchor x="497" y="494" name="top_grave"/>
+  <anchor x="282" y="660" name="top_perispomeni"/>
+  <outline>
+    <component base="commaabovecomb"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.glyph.userData</key>
+      <dict>
+        <key>com.mfb.greek.italic.support</key>
+        <integer>1</integer>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

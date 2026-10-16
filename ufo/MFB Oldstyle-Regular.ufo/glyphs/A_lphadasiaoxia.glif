@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Alphadasiaoxia" format="2">
+  <advance width="872"/>
+  <unicode hex="1F0D"/>
+  <outline>
+    <component base="Alpha" xOffset="229"/>
+    <component base="commareversedabovecomb_acutecomb.case" xOffset="19" yOffset="50"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>=+229</string>
+    </dict>
+  </lib>
+</glyph>

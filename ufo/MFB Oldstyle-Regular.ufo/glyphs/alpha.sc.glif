@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="alpha.sc" format="2">
+  <advance width="483"/>
+  <anchor x="483" y="0" name="adscript"/>
+  <anchor x="223" y="0" name="bottom"/>
+  <anchor x="223" y="0" name="dotbelow"/>
+  <anchor x="243" y="558" name="top"/>
+  <outline>
+    <component base="a.sc"/>
+  </outline>
+</glyph>

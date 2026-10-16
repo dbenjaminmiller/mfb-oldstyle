@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Upsilontonos" format="2">
+  <advance width="878"/>
+  <unicode hex="038E"/>
+  <outline>
+    <component base="Upsilon" xOffset="294"/>
+    <component base="acutecomb.case" xOffset="32" yOffset="50"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>=+294</string>
+    </dict>
+  </lib>
+</glyph>

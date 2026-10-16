@@ -3,15 +3,15 @@
   <advance width="317"/>
   <outline>
     <component base="idotless"/>
-    <component base="dotaccentcomb" xOffset="89" identifier="4ECA7743"/>
+    <component base="dotaccentcomb" xOffset="89" identifier="FF4CB602"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2024-08-06 00:43:28 +0000</string>
+      <string>2026-10-16 12:25:41 +0000</string>
       <key>public.objectLibs</key>
       <dict>
-        <key>4ECA7743</key>
+        <key>FF4CB602</key>
         <dict>
           <key>com.schriftgestaltung.anchor</key>
           <string>top_dot</string>

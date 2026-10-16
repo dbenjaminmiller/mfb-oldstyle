@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="iotaoxia" format="2">
+  <advance width="298"/>
+  <unicode hex="1F77"/>
+  <outline>
+    <component base="iota"/>
+    <component base="acutecomb" xOffset="78"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.glyph.userData</key>
+      <dict>
+        <key>com.mfb.greek.italic.support</key>
+        <integer>1</integer>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

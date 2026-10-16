@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="epsilonoxia.macroncomb.sc" format="2">
+  <advance width="534"/>
+  <outline>
+    <component base="epsilon.sc"/>
+    <component base="macroncomb.grek.sc" xOffset="116" yOffset="-16"/>
+    <component base="acutecomb.sc" xOffset="216" yOffset="134" identifier="B7D76ECF"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026-10-16 15:51:59 +0000</string>
+      <key>com.schriftgestaltung.glyph.userData</key>
+      <dict>
+        <key>com.mfb.greek.smallcaps.composite</key>
+        <integer>1</integer>
+      </dict>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>B7D76ECF</key>
+        <dict>
+          <key>com.schriftgestaltung.anchor</key>
+          <string>top_acute</string>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

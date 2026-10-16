@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Iotapsilivaria.macroncomb.allcaps" format="2">
+  <advance width="368"/>
+  <outline>
+    <component base="Iota"/>
+    <component base="macroncomb.grek.allcaps" xOffset="95" yOffset="207"/>
+    <component base="commaabovecomb_gravecomb.allcaps" xOffset="32" yOffset="357"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.glyph.userData</key>
+      <dict>
+        <key>com.mfb.greek.allcaps</key>
+        <integer>1</integer>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

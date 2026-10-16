@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="commareversedabovecomb_acutecomb.case" format="2">
+  <advance width="650"/>
+  <anchor x="575" y="650" name="_topleft"/>
+  <outline>
+    <component base="commareversedabovecomb_acutecomb"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.glyph.userData</key>
+      <dict>
+        <key>com.mfb.greek.bolditalic.support</key>
+        <integer>1</integer>
+        <key>com.mfb.greek.polytonicTemplate</key>
+        <integer>1</integer>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="prosgegrammeni" format="2">
+  <advance width="278"/>
+  <unicode hex="1FBE"/>
+  <anchor x="133" y="0" name="bottom"/>
+  <anchor x="133" y="0" name="dotbelow"/>
+  <anchor x="133" y="558" name="top"/>
+  <outline>
+    <component base="iota"/>
+  </outline>
+</glyph>

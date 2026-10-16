@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="archaicsampi.sc" format="2">
+  <advance width="487"/>
+  <anchor x="247" y="0" name="bottom"/>
+  <anchor x="247" y="0" name="dotbelow"/>
+  <anchor x="247" y="558" name="top"/>
+  <outline>
+    <component base="t.sc"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>=t.sc</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>=t.sc</string>
+    </dict>
+  </lib>
+</glyph>

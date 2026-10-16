@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="omicron" format="2">
+  <advance width="561"/>
+  <unicode hex="03BF"/>
+  <anchor x="552" y="374" name="attachhorn"/>
+  <anchor x="195" y="0" name="bottom"/>
+  <anchor x="195" y="0" name="dotbelow"/>
+  <anchor x="244" y="0" name="ogonek"/>
+  <anchor x="417" y="494" name="top"/>
+  <anchor x="367" y="494" name="top_breathing"/>
+  <outline>
+    <component base="o"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>=o</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>=o</string>
+      <key>com.schriftgestaltung.glyph.userData</key>
+      <dict>
+        <key>com.mfb.greek.bolditalic</key>
+        <integer>1</integer>
+        <key>com.mfb.greek.italic.bowls</key>
+        <integer>1</integer>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

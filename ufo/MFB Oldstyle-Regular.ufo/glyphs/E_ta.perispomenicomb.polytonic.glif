@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Eta.perispomenicomb.polytonic" format="2">
+  <advance width="1066"/>
+  <outline>
+    <component base="Eta" xOffset="328"/>
+    <component base="perispomenicomb.case" xOffset="32" yOffset="50"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>=+328</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="upsilonperispomeni" format="2">
+  <advance width="616"/>
+  <unicode hex="1FE6"/>
+  <outline>
+    <component base="upsilon"/>
+    <component base="perispomenicomb" xOffset="129"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.glyph.userData</key>
+      <dict>
+        <key>com.mfb.greek.bolditalic.support</key>
+        <integer>1</integer>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

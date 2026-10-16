@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Archaicsampi" format="2">
+  <advance width="678"/>
+  <unicode hex="0372"/>
+  <anchor x="275" y="0" name="bottom"/>
+  <anchor x="275" y="0" name="dotbelow"/>
+  <anchor x="527" y="741" name="top"/>
+  <anchor x="107" y="685" name="topleft"/>
+  <outline>
+    <component base="T"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>=T</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>=T</string>
+    </dict>
+  </lib>
+</glyph>

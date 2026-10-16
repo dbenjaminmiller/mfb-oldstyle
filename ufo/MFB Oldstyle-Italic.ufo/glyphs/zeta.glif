@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="zeta" format="2">
+  <advance width="387"/>
+  <unicode hex="03B6"/>
+  <anchor x="188" y="0" name="bottom"/>
+  <anchor x="141.377" y="-174" name="dotbelow"/>
+  <anchor x="400" y="747" name="top"/>
+  <outline>
+    <contour>
+      <point x="269.936" y="731" type="curve"/>
+      <point x="257.548" y="735" type="line"/>
+      <point x="236.632" y="723"/>
+      <point x="214.364" y="700"/>
+      <point x="209.697" y="677" type="curve" smooth="yes"/>
+      <point x="209.124" y="674.178"/>
+      <point x="208.845" y="671.455"/>
+      <point x="208.845" y="668.829" type="curve" smooth="yes"/>
+      <point x="208.845" y="632.38"/>
+      <point x="262.496" y="614.664"/>
+      <point x="327.219" y="610" type="curve"/>
+      <point x="206.338" y="474"/>
+      <point x="104.414" y="310"/>
+      <point x="70.767" y="182" type="curve"/>
+      <point x="64.095" y="157.1"/>
+      <point x="60.825" y="135.279"/>
+      <point x="60.825" y="116.078" type="curve" smooth="yes"/>
+      <point x="60.825" y="42.741"/>
+      <point x="108.528" y="7.603"/>
+      <point x="196.621" y="-15" type="curve" smooth="yes"/>
+      <point x="245.782" y="-27.614"/>
+      <point x="270.727" y="-42.349"/>
+      <point x="270.727" y="-71.694" type="curve" smooth="yes"/>
+      <point x="270.727" y="-77.245"/>
+      <point x="269.835" y="-83.319"/>
+      <point x="268.045" y="-90" type="curve" smooth="yes"/>
+      <point x="258.934" y="-124"/>
+      <point x="232.187" y="-145"/>
+      <point x="205.787" y="-145" type="curve" smooth="yes"/>
+      <point x="192.587" y="-145"/>
+      <point x="179.004" y="-153"/>
+      <point x="174.985" y="-168" type="curve" smooth="yes"/>
+      <point x="174.415" y="-170.126"/>
+      <point x="174.143" y="-172.132"/>
+      <point x="174.143" y="-174.008" type="curve" smooth="yes"/>
+      <point x="174.143" y="-185.37"/>
+      <point x="184.124" y="-192"/>
+      <point x="198.474" y="-192" type="curve" smooth="yes"/>
+      <point x="245.994" y="-192"/>
+      <point x="303.927" y="-140"/>
+      <point x="322.148" y="-72" type="curve" smooth="yes"/>
+      <point x="325.055" y="-61.151"/>
+      <point x="326.425" y="-51.431"/>
+      <point x="326.425" y="-42.669" type="curve" smooth="yes"/>
+      <point x="326.425" y="9.138"/>
+      <point x="278.511" y="27.472"/>
+      <point x="217.022" y="48" type="curve" smooth="yes"/>
+      <point x="169.565" y="63.843"/>
+      <point x="153.336" y="81.865"/>
+      <point x="153.336" y="112.997" type="curve" smooth="yes"/>
+      <point x="153.336" y="129.026"/>
+      <point x="157.638" y="148.529"/>
+      <point x="164.195" y="173" type="curve" smooth="yes"/>
+      <point x="170.09" y="195"/>
+      <point x="192.252" y="248.273"/>
+      <point x="211.509" y="293" type="curve" smooth="yes"/>
+      <point x="264.467" y="416"/>
+      <point x="329.733" y="540"/>
+      <point x="383.539" y="610" type="curve"/>
+      <point x="436.066" y="626"/>
+      <point x="475.799" y="644"/>
+      <point x="484.729" y="688" type="curve" smooth="yes"/>
+      <point x="485.008" y="689.376"/>
+      <point x="485.156" y="690.611"/>
+      <point x="485.156" y="691.717" type="curve" smooth="yes"/>
+      <point x="485.156" y="697.847"/>
+      <point x="480.612" y="700"/>
+      <point x="468.684" y="700" type="curve" smooth="yes"/>
+      <point x="440.524" y="700"/>
+      <point x="382.327" y="672"/>
+      <point x="352.107" y="638" type="curve"/>
+      <point x="308.475" y="648.046"/>
+      <point x="268.834" y="674.776"/>
+      <point x="268.834" y="718.188" type="curve" smooth="yes"/>
+      <point x="268.834" y="722.309"/>
+      <point x="269.191" y="726.579"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.glyph.userData</key>
+      <dict>
+        <key>com.mfb.greek.italic.spacingDx</key>
+        <integer>-3</integer>
+        <key>com.mfb.greek.italic.stems</key>
+        <integer>1</integer>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

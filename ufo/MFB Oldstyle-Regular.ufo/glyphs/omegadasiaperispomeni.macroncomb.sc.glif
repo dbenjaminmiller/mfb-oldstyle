@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="omegadasiaperispomeni.macroncomb.sc" format="2">
+  <advance width="562"/>
+  <outline>
+    <component base="omega.sc"/>
+    <component base="macroncomb.sc" xOffset="161"/>
+    <component base="commareversedabovecomb_perispomenicomb.sc" xOffset="144" yOffset="168"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.glyph.userData</key>
+      <dict>
+        <key>com.mfb.greek.smallcaps.composite</key>
+        <integer>1</integer>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

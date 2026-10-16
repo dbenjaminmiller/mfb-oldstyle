@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Alphapsilioxia" format="2">
+  <advance width="898"/>
+  <unicode hex="1F0C"/>
+  <outline>
+    <component base="Alpha" xOffset="212"/>
+    <component base="commaabovecomb_acutecomb.case" xOffset="13" yOffset="30"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>=+212</string>
+      <key>com.schriftgestaltung.glyph.userData</key>
+      <dict>
+        <key>com.mfb.greek.bold.support</key>
+        <integer>1</integer>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

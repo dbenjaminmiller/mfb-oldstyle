@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="commaabovecomb_perispomenicomb.sc" format="2">
+  <advance width="277"/>
+  <anchor x="307" y="494" name="_top"/>
+  <anchor x="441" y="888" name="top"/>
+  <outline>
+    <component base="commaabovecomb.sc" xOffset="89"/>
+    <component base="perispomenicomb.sc" xOffset="113" yOffset="205" identifier="36DDE37A"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026-10-16 15:50:45 +0000</string>
+      <key>com.schriftgestaltung.glyph.userData</key>
+      <dict>
+        <key>com.mfb.greek.smallcaps.composite</key>
+        <integer>1</integer>
+      </dict>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>36DDE37A</key>
+        <dict>
+          <key>com.schriftgestaltung.anchor</key>
+          <string>top_perispomeni</string>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

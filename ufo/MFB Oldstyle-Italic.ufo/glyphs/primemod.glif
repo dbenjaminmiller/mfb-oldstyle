@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="primemod" format="2">
+  <advance width="221"/>
+  <unicode hex="02B9"/>
+  <outline>
+    <component base="numeral-greek"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>=numeral-greek</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>=numeral-greek</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Etapsiliprosgegrammeni" format="2">
+  <advance width="1259"/>
+  <unicode hex="1F98"/>
+  <outline>
+    <component base="Eta" xOffset="185"/>
+    <component base="commaabovecomb.case" xOffset="13" yOffset="30"/>
+    <component base="iota.adscript" xOffset="950"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>=+185</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>=+269</string>
+      <key>com.schriftgestaltung.glyph.userData</key>
+      <dict>
+        <key>com.mfb.greek.bold.support</key>
+        <integer>1</integer>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

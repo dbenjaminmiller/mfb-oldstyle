@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="epsilon.commaabovecomb_perispomenicomb.polytonic.sc" format="2">
+  <advance width="556"/>
+  <outline>
+    <component base="epsilon.sc"/>
+    <component base="commaabovecomb_perispomenicomb.sc" xOffset="106"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.glyph.userData</key>
+      <dict>
+        <key>com.mfb.greek.smallcaps.composite</key>
+        <integer>1</integer>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

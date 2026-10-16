@@ -2,15 +2,15 @@
 <glyph name="three.dnom" format="2">
   <advance width="355"/>
   <outline>
-    <component base="threeinferior" yOffset="150" identifier="FBA3C6E9"/>
+    <component base="threeinferior" yOffset="150" identifier="A1ABAC04"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2024-08-05 07:45:25 +0000</string>
+      <string>2026-10-16 15:53:00 +0000</string>
       <key>public.objectLibs</key>
       <dict>
-        <key>FBA3C6E9</key>
+        <key>A1ABAC04</key>
         <dict>
           <key>com.schriftgestaltung.alignment</key>
           <integer>-1</integer>

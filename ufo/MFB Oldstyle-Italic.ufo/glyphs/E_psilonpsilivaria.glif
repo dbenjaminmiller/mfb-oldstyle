@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Epsilonpsilivaria" format="2">
+  <advance width="946"/>
+  <unicode hex="1F1A"/>
+  <outline>
+    <component base="Epsilon" xOffset="257"/>
+    <component base="commaabovecomb_gravecomb.case" xOffset="-122" yOffset="70"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>=+257</string>
+      <key>com.schriftgestaltung.glyph.userData</key>
+      <dict>
+        <key>com.mfb.greek.italic.support</key>
+        <integer>1</integer>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

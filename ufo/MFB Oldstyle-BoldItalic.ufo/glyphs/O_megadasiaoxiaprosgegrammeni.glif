@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Omegadasiaoxiaprosgegrammeni" format="2">
+  <advance width="1332"/>
+  <unicode hex="1FAD"/>
+  <outline>
+    <component base="Omega" xOffset="221"/>
+    <component base="commareversedabovecomb_acutecomb.case" xOffset="-132" yOffset="35"/>
+    <component base="iota.adscript" xOffset="989"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>=+221</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>=+303</string>
+      <key>com.schriftgestaltung.glyph.userData</key>
+      <dict>
+        <key>com.mfb.greek.bolditalic.support</key>
+        <integer>1</integer>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Omega.perispomenicomb.polytonic" format="2">
+  <advance width="980"/>
+  <outline>
+    <component base="Omega" xOffset="233"/>
+    <component base="perispomenicomb.case" xOffset="32" yOffset="50"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>=+233</string>
+    </dict>
+  </lib>
+</glyph>

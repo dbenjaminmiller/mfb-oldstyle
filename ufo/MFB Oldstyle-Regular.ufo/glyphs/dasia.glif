@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dasia" format="2">
+  <advance width="150"/>
+  <unicode hex="1FFE"/>
+  <anchor x="75" y="558" name="_top"/>
+  <anchor x="75" y="742" name="top"/>
+  <anchor x="206" y="558" name="top_acute"/>
+  <anchor x="286" y="558" name="top_grave"/>
+  <anchor x="75" y="744" name="top_perispomeni"/>
+  <outline>
+    <component base="commareversedabovecomb"/>
+  </outline>
+</glyph>

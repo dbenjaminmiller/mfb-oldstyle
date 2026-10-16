@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="sho.sc" format="2">
+  <advance width="544"/>
+  <anchor x="200.163" y="0" name="bottom"/>
+  <anchor x="200.163" y="0" name="dotbelow"/>
+  <anchor x="389" y="517" name="top"/>
+  <outline>
+    <component base="thorn.sc"/>
+  </outline>
+</glyph>

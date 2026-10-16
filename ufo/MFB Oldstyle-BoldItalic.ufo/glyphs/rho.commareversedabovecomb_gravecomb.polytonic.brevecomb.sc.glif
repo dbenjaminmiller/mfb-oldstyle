@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="rho.commareversedabovecomb_gravecomb.polytonic.brevecomb.sc" format="2">
+  <advance width="537"/>
+  <outline>
+    <component base="rho.sc"/>
+    <component base="brevecomb.grek.sc" xOffset="97" yOffset="23"/>
+    <component base="commareversedabovecomb_gravecomb.sc" xOffset="25" yOffset="229"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.glyph.userData</key>
+      <dict>
+        <key>com.mfb.greek.smallcaps.composite</key>
+        <integer>1</integer>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

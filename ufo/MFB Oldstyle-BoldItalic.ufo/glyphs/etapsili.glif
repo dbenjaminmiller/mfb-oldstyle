@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="etapsili" format="2">
+  <advance width="661"/>
+  <unicode hex="1F20"/>
+  <outline>
+    <component base="eta"/>
+    <component base="commaabovecomb" xOffset="194" identifier="D5071F94"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026-10-16 15:50:45 +0000</string>
+      <key>com.schriftgestaltung.glyph.userData</key>
+      <dict>
+        <key>com.mfb.greek.bolditalic.support</key>
+        <integer>1</integer>
+      </dict>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>D5071F94</key>
+        <dict>
+          <key>com.schriftgestaltung.anchor</key>
+          <string>top_breathing</string>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

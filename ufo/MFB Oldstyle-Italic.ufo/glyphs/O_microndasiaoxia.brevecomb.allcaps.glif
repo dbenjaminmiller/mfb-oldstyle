@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Omicrondasiaoxia.brevecomb.allcaps" format="2">
+  <advance width="706"/>
+  <outline>
+    <component base="Omicron"/>
+    <component base="brevecomb.grek.allcaps" xOffset="236" yOffset="247"/>
+    <component base="commareversedabovecomb_acutecomb.allcaps" xOffset="199" yOffset="436"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.glyph.userData</key>
+      <dict>
+        <key>com.mfb.greek.allcaps</key>
+        <integer>1</integer>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

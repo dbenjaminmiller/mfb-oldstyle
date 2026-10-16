@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Beta" format="2">
+  <advance width="726"/>
+  <unicode hex="0392"/>
+  <anchor x="686" y="0" name="adscript"/>
+  <anchor x="345" y="0" name="bottom"/>
+  <anchor x="345" y="0" name="dotbelow"/>
+  <anchor x="347" y="813" name="top"/>
+  <anchor x="22" y="650" name="topleft"/>
+  <outline>
+    <component base="B"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.glyph.userData</key>
+      <dict>
+        <key>com.mfb.greek.bold.capitals</key>
+        <integer>1</integer>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

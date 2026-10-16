@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Alpha.perispomenicomb.polytonic" format="2">
+  <advance width="791"/>
+  <outline>
+    <component base="Alpha" xOffset="148"/>
+    <component base="perispomenicomb.case" xOffset="32" yOffset="50" identifier="BF53904D"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026-10-16 15:53:00 +0000</string>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>=+148</string>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>BF53904D</key>
+        <dict>
+          <key>com.schriftgestaltung.anchor</key>
+          <string>topleft_perispomeni</string>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

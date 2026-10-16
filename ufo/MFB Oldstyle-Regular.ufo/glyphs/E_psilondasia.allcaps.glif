@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Epsilondasia.allcaps" format="2">
+  <advance width="670"/>
+  <outline>
+    <component base="Epsilon"/>
+    <component base="commareversedabovecomb.allcaps" xOffset="233" yOffset="255"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.glyph.userData</key>
+      <dict>
+        <key>com.mfb.greek.allcaps</key>
+        <integer>1</integer>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

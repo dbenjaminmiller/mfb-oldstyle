@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Alphadasiaperispomeniprosgegrammeni.lengthmacron" format="2">
+  <advance width="1112"/>
+  <outline>
+    <component base="Alphadasiaperispomeniprosgegrammeni"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>=Alphadasiaperispomeniprosgegrammeni</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>=Alphadasiaperispomeniprosgegrammeni</string>
+    </dict>
+  </lib>
+</glyph>

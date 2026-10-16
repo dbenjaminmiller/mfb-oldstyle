@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Upsilondasiaoxia" format="2">
+  <advance width="1106"/>
+  <unicode hex="1F5D"/>
+  <outline>
+    <component base="Upsilon" xOffset="464"/>
+    <component base="commareversedabovecomb_acutecomb.case" xOffset="15" yOffset="30"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>=+464</string>
+      <key>com.schriftgestaltung.glyph.userData</key>
+      <dict>
+        <key>com.mfb.greek.bold.support</key>
+        <integer>1</integer>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="kappa.sc" format="2">
+  <advance width="531"/>
+  <anchor x="503" y="0" name="adscript"/>
+  <anchor x="275" y="0" name="bottom"/>
+  <anchor x="275" y="0" name="dotbelow"/>
+  <anchor x="283" y="558" name="top"/>
+  <outline>
+    <component base="k.sc"/>
+  </outline>
+</glyph>

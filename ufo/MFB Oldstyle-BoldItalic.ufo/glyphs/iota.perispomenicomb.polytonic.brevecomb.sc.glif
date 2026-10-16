@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="iota.perispomenicomb.polytonic.brevecomb.sc" format="2">
+  <advance width="357"/>
+  <outline>
+    <component base="iota.sc"/>
+    <component base="brevecomb.grek.sc" xOffset="34" yOffset="23"/>
+    <component base="perispomenicomb.sc" xOffset="81" yOffset="202" identifier="A76999EC"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026-10-16 15:50:45 +0000</string>
+      <key>com.schriftgestaltung.glyph.userData</key>
+      <dict>
+        <key>com.mfb.greek.smallcaps.composite</key>
+        <integer>1</integer>
+      </dict>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>A76999EC</key>
+        <dict>
+          <key>com.schriftgestaltung.anchor</key>
+          <string>top_perispomeni</string>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

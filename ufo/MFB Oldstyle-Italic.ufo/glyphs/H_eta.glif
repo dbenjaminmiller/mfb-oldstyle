@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Heta" format="2">
+  <advance width="452"/>
+  <unicode hex="0370"/>
+  <anchor x="161" y="0" name="bottom"/>
+  <anchor x="161" y="0" name="dotbelow"/>
+  <anchor x="359" y="741" name="top"/>
+  <anchor x="145" y="720" name="topleft"/>
+  <outline>
+    <contour>
+      <point x="-16" y="0" type="line"/>
+      <point x="272" y="0" type="line"/>
+      <point x="283" y="40" type="line"/>
+      <point x="212" y="40"/>
+      <point x="194" y="53"/>
+      <point x="194" y="74" type="curve" smooth="yes"/>
+      <point x="194" y="82"/>
+      <point x="197" y="99"/>
+      <point x="201" y="114" type="curve" smooth="yes"/>
+      <point x="265" y="350" type="line"/>
+      <point x="446.847" y="350" type="line"/>
+      <point x="459.441" y="397" type="line"/>
+      <point x="277" y="397" type="line"/>
+      <point x="328" y="584" type="line" smooth="yes"/>
+      <point x="351" y="669"/>
+      <point x="361" y="677"/>
+      <point x="440" y="681" type="curve"/>
+      <point x="451" y="721" type="line"/>
+      <point x="162" y="721" type="line"/>
+      <point x="151" y="681" type="line"/>
+      <point x="227" y="681"/>
+      <point x="239" y="668"/>
+      <point x="239" y="639" type="curve" smooth="yes"/>
+      <point x="239" y="630"/>
+      <point x="238" y="626"/>
+      <point x="231" y="600" type="curve" smooth="yes"/>
+      <point x="101" y="114" type="line" smooth="yes"/>
+      <point x="85" y="53"/>
+      <point x="64" y="43"/>
+      <point x="-5" y="40" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>=H</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="digamma.sc" format="2">
+  <advance width="506"/>
+  <anchor x="254" y="558" name="top"/>
+  <anchor x="274" y="0" name="bottom"/>
+  <anchor x="274" y="0" name="dotbelow"/>
+  <outline>
+    <component base="f.sc"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>=f.sc</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>=f.sc</string>
+    </dict>
+  </lib>
+</glyph>

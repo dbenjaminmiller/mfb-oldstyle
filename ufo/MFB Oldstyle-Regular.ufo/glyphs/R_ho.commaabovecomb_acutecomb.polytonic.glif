@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Rho.commaabovecomb_acutecomb.polytonic" format="2">
+  <advance width="957"/>
+  <outline>
+    <component base="Rho" xOffset="336"/>
+    <component base="commaabovecomb_acutecomb.case" xOffset="11" yOffset="50"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>=+336</string>
+    </dict>
+  </lib>
+</glyph>

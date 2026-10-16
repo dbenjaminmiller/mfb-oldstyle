@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="upsilonmacron" format="2">
+  <advance width="616"/>
+  <unicode hex="1FE1"/>
+  <outline>
+    <component base="upsilon"/>
+    <component base="macroncomb.grek" xOffset="134" yOffset="-40"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.glyph.userData</key>
+      <dict>
+        <key>com.mfb.greek.bolditalic.support</key>
+        <integer>1</integer>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

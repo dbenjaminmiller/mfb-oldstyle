@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dieresiscomb_gravecomb" format="2">
+  <advance width="304"/>
+  <anchor x="151" y="558" name="_top"/>
+  <anchor x="151" y="894" name="top"/>
+  <outline>
+    <component base="dieresiscomb"/>
+    <component base="gravecomb" xOffset="7" yOffset="168"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.glyph.userData</key>
+      <dict>
+        <key>com.mfb.greek.bold.support</key>
+        <integer>1</integer>
+        <key>com.mfb.greek.polytonicTemplate</key>
+        <integer>1</integer>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

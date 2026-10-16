@@ -3,21 +3,21 @@
   <advance width="609"/>
   <unicode hex="010F"/>
   <outline>
-    <component base="d" identifier="31EA231A"/>
-    <component base="caroncomb.alt" xOffset="436" identifier="82234D83"/>
+    <component base="d" identifier="27EDFCB4"/>
+    <component base="caroncomb.alt" xOffset="436" identifier="22D580E4"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2024-08-01 23:18:37 +0000</string>
+      <string>2026-10-16 15:51:59 +0000</string>
       <key>public.objectLibs</key>
       <dict>
-        <key>31EA231A</key>
+        <key>22D580E4</key>
         <dict>
           <key>com.schriftgestaltung.alignment</key>
           <integer>-1</integer>
         </dict>
-        <key>82234D83</key>
+        <key>27EDFCB4</key>
         <dict>
           <key>com.schriftgestaltung.alignment</key>
           <integer>-1</integer>

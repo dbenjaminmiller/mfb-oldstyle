@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="san.sc" format="2">
+  <advance width="702"/>
+  <anchor x="352" y="558" name="top"/>
+  <anchor x="352" y="0" name="bottom"/>
+  <anchor x="352" y="0" name="dotbelow"/>
+  <outline>
+    <contour>
+      <point x="45" y="0" type="line"/>
+      <point x="228" y="0" type="line"/>
+      <point x="228" y="43" type="line"/>
+      <point x="168" y="45"/>
+      <point x="164" y="88"/>
+      <point x="164" y="149" type="curve" smooth="yes"/>
+      <point x="164" y="421.306" type="line"/>
+      <point x="290.006" y="297.663" type="line"/>
+      <point x="302.006" y="297.663" type="line"/>
+      <point x="465" y="445.297" type="line"/>
+      <point x="465" y="97" type="line" smooth="yes"/>
+      <point x="465" y="43"/>
+      <point x="457" y="45"/>
+      <point x="402" y="43" type="curve"/>
+      <point x="402" y="0" type="line"/>
+      <point x="658" y="0" type="line"/>
+      <point x="658" y="43" type="line"/>
+      <point x="602" y="45"/>
+      <point x="594" y="43"/>
+      <point x="594" y="97" type="curve" smooth="yes"/>
+      <point x="594" y="419" type="line" smooth="yes"/>
+      <point x="594" y="467"/>
+      <point x="601" y="465"/>
+      <point x="658" y="467" type="curve"/>
+      <point x="658" y="510" type="line"/>
+      <point x="454" y="510" type="line"/>
+      <point x="350" y="415.8" type="line"/>
+      <point x="254" y="510" type="line"/>
+      <point x="45" y="510" type="line"/>
+      <point x="45" y="467" type="line"/>
+      <point x="100" y="465"/>
+      <point x="107" y="467"/>
+      <point x="107" y="419" type="curve" smooth="yes"/>
+      <point x="107" y="149" type="line" smooth="yes"/>
+      <point x="107" y="88"/>
+      <point x="104" y="45"/>
+      <point x="45" y="43" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>=m.sc</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>=m.sc</string>
+    </dict>
+  </lib>
+</glyph>

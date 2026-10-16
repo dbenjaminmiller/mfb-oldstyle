@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="iota.spacingadscript.sc" format="2">
+  <advance width="299"/>
+  <anchor x="271" y="0" name="adscript"/>
+  <anchor x="149" y="0" name="bottom"/>
+  <anchor x="149" y="0" name="dotbelow"/>
+  <anchor x="149" y="558" name="top"/>
+  <outline>
+    <component base="iota.sc"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>=iota.sc</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>=iota.sc</string>
+    </dict>
+  </lib>
+</glyph>

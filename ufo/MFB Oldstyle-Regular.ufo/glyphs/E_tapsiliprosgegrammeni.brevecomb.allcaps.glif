@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Etapsiliprosgegrammeni.brevecomb.allcaps" format="2">
+  <advance width="1092"/>
+  <outline>
+    <component base="Eta.adscriptbase.allcaps"/>
+    <component base="brevecomb.allcaps" xOffset="237" yOffset="272"/>
+    <component base="commaabovecomb.allcaps" xOffset="295" yOffset="440"/>
+    <component base="Iota.adscript.allcaps" xOffset="738"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>=+354</string>
+      <key>com.schriftgestaltung.glyph.userData</key>
+      <dict>
+        <key>com.mfb.greek.allcaps</key>
+        <integer>1</integer>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

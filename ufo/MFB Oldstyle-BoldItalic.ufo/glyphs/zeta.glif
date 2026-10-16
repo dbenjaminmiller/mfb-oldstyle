@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="zeta" format="2">
+  <advance width="441"/>
+  <unicode hex="03B6"/>
+  <anchor x="272" y="0" name="bottom"/>
+  <anchor x="222.697" y="-184" name="dotbelow"/>
+  <anchor x="448" y="755" name="top"/>
+  <outline>
+    <contour>
+      <point x="282.371" y="734"/>
+      <point x="285.371" y="739" type="curve"/>
+      <point x="266.371" y="743" type="line"/>
+      <point x="242.371" y="729"/>
+      <point x="215.587" y="700.965"/>
+      <point x="211.371" y="676" type="curve" smooth="yes"/>
+      <point x="210.948" y="673.495"/>
+      <point x="210.742" y="671.069"/>
+      <point x="210.742" y="668.718" type="curve" smooth="yes"/>
+      <point x="210.742" y="628.769"/>
+      <point x="270.261" y="610.833"/>
+      <point x="336.371" y="608" type="curve"/>
+      <point x="211.371" y="470"/>
+      <point x="92.371" y="313"/>
+      <point x="51.371" y="184" type="curve" smooth="yes"/>
+      <point x="42.371" y="155.683"/>
+      <point x="38.371" y="129"/>
+      <point x="38.371" y="108" type="curve" smooth="yes"/>
+      <point x="38.371" y="38"/>
+      <point x="89.737" y="-2.605"/>
+      <point x="187.371" y="-29" type="curve" smooth="yes"/>
+      <point x="243.593" y="-44.2"/>
+      <point x="287.371" y="-62"/>
+      <point x="287.371" y="-91" type="curve" smooth="yes"/>
+      <point x="287.371" y="-122"/>
+      <point x="256.371" y="-144"/>
+      <point x="220.371" y="-144" type="curve" smooth="yes"/>
+      <point x="200.371" y="-144"/>
+      <point x="184.371" y="-155"/>
+      <point x="184.371" y="-173" type="curve" smooth="yes"/>
+      <point x="184.371" y="-190"/>
+      <point x="198.371" y="-202"/>
+      <point x="219.371" y="-202" type="curve" smooth="yes"/>
+      <point x="298.371" y="-202"/>
+      <point x="362.371" y="-142"/>
+      <point x="362.371" y="-72" type="curve" smooth="yes"/>
+      <point x="362.371" y="-4"/>
+      <point x="292.371" y="26"/>
+      <point x="236.371" y="42" type="curve" smooth="yes"/>
+      <point x="180.371" y="58"/>
+      <point x="164.371" y="78"/>
+      <point x="164.371" y="111" type="curve" smooth="yes"/>
+      <point x="164.371" y="138"/>
+      <point x="172.11" y="162.728"/>
+      <point x="181.371" y="189" type="curve" smooth="yes"/>
+      <point x="209.652" y="269.232"/>
+      <point x="327.371" y="473"/>
+      <point x="427.371" y="610" type="curve" smooth="yes"/>
+      <point x="451.371" y="642.88"/>
+      <point x="530.837" y="649.735"/>
+      <point x="537.371" y="690" type="curve" smooth="yes"/>
+      <point x="537.767" y="692.443"/>
+      <point x="537.971" y="694.701"/>
+      <point x="537.971" y="696.773" type="curve" smooth="yes"/>
+      <point x="537.971" y="708.207"/>
+      <point x="531.762" y="714"/>
+      <point x="517.371" y="714" type="curve" smooth="yes"/>
+      <point x="481.371" y="714"/>
+      <point x="402.371" y="681"/>
+      <point x="365.371" y="645" type="curve"/>
+      <point x="319.371" y="658"/>
+      <point x="280.371" y="681"/>
+      <point x="280.371" y="724" type="curve" smooth="yes"/>
+      <point x="280.371" y="729"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.glyph.userData</key>
+      <dict>
+        <key>com.mfb.greek.bolditalic</key>
+        <integer>1</integer>
+        <key>com.mfb.greek.bolditalic.spacingDx</key>
+        <integer>28</integer>
+        <key>com.mfb.greek.bolditalic.spacingWidthDelta</key>
+        <integer>-59</integer>
+        <key>com.mfb.greek.italic.stems</key>
+        <integer>1</integer>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

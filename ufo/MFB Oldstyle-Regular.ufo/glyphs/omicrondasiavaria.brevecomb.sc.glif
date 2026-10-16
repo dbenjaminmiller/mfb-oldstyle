@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="omicrondasiavaria.brevecomb.sc" format="2">
+  <advance width="530"/>
+  <outline>
+    <component base="omicron.sc"/>
+    <component base="brevecomb.sc" xOffset="130" yOffset="17"/>
+    <component base="commareversedabovecomb_gravecomb.sc" xOffset="73" yOffset="185"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.glyph.userData</key>
+      <dict>
+        <key>com.mfb.greek.smallcaps.composite</key>
+        <integer>1</integer>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

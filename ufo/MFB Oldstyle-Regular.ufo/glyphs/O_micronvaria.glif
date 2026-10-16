@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Omicronvaria" format="2">
+  <advance width="890"/>
+  <unicode hex="1FF8"/>
+  <outline>
+    <component base="Omicron" xOffset="183"/>
+    <component base="gravecomb.case" xOffset="32" yOffset="50"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>=+183</string>
+    </dict>
+  </lib>
+</glyph>

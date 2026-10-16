@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="alphavaria.brevecomb.sc" format="2">
+  <advance width="523"/>
+  <outline>
+    <component base="alpha.sc"/>
+    <component base="brevecomb.sc" xOffset="118" yOffset="17"/>
+    <component base="gravecomb.sc" xOffset="118" yOffset="185"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.glyph.userData</key>
+      <dict>
+        <key>com.mfb.greek.smallcaps.composite</key>
+        <integer>1</integer>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

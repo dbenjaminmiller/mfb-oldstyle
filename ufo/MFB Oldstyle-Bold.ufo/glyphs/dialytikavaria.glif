@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dialytikavaria" format="2">
+  <advance width="304"/>
+  <unicode hex="1FED"/>
+  <anchor x="151" y="558" name="_top"/>
+  <anchor x="151" y="894" name="top"/>
+  <outline>
+    <component base="dieresiscomb_gravecomb"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.glyph.userData</key>
+      <dict>
+        <key>com.mfb.greek.bold.support</key>
+        <integer>1</integer>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

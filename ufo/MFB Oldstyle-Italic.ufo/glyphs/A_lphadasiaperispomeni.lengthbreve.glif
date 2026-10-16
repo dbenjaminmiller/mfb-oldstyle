@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Alphadasiaperispomeni.lengthbreve" format="2">
+  <advance width="719"/>
+  <outline>
+    <component base="Alphadasiaperispomeni.lengthbreve.base" xOffset="30"/>
+    <component base="commareversedabovecomb_perispomenicomb.case" xOffset="-157" yOffset="70" identifier="7355E564"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026-10-16 15:51:59 +0000</string>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>=+30</string>
+      <key>com.schriftgestaltung.glyph.userData</key>
+      <dict>
+        <key>com.mfb.greek.italic.initialLengthSpacing</key>
+        <integer>1</integer>
+        <key>com.mfb.greek.italic.initialLengthSpacing.lengthMark</key>
+        <string>brevecomb.grek</string>
+        <key>com.mfb.greek.italic.initialLengthSpacing.shift</key>
+        <integer>52</integer>
+        <key>com.mfb.greek.italic.initialLengthSpacing.source</key>
+        <string>Alphadasiaperispomeni</string>
+      </dict>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>7355E564</key>
+        <dict>
+          <key>com.schriftgestaltung.anchor</key>
+          <string>topleft_perispomeni</string>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

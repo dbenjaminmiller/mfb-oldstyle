@@ -2,15 +2,15 @@
 <glyph name="six.dnom" format="2">
   <advance width="342"/>
   <outline>
-    <component base="sixinferior" xOffset="34" yOffset="200" identifier="BB755420"/>
+    <component base="sixinferior" xOffset="34" yOffset="200" identifier="ED6A210A"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2024-08-05 07:55:18 +0000</string>
+      <string>2026-10-16 15:51:59 +0000</string>
       <key>public.objectLibs</key>
       <dict>
-        <key>BB755420</key>
+        <key>ED6A210A</key>
         <dict>
           <key>com.schriftgestaltung.alignment</key>
           <integer>-1</integer>

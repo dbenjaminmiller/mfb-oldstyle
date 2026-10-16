@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="iota.sc" format="2">
+  <advance width="299"/>
+  <anchor x="271" y="0" name="adscript"/>
+  <anchor x="149" y="0" name="bottom"/>
+  <anchor x="149" y="0" name="dotbelow"/>
+  <anchor x="149" y="558" name="top"/>
+  <outline>
+    <component base="idotless.sc"/>
+  </outline>
+</glyph>

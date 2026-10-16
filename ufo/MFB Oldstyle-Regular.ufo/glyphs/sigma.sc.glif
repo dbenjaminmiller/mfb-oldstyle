@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="sigma.sc" format="2">
+  <advance width="514"/>
+  <anchor x="486" y="0" name="adscript"/>
+  <anchor x="257" y="0" name="bottom"/>
+  <anchor x="257" y="0" name="dotbelow"/>
+  <anchor x="257" y="558" name="top"/>
+  <outline>
+    <contour>
+      <point x="40" y="0" type="line"/>
+      <point x="426" y="0" type="line"/>
+      <point x="478" y="137" type="line"/>
+      <point x="441" y="154" type="line"/>
+      <point x="400" y="86"/>
+      <point x="351" y="40"/>
+      <point x="242" y="40" type="curve" smooth="yes"/>
+      <point x="102.058" y="40" type="line"/>
+      <point x="334.163" y="263.047" type="line"/>
+      <point x="153" y="461" type="line"/>
+      <point x="252" y="461" type="line" smooth="yes"/>
+      <point x="357" y="461"/>
+      <point x="377" y="422"/>
+      <point x="425" y="358" type="curve"/>
+      <point x="463" y="371" type="line"/>
+      <point x="415" y="501" type="line"/>
+      <point x="40" y="501" type="line"/>
+      <point x="40" y="461" type="line"/>
+      <point x="245" y="237" type="line"/>
+      <point x="40" y="40" type="line"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="koppaArchaic.sc" format="2">
+  <advance width="530"/>
+  <anchor x="265" y="0" name="bottom"/>
+  <anchor x="265" y="-146" name="dotbelow"/>
+  <anchor x="263" y="558" name="top"/>
+  <outline>
+    <contour>
+      <point x="227.5" y="-146" type="line"/>
+      <point x="227.5" y="-10.257" type="line"/>
+      <point x="122.122" y="10.993"/>
+      <point x="41" y="120.154"/>
+      <point x="41" y="251" type="curve" smooth="yes"/>
+      <point x="41" y="397"/>
+      <point x="142" y="515"/>
+      <point x="265" y="515" type="curve" smooth="yes"/>
+      <point x="388" y="515"/>
+      <point x="489" y="397"/>
+      <point x="489" y="251" type="curve" smooth="yes"/>
+      <point x="489" y="120.154"/>
+      <point x="407.878" y="10.993"/>
+      <point x="302.5" y="-10.257" type="curve"/>
+      <point x="302.5" y="-131" type="line"/>
+    </contour>
+    <contour>
+      <point x="265" y="22" type="curve" smooth="yes"/>
+      <point x="341" y="22"/>
+      <point x="399" y="109"/>
+      <point x="399" y="252" type="curve" smooth="yes"/>
+      <point x="399" y="395"/>
+      <point x="341" y="479"/>
+      <point x="265" y="479" type="curve" smooth="yes"/>
+      <point x="189" y="479"/>
+      <point x="131" y="394"/>
+      <point x="131" y="252" type="curve" smooth="yes"/>
+      <point x="131" y="108"/>
+      <point x="190" y="22"/>
+    </contour>
+  </outline>
+</glyph>

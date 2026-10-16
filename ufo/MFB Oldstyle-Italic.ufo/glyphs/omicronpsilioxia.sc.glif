@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="omicronpsilioxia.sc" format="2">
+  <advance width="538"/>
+  <outline>
+    <component base="omicron.sc"/>
+    <component base="commaabovecomb_acutecomb.sc" xOffset="111" yOffset="24"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.glyph.userData</key>
+      <dict>
+        <key>com.mfb.greek.smallcaps.composite</key>
+        <integer>1</integer>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

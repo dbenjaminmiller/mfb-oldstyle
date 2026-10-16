@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="upsilonpsiliperispomeni.sc" format="2">
+  <advance width="480"/>
+  <outline>
+    <component base="upsilon.sc"/>
+    <component base="commaabovecomb_perispomenicomb.sc" xOffset="79" yOffset="24"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.glyph.userData</key>
+      <dict>
+        <key>com.mfb.greek.smallcaps.composite</key>
+        <integer>1</integer>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

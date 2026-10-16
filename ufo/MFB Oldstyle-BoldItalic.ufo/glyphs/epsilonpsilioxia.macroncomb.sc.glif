@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="epsilonpsilioxia.macroncomb.sc" format="2">
+  <advance width="587"/>
+  <outline>
+    <component base="epsilon.sc"/>
+    <component base="macroncomb.grek.sc" xOffset="141" yOffset="-17"/>
+    <component base="commaabovecomb_acutecomb.sc" xOffset="75" yOffset="150"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.glyph.userData</key>
+      <dict>
+        <key>com.mfb.greek.smallcaps.composite</key>
+        <integer>1</integer>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

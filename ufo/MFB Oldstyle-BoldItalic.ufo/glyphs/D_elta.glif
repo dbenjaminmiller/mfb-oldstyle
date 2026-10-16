@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Delta" format="2">
+  <advance width="759"/>
+  <unicode hex="0394"/>
+  <anchor x="719" y="0" name="adscript"/>
+  <anchor x="340" y="0" name="bottom"/>
+  <anchor x="340" y="0" name="dotbelow"/>
+  <anchor x="537" y="741" name="top"/>
+  <anchor x="389" y="685" name="topleft"/>
+  <outline>
+    <contour>
+      <point x="443" y="713" type="curve"/>
+      <point x="78.915" y="0" type="line"/>
+      <point x="685.992" y="0" type="line"/>
+      <point x="542" y="739" type="line"/>
+      <point x="519" y="731"/>
+      <point x="485" y="721"/>
+    </contour>
+    <contour>
+      <point x="519.693" y="53" type="line"/>
+      <point x="176.081" y="53" type="line"/>
+      <point x="432" y="606" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.glyph.userData</key>
+      <dict>
+        <key>com.mfb.greek.bolditalic</key>
+        <integer>1</integer>
+        <key>com.mfb.greek.italic.capitals</key>
+        <integer>1</integer>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

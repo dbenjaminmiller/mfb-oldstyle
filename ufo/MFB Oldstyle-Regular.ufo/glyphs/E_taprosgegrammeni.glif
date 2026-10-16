@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Etaprosgegrammeni" format="2">
+  <advance width="976"/>
+  <unicode hex="1FCC"/>
+  <outline>
+    <component base="Eta"/>
+    <component base="iota.adscript" xOffset="698"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>=+238</string>
+    </dict>
+  </lib>
+</glyph>

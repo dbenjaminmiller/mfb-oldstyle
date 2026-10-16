@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Alphapsili" format="2">
+  <advance width="683"/>
+  <unicode hex="1F08"/>
+  <outline>
+    <component base="Alpha" xOffset="40"/>
+    <component base="commaabovecomb.case" xOffset="40" yOffset="50"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>=+40</string>
+    </dict>
+  </lib>
+</glyph>

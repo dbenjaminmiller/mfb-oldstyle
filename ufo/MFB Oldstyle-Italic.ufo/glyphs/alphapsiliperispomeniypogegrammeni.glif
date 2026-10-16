@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="alphapsiliperispomeniypogegrammeni" format="2">
+  <advance width="559"/>
+  <unicode hex="1F86"/>
+  <outline>
+    <component base="alpha"/>
+    <component base="commaabovecomb_perispomenicomb" xOffset="69"/>
+    <component base="ypogegrammenicomb" xOffset="132"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.glyph.userData</key>
+      <dict>
+        <key>com.mfb.greek.italic.support</key>
+        <integer>1</integer>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

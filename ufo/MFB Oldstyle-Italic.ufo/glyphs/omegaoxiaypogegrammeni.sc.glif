@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="omegaoxiaypogegrammeni.sc" format="2">
+  <advance width="873"/>
+  <outline>
+    <component base="omega.sc"/>
+    <component base="acutecomb.sc" xOffset="247" yOffset="24"/>
+    <component base="iota.adscript.sc" xOffset="570"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>=+303</string>
+      <key>com.schriftgestaltung.glyph.userData</key>
+      <dict>
+        <key>com.mfb.greek.smallcaps.composite</key>
+        <integer>1</integer>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

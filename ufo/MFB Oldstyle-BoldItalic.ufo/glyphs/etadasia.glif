@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="etadasia" format="2">
+  <advance width="661"/>
+  <unicode hex="1F21"/>
+  <outline>
+    <component base="eta"/>
+    <component base="commareversedabovecomb" xOffset="194" identifier="D9F6D46F"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026-10-16 15:50:45 +0000</string>
+      <key>com.schriftgestaltung.glyph.userData</key>
+      <dict>
+        <key>com.mfb.greek.bolditalic.support</key>
+        <integer>1</integer>
+      </dict>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>D9F6D46F</key>
+        <dict>
+          <key>com.schriftgestaltung.anchor</key>
+          <string>top_breathing</string>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

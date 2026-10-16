@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Epsilontonos.brevecomb.allcaps" format="2">
+  <advance width="748"/>
+  <outline>
+    <component base="Epsilon"/>
+    <component base="brevecomb.grek.allcaps" xOffset="225" yOffset="247"/>
+    <component base="acutecomb.allcaps" xOffset="362" yOffset="426" identifier="94F903E2"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026-10-16 15:50:45 +0000</string>
+      <key>com.schriftgestaltung.glyph.userData</key>
+      <dict>
+        <key>com.mfb.greek.allcaps</key>
+        <integer>1</integer>
+      </dict>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>94F903E2</key>
+        <dict>
+          <key>com.schriftgestaltung.anchor</key>
+          <string>top_acute</string>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

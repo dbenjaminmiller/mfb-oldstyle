@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="upsilon.sc" format="2">
+  <advance width="438"/>
+  <anchor x="410" y="0" name="adscript"/>
+  <anchor x="219" y="0" name="bottom"/>
+  <anchor x="219" y="0" name="dotbelow"/>
+  <anchor x="228" y="558" name="top"/>
+  <outline>
+    <component base="y.sc"/>
+  </outline>
+</glyph>

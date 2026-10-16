@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="omega.perispomenicomb.polytonic.macroncomb.sc" format="2">
+  <advance width="622"/>
+  <outline>
+    <component base="omega.sc"/>
+    <component base="macroncomb.grek.sc" xOffset="184" yOffset="-17"/>
+    <component base="perispomenicomb.sc" xOffset="197" yOffset="123" identifier="4BCE06B5"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026-10-16 15:50:45 +0000</string>
+      <key>com.schriftgestaltung.glyph.userData</key>
+      <dict>
+        <key>com.mfb.greek.smallcaps.composite</key>
+        <integer>1</integer>
+      </dict>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>4BCE06B5</key>
+        <dict>
+          <key>com.schriftgestaltung.anchor</key>
+          <string>top_perispomeni</string>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

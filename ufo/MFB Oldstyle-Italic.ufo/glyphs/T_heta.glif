@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Theta" format="2">
+  <advance width="706"/>
+  <unicode hex="0398"/>
+  <anchor x="666" y="0" name="adscript"/>
+  <anchor x="292" y="0" name="bottom"/>
+  <anchor x="292" y="0" name="dotbelow"/>
+  <anchor x="525" y="741" name="top"/>
+  <anchor x="203" y="720" name="topleft"/>
+  <outline>
+    <component base="O"/>
+    <contour>
+      <point x="270.205" y="290" type="line"/>
+      <point x="280.923" y="330" type="line" smooth="yes"/>
+      <point x="283.871" y="341"/>
+      <point x="291.21" y="346"/>
+      <point x="305.21" y="346" type="curve" smooth="yes"/>
+      <point x="464.21" y="346" type="line" smooth="yes"/>
+      <point x="475.556" y="346"/>
+      <point x="480.767" y="342.716"/>
+      <point x="480.767" y="335.617" type="curve" smooth="yes"/>
+      <point x="480.767" y="333.956"/>
+      <point x="480.482" y="332.086"/>
+      <point x="479.923" y="330" type="curve" smooth="yes"/>
+      <point x="469.205" y="290" type="line"/>
+      <point x="509.205" y="290" type="line"/>
+      <point x="552.613" y="452" type="line"/>
+      <point x="512.613" y="452" type="line"/>
+      <point x="501.627" y="411" type="line" smooth="yes"/>
+      <point x="498.68" y="400"/>
+      <point x="491.34" y="395"/>
+      <point x="477.34" y="395" type="curve" smooth="yes"/>
+      <point x="318.34" y="395" type="line" smooth="yes"/>
+      <point x="306.995" y="395"/>
+      <point x="301.783" y="398.284"/>
+      <point x="301.783" y="405.383" type="curve" smooth="yes"/>
+      <point x="301.783" y="407.044"/>
+      <point x="302.068" y="408.914"/>
+      <point x="302.627" y="411" type="curve" smooth="yes"/>
+      <point x="313.613" y="452" type="line"/>
+      <point x="273.613" y="452" type="line"/>
+      <point x="230.205" y="290" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.glyph.userData</key>
+      <dict>
+        <key>com.mfb.greek.italic.capitals</key>
+        <integer>1</integer>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

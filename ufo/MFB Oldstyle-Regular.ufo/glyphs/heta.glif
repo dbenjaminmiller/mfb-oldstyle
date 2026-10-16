@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="heta" format="2">
+  <advance width="333"/>
+  <unicode hex="0371"/>
+  <anchor x="189" y="0" name="bottom"/>
+  <anchor x="189" y="0" name="dotbelow"/>
+  <anchor x="189" y="558" name="top"/>
+  <outline>
+    <contour>
+      <point x="171.493" y="480.824" type="line"/>
+      <point x="84" y="458" type="line"/>
+      <point x="84" y="457.336"/>
+      <point x="84" y="456.67"/>
+      <point x="83.999" y="456" type="curve"/>
+      <point x="79.623" y="456" type="line"/>
+      <point x="79.623" y="0" type="line"/>
+      <point x="171.493" y="0" type="line"/>
+      <point x="171.493" y="243.36" type="line"/>
+      <point x="297.853" y="243.36" type="line"/>
+      <point x="297.853" y="289.952" type="line"/>
+      <point x="171.493" y="289.952" type="line"/>
+    </contour>
+  </outline>
+</glyph>

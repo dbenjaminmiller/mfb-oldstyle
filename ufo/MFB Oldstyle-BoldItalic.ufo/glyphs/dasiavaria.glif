@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dasiavaria" format="2">
+  <advance width="630"/>
+  <unicode hex="1FDD"/>
+  <anchor x="355" y="494" name="_top"/>
+  <anchor x="380" y="735" name="top"/>
+  <outline>
+    <component base="commareversedabovecomb_gravecomb"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.glyph.userData</key>
+      <dict>
+        <key>com.mfb.greek.bolditalic.support</key>
+        <integer>1</integer>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

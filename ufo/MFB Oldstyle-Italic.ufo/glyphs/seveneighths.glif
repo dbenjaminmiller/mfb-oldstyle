@@ -4,16 +4,16 @@
   <unicode hex="215E"/>
   <outline>
     <component base="seven.numr"/>
-    <component base="fraction" xOffset="322" identifier="4D20EAFA"/>
+    <component base="fraction" xOffset="322" identifier="3AB0BD9A"/>
     <component base="eight.dnom" xOffset="456"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2024-08-05 07:56:14 +0000</string>
+      <string>2026-10-16 15:51:59 +0000</string>
       <key>public.objectLibs</key>
       <dict>
-        <key>4D20EAFA</key>
+        <key>3AB0BD9A</key>
         <dict>
           <key>com.schriftgestaltung.alignment</key>
           <integer>-1</integer>

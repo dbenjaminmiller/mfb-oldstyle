@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Iota" format="2">
+  <advance width="368"/>
+  <unicode hex="0399"/>
+  <anchor x="328" y="0" name="adscript"/>
+  <anchor x="110" y="0" name="bottom"/>
+  <anchor x="110" y="0" name="dotbelow"/>
+  <anchor x="363" y="741" name="top"/>
+  <anchor x="145" y="720" name="topleft"/>
+  <outline>
+    <component base="I"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.glyph.userData</key>
+      <dict>
+        <key>com.mfb.greek.italic.capitals</key>
+        <integer>1</integer>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

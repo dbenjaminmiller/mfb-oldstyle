@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Iota.spacingadscript.allcaps" format="2">
+  <advance width="435"/>
+  <anchor x="395" y="0" name="adscript"/>
+  <anchor x="143" y="0" name="bottom"/>
+  <anchor x="143" y="0" name="dotbelow"/>
+  <anchor x="396" y="741" name="top"/>
+  <anchor x="142" y="685" name="topleft"/>
+  <outline>
+    <component base="Iota"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.glyph.userData</key>
+      <dict>
+        <key>com.mfb.greek.bolditalic.support</key>
+        <integer>1</integer>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

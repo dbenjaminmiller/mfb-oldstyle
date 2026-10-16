@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="rho.sc" format="2">
+  <advance width="481"/>
+  <anchor x="453" y="0" name="adscript"/>
+  <anchor x="240.5" y="0" name="bottom"/>
+  <anchor x="240.5" y="0" name="dotbelow"/>
+  <anchor x="232" y="558" name="top"/>
+  <outline>
+    <component base="p.sc"/>
+  </outline>
+</glyph>

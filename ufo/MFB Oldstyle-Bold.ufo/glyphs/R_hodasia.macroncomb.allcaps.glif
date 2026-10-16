@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Rhodasia.macroncomb.allcaps" format="2">
+  <advance width="683"/>
+  <outline>
+    <component base="Rho"/>
+    <component base="macroncomb.allcaps" xOffset="211" yOffset="255"/>
+    <component base="commareversedabovecomb.allcaps" xOffset="259" yOffset="423"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.glyph.userData</key>
+      <dict>
+        <key>com.mfb.greek.allcaps</key>
+        <integer>1</integer>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

@@ -3,15 +3,15 @@
   <advance width="411"/>
   <unicode hex="2080"/>
   <outline>
-    <component base="zerosuperior" yOffset="-517" identifier="34D4FA15"/>
+    <component base="zerosuperior" yOffset="-517" identifier="5915C5C5"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2024-08-06 00:43:28 +0000</string>
+      <string>2026-10-16 12:25:41 +0000</string>
       <key>public.objectLibs</key>
       <dict>
-        <key>34D4FA15</key>
+        <key>5915C5C5</key>
         <dict>
           <key>com.schriftgestaltung.alignment</key>
           <integer>-1</integer>

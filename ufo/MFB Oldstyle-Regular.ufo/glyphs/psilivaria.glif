@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="psilivaria" format="2">
+  <advance width="396"/>
+  <unicode hex="1FCD"/>
+  <anchor x="197.55" y="558" name="_top"/>
+  <anchor x="197.55" y="742" name="top"/>
+  <outline>
+    <component base="commaabovecomb_gravecomb"/>
+  </outline>
+</glyph>

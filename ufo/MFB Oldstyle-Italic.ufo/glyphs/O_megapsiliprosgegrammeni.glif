@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Omegapsiliprosgegrammeni" format="2">
+  <advance width="1040"/>
+  <unicode hex="1FA8"/>
+  <outline>
+    <component base="Omega" xOffset="36"/>
+    <component base="commaabovecomb.case" xOffset="-50" yOffset="70"/>
+    <component base="iota.adscript" xOffset="742"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>=+36</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>=+258</string>
+      <key>com.schriftgestaltung.glyph.userData</key>
+      <dict>
+        <key>com.mfb.greek.italic.support</key>
+        <integer>1</integer>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

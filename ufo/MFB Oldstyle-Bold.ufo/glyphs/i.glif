@@ -4,15 +4,15 @@
   <unicode hex="0069"/>
   <outline>
     <component base="idotless"/>
-    <component base="dotaccentcomb" xOffset="89" identifier="F6BBEB0C"/>
+    <component base="dotaccentcomb" xOffset="89" identifier="54EF3683"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2024-08-06 00:43:28 +0000</string>
+      <string>2026-10-16 12:25:41 +0000</string>
       <key>public.objectLibs</key>
       <dict>
-        <key>F6BBEB0C</key>
+        <key>54EF3683</key>
         <dict>
           <key>com.schriftgestaltung.anchor</key>
           <string>top_dot</string>

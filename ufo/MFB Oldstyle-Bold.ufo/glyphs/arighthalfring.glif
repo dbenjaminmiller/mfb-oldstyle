@@ -13,7 +13,7 @@
       <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
       <string>a</string>
       <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
-      <string>righthalfring</string>
+      <string>ringhalfright</string>
     </dict>
   </lib>
 </glyph>

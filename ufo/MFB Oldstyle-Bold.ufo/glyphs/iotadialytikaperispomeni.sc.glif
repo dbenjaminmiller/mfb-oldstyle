@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="iotadialytikaperispomeni.sc" format="2">
+  <advance width="345"/>
+  <outline>
+    <component base="iota.sc"/>
+    <component base="dieresiscomb_perispomenicomb.sc" xOffset="21"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.glyph.userData</key>
+      <dict>
+        <key>com.mfb.greek.smallcaps.composite</key>
+        <integer>1</integer>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

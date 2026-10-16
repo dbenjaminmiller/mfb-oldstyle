@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Epsilonpsilivaria" format="2">
+  <advance width="1070"/>
+  <unicode hex="1F1A"/>
+  <outline>
+    <component base="Epsilon" xOffset="400"/>
+    <component base="commaabovecomb_gravecomb.case" xOffset="11" yOffset="50"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>=+400</string>
+    </dict>
+  </lib>
+</glyph>

@@ -3,15 +3,15 @@
   <advance width="269"/>
   <outline>
     <component base="circumflexcomb"/>
-    <component base="acutecomb" xOffset="255" yOffset="133" identifier="BA372D1D"/>
+    <component base="acutecomb" xOffset="255" yOffset="133" identifier="314670DF"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2024-08-01 23:39:41 +0000</string>
+      <string>2026-10-16 15:51:59 +0000</string>
       <key>public.objectLibs</key>
       <dict>
-        <key>BA372D1D</key>
+        <key>314670DF</key>
         <dict>
           <key>com.schriftgestaltung.anchor</key>
           <string>top_viet</string>

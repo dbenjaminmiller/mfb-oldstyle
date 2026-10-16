@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Omicrondasiaoxia" format="2">
+  <advance width="1013"/>
+  <unicode hex="1F4D"/>
+  <outline>
+    <component base="Omicron" xOffset="306"/>
+    <component base="commareversedabovecomb_acutecomb.case" xOffset="19" yOffset="50"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>=+306</string>
+    </dict>
+  </lib>
+</glyph>

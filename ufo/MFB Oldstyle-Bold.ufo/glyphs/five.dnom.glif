@@ -2,15 +2,15 @@
 <glyph name="five.dnom" format="2">
   <advance width="411"/>
   <outline>
-    <component base="fivesuperior" yOffset="-355" identifier="41E6C3C3"/>
+    <component base="fivesuperior" yOffset="-355" identifier="5D44AA05"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2024-08-06 00:43:28 +0000</string>
+      <string>2026-10-16 12:25:41 +0000</string>
       <key>public.objectLibs</key>
       <dict>
-        <key>41E6C3C3</key>
+        <key>5D44AA05</key>
         <dict>
           <key>com.schriftgestaltung.alignment</key>
           <integer>-1</integer>

@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="omegadasiavaria.macroncomb.sc" format="2">
+  <advance width="610"/>
+  <outline>
+    <component base="omega.sc"/>
+    <component base="macroncomb.sc" xOffset="167"/>
+    <component base="commareversedabovecomb_gravecomb.sc" xOffset="80" yOffset="168"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.glyph.userData</key>
+      <dict>
+        <key>com.mfb.greek.smallcaps.composite</key>
+        <integer>1</integer>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

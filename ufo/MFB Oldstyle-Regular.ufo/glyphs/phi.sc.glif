@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="phi.sc" format="2">
+  <advance width="530"/>
+  <anchor x="502" y="0" name="adscript"/>
+  <anchor x="265" y="0" name="bottom"/>
+  <anchor x="265" y="0" name="dotbelow"/>
+  <anchor x="265" y="558" name="top"/>
+  <outline>
+    <contour>
+      <point x="265" y="63" type="curve" smooth="yes"/>
+      <point x="388" y="63"/>
+      <point x="489" y="147.357"/>
+      <point x="489" y="250.854" type="curve" smooth="yes"/>
+      <point x="489" y="354.352"/>
+      <point x="388" y="438"/>
+      <point x="265" y="438" type="curve" smooth="yes"/>
+      <point x="142" y="438"/>
+      <point x="41" y="354.352"/>
+      <point x="41" y="250.854" type="curve" smooth="yes"/>
+      <point x="41" y="147.357"/>
+      <point x="142" y="63"/>
+    </contour>
+    <contour>
+      <point x="265" y="99" type="curve" smooth="yes"/>
+      <point x="190" y="99"/>
+      <point x="131" y="156.02"/>
+      <point x="131" y="251.495" type="curve" smooth="yes"/>
+      <point x="131" y="345.643"/>
+      <point x="189" y="402"/>
+      <point x="265" y="402" type="curve" smooth="yes"/>
+      <point x="341" y="402"/>
+      <point x="399" y="346.306"/>
+      <point x="399" y="251.495" type="curve" smooth="yes"/>
+      <point x="399" y="156.683"/>
+      <point x="341" y="99"/>
+    </contour>
+    <component base="idotless.sc" xOffset="115.5" identifier="2B50C4BF"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026-10-16 15:53:00 +0000</string>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>2B50C4BF</key>
+        <dict>
+          <key>com.schriftgestaltung.alignment</key>
+          <integer>-1</integer>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

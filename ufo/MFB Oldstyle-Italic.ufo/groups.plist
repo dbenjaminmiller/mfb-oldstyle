@@ -82,6 +82,74 @@
       <string>Aringacute</string>
       <string>Aringbelow</string>
       <string>Atilde</string>
+      <string>Alpha</string>
+      <string>Delta</string>
+      <string>Lambda</string>
+      <string>Alphatonos</string>
+      <string>Alphapsili</string>
+      <string>Alphadasia</string>
+      <string>Alphapsilivaria</string>
+      <string>Alphadasiavaria</string>
+      <string>Alphapsilioxia</string>
+      <string>Alphadasiaoxia</string>
+      <string>Alphapsiliperispomeni</string>
+      <string>Alphadasiaperispomeni</string>
+      <string>Alphavaria</string>
+      <string>Alphaoxia</string>
+      <string>Alphavrachy</string>
+      <string>Alphamacron</string>
+      <string>Alphatonos.allcaps</string>
+      <string>Alphapsili.allcaps</string>
+      <string>Alphadasia.allcaps</string>
+      <string>Alphapsilivaria.allcaps</string>
+      <string>Alphadasiavaria.allcaps</string>
+      <string>Alphapsilioxia.allcaps</string>
+      <string>Alphadasiaoxia.allcaps</string>
+      <string>Alphapsiliperispomeni.allcaps</string>
+      <string>Alphadasiaperispomeni.allcaps</string>
+      <string>Alphavaria.allcaps</string>
+      <string>Alphaoxia.allcaps</string>
+      <string>Alphavrachy.allcaps</string>
+      <string>Alphamacron.allcaps</string>
+      <string>Alphapsiliperispomeni.lengthbreve</string>
+      <string>Alphadasiaperispomeni.lengthbreve</string>
+      <string>Alphapsiliperispomeni.lengthmacron</string>
+      <string>Alphadasiaperispomeni.lengthmacron</string>
+      <string>Alpha.adscriptbase.allcaps</string>
+      <string>Alphatonos.brevecomb.allcaps</string>
+      <string>Alphapsili.brevecomb.allcaps</string>
+      <string>Alphadasia.brevecomb.allcaps</string>
+      <string>Alphapsilivaria.brevecomb.allcaps</string>
+      <string>Alphadasiavaria.brevecomb.allcaps</string>
+      <string>Alphapsilioxia.brevecomb.allcaps</string>
+      <string>Alphadasiaoxia.brevecomb.allcaps</string>
+      <string>Alphapsiliperispomeni.brevecomb.allcaps</string>
+      <string>Alphadasiaperispomeni.brevecomb.allcaps</string>
+      <string>Alphavaria.brevecomb.allcaps</string>
+      <string>Alphaoxia.brevecomb.allcaps</string>
+      <string>Alphatonos.macroncomb.allcaps</string>
+      <string>Alphapsili.macroncomb.allcaps</string>
+      <string>Alphadasia.macroncomb.allcaps</string>
+      <string>Alphapsilivaria.macroncomb.allcaps</string>
+      <string>Alphadasiavaria.macroncomb.allcaps</string>
+      <string>Alphapsilioxia.macroncomb.allcaps</string>
+      <string>Alphadasiaoxia.macroncomb.allcaps</string>
+      <string>Alphapsiliperispomeni.macroncomb.allcaps</string>
+      <string>Alphadasiaperispomeni.macroncomb.allcaps</string>
+      <string>Alphavaria.macroncomb.allcaps</string>
+      <string>Alphaoxia.macroncomb.allcaps</string>
+      <string>Alphapsiliperispomeni.lengthbreve.base</string>
+      <string>Alphadasiaperispomeni.lengthbreve.base</string>
+      <string>Alphapsiliperispomeniprosgegrammeni.lengthbreve.base</string>
+      <string>Alphadasiaperispomeniprosgegrammeni.lengthbreve.base</string>
+      <string>Alphapsiliperispomeni.lengthmacron.base</string>
+      <string>Alphadasiaperispomeni.lengthmacron.base</string>
+      <string>Alphapsiliperispomeniprosgegrammeni.lengthmacron.base</string>
+      <string>Alphadasiaperispomeniprosgegrammeni.lengthmacron.base</string>
+      <string>Alpha.perispomenicomb.polytonic</string>
+      <string>Alpha.perispomenicomb.polytonic.allcaps</string>
+      <string>Alpha.perispomenicomb.polytonic.brevecomb.allcaps</string>
+      <string>Alpha.perispomenicomb.polytonic.macroncomb.allcaps</string>
     </array>
     <key>public.kern1.B</key>
     <array>
@@ -90,6 +158,7 @@
       <string>Bdotbelow</string>
       <string>Bmacronbelow</string>
       <string>Bstroke</string>
+      <string>Beta</string>
     </array>
     <key>public.kern1.C</key>
     <array>
@@ -152,11 +221,65 @@
       <string>Etilde</string>
       <string>Etildebelow</string>
       <string>OE</string>
+      <string>Epsilon</string>
+      <string>Sigma</string>
+      <string>Epsilontonos</string>
+      <string>Epsilonpsili</string>
+      <string>Epsilondasia</string>
+      <string>Epsilonpsilivaria</string>
+      <string>Epsilondasiavaria</string>
+      <string>Epsilonpsilioxia</string>
+      <string>Epsilondasiaoxia</string>
+      <string>Epsilonvaria</string>
+      <string>Epsilonoxia</string>
+      <string>Epsilontonos.allcaps</string>
+      <string>Epsilonpsili.allcaps</string>
+      <string>Epsilondasia.allcaps</string>
+      <string>Epsilonpsilivaria.allcaps</string>
+      <string>Epsilondasiavaria.allcaps</string>
+      <string>Epsilonpsilioxia.allcaps</string>
+      <string>Epsilondasiaoxia.allcaps</string>
+      <string>Epsilonvaria.allcaps</string>
+      <string>Epsilonoxia.allcaps</string>
+      <string>Epsilontonos.brevecomb.allcaps</string>
+      <string>Epsilonpsili.brevecomb.allcaps</string>
+      <string>Epsilondasia.brevecomb.allcaps</string>
+      <string>Epsilonpsilivaria.brevecomb.allcaps</string>
+      <string>Epsilondasiavaria.brevecomb.allcaps</string>
+      <string>Epsilonpsilioxia.brevecomb.allcaps</string>
+      <string>Epsilondasiaoxia.brevecomb.allcaps</string>
+      <string>Epsilonvaria.brevecomb.allcaps</string>
+      <string>Epsilonoxia.brevecomb.allcaps</string>
+      <string>Epsilontonos.macroncomb.allcaps</string>
+      <string>Epsilonpsili.macroncomb.allcaps</string>
+      <string>Epsilondasia.macroncomb.allcaps</string>
+      <string>Epsilonpsilivaria.macroncomb.allcaps</string>
+      <string>Epsilondasiavaria.macroncomb.allcaps</string>
+      <string>Epsilonpsilioxia.macroncomb.allcaps</string>
+      <string>Epsilondasiaoxia.macroncomb.allcaps</string>
+      <string>Epsilonvaria.macroncomb.allcaps</string>
+      <string>Epsilonoxia.macroncomb.allcaps</string>
+      <string>Epsilon.commaabovecomb_perispomenicomb.polytonic</string>
+      <string>Epsilon.commareversedabovecomb_perispomenicomb.polytonic</string>
+      <string>Epsilon.perispomenicomb.polytonic</string>
+      <string>Epsilon.perispomenicomb.polytonic.allcaps</string>
+      <string>Epsilon.commaabovecomb_perispomenicomb.polytonic.allcaps</string>
+      <string>Epsilon.commareversedabovecomb_perispomenicomb.polytonic.allcaps</string>
+      <string>Epsilon.perispomenicomb.polytonic.brevecomb.allcaps</string>
+      <string>Epsilon.perispomenicomb.polytonic.macroncomb.allcaps</string>
+      <string>Epsilon.commaabovecomb_perispomenicomb.polytonic.brevecomb.allcaps</string>
+      <string>Epsilon.commaabovecomb_perispomenicomb.polytonic.macroncomb.allcaps</string>
+      <string>Epsilon.commareversedabovecomb_perispomenicomb.polytonic.brevecomb.allcaps</string>
+      <string>Epsilon.commareversedabovecomb_perispomenicomb.polytonic.macroncomb.allcaps</string>
+      <string>Epsilon.commaabovecomb_perispomenicomb.polytonic.brevecomb.noaccent.allcaps</string>
+      <string>Epsilon.commaabovecomb_perispomenicomb.polytonic.macroncomb.noaccent.allcaps</string>
     </array>
     <key>public.kern1.F</key>
     <array>
       <string>F</string>
       <string>Fdotaccent</string>
+      <string>Gamma</string>
+      <string>Digamma</string>
     </array>
     <key>public.kern1.G</key>
     <array>
@@ -180,6 +303,60 @@
       <string>Hdieresis</string>
       <string>Hdotaccent</string>
       <string>Hdotbelow</string>
+      <string>Eta</string>
+      <string>Pi</string>
+      <string>Etatonos</string>
+      <string>Pamphyliandigamma</string>
+      <string>Etapsili</string>
+      <string>Etadasia</string>
+      <string>Etapsilivaria</string>
+      <string>Etadasiavaria</string>
+      <string>Etapsilioxia</string>
+      <string>Etadasiaoxia</string>
+      <string>Etapsiliperispomeni</string>
+      <string>Etadasiaperispomeni</string>
+      <string>Etavaria</string>
+      <string>Etaoxia</string>
+      <string>Etatonos.allcaps</string>
+      <string>Etapsili.allcaps</string>
+      <string>Etadasia.allcaps</string>
+      <string>Etapsilivaria.allcaps</string>
+      <string>Etadasiavaria.allcaps</string>
+      <string>Etapsilioxia.allcaps</string>
+      <string>Etadasiaoxia.allcaps</string>
+      <string>Etapsiliperispomeni.allcaps</string>
+      <string>Etadasiaperispomeni.allcaps</string>
+      <string>Etavaria.allcaps</string>
+      <string>Etaoxia.allcaps</string>
+      <string>Eta.adscriptbase.allcaps</string>
+      <string>Etatonos.brevecomb.allcaps</string>
+      <string>Etapsili.brevecomb.allcaps</string>
+      <string>Etadasia.brevecomb.allcaps</string>
+      <string>Etapsilivaria.brevecomb.allcaps</string>
+      <string>Etadasiavaria.brevecomb.allcaps</string>
+      <string>Etapsilioxia.brevecomb.allcaps</string>
+      <string>Etadasiaoxia.brevecomb.allcaps</string>
+      <string>Etapsiliperispomeni.brevecomb.allcaps</string>
+      <string>Etadasiaperispomeni.brevecomb.allcaps</string>
+      <string>Etavaria.brevecomb.allcaps</string>
+      <string>Etaoxia.brevecomb.allcaps</string>
+      <string>Etatonos.macroncomb.allcaps</string>
+      <string>Etapsili.macroncomb.allcaps</string>
+      <string>Etadasia.macroncomb.allcaps</string>
+      <string>Etapsilivaria.macroncomb.allcaps</string>
+      <string>Etadasiavaria.macroncomb.allcaps</string>
+      <string>Etapsilioxia.macroncomb.allcaps</string>
+      <string>Etadasiaoxia.macroncomb.allcaps</string>
+      <string>Etapsiliperispomeni.macroncomb.allcaps</string>
+      <string>Etadasiaperispomeni.macroncomb.allcaps</string>
+      <string>Etavaria.macroncomb.allcaps</string>
+      <string>Etaoxia.macroncomb.allcaps</string>
+      <string>Eta.perispomenicomb.polytonic</string>
+      <string>Eta.perispomenicomb.polytonic.allcaps</string>
+      <string>Eta.perispomenicomb.polytonic.brevecomb.allcaps</string>
+      <string>Eta.perispomenicomb.polytonic.macroncomb.allcaps</string>
+      <string>Eta.perispomenicomb.polytonic.brevecomb.noaccent.allcaps</string>
+      <string>Eta.perispomenicomb.polytonic.macroncomb.noaccent.allcaps</string>
     </array>
     <key>public.kern1.I</key>
     <array>
@@ -202,6 +379,143 @@
       <string>Iogonek_acutecomb</string>
       <string>Iogonek_tildecomb</string>
       <string>Itilde</string>
+      <string>Iota</string>
+      <string>Iotatonos</string>
+      <string>Iotadieresis</string>
+      <string>Iotapsili</string>
+      <string>Iotadasia</string>
+      <string>Iotapsilivaria</string>
+      <string>Iotadasiavaria</string>
+      <string>Iotapsilioxia</string>
+      <string>Iotadasiaoxia</string>
+      <string>Iotapsiliperispomeni</string>
+      <string>Iotadasiaperispomeni</string>
+      <string>Iotavaria</string>
+      <string>Iotaoxia</string>
+      <string>Iotavrachy</string>
+      <string>Iotamacron</string>
+      <string>Iotatonos.allcaps</string>
+      <string>Iotadieresis.allcaps</string>
+      <string>Alphaprosgegrammeni.allcaps</string>
+      <string>Alphapsiliprosgegrammeni.allcaps</string>
+      <string>Alphadasiaprosgegrammeni.allcaps</string>
+      <string>Alphapsilivariaprosgegrammeni.allcaps</string>
+      <string>Alphadasiavariaprosgegrammeni.allcaps</string>
+      <string>Alphapsilioxiaprosgegrammeni.allcaps</string>
+      <string>Alphadasiaoxiaprosgegrammeni.allcaps</string>
+      <string>Alphapsiliperispomeniprosgegrammeni.allcaps</string>
+      <string>Alphadasiaperispomeniprosgegrammeni.allcaps</string>
+      <string>Etaprosgegrammeni.allcaps</string>
+      <string>Etapsiliprosgegrammeni.allcaps</string>
+      <string>Etadasiaprosgegrammeni.allcaps</string>
+      <string>Etapsilivariaprosgegrammeni.allcaps</string>
+      <string>Etadasiavariaprosgegrammeni.allcaps</string>
+      <string>Etapsilioxiaprosgegrammeni.allcaps</string>
+      <string>Etadasiaoxiaprosgegrammeni.allcaps</string>
+      <string>Etapsiliperispomeniprosgegrammeni.allcaps</string>
+      <string>Etadasiaperispomeniprosgegrammeni.allcaps</string>
+      <string>Iotapsili.allcaps</string>
+      <string>Iotadasia.allcaps</string>
+      <string>Iotapsilivaria.allcaps</string>
+      <string>Iotadasiavaria.allcaps</string>
+      <string>Iotapsilioxia.allcaps</string>
+      <string>Iotadasiaoxia.allcaps</string>
+      <string>Iotapsiliperispomeni.allcaps</string>
+      <string>Iotadasiaperispomeni.allcaps</string>
+      <string>Iotavaria.allcaps</string>
+      <string>Iotaoxia.allcaps</string>
+      <string>Iotavrachy.allcaps</string>
+      <string>Iotamacron.allcaps</string>
+      <string>Omegaprosgegrammeni.allcaps</string>
+      <string>Omegapsiliprosgegrammeni.allcaps</string>
+      <string>Omegadasiaprosgegrammeni.allcaps</string>
+      <string>Omegapsilivariaprosgegrammeni.allcaps</string>
+      <string>Omegadasiavariaprosgegrammeni.allcaps</string>
+      <string>Omegapsilioxiaprosgegrammeni.allcaps</string>
+      <string>Omegadasiaoxiaprosgegrammeni.allcaps</string>
+      <string>Omegapsiliperispomeniprosgegrammeni.allcaps</string>
+      <string>Omegadasiaperispomeniprosgegrammeni.allcaps</string>
+      <string>Iotatonos.brevecomb.allcaps</string>
+      <string>Alphapsiliprosgegrammeni.brevecomb.allcaps</string>
+      <string>Alphadasiaprosgegrammeni.brevecomb.allcaps</string>
+      <string>Alphapsilivariaprosgegrammeni.brevecomb.allcaps</string>
+      <string>Alphadasiavariaprosgegrammeni.brevecomb.allcaps</string>
+      <string>Alphapsilioxiaprosgegrammeni.brevecomb.allcaps</string>
+      <string>Alphadasiaoxiaprosgegrammeni.brevecomb.allcaps</string>
+      <string>Alphapsiliperispomeniprosgegrammeni.brevecomb.allcaps</string>
+      <string>Alphadasiaperispomeniprosgegrammeni.brevecomb.allcaps</string>
+      <string>Etapsiliprosgegrammeni.brevecomb.allcaps</string>
+      <string>Etadasiaprosgegrammeni.brevecomb.allcaps</string>
+      <string>Etapsilivariaprosgegrammeni.brevecomb.allcaps</string>
+      <string>Etadasiavariaprosgegrammeni.brevecomb.allcaps</string>
+      <string>Etapsilioxiaprosgegrammeni.brevecomb.allcaps</string>
+      <string>Etadasiaoxiaprosgegrammeni.brevecomb.allcaps</string>
+      <string>Etapsiliperispomeniprosgegrammeni.brevecomb.allcaps</string>
+      <string>Etadasiaperispomeniprosgegrammeni.brevecomb.allcaps</string>
+      <string>Iotapsili.brevecomb.allcaps</string>
+      <string>Iotadasia.brevecomb.allcaps</string>
+      <string>Iotapsilivaria.brevecomb.allcaps</string>
+      <string>Iotadasiavaria.brevecomb.allcaps</string>
+      <string>Iotapsilioxia.brevecomb.allcaps</string>
+      <string>Iotadasiaoxia.brevecomb.allcaps</string>
+      <string>Iotapsiliperispomeni.brevecomb.allcaps</string>
+      <string>Iotadasiaperispomeni.brevecomb.allcaps</string>
+      <string>Iotavaria.brevecomb.allcaps</string>
+      <string>Iotaoxia.brevecomb.allcaps</string>
+      <string>Omegapsiliprosgegrammeni.brevecomb.allcaps</string>
+      <string>Omegadasiaprosgegrammeni.brevecomb.allcaps</string>
+      <string>Omegapsilivariaprosgegrammeni.brevecomb.allcaps</string>
+      <string>Omegadasiavariaprosgegrammeni.brevecomb.allcaps</string>
+      <string>Omegapsilioxiaprosgegrammeni.brevecomb.allcaps</string>
+      <string>Omegadasiaoxiaprosgegrammeni.brevecomb.allcaps</string>
+      <string>Omegapsiliperispomeniprosgegrammeni.brevecomb.allcaps</string>
+      <string>Omegadasiaperispomeniprosgegrammeni.brevecomb.allcaps</string>
+      <string>Iotatonos.macroncomb.allcaps</string>
+      <string>Alphapsiliprosgegrammeni.macroncomb.allcaps</string>
+      <string>Alphadasiaprosgegrammeni.macroncomb.allcaps</string>
+      <string>Alphapsilivariaprosgegrammeni.macroncomb.allcaps</string>
+      <string>Alphadasiavariaprosgegrammeni.macroncomb.allcaps</string>
+      <string>Alphapsilioxiaprosgegrammeni.macroncomb.allcaps</string>
+      <string>Alphadasiaoxiaprosgegrammeni.macroncomb.allcaps</string>
+      <string>Alphapsiliperispomeniprosgegrammeni.macroncomb.allcaps</string>
+      <string>Alphadasiaperispomeniprosgegrammeni.macroncomb.allcaps</string>
+      <string>Etapsiliprosgegrammeni.macroncomb.allcaps</string>
+      <string>Etadasiaprosgegrammeni.macroncomb.allcaps</string>
+      <string>Etapsilivariaprosgegrammeni.macroncomb.allcaps</string>
+      <string>Etadasiavariaprosgegrammeni.macroncomb.allcaps</string>
+      <string>Etapsilioxiaprosgegrammeni.macroncomb.allcaps</string>
+      <string>Etadasiaoxiaprosgegrammeni.macroncomb.allcaps</string>
+      <string>Etapsiliperispomeniprosgegrammeni.macroncomb.allcaps</string>
+      <string>Etadasiaperispomeniprosgegrammeni.macroncomb.allcaps</string>
+      <string>Iotapsili.macroncomb.allcaps</string>
+      <string>Iotadasia.macroncomb.allcaps</string>
+      <string>Iotapsilivaria.macroncomb.allcaps</string>
+      <string>Iotadasiavaria.macroncomb.allcaps</string>
+      <string>Iotapsilioxia.macroncomb.allcaps</string>
+      <string>Iotadasiaoxia.macroncomb.allcaps</string>
+      <string>Iotapsiliperispomeni.macroncomb.allcaps</string>
+      <string>Iotadasiaperispomeni.macroncomb.allcaps</string>
+      <string>Iotavaria.macroncomb.allcaps</string>
+      <string>Iotaoxia.macroncomb.allcaps</string>
+      <string>Omegapsiliprosgegrammeni.macroncomb.allcaps</string>
+      <string>Omegadasiaprosgegrammeni.macroncomb.allcaps</string>
+      <string>Omegapsilivariaprosgegrammeni.macroncomb.allcaps</string>
+      <string>Omegadasiavariaprosgegrammeni.macroncomb.allcaps</string>
+      <string>Omegapsilioxiaprosgegrammeni.macroncomb.allcaps</string>
+      <string>Omegadasiaoxiaprosgegrammeni.macroncomb.allcaps</string>
+      <string>Omegapsiliperispomeniprosgegrammeni.macroncomb.allcaps</string>
+      <string>Omegadasiaperispomeniprosgegrammeni.macroncomb.allcaps</string>
+      <string>Iota.spacingadscript.allcaps</string>
+      <string>Iota.perispomenicomb.polytonic</string>
+      <string>Alphadasiaoxiaprosgegrammeni.brevecomb.noaccent.allcaps</string>
+      <string>Etadasiaoxiaprosgegrammeni.brevecomb.noaccent.allcaps</string>
+      <string>Omegadasiaoxiaprosgegrammeni.brevecomb.noaccent.allcaps</string>
+      <string>Alphadasiaoxiaprosgegrammeni.macroncomb.noaccent.allcaps</string>
+      <string>Etadasiaoxiaprosgegrammeni.macroncomb.noaccent.allcaps</string>
+      <string>Omegadasiaoxiaprosgegrammeni.macroncomb.noaccent.allcaps</string>
+      <string>Iota.perispomenicomb.polytonic.allcaps</string>
+      <string>Iota.perispomenicomb.polytonic.brevecomb.allcaps</string>
+      <string>Iota.perispomenicomb.polytonic.macroncomb.allcaps</string>
     </array>
     <key>public.kern1.J</key>
     <array>
@@ -221,6 +535,7 @@
       <string>Kcommaaccent</string>
       <string>Kdotbelow</string>
       <string>Kmacronbelow</string>
+      <string>Kappa</string>
     </array>
     <key>public.kern1.L</key>
     <array>
@@ -244,6 +559,8 @@
       <string>Macute</string>
       <string>Mdotaccent</string>
       <string>Mdotbelow</string>
+      <string>Mu</string>
+      <string>San</string>
     </array>
     <key>public.kern1.N</key>
     <array>
@@ -258,6 +575,7 @@
       <string>Nmacronbelow</string>
       <string>Ntilde</string>
       <string>Ncommaaccent.loclMAH</string>
+      <string>Nu</string>
     </array>
     <key>public.kern1.O</key>
     <array>
@@ -292,6 +610,59 @@
       <string>Otildeacute</string>
       <string>Otildedieresis</string>
       <string>Otildemacron</string>
+      <string>Theta</string>
+      <string>Omicron</string>
+      <string>Omicrontonos</string>
+      <string>KoppaArchaic</string>
+      <string>Omicronpsili</string>
+      <string>Omicrondasia</string>
+      <string>Omicronpsilivaria</string>
+      <string>Omicrondasiavaria</string>
+      <string>Omicronpsilioxia</string>
+      <string>Omicrondasiaoxia</string>
+      <string>Omicronvaria</string>
+      <string>Omicronoxia</string>
+      <string>Omicrontonos.allcaps</string>
+      <string>Omicronpsili.allcaps</string>
+      <string>Omicrondasia.allcaps</string>
+      <string>Omicronpsilivaria.allcaps</string>
+      <string>Omicrondasiavaria.allcaps</string>
+      <string>Omicronpsilioxia.allcaps</string>
+      <string>Omicrondasiaoxia.allcaps</string>
+      <string>Omicronvaria.allcaps</string>
+      <string>Omicronoxia.allcaps</string>
+      <string>Omicrontonos.brevecomb.allcaps</string>
+      <string>Omicronpsili.brevecomb.allcaps</string>
+      <string>Omicrondasia.brevecomb.allcaps</string>
+      <string>Omicronpsilivaria.brevecomb.allcaps</string>
+      <string>Omicrondasiavaria.brevecomb.allcaps</string>
+      <string>Omicronpsilioxia.brevecomb.allcaps</string>
+      <string>Omicrondasiaoxia.brevecomb.allcaps</string>
+      <string>Omicronvaria.brevecomb.allcaps</string>
+      <string>Omicronoxia.brevecomb.allcaps</string>
+      <string>Omicrontonos.macroncomb.allcaps</string>
+      <string>Omicronpsili.macroncomb.allcaps</string>
+      <string>Omicrondasia.macroncomb.allcaps</string>
+      <string>Omicronpsilivaria.macroncomb.allcaps</string>
+      <string>Omicrondasiavaria.macroncomb.allcaps</string>
+      <string>Omicronpsilioxia.macroncomb.allcaps</string>
+      <string>Omicrondasiaoxia.macroncomb.allcaps</string>
+      <string>Omicronvaria.macroncomb.allcaps</string>
+      <string>Omicronoxia.macroncomb.allcaps</string>
+      <string>Omicron.commaabovecomb_perispomenicomb.polytonic</string>
+      <string>Omicron.commareversedabovecomb_perispomenicomb.polytonic</string>
+      <string>Omicron.perispomenicomb.polytonic</string>
+      <string>Omicron.perispomenicomb.polytonic.allcaps</string>
+      <string>Omicron.commaabovecomb_perispomenicomb.polytonic.allcaps</string>
+      <string>Omicron.commareversedabovecomb_perispomenicomb.polytonic.allcaps</string>
+      <string>Omicron.perispomenicomb.polytonic.brevecomb.allcaps</string>
+      <string>Omicron.perispomenicomb.polytonic.macroncomb.allcaps</string>
+      <string>Omicron.commaabovecomb_perispomenicomb.polytonic.brevecomb.allcaps</string>
+      <string>Omicron.commaabovecomb_perispomenicomb.polytonic.macroncomb.allcaps</string>
+      <string>Omicron.commareversedabovecomb_perispomenicomb.polytonic.brevecomb.allcaps</string>
+      <string>Omicron.commareversedabovecomb_perispomenicomb.polytonic.macroncomb.allcaps</string>
+      <string>Omicron.commaabovecomb_perispomenicomb.polytonic.brevecomb.noaccent.allcaps</string>
+      <string>Omicron.commaabovecomb_perispomenicomb.polytonic.macroncomb.noaccent.allcaps</string>
     </array>
     <key>public.kern1.P</key>
     <array>
@@ -299,6 +670,54 @@
       <string>Pacute</string>
       <string>Pdotaccent</string>
       <string>Thorn</string>
+      <string>Rho</string>
+      <string>Sho</string>
+      <string>Rhodasia</string>
+      <string>Rhodasia.allcaps</string>
+      <string>Rhodasia.brevecomb.allcaps</string>
+      <string>Rhodasia.macroncomb.allcaps</string>
+      <string>Rho.commaabovecomb_acutecomb.polytonic</string>
+      <string>Rho.commaabovecomb_gravecomb.polytonic</string>
+      <string>Rho.commaabovecomb_perispomenicomb.polytonic</string>
+      <string>Rho.commareversedabovecomb_acutecomb.polytonic</string>
+      <string>Rho.commareversedabovecomb_gravecomb.polytonic</string>
+      <string>Rho.commareversedabovecomb_perispomenicomb.polytonic</string>
+      <string>Rho.acutecomb.polytonic</string>
+      <string>Rho.commaabovecomb.polytonic</string>
+      <string>Rho.gravecomb.polytonic</string>
+      <string>Rho.perispomenicomb.polytonic</string>
+      <string>Rho.acutecomb.polytonic.allcaps</string>
+      <string>Rho.commaabovecomb.polytonic.allcaps</string>
+      <string>Rho.gravecomb.polytonic.allcaps</string>
+      <string>Rho.perispomenicomb.polytonic.allcaps</string>
+      <string>Rho.commaabovecomb_acutecomb.polytonic.allcaps</string>
+      <string>Rho.commaabovecomb_gravecomb.polytonic.allcaps</string>
+      <string>Rho.commaabovecomb_perispomenicomb.polytonic.allcaps</string>
+      <string>Rho.commareversedabovecomb_acutecomb.polytonic.allcaps</string>
+      <string>Rho.commareversedabovecomb_gravecomb.polytonic.allcaps</string>
+      <string>Rho.commareversedabovecomb_perispomenicomb.polytonic.allcaps</string>
+      <string>Rho.acutecomb.polytonic.brevecomb.allcaps</string>
+      <string>Rho.commaabovecomb.polytonic.brevecomb.allcaps</string>
+      <string>Rho.gravecomb.polytonic.brevecomb.allcaps</string>
+      <string>Rho.perispomenicomb.polytonic.brevecomb.allcaps</string>
+      <string>Rho.acutecomb.polytonic.macroncomb.allcaps</string>
+      <string>Rho.commaabovecomb.polytonic.macroncomb.allcaps</string>
+      <string>Rho.gravecomb.polytonic.macroncomb.allcaps</string>
+      <string>Rho.perispomenicomb.polytonic.macroncomb.allcaps</string>
+      <string>Rho.commaabovecomb_acutecomb.polytonic.brevecomb.allcaps</string>
+      <string>Rho.commaabovecomb_acutecomb.polytonic.macroncomb.allcaps</string>
+      <string>Rho.commaabovecomb_gravecomb.polytonic.brevecomb.allcaps</string>
+      <string>Rho.commaabovecomb_gravecomb.polytonic.macroncomb.allcaps</string>
+      <string>Rho.commaabovecomb_perispomenicomb.polytonic.brevecomb.allcaps</string>
+      <string>Rho.commaabovecomb_perispomenicomb.polytonic.macroncomb.allcaps</string>
+      <string>Rho.commareversedabovecomb_acutecomb.polytonic.brevecomb.allcaps</string>
+      <string>Rho.commareversedabovecomb_acutecomb.polytonic.macroncomb.allcaps</string>
+      <string>Rho.commareversedabovecomb_gravecomb.polytonic.brevecomb.allcaps</string>
+      <string>Rho.commareversedabovecomb_gravecomb.polytonic.macroncomb.allcaps</string>
+      <string>Rho.commareversedabovecomb_perispomenicomb.polytonic.brevecomb.allcaps</string>
+      <string>Rho.commareversedabovecomb_perispomenicomb.polytonic.macroncomb.allcaps</string>
+      <string>Rho.acutecomb.polytonic.brevecomb.noaccent.allcaps</string>
+      <string>Rho.acutecomb.polytonic.macroncomb.noaccent.allcaps</string>
     </array>
     <key>public.kern1.Q</key>
     <array>
@@ -345,6 +764,8 @@
       <string>Tdotaccent</string>
       <string>Tdotbelow</string>
       <string>Tmacronbelow</string>
+      <string>Tau</string>
+      <string>Archaicsampi</string>
     </array>
     <key>public.kern1.U</key>
     <array>
@@ -402,6 +823,7 @@
       <string>X_circumflexcomb</string>
       <string>Xdieresis</string>
       <string>Xdotaccent</string>
+      <string>Chi</string>
     </array>
     <key>public.kern1.Y</key>
     <array>
@@ -416,6 +838,61 @@
       <string>Yhookabove</string>
       <string>Ymacron</string>
       <string>Ytilde</string>
+      <string>Upsilon</string>
+      <string>Upsilontonos</string>
+      <string>Upsilondieresis</string>
+      <string>Upsilondasia</string>
+      <string>Upsilondasiavaria</string>
+      <string>Upsilondasiaoxia</string>
+      <string>Upsilondasiaperispomeni</string>
+      <string>Upsilonvaria</string>
+      <string>Upsilonoxia</string>
+      <string>Upsilonvrachy</string>
+      <string>Upsilonmacron</string>
+      <string>Upsilontonos.allcaps</string>
+      <string>Upsilondieresis.allcaps</string>
+      <string>Upsilondasia.allcaps</string>
+      <string>Upsilondasiavaria.allcaps</string>
+      <string>Upsilondasiaoxia.allcaps</string>
+      <string>Upsilondasiaperispomeni.allcaps</string>
+      <string>Upsilonvaria.allcaps</string>
+      <string>Upsilonoxia.allcaps</string>
+      <string>Upsilonvrachy.allcaps</string>
+      <string>Upsilonmacron.allcaps</string>
+      <string>Upsilontonos.brevecomb.allcaps</string>
+      <string>Upsilondasia.brevecomb.allcaps</string>
+      <string>Upsilondasiavaria.brevecomb.allcaps</string>
+      <string>Upsilondasiaoxia.brevecomb.allcaps</string>
+      <string>Upsilondasiaperispomeni.brevecomb.allcaps</string>
+      <string>Upsilonvaria.brevecomb.allcaps</string>
+      <string>Upsilonoxia.brevecomb.allcaps</string>
+      <string>Upsilontonos.macroncomb.allcaps</string>
+      <string>Upsilondasia.macroncomb.allcaps</string>
+      <string>Upsilondasiavaria.macroncomb.allcaps</string>
+      <string>Upsilondasiaoxia.macroncomb.allcaps</string>
+      <string>Upsilondasiaperispomeni.macroncomb.allcaps</string>
+      <string>Upsilonvaria.macroncomb.allcaps</string>
+      <string>Upsilonoxia.macroncomb.allcaps</string>
+      <string>Upsilon.commaabovecomb_acutecomb.polytonic</string>
+      <string>Upsilon.commaabovecomb_gravecomb.polytonic</string>
+      <string>Upsilon.commaabovecomb_perispomenicomb.polytonic</string>
+      <string>Upsilon.commaabovecomb.polytonic</string>
+      <string>Upsilon.perispomenicomb.polytonic</string>
+      <string>Upsilon.commaabovecomb.polytonic.allcaps</string>
+      <string>Upsilon.perispomenicomb.polytonic.allcaps</string>
+      <string>Upsilon.commaabovecomb_acutecomb.polytonic.allcaps</string>
+      <string>Upsilon.commaabovecomb_gravecomb.polytonic.allcaps</string>
+      <string>Upsilon.commaabovecomb_perispomenicomb.polytonic.allcaps</string>
+      <string>Upsilon.commaabovecomb.polytonic.brevecomb.allcaps</string>
+      <string>Upsilon.perispomenicomb.polytonic.brevecomb.allcaps</string>
+      <string>Upsilon.commaabovecomb.polytonic.macroncomb.allcaps</string>
+      <string>Upsilon.perispomenicomb.polytonic.macroncomb.allcaps</string>
+      <string>Upsilon.commaabovecomb_acutecomb.polytonic.brevecomb.allcaps</string>
+      <string>Upsilon.commaabovecomb_acutecomb.polytonic.macroncomb.allcaps</string>
+      <string>Upsilon.commaabovecomb_gravecomb.polytonic.brevecomb.allcaps</string>
+      <string>Upsilon.commaabovecomb_gravecomb.polytonic.macroncomb.allcaps</string>
+      <string>Upsilon.commaabovecomb_perispomenicomb.polytonic.brevecomb.allcaps</string>
+      <string>Upsilon.commaabovecomb_perispomenicomb.polytonic.macroncomb.allcaps</string>
     </array>
     <key>public.kern1.Z</key>
     <array>
@@ -426,6 +903,7 @@
       <string>Zdotaccent</string>
       <string>Zdotbelow</string>
       <string>Zmacronbelow</string>
+      <string>Zeta</string>
     </array>
     <key>public.kern1.a</key>
     <array>
@@ -500,6 +978,48 @@
       <string>aringacute.sc</string>
       <string>aringbelow.sc</string>
       <string>atilde.sc</string>
+      <string>alpha.sc</string>
+      <string>delta.sc</string>
+      <string>lambda.sc</string>
+      <string>alphatonos.sc</string>
+      <string>alphapsili.sc</string>
+      <string>alphadasia.sc</string>
+      <string>alphapsilivaria.sc</string>
+      <string>alphadasiavaria.sc</string>
+      <string>alphapsilioxia.sc</string>
+      <string>alphadasiaoxia.sc</string>
+      <string>alphapsiliperispomeni.sc</string>
+      <string>alphadasiaperispomeni.sc</string>
+      <string>alphavaria.sc</string>
+      <string>alphaoxia.sc</string>
+      <string>alphaperispomeni.sc</string>
+      <string>alphavrachy.sc</string>
+      <string>alphamacron.sc</string>
+      <string>alphatonos.brevecomb.sc</string>
+      <string>alphapsili.brevecomb.sc</string>
+      <string>alphadasia.brevecomb.sc</string>
+      <string>alphapsilivaria.brevecomb.sc</string>
+      <string>alphadasiavaria.brevecomb.sc</string>
+      <string>alphapsilioxia.brevecomb.sc</string>
+      <string>alphadasiaoxia.brevecomb.sc</string>
+      <string>alphapsiliperispomeni.brevecomb.sc</string>
+      <string>alphadasiaperispomeni.brevecomb.sc</string>
+      <string>alphavaria.brevecomb.sc</string>
+      <string>alphaoxia.brevecomb.sc</string>
+      <string>alphatonos.macroncomb.sc</string>
+      <string>alphapsili.macroncomb.sc</string>
+      <string>alphadasia.macroncomb.sc</string>
+      <string>alphapsilivaria.macroncomb.sc</string>
+      <string>alphadasiavaria.macroncomb.sc</string>
+      <string>alphapsilioxia.macroncomb.sc</string>
+      <string>alphadasiaoxia.macroncomb.sc</string>
+      <string>alphapsiliperispomeni.macroncomb.sc</string>
+      <string>alphadasiaperispomeni.macroncomb.sc</string>
+      <string>alphavaria.macroncomb.sc</string>
+      <string>alphaoxia.macroncomb.sc</string>
+      <string>alpha.perispomenicomb.polytonic.sc</string>
+      <string>alpha.perispomenicomb.polytonic.brevecomb.sc</string>
+      <string>alpha.perispomenicomb.polytonic.macroncomb.sc</string>
     </array>
     <key>public.kern1.b</key>
     <array>
@@ -519,6 +1039,7 @@
       <string>bdotbelow.sc</string>
       <string>bmacronbelow.sc</string>
       <string>bstroke.sc</string>
+      <string>beta.sc</string>
     </array>
     <key>public.kern1.c</key>
     <array>
@@ -647,6 +1168,46 @@
       <string>etilde.sc</string>
       <string>etildebelow.sc</string>
       <string>oe.sc</string>
+      <string>epsilon.sc</string>
+      <string>sigma.sc</string>
+      <string>epsilontonos.sc</string>
+      <string>epsilonpsili.sc</string>
+      <string>epsilondasia.sc</string>
+      <string>epsilonpsilivaria.sc</string>
+      <string>epsilondasiavaria.sc</string>
+      <string>epsilonpsilioxia.sc</string>
+      <string>epsilondasiaoxia.sc</string>
+      <string>epsilonvaria.sc</string>
+      <string>epsilonoxia.sc</string>
+      <string>epsilontonos.brevecomb.sc</string>
+      <string>epsilonpsili.brevecomb.sc</string>
+      <string>epsilondasia.brevecomb.sc</string>
+      <string>epsilonpsilivaria.brevecomb.sc</string>
+      <string>epsilondasiavaria.brevecomb.sc</string>
+      <string>epsilonpsilioxia.brevecomb.sc</string>
+      <string>epsilondasiaoxia.brevecomb.sc</string>
+      <string>epsilonvaria.brevecomb.sc</string>
+      <string>epsilonoxia.brevecomb.sc</string>
+      <string>epsilontonos.macroncomb.sc</string>
+      <string>epsilonpsili.macroncomb.sc</string>
+      <string>epsilondasia.macroncomb.sc</string>
+      <string>epsilonpsilivaria.macroncomb.sc</string>
+      <string>epsilondasiavaria.macroncomb.sc</string>
+      <string>epsilonpsilioxia.macroncomb.sc</string>
+      <string>epsilondasiaoxia.macroncomb.sc</string>
+      <string>epsilonvaria.macroncomb.sc</string>
+      <string>epsilonoxia.macroncomb.sc</string>
+      <string>epsilon.commaabovecomb_perispomenicomb.polytonic.sc</string>
+      <string>epsilon.commareversedabovecomb_perispomenicomb.polytonic.sc</string>
+      <string>epsilon.perispomenicomb.polytonic.sc</string>
+      <string>epsilon.commaabovecomb_perispomenicomb.polytonic.brevecomb.sc</string>
+      <string>epsilon.commaabovecomb_perispomenicomb.polytonic.macroncomb.sc</string>
+      <string>epsilon.commareversedabovecomb_perispomenicomb.polytonic.brevecomb.sc</string>
+      <string>epsilon.commareversedabovecomb_perispomenicomb.polytonic.macroncomb.sc</string>
+      <string>epsilon.perispomenicomb.polytonic.brevecomb.sc</string>
+      <string>epsilon.perispomenicomb.polytonic.macroncomb.sc</string>
+      <string>epsilon.commaabovecomb_perispomenicomb.polytonic.brevecomb.noaccent.sc</string>
+      <string>epsilon.commaabovecomb_perispomenicomb.polytonic.macroncomb.noaccent.sc</string>
     </array>
     <key>public.kern1.f</key>
     <array>
@@ -661,6 +1222,8 @@
     <array>
       <string>f.sc</string>
       <string>fdotaccent.sc</string>
+      <string>gamma.sc</string>
+      <string>digamma.sc</string>
     </array>
     <key>public.kern1.g</key>
     <array>
@@ -683,6 +1246,345 @@
       <string>gcommaaccent.sc</string>
       <string>gdotaccent.sc</string>
       <string>gmacron.sc</string>
+    </array>
+    <key>public.kern1.greek_Heta</key>
+    <array>
+      <string>Heta</string>
+    </array>
+    <key>public.kern1.greek_KaiSymbol</key>
+    <array>
+      <string>KaiSymbol</string>
+    </array>
+    <key>public.kern1.greek_Koppa</key>
+    <array>
+      <string>Koppa</string>
+    </array>
+    <key>public.kern1.greek_Omega</key>
+    <array>
+      <string>Omega</string>
+      <string>Omegatonos</string>
+      <string>Omegapsili</string>
+      <string>Omegadasia</string>
+      <string>Omegapsilivaria</string>
+      <string>Omegadasiavaria</string>
+      <string>Omegapsilioxia</string>
+      <string>Omegadasiaoxia</string>
+      <string>Omegapsiliperispomeni</string>
+      <string>Omegadasiaperispomeni</string>
+      <string>Omegavaria</string>
+      <string>Omegaoxia</string>
+      <string>Omegatonos.allcaps</string>
+      <string>Omegapsili.allcaps</string>
+      <string>Omegadasia.allcaps</string>
+      <string>Omegapsilivaria.allcaps</string>
+      <string>Omegadasiavaria.allcaps</string>
+      <string>Omegapsilioxia.allcaps</string>
+      <string>Omegadasiaoxia.allcaps</string>
+      <string>Omegapsiliperispomeni.allcaps</string>
+      <string>Omegadasiaperispomeni.allcaps</string>
+      <string>Omegavaria.allcaps</string>
+      <string>Omegaoxia.allcaps</string>
+      <string>Omega.adscriptbase.allcaps</string>
+      <string>Omegatonos.brevecomb.allcaps</string>
+      <string>Omegapsili.brevecomb.allcaps</string>
+      <string>Omegadasia.brevecomb.allcaps</string>
+      <string>Omegapsilivaria.brevecomb.allcaps</string>
+      <string>Omegadasiavaria.brevecomb.allcaps</string>
+      <string>Omegapsilioxia.brevecomb.allcaps</string>
+      <string>Omegadasiaoxia.brevecomb.allcaps</string>
+      <string>Omegapsiliperispomeni.brevecomb.allcaps</string>
+      <string>Omegadasiaperispomeni.brevecomb.allcaps</string>
+      <string>Omegavaria.brevecomb.allcaps</string>
+      <string>Omegaoxia.brevecomb.allcaps</string>
+      <string>Omegatonos.macroncomb.allcaps</string>
+      <string>Omegapsili.macroncomb.allcaps</string>
+      <string>Omegadasia.macroncomb.allcaps</string>
+      <string>Omegapsilivaria.macroncomb.allcaps</string>
+      <string>Omegadasiavaria.macroncomb.allcaps</string>
+      <string>Omegapsilioxia.macroncomb.allcaps</string>
+      <string>Omegadasiaoxia.macroncomb.allcaps</string>
+      <string>Omegapsiliperispomeni.macroncomb.allcaps</string>
+      <string>Omegadasiaperispomeni.macroncomb.allcaps</string>
+      <string>Omegavaria.macroncomb.allcaps</string>
+      <string>Omegaoxia.macroncomb.allcaps</string>
+      <string>Omega.perispomenicomb.polytonic</string>
+      <string>Omega.perispomenicomb.polytonic.allcaps</string>
+      <string>Omega.perispomenicomb.polytonic.brevecomb.allcaps</string>
+      <string>Omega.perispomenicomb.polytonic.macroncomb.allcaps</string>
+      <string>Omega.perispomenicomb.polytonic.brevecomb.noaccent.allcaps</string>
+      <string>Omega.perispomenicomb.polytonic.macroncomb.noaccent.allcaps</string>
+    </array>
+    <key>public.kern1.greek_Phi</key>
+    <array>
+      <string>Phi</string>
+    </array>
+    <key>public.kern1.greek_Psi</key>
+    <array>
+      <string>Psi</string>
+    </array>
+    <key>public.kern1.greek_Sampi</key>
+    <array>
+      <string>Sampi</string>
+    </array>
+    <key>public.kern1.greek_Stigma</key>
+    <array>
+      <string>Stigma</string>
+    </array>
+    <key>public.kern1.greek_Xi</key>
+    <array>
+      <string>Xi</string>
+    </array>
+    <key>public.kern1.greek_alpha</key>
+    <array>
+      <string>alpha</string>
+      <string>alphatonos</string>
+      <string>alphapsili</string>
+      <string>alphadasia</string>
+      <string>alphapsilivaria</string>
+      <string>alphadasiavaria</string>
+      <string>alphapsilioxia</string>
+      <string>alphadasiaoxia</string>
+      <string>alphapsiliperispomeni</string>
+      <string>alphadasiaperispomeni</string>
+      <string>alphavaria</string>
+      <string>alphaoxia</string>
+      <string>alphaperispomeni</string>
+      <string>alphavrachy</string>
+      <string>alphamacron</string>
+      <string>alphaypogegrammeni</string>
+      <string>alphavariaypogegrammeni</string>
+      <string>alphaoxiaypogegrammeni</string>
+      <string>alphapsiliypogegrammeni</string>
+      <string>alphadasiaypogegrammeni</string>
+      <string>alphapsilivariaypogegrammeni</string>
+      <string>alphadasiavariaypogegrammeni</string>
+      <string>alphapsilioxiaypogegrammeni</string>
+      <string>alphadasiaoxiaypogegrammeni</string>
+      <string>alphapsiliperispomeniypogegrammeni</string>
+      <string>alphadasiaperispomeniypogegrammeni</string>
+      <string>alphaperispomeniypogegrammeni</string>
+    </array>
+    <key>public.kern1.greek_archaicsampi</key>
+    <array>
+      <string>archaicsampi</string>
+    </array>
+    <key>public.kern1.greek_chi</key>
+    <array>
+      <string>chi</string>
+    </array>
+    <key>public.kern1.greek_digamma</key>
+    <array>
+      <string>digamma</string>
+    </array>
+    <key>public.kern1.greek_epsilon</key>
+    <array>
+      <string>epsilon</string>
+      <string>epsilontonos</string>
+      <string>epsilonpsili</string>
+      <string>epsilondasia</string>
+      <string>epsilonpsilivaria</string>
+      <string>epsilondasiavaria</string>
+      <string>epsilonpsilioxia</string>
+      <string>epsilondasiaoxia</string>
+      <string>epsilonvaria</string>
+      <string>epsilonoxia</string>
+    </array>
+    <key>public.kern1.greek_eta</key>
+    <array>
+      <string>eta</string>
+      <string>etatonos</string>
+      <string>etapsili</string>
+      <string>etadasia</string>
+      <string>etapsilivaria</string>
+      <string>etadasiavaria</string>
+      <string>etapsilioxia</string>
+      <string>etadasiaoxia</string>
+      <string>etapsiliperispomeni</string>
+      <string>etadasiaperispomeni</string>
+      <string>etavaria</string>
+      <string>etaoxia</string>
+      <string>etaperispomeni</string>
+      <string>etaypogegrammeni</string>
+      <string>etavariaypogegrammeni</string>
+      <string>etaoxiaypogegrammeni</string>
+      <string>etapsiliypogegrammeni</string>
+      <string>etadasiaypogegrammeni</string>
+      <string>etapsilivariaypogegrammeni</string>
+      <string>etadasiavariaypogegrammeni</string>
+      <string>etapsilioxiaypogegrammeni</string>
+      <string>etadasiaoxiaypogegrammeni</string>
+      <string>etapsiliperispomeniypogegrammeni</string>
+      <string>etadasiaperispomeniypogegrammeni</string>
+      <string>etaperispomeniypogegrammeni</string>
+    </array>
+    <key>public.kern1.greek_heta</key>
+    <array>
+      <string>heta</string>
+    </array>
+    <key>public.kern1.greek_heta_sc</key>
+    <array>
+      <string>heta.sc</string>
+    </array>
+    <key>public.kern1.greek_kaiSymbol</key>
+    <array>
+      <string>kaiSymbol</string>
+    </array>
+    <key>public.kern1.greek_kaiSymbol.sc</key>
+    <array>
+      <string>kaiSymbol.sc</string>
+    </array>
+    <key>public.kern1.greek_koppa</key>
+    <array>
+      <string>koppa</string>
+    </array>
+    <key>public.kern1.greek_koppa.sc</key>
+    <array>
+      <string>koppa.sc</string>
+    </array>
+    <key>public.kern1.greek_lambda</key>
+    <array>
+      <string>lambda</string>
+    </array>
+    <key>public.kern1.greek_lowernumeral</key>
+    <array>
+      <string>lowernumeral-greek</string>
+    </array>
+    <key>public.kern1.greek_numeral</key>
+    <array>
+      <string>numeral-greek</string>
+      <string>primemod</string>
+    </array>
+    <key>public.kern1.greek_omega.sc</key>
+    <array>
+      <string>omega.sc</string>
+      <string>omegatonos.sc</string>
+      <string>omegapsili.sc</string>
+      <string>omegadasia.sc</string>
+      <string>omegapsilivaria.sc</string>
+      <string>omegadasiavaria.sc</string>
+      <string>omegapsilioxia.sc</string>
+      <string>omegadasiaoxia.sc</string>
+      <string>omegapsiliperispomeni.sc</string>
+      <string>omegadasiaperispomeni.sc</string>
+      <string>omegavaria.sc</string>
+      <string>omegaoxia.sc</string>
+      <string>omegaperispomeni.sc</string>
+      <string>omegatonos.brevecomb.sc</string>
+      <string>omegapsili.brevecomb.sc</string>
+      <string>omegadasia.brevecomb.sc</string>
+      <string>omegapsilivaria.brevecomb.sc</string>
+      <string>omegadasiavaria.brevecomb.sc</string>
+      <string>omegapsilioxia.brevecomb.sc</string>
+      <string>omegadasiaoxia.brevecomb.sc</string>
+      <string>omegapsiliperispomeni.brevecomb.sc</string>
+      <string>omegadasiaperispomeni.brevecomb.sc</string>
+      <string>omegavaria.brevecomb.sc</string>
+      <string>omegaoxia.brevecomb.sc</string>
+      <string>omegatonos.macroncomb.sc</string>
+      <string>omegapsili.macroncomb.sc</string>
+      <string>omegadasia.macroncomb.sc</string>
+      <string>omegapsilivaria.macroncomb.sc</string>
+      <string>omegadasiavaria.macroncomb.sc</string>
+      <string>omegapsilioxia.macroncomb.sc</string>
+      <string>omegadasiaoxia.macroncomb.sc</string>
+      <string>omegapsiliperispomeni.macroncomb.sc</string>
+      <string>omegadasiaperispomeni.macroncomb.sc</string>
+      <string>omegavaria.macroncomb.sc</string>
+      <string>omegaoxia.macroncomb.sc</string>
+      <string>omega.perispomenicomb.polytonic.sc</string>
+      <string>omega.perispomenicomb.polytonic.brevecomb.sc</string>
+      <string>omega.perispomenicomb.polytonic.macroncomb.sc</string>
+      <string>omega.perispomenicomb.polytonic.brevecomb.noaccent.sc</string>
+      <string>omega.perispomenicomb.polytonic.macroncomb.noaccent.sc</string>
+    </array>
+    <key>public.kern1.greek_pamphyliandigamma</key>
+    <array>
+      <string>pamphyliandigamma</string>
+    </array>
+    <key>public.kern1.greek_phi.sc</key>
+    <array>
+      <string>phi.sc</string>
+    </array>
+    <key>public.kern1.greek_pi</key>
+    <array>
+      <string>pi</string>
+    </array>
+    <key>public.kern1.greek_psi.sc</key>
+    <array>
+      <string>psi.sc</string>
+    </array>
+    <key>public.kern1.greek_rho</key>
+    <array>
+      <string>rho</string>
+      <string>rhopsili</string>
+      <string>rhodasia</string>
+    </array>
+    <key>public.kern1.greek_sampi</key>
+    <array>
+      <string>sampi</string>
+    </array>
+    <key>public.kern1.greek_sampi.sc</key>
+    <array>
+      <string>sampi.sc</string>
+    </array>
+    <key>public.kern1.greek_san</key>
+    <array>
+      <string>san</string>
+    </array>
+    <key>public.kern1.greek_sigma</key>
+    <array>
+      <string>sigma</string>
+    </array>
+    <key>public.kern1.greek_sigmafinal</key>
+    <array>
+      <string>sigmafinal</string>
+    </array>
+    <key>public.kern1.greek_stigma</key>
+    <array>
+      <string>stigma</string>
+    </array>
+    <key>public.kern1.greek_stigma.sc</key>
+    <array>
+      <string>stigma.sc</string>
+    </array>
+    <key>public.kern1.greek_tau</key>
+    <array>
+      <string>tau</string>
+    </array>
+    <key>public.kern1.greek_upsilon</key>
+    <array>
+      <string>upsilon</string>
+      <string>upsilontonos</string>
+      <string>upsilondieresis</string>
+      <string>upsilondieresistonos</string>
+      <string>upsilonpsili</string>
+      <string>upsilondasia</string>
+      <string>upsilonpsilivaria</string>
+      <string>upsilondasiavaria</string>
+      <string>upsilonpsilioxia</string>
+      <string>upsilondasiaoxia</string>
+      <string>upsilonpsiliperispomeni</string>
+      <string>upsilondasiaperispomeni</string>
+      <string>upsilonvaria</string>
+      <string>upsilonoxia</string>
+      <string>upsilonperispomeni</string>
+      <string>upsilonvrachy</string>
+      <string>upsilonmacron</string>
+      <string>upsilondialytikavaria</string>
+      <string>upsilondialytikaoxia</string>
+      <string>upsilondialytikaperispomeni</string>
+    </array>
+    <key>public.kern1.greek_xi</key>
+    <array>
+      <string>xi</string>
+    </array>
+    <key>public.kern1.greek_xi.sc</key>
+    <array>
+      <string>xi.sc</string>
+    </array>
+    <key>public.kern1.greek_zeta</key>
+    <array>
+      <string>zeta</string>
     </array>
     <key>public.kern1.h</key>
     <array>
@@ -712,6 +1614,48 @@
       <string>hdotaccent.sc</string>
       <string>hdotbelow.sc</string>
       <string>hmacronbelow.sc</string>
+      <string>eta.sc</string>
+      <string>pi.sc</string>
+      <string>etatonos.sc</string>
+      <string>pamphyliandigamma.sc</string>
+      <string>etapsili.sc</string>
+      <string>etadasia.sc</string>
+      <string>etapsilivaria.sc</string>
+      <string>etadasiavaria.sc</string>
+      <string>etapsilioxia.sc</string>
+      <string>etadasiaoxia.sc</string>
+      <string>etapsiliperispomeni.sc</string>
+      <string>etadasiaperispomeni.sc</string>
+      <string>etavaria.sc</string>
+      <string>etaoxia.sc</string>
+      <string>etaperispomeni.sc</string>
+      <string>etatonos.brevecomb.sc</string>
+      <string>etapsili.brevecomb.sc</string>
+      <string>etadasia.brevecomb.sc</string>
+      <string>etapsilivaria.brevecomb.sc</string>
+      <string>etadasiavaria.brevecomb.sc</string>
+      <string>etapsilioxia.brevecomb.sc</string>
+      <string>etadasiaoxia.brevecomb.sc</string>
+      <string>etapsiliperispomeni.brevecomb.sc</string>
+      <string>etadasiaperispomeni.brevecomb.sc</string>
+      <string>etavaria.brevecomb.sc</string>
+      <string>etaoxia.brevecomb.sc</string>
+      <string>etatonos.macroncomb.sc</string>
+      <string>etapsili.macroncomb.sc</string>
+      <string>etadasia.macroncomb.sc</string>
+      <string>etapsilivaria.macroncomb.sc</string>
+      <string>etadasiavaria.macroncomb.sc</string>
+      <string>etapsilioxia.macroncomb.sc</string>
+      <string>etadasiaoxia.macroncomb.sc</string>
+      <string>etapsiliperispomeni.macroncomb.sc</string>
+      <string>etadasiaperispomeni.macroncomb.sc</string>
+      <string>etavaria.macroncomb.sc</string>
+      <string>etaoxia.macroncomb.sc</string>
+      <string>eta.perispomenicomb.polytonic.sc</string>
+      <string>eta.perispomenicomb.polytonic.brevecomb.sc</string>
+      <string>eta.perispomenicomb.polytonic.macroncomb.sc</string>
+      <string>eta.perispomenicomb.polytonic.brevecomb.noaccent.sc</string>
+      <string>eta.perispomenicomb.polytonic.macroncomb.noaccent.sc</string>
     </array>
     <key>public.kern1.horn</key>
     <array>
@@ -800,6 +1744,169 @@
       <string>imacron_gravecomb.sc</string>
       <string>iogonek.sc</string>
       <string>itilde.sc</string>
+      <string>iota.sc</string>
+      <string>iotatonos.sc</string>
+      <string>iotadieresis.sc</string>
+      <string>iotadieresistonos.sc</string>
+      <string>alphaypogegrammeni.sc</string>
+      <string>alphavariaypogegrammeni.sc</string>
+      <string>alphaoxiaypogegrammeni.sc</string>
+      <string>alphapsiliypogegrammeni.sc</string>
+      <string>alphadasiaypogegrammeni.sc</string>
+      <string>alphapsilivariaypogegrammeni.sc</string>
+      <string>alphadasiavariaypogegrammeni.sc</string>
+      <string>alphapsilioxiaypogegrammeni.sc</string>
+      <string>alphadasiaoxiaypogegrammeni.sc</string>
+      <string>alphapsiliperispomeniypogegrammeni.sc</string>
+      <string>alphadasiaperispomeniypogegrammeni.sc</string>
+      <string>alphaperispomeniypogegrammeni.sc</string>
+      <string>etaypogegrammeni.sc</string>
+      <string>etavariaypogegrammeni.sc</string>
+      <string>etaoxiaypogegrammeni.sc</string>
+      <string>etapsiliypogegrammeni.sc</string>
+      <string>etadasiaypogegrammeni.sc</string>
+      <string>etapsilivariaypogegrammeni.sc</string>
+      <string>etadasiavariaypogegrammeni.sc</string>
+      <string>etapsilioxiaypogegrammeni.sc</string>
+      <string>etadasiaoxiaypogegrammeni.sc</string>
+      <string>etapsiliperispomeniypogegrammeni.sc</string>
+      <string>etadasiaperispomeniypogegrammeni.sc</string>
+      <string>etaperispomeniypogegrammeni.sc</string>
+      <string>iotapsili.sc</string>
+      <string>iotadasia.sc</string>
+      <string>iotapsilivaria.sc</string>
+      <string>iotadasiavaria.sc</string>
+      <string>iotapsilioxia.sc</string>
+      <string>iotadasiaoxia.sc</string>
+      <string>iotapsiliperispomeni.sc</string>
+      <string>iotadasiaperispomeni.sc</string>
+      <string>iotavaria.sc</string>
+      <string>iotaoxia.sc</string>
+      <string>iotaperispomeni.sc</string>
+      <string>iotavrachy.sc</string>
+      <string>iotamacron.sc</string>
+      <string>iotadialytikavaria.sc</string>
+      <string>iotadialytikaoxia.sc</string>
+      <string>iotadialytikaperispomeni.sc</string>
+      <string>omegaypogegrammeni.sc</string>
+      <string>omegavariaypogegrammeni.sc</string>
+      <string>omegaoxiaypogegrammeni.sc</string>
+      <string>omegapsiliypogegrammeni.sc</string>
+      <string>omegadasiaypogegrammeni.sc</string>
+      <string>omegapsilivariaypogegrammeni.sc</string>
+      <string>omegadasiavariaypogegrammeni.sc</string>
+      <string>omegapsilioxiaypogegrammeni.sc</string>
+      <string>omegadasiaoxiaypogegrammeni.sc</string>
+      <string>omegapsiliperispomeniypogegrammeni.sc</string>
+      <string>omegadasiaperispomeniypogegrammeni.sc</string>
+      <string>omegaperispomeniypogegrammeni.sc</string>
+      <string>iotatonos.brevecomb.sc</string>
+      <string>iotapsili.brevecomb.sc</string>
+      <string>iotadasia.brevecomb.sc</string>
+      <string>iotapsilivaria.brevecomb.sc</string>
+      <string>iotadasiavaria.brevecomb.sc</string>
+      <string>iotapsilioxia.brevecomb.sc</string>
+      <string>iotadasiaoxia.brevecomb.sc</string>
+      <string>iotapsiliperispomeni.brevecomb.sc</string>
+      <string>iotadasiaperispomeni.brevecomb.sc</string>
+      <string>iotavaria.brevecomb.sc</string>
+      <string>iotaoxia.brevecomb.sc</string>
+      <string>iotatonos.macroncomb.sc</string>
+      <string>iotapsili.macroncomb.sc</string>
+      <string>iotadasia.macroncomb.sc</string>
+      <string>iotapsilivaria.macroncomb.sc</string>
+      <string>iotadasiavaria.macroncomb.sc</string>
+      <string>iotapsilioxia.macroncomb.sc</string>
+      <string>iotadasiaoxia.macroncomb.sc</string>
+      <string>iotapsiliperispomeni.macroncomb.sc</string>
+      <string>iotadasiaperispomeni.macroncomb.sc</string>
+      <string>iotavaria.macroncomb.sc</string>
+      <string>iotaoxia.macroncomb.sc</string>
+      <string>iota.spacingadscript.sc</string>
+      <string>iota.perispomenicomb.polytonic.sc</string>
+      <string>iota.perispomenicomb.polytonic.brevecomb.sc</string>
+      <string>iota.perispomenicomb.polytonic.macroncomb.sc</string>
+      <string>alphadasiaoxiaprosgegrammeni.sc</string>
+      <string>alphadasiaperispomeniprosgegrammeni.sc</string>
+      <string>alphadasiaprosgegrammeni.sc</string>
+      <string>alphadasiavariaprosgegrammeni.sc</string>
+      <string>alphaprosgegrammeni.sc</string>
+      <string>alphapsilioxiaprosgegrammeni.sc</string>
+      <string>alphapsiliperispomeniprosgegrammeni.sc</string>
+      <string>alphapsiliprosgegrammeni.sc</string>
+      <string>alphapsilivariaprosgegrammeni.sc</string>
+      <string>etadasiaoxiaprosgegrammeni.sc</string>
+      <string>etadasiaperispomeniprosgegrammeni.sc</string>
+      <string>etadasiaprosgegrammeni.sc</string>
+      <string>etadasiavariaprosgegrammeni.sc</string>
+      <string>etaprosgegrammeni.sc</string>
+      <string>etapsilioxiaprosgegrammeni.sc</string>
+      <string>etapsiliperispomeniprosgegrammeni.sc</string>
+      <string>etapsiliprosgegrammeni.sc</string>
+      <string>etapsilivariaprosgegrammeni.sc</string>
+      <string>omegadasiaoxiaprosgegrammeni.sc</string>
+      <string>omegadasiaperispomeniprosgegrammeni.sc</string>
+      <string>omegadasiaprosgegrammeni.sc</string>
+      <string>omegadasiavariaprosgegrammeni.sc</string>
+      <string>omegaprosgegrammeni.sc</string>
+      <string>omegapsilioxiaprosgegrammeni.sc</string>
+      <string>omegapsiliperispomeniprosgegrammeni.sc</string>
+      <string>omegapsiliprosgegrammeni.sc</string>
+      <string>omegapsilivariaprosgegrammeni.sc</string>
+      <string>alphadasiaoxiaprosgegrammeni.brevecomb.sc</string>
+      <string>alphadasiaoxiaprosgegrammeni.macroncomb.sc</string>
+      <string>alphadasiaperispomeniprosgegrammeni.brevecomb.sc</string>
+      <string>alphadasiaperispomeniprosgegrammeni.macroncomb.sc</string>
+      <string>alphadasiaprosgegrammeni.brevecomb.sc</string>
+      <string>alphadasiaprosgegrammeni.macroncomb.sc</string>
+      <string>alphadasiavariaprosgegrammeni.brevecomb.sc</string>
+      <string>alphadasiavariaprosgegrammeni.macroncomb.sc</string>
+      <string>alphapsilioxiaprosgegrammeni.brevecomb.sc</string>
+      <string>alphapsilioxiaprosgegrammeni.macroncomb.sc</string>
+      <string>alphapsiliperispomeniprosgegrammeni.brevecomb.sc</string>
+      <string>alphapsiliperispomeniprosgegrammeni.macroncomb.sc</string>
+      <string>alphapsiliprosgegrammeni.brevecomb.sc</string>
+      <string>alphapsiliprosgegrammeni.macroncomb.sc</string>
+      <string>alphapsilivariaprosgegrammeni.brevecomb.sc</string>
+      <string>alphapsilivariaprosgegrammeni.macroncomb.sc</string>
+      <string>etadasiaoxiaprosgegrammeni.brevecomb.sc</string>
+      <string>etadasiaoxiaprosgegrammeni.macroncomb.sc</string>
+      <string>etadasiaperispomeniprosgegrammeni.brevecomb.sc</string>
+      <string>etadasiaperispomeniprosgegrammeni.macroncomb.sc</string>
+      <string>etadasiaprosgegrammeni.brevecomb.sc</string>
+      <string>etadasiaprosgegrammeni.macroncomb.sc</string>
+      <string>etadasiavariaprosgegrammeni.brevecomb.sc</string>
+      <string>etadasiavariaprosgegrammeni.macroncomb.sc</string>
+      <string>etapsilioxiaprosgegrammeni.brevecomb.sc</string>
+      <string>etapsilioxiaprosgegrammeni.macroncomb.sc</string>
+      <string>etapsiliperispomeniprosgegrammeni.brevecomb.sc</string>
+      <string>etapsiliperispomeniprosgegrammeni.macroncomb.sc</string>
+      <string>etapsiliprosgegrammeni.brevecomb.sc</string>
+      <string>etapsiliprosgegrammeni.macroncomb.sc</string>
+      <string>etapsilivariaprosgegrammeni.brevecomb.sc</string>
+      <string>etapsilivariaprosgegrammeni.macroncomb.sc</string>
+      <string>omegadasiaoxiaprosgegrammeni.brevecomb.sc</string>
+      <string>omegadasiaoxiaprosgegrammeni.macroncomb.sc</string>
+      <string>omegadasiaperispomeniprosgegrammeni.brevecomb.sc</string>
+      <string>omegadasiaperispomeniprosgegrammeni.macroncomb.sc</string>
+      <string>omegadasiaprosgegrammeni.brevecomb.sc</string>
+      <string>omegadasiaprosgegrammeni.macroncomb.sc</string>
+      <string>omegadasiavariaprosgegrammeni.brevecomb.sc</string>
+      <string>omegadasiavariaprosgegrammeni.macroncomb.sc</string>
+      <string>omegapsilioxiaprosgegrammeni.brevecomb.sc</string>
+      <string>omegapsilioxiaprosgegrammeni.macroncomb.sc</string>
+      <string>omegapsiliperispomeniprosgegrammeni.brevecomb.sc</string>
+      <string>omegapsiliperispomeniprosgegrammeni.macroncomb.sc</string>
+      <string>omegapsiliprosgegrammeni.brevecomb.sc</string>
+      <string>omegapsiliprosgegrammeni.macroncomb.sc</string>
+      <string>omegapsilivariaprosgegrammeni.brevecomb.sc</string>
+      <string>omegapsilivariaprosgegrammeni.macroncomb.sc</string>
+      <string>alphadasiaoxiaprosgegrammeni.brevecomb.noaccent.sc</string>
+      <string>alphadasiaoxiaprosgegrammeni.macroncomb.noaccent.sc</string>
+      <string>etadasiaoxiaprosgegrammeni.brevecomb.noaccent.sc</string>
+      <string>etadasiaoxiaprosgegrammeni.macroncomb.noaccent.sc</string>
+      <string>omegadasiaoxiaprosgegrammeni.brevecomb.noaccent.sc</string>
+      <string>omegadasiaoxiaprosgegrammeni.macroncomb.noaccent.sc</string>
     </array>
     <key>public.kern1.j</key>
     <array>
@@ -844,6 +1951,7 @@
       <string>kcommaaccent.sc</string>
       <string>kdotbelow.sc</string>
       <string>kmacronbelow.sc</string>
+      <string>kappa.sc</string>
     </array>
     <key>public.kern1.l</key>
     <array>
@@ -870,6 +1978,7 @@
       <string>ldotbelowmacron.sc</string>
       <string>lmacronbelow.sc</string>
       <string>lslash.sc</string>
+      <string>lcommaaccent.sc.loclMAH</string>
     </array>
     <key>public.kern1.m</key>
     <array>
@@ -886,6 +1995,8 @@
       <string>macute.sc</string>
       <string>mdotaccent.sc</string>
       <string>mdotbelow.sc</string>
+      <string>mu.sc</string>
+      <string>san.sc</string>
     </array>
     <key>public.kern1.n</key>
     <array>
@@ -913,6 +2024,8 @@
       <string>ngrave.sc</string>
       <string>nmacronbelow.sc</string>
       <string>ntilde.sc</string>
+      <string>ncommaaccent.sc.loclMAH</string>
+      <string>nu.sc</string>
     </array>
     <key>public.kern1.o</key>
     <array>
@@ -947,6 +2060,17 @@
       <string>otildeacute</string>
       <string>otildedieresis</string>
       <string>otildemacron</string>
+      <string>omicron</string>
+      <string>omicrontonos</string>
+      <string>koppaArchaic</string>
+      <string>omicronpsili</string>
+      <string>omicrondasia</string>
+      <string>omicronpsilivaria</string>
+      <string>omicrondasiavaria</string>
+      <string>omicronpsilioxia</string>
+      <string>omicrondasiaoxia</string>
+      <string>omicronvaria</string>
+      <string>omicronoxia</string>
     </array>
     <key>public.kern1.o.sc</key>
     <array>
@@ -981,6 +2105,47 @@
       <string>otildeacute.sc</string>
       <string>otildedieresis.sc</string>
       <string>otildemacron.sc</string>
+      <string>theta.sc</string>
+      <string>omicron.sc</string>
+      <string>omicrontonos.sc</string>
+      <string>koppaArchaic.sc</string>
+      <string>omicronpsili.sc</string>
+      <string>omicrondasia.sc</string>
+      <string>omicronpsilivaria.sc</string>
+      <string>omicrondasiavaria.sc</string>
+      <string>omicronpsilioxia.sc</string>
+      <string>omicrondasiaoxia.sc</string>
+      <string>omicronvaria.sc</string>
+      <string>omicronoxia.sc</string>
+      <string>omicrontonos.brevecomb.sc</string>
+      <string>omicronpsili.brevecomb.sc</string>
+      <string>omicrondasia.brevecomb.sc</string>
+      <string>omicronpsilivaria.brevecomb.sc</string>
+      <string>omicrondasiavaria.brevecomb.sc</string>
+      <string>omicronpsilioxia.brevecomb.sc</string>
+      <string>omicrondasiaoxia.brevecomb.sc</string>
+      <string>omicronvaria.brevecomb.sc</string>
+      <string>omicronoxia.brevecomb.sc</string>
+      <string>omicrontonos.macroncomb.sc</string>
+      <string>omicronpsili.macroncomb.sc</string>
+      <string>omicrondasia.macroncomb.sc</string>
+      <string>omicronpsilivaria.macroncomb.sc</string>
+      <string>omicrondasiavaria.macroncomb.sc</string>
+      <string>omicronpsilioxia.macroncomb.sc</string>
+      <string>omicrondasiaoxia.macroncomb.sc</string>
+      <string>omicronvaria.macroncomb.sc</string>
+      <string>omicronoxia.macroncomb.sc</string>
+      <string>omicron.commaabovecomb_perispomenicomb.polytonic.sc</string>
+      <string>omicron.commareversedabovecomb_perispomenicomb.polytonic.sc</string>
+      <string>omicron.perispomenicomb.polytonic.sc</string>
+      <string>omicron.commaabovecomb_perispomenicomb.polytonic.brevecomb.sc</string>
+      <string>omicron.commaabovecomb_perispomenicomb.polytonic.macroncomb.sc</string>
+      <string>omicron.commareversedabovecomb_perispomenicomb.polytonic.brevecomb.sc</string>
+      <string>omicron.commareversedabovecomb_perispomenicomb.polytonic.macroncomb.sc</string>
+      <string>omicron.perispomenicomb.polytonic.brevecomb.sc</string>
+      <string>omicron.perispomenicomb.polytonic.macroncomb.sc</string>
+      <string>omicron.commaabovecomb_perispomenicomb.polytonic.brevecomb.noaccent.sc</string>
+      <string>omicron.commaabovecomb_perispomenicomb.polytonic.macroncomb.noaccent.sc</string>
     </array>
     <key>public.kern1.p</key>
     <array>
@@ -988,6 +2153,7 @@
       <string>pacute</string>
       <string>pdotaccent</string>
       <string>thorn</string>
+      <string>sho</string>
     </array>
     <key>public.kern1.p.sc</key>
     <array>
@@ -995,6 +2161,44 @@
       <string>pacute.sc</string>
       <string>pdotaccent.sc</string>
       <string>thorn.sc</string>
+      <string>rho.sc</string>
+      <string>sho.sc</string>
+      <string>rhopsili.sc</string>
+      <string>rhodasia.sc</string>
+      <string>rhodasia.brevecomb.sc</string>
+      <string>rhodasia.macroncomb.sc</string>
+      <string>rho.commaabovecomb_acutecomb.polytonic.sc</string>
+      <string>rho.commaabovecomb_gravecomb.polytonic.sc</string>
+      <string>rho.commaabovecomb_perispomenicomb.polytonic.sc</string>
+      <string>rho.commareversedabovecomb_acutecomb.polytonic.sc</string>
+      <string>rho.commareversedabovecomb_gravecomb.polytonic.sc</string>
+      <string>rho.commareversedabovecomb_perispomenicomb.polytonic.sc</string>
+      <string>rho.acutecomb.polytonic.sc</string>
+      <string>rho.commaabovecomb.polytonic.sc</string>
+      <string>rho.gravecomb.polytonic.sc</string>
+      <string>rho.perispomenicomb.polytonic.sc</string>
+      <string>rho.commaabovecomb_acutecomb.polytonic.brevecomb.sc</string>
+      <string>rho.commaabovecomb_acutecomb.polytonic.macroncomb.sc</string>
+      <string>rho.commaabovecomb_gravecomb.polytonic.brevecomb.sc</string>
+      <string>rho.commaabovecomb_gravecomb.polytonic.macroncomb.sc</string>
+      <string>rho.commaabovecomb_perispomenicomb.polytonic.brevecomb.sc</string>
+      <string>rho.commaabovecomb_perispomenicomb.polytonic.macroncomb.sc</string>
+      <string>rho.commareversedabovecomb_acutecomb.polytonic.brevecomb.sc</string>
+      <string>rho.commareversedabovecomb_acutecomb.polytonic.macroncomb.sc</string>
+      <string>rho.commareversedabovecomb_gravecomb.polytonic.brevecomb.sc</string>
+      <string>rho.commareversedabovecomb_gravecomb.polytonic.macroncomb.sc</string>
+      <string>rho.commareversedabovecomb_perispomenicomb.polytonic.brevecomb.sc</string>
+      <string>rho.commareversedabovecomb_perispomenicomb.polytonic.macroncomb.sc</string>
+      <string>rho.acutecomb.polytonic.brevecomb.sc</string>
+      <string>rho.commaabovecomb.polytonic.brevecomb.sc</string>
+      <string>rho.gravecomb.polytonic.brevecomb.sc</string>
+      <string>rho.perispomenicomb.polytonic.brevecomb.sc</string>
+      <string>rho.acutecomb.polytonic.macroncomb.sc</string>
+      <string>rho.commaabovecomb.polytonic.macroncomb.sc</string>
+      <string>rho.gravecomb.polytonic.macroncomb.sc</string>
+      <string>rho.perispomenicomb.polytonic.macroncomb.sc</string>
+      <string>rho.acutecomb.polytonic.brevecomb.noaccent.sc</string>
+      <string>rho.acutecomb.polytonic.macroncomb.noaccent.sc</string>
     </array>
     <key>public.kern1.q</key>
     <array>
@@ -1079,10 +2283,10 @@
       <string>tdotaccent</string>
       <string>tdotbelow</string>
       <string>tmacronbelow</string>
+      <string>c_t.dlig</string>
       <string>f_f_f_t.liga</string>
       <string>f_f_t.liga</string>
       <string>f_t.liga</string>
-      <string>c_t.dlig</string>
       <string>s_t.dlig</string>
     </array>
     <key>public.kern1.t.sc</key>
@@ -1096,6 +2300,8 @@
       <string>tdotaccent.sc</string>
       <string>tdotbelow.sc</string>
       <string>tmacronbelow.sc</string>
+      <string>tau.sc</string>
+      <string>archaicsampi.sc</string>
     </array>
     <key>public.kern1.u</key>
     <array>
@@ -1210,6 +2416,7 @@
       <string>x_circumflexcomb.sc</string>
       <string>xdieresis.sc</string>
       <string>xdotaccent.sc</string>
+      <string>chi.sc</string>
     </array>
     <key>public.kern1.y</key>
     <array>
@@ -1238,6 +2445,55 @@
       <string>ymacron.sc</string>
       <string>yring.sc</string>
       <string>ytilde.sc</string>
+      <string>upsilon.sc</string>
+      <string>upsilontonos.sc</string>
+      <string>upsilondieresis.sc</string>
+      <string>upsilondieresistonos.sc</string>
+      <string>upsilonpsili.sc</string>
+      <string>upsilondasia.sc</string>
+      <string>upsilonpsilivaria.sc</string>
+      <string>upsilondasiavaria.sc</string>
+      <string>upsilonpsilioxia.sc</string>
+      <string>upsilondasiaoxia.sc</string>
+      <string>upsilonpsiliperispomeni.sc</string>
+      <string>upsilondasiaperispomeni.sc</string>
+      <string>upsilonvaria.sc</string>
+      <string>upsilonoxia.sc</string>
+      <string>upsilonperispomeni.sc</string>
+      <string>upsilonvrachy.sc</string>
+      <string>upsilonmacron.sc</string>
+      <string>upsilondialytikavaria.sc</string>
+      <string>upsilondialytikaoxia.sc</string>
+      <string>upsilondialytikaperispomeni.sc</string>
+      <string>upsilontonos.brevecomb.sc</string>
+      <string>upsilondasia.brevecomb.sc</string>
+      <string>upsilondasiavaria.brevecomb.sc</string>
+      <string>upsilondasiaoxia.brevecomb.sc</string>
+      <string>upsilondasiaperispomeni.brevecomb.sc</string>
+      <string>upsilonvaria.brevecomb.sc</string>
+      <string>upsilonoxia.brevecomb.sc</string>
+      <string>upsilontonos.macroncomb.sc</string>
+      <string>upsilondasia.macroncomb.sc</string>
+      <string>upsilondasiavaria.macroncomb.sc</string>
+      <string>upsilondasiaoxia.macroncomb.sc</string>
+      <string>upsilondasiaperispomeni.macroncomb.sc</string>
+      <string>upsilonvaria.macroncomb.sc</string>
+      <string>upsilonoxia.macroncomb.sc</string>
+      <string>upsilon.commaabovecomb_acutecomb.polytonic.sc</string>
+      <string>upsilon.commaabovecomb_gravecomb.polytonic.sc</string>
+      <string>upsilon.commaabovecomb_perispomenicomb.polytonic.sc</string>
+      <string>upsilon.commaabovecomb.polytonic.sc</string>
+      <string>upsilon.perispomenicomb.polytonic.sc</string>
+      <string>upsilon.commaabovecomb_acutecomb.polytonic.brevecomb.sc</string>
+      <string>upsilon.commaabovecomb_acutecomb.polytonic.macroncomb.sc</string>
+      <string>upsilon.commaabovecomb_gravecomb.polytonic.brevecomb.sc</string>
+      <string>upsilon.commaabovecomb_gravecomb.polytonic.macroncomb.sc</string>
+      <string>upsilon.commaabovecomb_perispomenicomb.polytonic.brevecomb.sc</string>
+      <string>upsilon.commaabovecomb_perispomenicomb.polytonic.macroncomb.sc</string>
+      <string>upsilon.commaabovecomb.polytonic.brevecomb.sc</string>
+      <string>upsilon.perispomenicomb.polytonic.brevecomb.sc</string>
+      <string>upsilon.commaabovecomb.polytonic.macroncomb.sc</string>
+      <string>upsilon.perispomenicomb.polytonic.macroncomb.sc</string>
     </array>
     <key>public.kern1.z</key>
     <array>
@@ -1258,6 +2514,7 @@
       <string>zdotaccent.sc</string>
       <string>zdotbelow.sc</string>
       <string>zmacronbelow.sc</string>
+      <string>zeta.sc</string>
     </array>
     <key>public.kern2.0</key>
     <array>
@@ -1347,6 +2604,86 @@
       <string>AE</string>
       <string>AEacute</string>
       <string>AEmacron</string>
+      <string>Alpha</string>
+      <string>Delta</string>
+      <string>Lambda</string>
+      <string>Alphavrachy</string>
+      <string>Alphamacron</string>
+      <string>Alphaprosgegrammeni</string>
+      <string>Alphatonos.allcaps</string>
+      <string>Alphapsili.allcaps</string>
+      <string>Alphadasia.allcaps</string>
+      <string>Alphapsilivaria.allcaps</string>
+      <string>Alphadasiavaria.allcaps</string>
+      <string>Alphapsilioxia.allcaps</string>
+      <string>Alphadasiaoxia.allcaps</string>
+      <string>Alphapsiliperispomeni.allcaps</string>
+      <string>Alphadasiaperispomeni.allcaps</string>
+      <string>Alphavaria.allcaps</string>
+      <string>Alphaoxia.allcaps</string>
+      <string>Alphavrachy.allcaps</string>
+      <string>Alphamacron.allcaps</string>
+      <string>Alphaprosgegrammeni.allcaps</string>
+      <string>Alphapsiliprosgegrammeni.allcaps</string>
+      <string>Alphadasiaprosgegrammeni.allcaps</string>
+      <string>Alphapsilivariaprosgegrammeni.allcaps</string>
+      <string>Alphadasiavariaprosgegrammeni.allcaps</string>
+      <string>Alphapsilioxiaprosgegrammeni.allcaps</string>
+      <string>Alphadasiaoxiaprosgegrammeni.allcaps</string>
+      <string>Alphapsiliperispomeniprosgegrammeni.allcaps</string>
+      <string>Alphadasiaperispomeniprosgegrammeni.allcaps</string>
+      <string>Alpha.adscriptbase.allcaps</string>
+      <string>Alphatonos.brevecomb.allcaps</string>
+      <string>Alphapsili.brevecomb.allcaps</string>
+      <string>Alphadasia.brevecomb.allcaps</string>
+      <string>Alphapsilivaria.brevecomb.allcaps</string>
+      <string>Alphadasiavaria.brevecomb.allcaps</string>
+      <string>Alphapsilioxia.brevecomb.allcaps</string>
+      <string>Alphadasiaoxia.brevecomb.allcaps</string>
+      <string>Alphapsiliperispomeni.brevecomb.allcaps</string>
+      <string>Alphadasiaperispomeni.brevecomb.allcaps</string>
+      <string>Alphavaria.brevecomb.allcaps</string>
+      <string>Alphaoxia.brevecomb.allcaps</string>
+      <string>Alphapsiliprosgegrammeni.brevecomb.allcaps</string>
+      <string>Alphadasiaprosgegrammeni.brevecomb.allcaps</string>
+      <string>Alphapsilivariaprosgegrammeni.brevecomb.allcaps</string>
+      <string>Alphadasiavariaprosgegrammeni.brevecomb.allcaps</string>
+      <string>Alphapsilioxiaprosgegrammeni.brevecomb.allcaps</string>
+      <string>Alphadasiaoxiaprosgegrammeni.brevecomb.allcaps</string>
+      <string>Alphapsiliperispomeniprosgegrammeni.brevecomb.allcaps</string>
+      <string>Alphadasiaperispomeniprosgegrammeni.brevecomb.allcaps</string>
+      <string>Alphatonos.macroncomb.allcaps</string>
+      <string>Alphapsili.macroncomb.allcaps</string>
+      <string>Alphadasia.macroncomb.allcaps</string>
+      <string>Alphapsilivaria.macroncomb.allcaps</string>
+      <string>Alphadasiavaria.macroncomb.allcaps</string>
+      <string>Alphapsilioxia.macroncomb.allcaps</string>
+      <string>Alphadasiaoxia.macroncomb.allcaps</string>
+      <string>Alphapsiliperispomeni.macroncomb.allcaps</string>
+      <string>Alphadasiaperispomeni.macroncomb.allcaps</string>
+      <string>Alphavaria.macroncomb.allcaps</string>
+      <string>Alphaoxia.macroncomb.allcaps</string>
+      <string>Alphapsiliprosgegrammeni.macroncomb.allcaps</string>
+      <string>Alphadasiaprosgegrammeni.macroncomb.allcaps</string>
+      <string>Alphapsilivariaprosgegrammeni.macroncomb.allcaps</string>
+      <string>Alphadasiavariaprosgegrammeni.macroncomb.allcaps</string>
+      <string>Alphapsilioxiaprosgegrammeni.macroncomb.allcaps</string>
+      <string>Alphadasiaoxiaprosgegrammeni.macroncomb.allcaps</string>
+      <string>Alphapsiliperispomeniprosgegrammeni.macroncomb.allcaps</string>
+      <string>Alphadasiaperispomeniprosgegrammeni.macroncomb.allcaps</string>
+      <string>Alphapsiliperispomeni.lengthbreve.base</string>
+      <string>Alphadasiaperispomeni.lengthbreve.base</string>
+      <string>Alphapsiliperispomeniprosgegrammeni.lengthbreve.base</string>
+      <string>Alphadasiaperispomeniprosgegrammeni.lengthbreve.base</string>
+      <string>Alphapsiliperispomeni.lengthmacron.base</string>
+      <string>Alphadasiaperispomeni.lengthmacron.base</string>
+      <string>Alphapsiliperispomeniprosgegrammeni.lengthmacron.base</string>
+      <string>Alphadasiaperispomeniprosgegrammeni.lengthmacron.base</string>
+      <string>Alphadasiaoxiaprosgegrammeni.brevecomb.noaccent.allcaps</string>
+      <string>Alphadasiaoxiaprosgegrammeni.macroncomb.noaccent.allcaps</string>
+      <string>Alpha.perispomenicomb.polytonic.allcaps</string>
+      <string>Alpha.perispomenicomb.polytonic.brevecomb.allcaps</string>
+      <string>Alpha.perispomenicomb.polytonic.macroncomb.allcaps</string>
     </array>
     <key>public.kern2.C</key>
     <array>
@@ -1499,6 +2836,204 @@
       <string>Germandbls</string>
       <string>Lcommaaccent.loclMAH</string>
       <string>Ncommaaccent.loclMAH</string>
+      <string>Beta</string>
+      <string>Gamma</string>
+      <string>Epsilon</string>
+      <string>Eta</string>
+      <string>Iota</string>
+      <string>Kappa</string>
+      <string>Mu</string>
+      <string>Nu</string>
+      <string>Pi</string>
+      <string>Rho</string>
+      <string>Iotadieresis</string>
+      <string>Heta</string>
+      <string>Pamphyliandigamma</string>
+      <string>Digamma</string>
+      <string>KaiSymbol</string>
+      <string>Sho</string>
+      <string>San</string>
+      <string>Etaprosgegrammeni</string>
+      <string>Iotavrachy</string>
+      <string>Iotamacron</string>
+      <string>Epsilontonos.allcaps</string>
+      <string>Etatonos.allcaps</string>
+      <string>Iotatonos.allcaps</string>
+      <string>Iotadieresis.allcaps</string>
+      <string>Epsilonpsili.allcaps</string>
+      <string>Epsilondasia.allcaps</string>
+      <string>Epsilonpsilivaria.allcaps</string>
+      <string>Epsilondasiavaria.allcaps</string>
+      <string>Epsilonpsilioxia.allcaps</string>
+      <string>Epsilondasiaoxia.allcaps</string>
+      <string>Epsilonvaria.allcaps</string>
+      <string>Epsilonoxia.allcaps</string>
+      <string>Etapsili.allcaps</string>
+      <string>Etadasia.allcaps</string>
+      <string>Etapsilivaria.allcaps</string>
+      <string>Etadasiavaria.allcaps</string>
+      <string>Etapsilioxia.allcaps</string>
+      <string>Etadasiaoxia.allcaps</string>
+      <string>Etapsiliperispomeni.allcaps</string>
+      <string>Etadasiaperispomeni.allcaps</string>
+      <string>Etavaria.allcaps</string>
+      <string>Etaoxia.allcaps</string>
+      <string>Etaprosgegrammeni.allcaps</string>
+      <string>Etapsiliprosgegrammeni.allcaps</string>
+      <string>Etadasiaprosgegrammeni.allcaps</string>
+      <string>Etapsilivariaprosgegrammeni.allcaps</string>
+      <string>Etadasiavariaprosgegrammeni.allcaps</string>
+      <string>Etapsilioxiaprosgegrammeni.allcaps</string>
+      <string>Etadasiaoxiaprosgegrammeni.allcaps</string>
+      <string>Etapsiliperispomeniprosgegrammeni.allcaps</string>
+      <string>Etadasiaperispomeniprosgegrammeni.allcaps</string>
+      <string>Iotapsili.allcaps</string>
+      <string>Iotadasia.allcaps</string>
+      <string>Iotapsilivaria.allcaps</string>
+      <string>Iotadasiavaria.allcaps</string>
+      <string>Iotapsilioxia.allcaps</string>
+      <string>Iotadasiaoxia.allcaps</string>
+      <string>Iotapsiliperispomeni.allcaps</string>
+      <string>Iotadasiaperispomeni.allcaps</string>
+      <string>Iotavaria.allcaps</string>
+      <string>Iotaoxia.allcaps</string>
+      <string>Iotavrachy.allcaps</string>
+      <string>Iotamacron.allcaps</string>
+      <string>Rhodasia.allcaps</string>
+      <string>Eta.adscriptbase.allcaps</string>
+      <string>Epsilontonos.brevecomb.allcaps</string>
+      <string>Etatonos.brevecomb.allcaps</string>
+      <string>Iotatonos.brevecomb.allcaps</string>
+      <string>Epsilonpsili.brevecomb.allcaps</string>
+      <string>Epsilondasia.brevecomb.allcaps</string>
+      <string>Epsilonpsilivaria.brevecomb.allcaps</string>
+      <string>Epsilondasiavaria.brevecomb.allcaps</string>
+      <string>Epsilonpsilioxia.brevecomb.allcaps</string>
+      <string>Epsilondasiaoxia.brevecomb.allcaps</string>
+      <string>Epsilonvaria.brevecomb.allcaps</string>
+      <string>Epsilonoxia.brevecomb.allcaps</string>
+      <string>Etapsili.brevecomb.allcaps</string>
+      <string>Etadasia.brevecomb.allcaps</string>
+      <string>Etapsilivaria.brevecomb.allcaps</string>
+      <string>Etadasiavaria.brevecomb.allcaps</string>
+      <string>Etapsilioxia.brevecomb.allcaps</string>
+      <string>Etadasiaoxia.brevecomb.allcaps</string>
+      <string>Etapsiliperispomeni.brevecomb.allcaps</string>
+      <string>Etadasiaperispomeni.brevecomb.allcaps</string>
+      <string>Etavaria.brevecomb.allcaps</string>
+      <string>Etaoxia.brevecomb.allcaps</string>
+      <string>Etapsiliprosgegrammeni.brevecomb.allcaps</string>
+      <string>Etadasiaprosgegrammeni.brevecomb.allcaps</string>
+      <string>Etapsilivariaprosgegrammeni.brevecomb.allcaps</string>
+      <string>Etadasiavariaprosgegrammeni.brevecomb.allcaps</string>
+      <string>Etapsilioxiaprosgegrammeni.brevecomb.allcaps</string>
+      <string>Etadasiaoxiaprosgegrammeni.brevecomb.allcaps</string>
+      <string>Etapsiliperispomeniprosgegrammeni.brevecomb.allcaps</string>
+      <string>Etadasiaperispomeniprosgegrammeni.brevecomb.allcaps</string>
+      <string>Iotapsili.brevecomb.allcaps</string>
+      <string>Iotadasia.brevecomb.allcaps</string>
+      <string>Iotapsilivaria.brevecomb.allcaps</string>
+      <string>Iotadasiavaria.brevecomb.allcaps</string>
+      <string>Iotapsilioxia.brevecomb.allcaps</string>
+      <string>Iotadasiaoxia.brevecomb.allcaps</string>
+      <string>Iotapsiliperispomeni.brevecomb.allcaps</string>
+      <string>Iotadasiaperispomeni.brevecomb.allcaps</string>
+      <string>Iotavaria.brevecomb.allcaps</string>
+      <string>Iotaoxia.brevecomb.allcaps</string>
+      <string>Rhodasia.brevecomb.allcaps</string>
+      <string>Epsilontonos.macroncomb.allcaps</string>
+      <string>Etatonos.macroncomb.allcaps</string>
+      <string>Iotatonos.macroncomb.allcaps</string>
+      <string>Epsilonpsili.macroncomb.allcaps</string>
+      <string>Epsilondasia.macroncomb.allcaps</string>
+      <string>Epsilonpsilivaria.macroncomb.allcaps</string>
+      <string>Epsilondasiavaria.macroncomb.allcaps</string>
+      <string>Epsilonpsilioxia.macroncomb.allcaps</string>
+      <string>Epsilondasiaoxia.macroncomb.allcaps</string>
+      <string>Epsilonvaria.macroncomb.allcaps</string>
+      <string>Epsilonoxia.macroncomb.allcaps</string>
+      <string>Etapsili.macroncomb.allcaps</string>
+      <string>Etadasia.macroncomb.allcaps</string>
+      <string>Etapsilivaria.macroncomb.allcaps</string>
+      <string>Etadasiavaria.macroncomb.allcaps</string>
+      <string>Etapsilioxia.macroncomb.allcaps</string>
+      <string>Etadasiaoxia.macroncomb.allcaps</string>
+      <string>Etapsiliperispomeni.macroncomb.allcaps</string>
+      <string>Etadasiaperispomeni.macroncomb.allcaps</string>
+      <string>Etavaria.macroncomb.allcaps</string>
+      <string>Etaoxia.macroncomb.allcaps</string>
+      <string>Etapsiliprosgegrammeni.macroncomb.allcaps</string>
+      <string>Etadasiaprosgegrammeni.macroncomb.allcaps</string>
+      <string>Etapsilivariaprosgegrammeni.macroncomb.allcaps</string>
+      <string>Etadasiavariaprosgegrammeni.macroncomb.allcaps</string>
+      <string>Etapsilioxiaprosgegrammeni.macroncomb.allcaps</string>
+      <string>Etadasiaoxiaprosgegrammeni.macroncomb.allcaps</string>
+      <string>Etapsiliperispomeniprosgegrammeni.macroncomb.allcaps</string>
+      <string>Etadasiaperispomeniprosgegrammeni.macroncomb.allcaps</string>
+      <string>Iotapsili.macroncomb.allcaps</string>
+      <string>Iotadasia.macroncomb.allcaps</string>
+      <string>Iotapsilivaria.macroncomb.allcaps</string>
+      <string>Iotadasiavaria.macroncomb.allcaps</string>
+      <string>Iotapsilioxia.macroncomb.allcaps</string>
+      <string>Iotadasiaoxia.macroncomb.allcaps</string>
+      <string>Iotapsiliperispomeni.macroncomb.allcaps</string>
+      <string>Iotadasiaperispomeni.macroncomb.allcaps</string>
+      <string>Iotavaria.macroncomb.allcaps</string>
+      <string>Iotaoxia.macroncomb.allcaps</string>
+      <string>Rhodasia.macroncomb.allcaps</string>
+      <string>Etadasiaoxiaprosgegrammeni.brevecomb.noaccent.allcaps</string>
+      <string>Etadasiaoxiaprosgegrammeni.macroncomb.noaccent.allcaps</string>
+      <string>Rho.acutecomb.polytonic.allcaps</string>
+      <string>Rho.commaabovecomb.polytonic.allcaps</string>
+      <string>Rho.gravecomb.polytonic.allcaps</string>
+      <string>Epsilon.perispomenicomb.polytonic.allcaps</string>
+      <string>Eta.perispomenicomb.polytonic.allcaps</string>
+      <string>Iota.perispomenicomb.polytonic.allcaps</string>
+      <string>Rho.perispomenicomb.polytonic.allcaps</string>
+      <string>Rho.commaabovecomb_acutecomb.polytonic.allcaps</string>
+      <string>Rho.commaabovecomb_gravecomb.polytonic.allcaps</string>
+      <string>Epsilon.commaabovecomb_perispomenicomb.polytonic.allcaps</string>
+      <string>Rho.commaabovecomb_perispomenicomb.polytonic.allcaps</string>
+      <string>Rho.commareversedabovecomb_acutecomb.polytonic.allcaps</string>
+      <string>Rho.commareversedabovecomb_gravecomb.polytonic.allcaps</string>
+      <string>Epsilon.commareversedabovecomb_perispomenicomb.polytonic.allcaps</string>
+      <string>Rho.commareversedabovecomb_perispomenicomb.polytonic.allcaps</string>
+      <string>Rho.acutecomb.polytonic.brevecomb.allcaps</string>
+      <string>Rho.commaabovecomb.polytonic.brevecomb.allcaps</string>
+      <string>Rho.gravecomb.polytonic.brevecomb.allcaps</string>
+      <string>Epsilon.perispomenicomb.polytonic.brevecomb.allcaps</string>
+      <string>Eta.perispomenicomb.polytonic.brevecomb.allcaps</string>
+      <string>Iota.perispomenicomb.polytonic.brevecomb.allcaps</string>
+      <string>Rho.perispomenicomb.polytonic.brevecomb.allcaps</string>
+      <string>Rho.acutecomb.polytonic.macroncomb.allcaps</string>
+      <string>Rho.commaabovecomb.polytonic.macroncomb.allcaps</string>
+      <string>Rho.gravecomb.polytonic.macroncomb.allcaps</string>
+      <string>Epsilon.perispomenicomb.polytonic.macroncomb.allcaps</string>
+      <string>Eta.perispomenicomb.polytonic.macroncomb.allcaps</string>
+      <string>Iota.perispomenicomb.polytonic.macroncomb.allcaps</string>
+      <string>Rho.perispomenicomb.polytonic.macroncomb.allcaps</string>
+      <string>Rho.commaabovecomb_acutecomb.polytonic.brevecomb.allcaps</string>
+      <string>Rho.commaabovecomb_acutecomb.polytonic.macroncomb.allcaps</string>
+      <string>Rho.commaabovecomb_gravecomb.polytonic.brevecomb.allcaps</string>
+      <string>Rho.commaabovecomb_gravecomb.polytonic.macroncomb.allcaps</string>
+      <string>Epsilon.commaabovecomb_perispomenicomb.polytonic.brevecomb.allcaps</string>
+      <string>Rho.commaabovecomb_perispomenicomb.polytonic.brevecomb.allcaps</string>
+      <string>Epsilon.commaabovecomb_perispomenicomb.polytonic.macroncomb.allcaps</string>
+      <string>Rho.commaabovecomb_perispomenicomb.polytonic.macroncomb.allcaps</string>
+      <string>Rho.commareversedabovecomb_acutecomb.polytonic.brevecomb.allcaps</string>
+      <string>Rho.commareversedabovecomb_acutecomb.polytonic.macroncomb.allcaps</string>
+      <string>Rho.commareversedabovecomb_gravecomb.polytonic.brevecomb.allcaps</string>
+      <string>Rho.commareversedabovecomb_gravecomb.polytonic.macroncomb.allcaps</string>
+      <string>Epsilon.commareversedabovecomb_perispomenicomb.polytonic.brevecomb.allcaps</string>
+      <string>Rho.commareversedabovecomb_perispomenicomb.polytonic.brevecomb.allcaps</string>
+      <string>Epsilon.commareversedabovecomb_perispomenicomb.polytonic.macroncomb.allcaps</string>
+      <string>Rho.commareversedabovecomb_perispomenicomb.polytonic.macroncomb.allcaps</string>
+      <string>Rho.acutecomb.polytonic.brevecomb.noaccent.allcaps</string>
+      <string>Eta.perispomenicomb.polytonic.brevecomb.noaccent.allcaps</string>
+      <string>Rho.acutecomb.polytonic.macroncomb.noaccent.allcaps</string>
+      <string>Eta.perispomenicomb.polytonic.macroncomb.noaccent.allcaps</string>
+      <string>Epsilon.commaabovecomb_perispomenicomb.polytonic.brevecomb.noaccent.allcaps</string>
+      <string>Epsilon.commaabovecomb_perispomenicomb.polytonic.macroncomb.noaccent.allcaps</string>
     </array>
     <key>public.kern2.J</key>
     <array>
@@ -1549,6 +3084,47 @@
       <string>Otildedieresis</string>
       <string>Otildemacron</string>
       <string>OE</string>
+      <string>Theta</string>
+      <string>Omicron</string>
+      <string>KoppaArchaic</string>
+      <string>Omicrontonos.allcaps</string>
+      <string>Omicronpsili.allcaps</string>
+      <string>Omicrondasia.allcaps</string>
+      <string>Omicronpsilivaria.allcaps</string>
+      <string>Omicrondasiavaria.allcaps</string>
+      <string>Omicronpsilioxia.allcaps</string>
+      <string>Omicrondasiaoxia.allcaps</string>
+      <string>Omicronvaria.allcaps</string>
+      <string>Omicronoxia.allcaps</string>
+      <string>Omicrontonos.brevecomb.allcaps</string>
+      <string>Omicronpsili.brevecomb.allcaps</string>
+      <string>Omicrondasia.brevecomb.allcaps</string>
+      <string>Omicronpsilivaria.brevecomb.allcaps</string>
+      <string>Omicrondasiavaria.brevecomb.allcaps</string>
+      <string>Omicronpsilioxia.brevecomb.allcaps</string>
+      <string>Omicrondasiaoxia.brevecomb.allcaps</string>
+      <string>Omicronvaria.brevecomb.allcaps</string>
+      <string>Omicronoxia.brevecomb.allcaps</string>
+      <string>Omicrontonos.macroncomb.allcaps</string>
+      <string>Omicronpsili.macroncomb.allcaps</string>
+      <string>Omicrondasia.macroncomb.allcaps</string>
+      <string>Omicronpsilivaria.macroncomb.allcaps</string>
+      <string>Omicrondasiavaria.macroncomb.allcaps</string>
+      <string>Omicronpsilioxia.macroncomb.allcaps</string>
+      <string>Omicrondasiaoxia.macroncomb.allcaps</string>
+      <string>Omicronvaria.macroncomb.allcaps</string>
+      <string>Omicronoxia.macroncomb.allcaps</string>
+      <string>Omicron.perispomenicomb.polytonic.allcaps</string>
+      <string>Omicron.commaabovecomb_perispomenicomb.polytonic.allcaps</string>
+      <string>Omicron.commareversedabovecomb_perispomenicomb.polytonic.allcaps</string>
+      <string>Omicron.perispomenicomb.polytonic.brevecomb.allcaps</string>
+      <string>Omicron.perispomenicomb.polytonic.macroncomb.allcaps</string>
+      <string>Omicron.commaabovecomb_perispomenicomb.polytonic.brevecomb.allcaps</string>
+      <string>Omicron.commaabovecomb_perispomenicomb.polytonic.macroncomb.allcaps</string>
+      <string>Omicron.commareversedabovecomb_perispomenicomb.polytonic.brevecomb.allcaps</string>
+      <string>Omicron.commareversedabovecomb_perispomenicomb.polytonic.macroncomb.allcaps</string>
+      <string>Omicron.commaabovecomb_perispomenicomb.polytonic.brevecomb.noaccent.allcaps</string>
+      <string>Omicron.commaabovecomb_perispomenicomb.polytonic.macroncomb.noaccent.allcaps</string>
     </array>
     <key>public.kern2.Q</key>
     <array>
@@ -1580,6 +3156,8 @@
       <string>Tdotaccent</string>
       <string>Tdotbelow</string>
       <string>Tmacronbelow</string>
+      <string>Tau</string>
+      <string>Archaicsampi</string>
     </array>
     <key>public.kern2.U</key>
     <array>
@@ -1643,6 +3221,7 @@
       <string>X_circumflexcomb</string>
       <string>Xdieresis</string>
       <string>Xdotaccent</string>
+      <string>Chi</string>
     </array>
     <key>public.kern2.Y</key>
     <array>
@@ -1657,6 +3236,49 @@
       <string>Yhookabove</string>
       <string>Ymacron</string>
       <string>Ytilde</string>
+      <string>Upsilon</string>
+      <string>Upsilondieresis</string>
+      <string>Upsilonvrachy</string>
+      <string>Upsilonmacron</string>
+      <string>Upsilontonos.allcaps</string>
+      <string>Upsilondieresis.allcaps</string>
+      <string>Upsilondasia.allcaps</string>
+      <string>Upsilondasiavaria.allcaps</string>
+      <string>Upsilondasiaoxia.allcaps</string>
+      <string>Upsilondasiaperispomeni.allcaps</string>
+      <string>Upsilonvaria.allcaps</string>
+      <string>Upsilonoxia.allcaps</string>
+      <string>Upsilonvrachy.allcaps</string>
+      <string>Upsilonmacron.allcaps</string>
+      <string>Upsilontonos.brevecomb.allcaps</string>
+      <string>Upsilondasia.brevecomb.allcaps</string>
+      <string>Upsilondasiavaria.brevecomb.allcaps</string>
+      <string>Upsilondasiaoxia.brevecomb.allcaps</string>
+      <string>Upsilondasiaperispomeni.brevecomb.allcaps</string>
+      <string>Upsilonvaria.brevecomb.allcaps</string>
+      <string>Upsilonoxia.brevecomb.allcaps</string>
+      <string>Upsilontonos.macroncomb.allcaps</string>
+      <string>Upsilondasia.macroncomb.allcaps</string>
+      <string>Upsilondasiavaria.macroncomb.allcaps</string>
+      <string>Upsilondasiaoxia.macroncomb.allcaps</string>
+      <string>Upsilondasiaperispomeni.macroncomb.allcaps</string>
+      <string>Upsilonvaria.macroncomb.allcaps</string>
+      <string>Upsilonoxia.macroncomb.allcaps</string>
+      <string>Upsilon.commaabovecomb.polytonic.allcaps</string>
+      <string>Upsilon.perispomenicomb.polytonic.allcaps</string>
+      <string>Upsilon.commaabovecomb_acutecomb.polytonic.allcaps</string>
+      <string>Upsilon.commaabovecomb_gravecomb.polytonic.allcaps</string>
+      <string>Upsilon.commaabovecomb_perispomenicomb.polytonic.allcaps</string>
+      <string>Upsilon.commaabovecomb.polytonic.brevecomb.allcaps</string>
+      <string>Upsilon.perispomenicomb.polytonic.brevecomb.allcaps</string>
+      <string>Upsilon.commaabovecomb.polytonic.macroncomb.allcaps</string>
+      <string>Upsilon.perispomenicomb.polytonic.macroncomb.allcaps</string>
+      <string>Upsilon.commaabovecomb_acutecomb.polytonic.brevecomb.allcaps</string>
+      <string>Upsilon.commaabovecomb_acutecomb.polytonic.macroncomb.allcaps</string>
+      <string>Upsilon.commaabovecomb_gravecomb.polytonic.brevecomb.allcaps</string>
+      <string>Upsilon.commaabovecomb_gravecomb.polytonic.macroncomb.allcaps</string>
+      <string>Upsilon.commaabovecomb_perispomenicomb.polytonic.brevecomb.allcaps</string>
+      <string>Upsilon.commaabovecomb_perispomenicomb.polytonic.macroncomb.allcaps</string>
     </array>
     <key>public.kern2.Z</key>
     <array>
@@ -1667,6 +3289,7 @@
       <string>Zdotaccent</string>
       <string>Zdotbelow</string>
       <string>Zmacronbelow</string>
+      <string>Zeta</string>
     </array>
     <key>public.kern2.a</key>
     <array>
@@ -1747,6 +3370,87 @@
       <string>ae.sc</string>
       <string>aeacute.sc</string>
       <string>aemacron.sc</string>
+      <string>alpha.sc</string>
+      <string>delta.sc</string>
+      <string>lambda.sc</string>
+      <string>alphatonos.sc</string>
+      <string>alphapsili.sc</string>
+      <string>alphadasia.sc</string>
+      <string>alphapsilivaria.sc</string>
+      <string>alphadasiavaria.sc</string>
+      <string>alphapsilioxia.sc</string>
+      <string>alphadasiaoxia.sc</string>
+      <string>alphapsiliperispomeni.sc</string>
+      <string>alphadasiaperispomeni.sc</string>
+      <string>alphavaria.sc</string>
+      <string>alphaoxia.sc</string>
+      <string>alphaperispomeni.sc</string>
+      <string>alphavrachy.sc</string>
+      <string>alphamacron.sc</string>
+      <string>alphaypogegrammeni.sc</string>
+      <string>alphavariaypogegrammeni.sc</string>
+      <string>alphaoxiaypogegrammeni.sc</string>
+      <string>alphapsiliypogegrammeni.sc</string>
+      <string>alphadasiaypogegrammeni.sc</string>
+      <string>alphapsilivariaypogegrammeni.sc</string>
+      <string>alphadasiavariaypogegrammeni.sc</string>
+      <string>alphapsilioxiaypogegrammeni.sc</string>
+      <string>alphadasiaoxiaypogegrammeni.sc</string>
+      <string>alphapsiliperispomeniypogegrammeni.sc</string>
+      <string>alphadasiaperispomeniypogegrammeni.sc</string>
+      <string>alphaperispomeniypogegrammeni.sc</string>
+      <string>alphatonos.brevecomb.sc</string>
+      <string>alphapsili.brevecomb.sc</string>
+      <string>alphadasia.brevecomb.sc</string>
+      <string>alphapsilivaria.brevecomb.sc</string>
+      <string>alphadasiavaria.brevecomb.sc</string>
+      <string>alphapsilioxia.brevecomb.sc</string>
+      <string>alphadasiaoxia.brevecomb.sc</string>
+      <string>alphapsiliperispomeni.brevecomb.sc</string>
+      <string>alphadasiaperispomeni.brevecomb.sc</string>
+      <string>alphavaria.brevecomb.sc</string>
+      <string>alphaoxia.brevecomb.sc</string>
+      <string>alphatonos.macroncomb.sc</string>
+      <string>alphapsili.macroncomb.sc</string>
+      <string>alphadasia.macroncomb.sc</string>
+      <string>alphapsilivaria.macroncomb.sc</string>
+      <string>alphadasiavaria.macroncomb.sc</string>
+      <string>alphapsilioxia.macroncomb.sc</string>
+      <string>alphadasiaoxia.macroncomb.sc</string>
+      <string>alphapsiliperispomeni.macroncomb.sc</string>
+      <string>alphadasiaperispomeni.macroncomb.sc</string>
+      <string>alphavaria.macroncomb.sc</string>
+      <string>alphaoxia.macroncomb.sc</string>
+      <string>alpha.perispomenicomb.polytonic.sc</string>
+      <string>alpha.perispomenicomb.polytonic.brevecomb.sc</string>
+      <string>alpha.perispomenicomb.polytonic.macroncomb.sc</string>
+      <string>alphadasiaoxiaprosgegrammeni.sc</string>
+      <string>alphadasiaperispomeniprosgegrammeni.sc</string>
+      <string>alphadasiaprosgegrammeni.sc</string>
+      <string>alphadasiavariaprosgegrammeni.sc</string>
+      <string>alphaprosgegrammeni.sc</string>
+      <string>alphapsilioxiaprosgegrammeni.sc</string>
+      <string>alphapsiliperispomeniprosgegrammeni.sc</string>
+      <string>alphapsiliprosgegrammeni.sc</string>
+      <string>alphapsilivariaprosgegrammeni.sc</string>
+      <string>alphadasiaoxiaprosgegrammeni.brevecomb.sc</string>
+      <string>alphadasiaoxiaprosgegrammeni.macroncomb.sc</string>
+      <string>alphadasiaperispomeniprosgegrammeni.brevecomb.sc</string>
+      <string>alphadasiaperispomeniprosgegrammeni.macroncomb.sc</string>
+      <string>alphadasiaprosgegrammeni.brevecomb.sc</string>
+      <string>alphadasiaprosgegrammeni.macroncomb.sc</string>
+      <string>alphadasiavariaprosgegrammeni.brevecomb.sc</string>
+      <string>alphadasiavariaprosgegrammeni.macroncomb.sc</string>
+      <string>alphapsilioxiaprosgegrammeni.brevecomb.sc</string>
+      <string>alphapsilioxiaprosgegrammeni.macroncomb.sc</string>
+      <string>alphapsiliperispomeniprosgegrammeni.brevecomb.sc</string>
+      <string>alphapsiliperispomeniprosgegrammeni.macroncomb.sc</string>
+      <string>alphapsiliprosgegrammeni.brevecomb.sc</string>
+      <string>alphapsiliprosgegrammeni.macroncomb.sc</string>
+      <string>alphapsilivariaprosgegrammeni.brevecomb.sc</string>
+      <string>alphapsilivariaprosgegrammeni.macroncomb.sc</string>
+      <string>alphadasiaoxiaprosgegrammeni.brevecomb.noaccent.sc</string>
+      <string>alphadasiaoxiaprosgegrammeni.macroncomb.noaccent.sc</string>
     </array>
     <key>public.kern2.b</key>
     <array>
@@ -1763,6 +3467,7 @@
       <string>bdotbelow.sc</string>
       <string>bmacronbelow.sc</string>
       <string>bstroke.sc</string>
+      <string>beta.sc</string>
     </array>
     <key>public.kern2.c</key>
     <array>
@@ -1882,6 +3587,47 @@
       <string>etildebelow.sc</string>
       <string>f.sc</string>
       <string>fdotaccent.sc</string>
+      <string>gamma.sc</string>
+      <string>epsilon.sc</string>
+      <string>epsilontonos.sc</string>
+      <string>digamma.sc</string>
+      <string>epsilonpsili.sc</string>
+      <string>epsilondasia.sc</string>
+      <string>epsilonpsilivaria.sc</string>
+      <string>epsilondasiavaria.sc</string>
+      <string>epsilonpsilioxia.sc</string>
+      <string>epsilondasiaoxia.sc</string>
+      <string>epsilonvaria.sc</string>
+      <string>epsilonoxia.sc</string>
+      <string>epsilontonos.brevecomb.sc</string>
+      <string>epsilonpsili.brevecomb.sc</string>
+      <string>epsilondasia.brevecomb.sc</string>
+      <string>epsilonpsilivaria.brevecomb.sc</string>
+      <string>epsilondasiavaria.brevecomb.sc</string>
+      <string>epsilonpsilioxia.brevecomb.sc</string>
+      <string>epsilondasiaoxia.brevecomb.sc</string>
+      <string>epsilonvaria.brevecomb.sc</string>
+      <string>epsilonoxia.brevecomb.sc</string>
+      <string>epsilontonos.macroncomb.sc</string>
+      <string>epsilonpsili.macroncomb.sc</string>
+      <string>epsilondasia.macroncomb.sc</string>
+      <string>epsilonpsilivaria.macroncomb.sc</string>
+      <string>epsilondasiavaria.macroncomb.sc</string>
+      <string>epsilonpsilioxia.macroncomb.sc</string>
+      <string>epsilondasiaoxia.macroncomb.sc</string>
+      <string>epsilonvaria.macroncomb.sc</string>
+      <string>epsilonoxia.macroncomb.sc</string>
+      <string>epsilon.commaabovecomb_perispomenicomb.polytonic.sc</string>
+      <string>epsilon.commareversedabovecomb_perispomenicomb.polytonic.sc</string>
+      <string>epsilon.perispomenicomb.polytonic.sc</string>
+      <string>epsilon.commaabovecomb_perispomenicomb.polytonic.brevecomb.sc</string>
+      <string>epsilon.commaabovecomb_perispomenicomb.polytonic.macroncomb.sc</string>
+      <string>epsilon.commareversedabovecomb_perispomenicomb.polytonic.brevecomb.sc</string>
+      <string>epsilon.commareversedabovecomb_perispomenicomb.polytonic.macroncomb.sc</string>
+      <string>epsilon.perispomenicomb.polytonic.brevecomb.sc</string>
+      <string>epsilon.perispomenicomb.polytonic.macroncomb.sc</string>
+      <string>epsilon.commaabovecomb_perispomenicomb.polytonic.brevecomb.noaccent.sc</string>
+      <string>epsilon.commaabovecomb_perispomenicomb.polytonic.macroncomb.noaccent.sc</string>
     </array>
     <key>public.kern2.f</key>
     <array>
@@ -1938,6 +3684,833 @@
       <string>gdotaccent.sc</string>
       <string>gmacron.sc</string>
     </array>
+    <key>public.kern2.greek_Koppa</key>
+    <array>
+      <string>Koppa</string>
+    </array>
+    <key>public.kern2.greek_Omega</key>
+    <array>
+      <string>Omega</string>
+      <string>Omegaprosgegrammeni</string>
+      <string>Omegatonos.allcaps</string>
+      <string>Omegapsili.allcaps</string>
+      <string>Omegadasia.allcaps</string>
+      <string>Omegapsilivaria.allcaps</string>
+      <string>Omegadasiavaria.allcaps</string>
+      <string>Omegapsilioxia.allcaps</string>
+      <string>Omegadasiaoxia.allcaps</string>
+      <string>Omegapsiliperispomeni.allcaps</string>
+      <string>Omegadasiaperispomeni.allcaps</string>
+      <string>Omegavaria.allcaps</string>
+      <string>Omegaoxia.allcaps</string>
+      <string>Omegaprosgegrammeni.allcaps</string>
+      <string>Omegapsiliprosgegrammeni.allcaps</string>
+      <string>Omegadasiaprosgegrammeni.allcaps</string>
+      <string>Omegapsilivariaprosgegrammeni.allcaps</string>
+      <string>Omegadasiavariaprosgegrammeni.allcaps</string>
+      <string>Omegapsilioxiaprosgegrammeni.allcaps</string>
+      <string>Omegadasiaoxiaprosgegrammeni.allcaps</string>
+      <string>Omegapsiliperispomeniprosgegrammeni.allcaps</string>
+      <string>Omegadasiaperispomeniprosgegrammeni.allcaps</string>
+      <string>Omega.adscriptbase.allcaps</string>
+      <string>Omegatonos.brevecomb.allcaps</string>
+      <string>Omegapsili.brevecomb.allcaps</string>
+      <string>Omegadasia.brevecomb.allcaps</string>
+      <string>Omegapsilivaria.brevecomb.allcaps</string>
+      <string>Omegadasiavaria.brevecomb.allcaps</string>
+      <string>Omegapsilioxia.brevecomb.allcaps</string>
+      <string>Omegadasiaoxia.brevecomb.allcaps</string>
+      <string>Omegapsiliperispomeni.brevecomb.allcaps</string>
+      <string>Omegadasiaperispomeni.brevecomb.allcaps</string>
+      <string>Omegavaria.brevecomb.allcaps</string>
+      <string>Omegaoxia.brevecomb.allcaps</string>
+      <string>Omegapsiliprosgegrammeni.brevecomb.allcaps</string>
+      <string>Omegadasiaprosgegrammeni.brevecomb.allcaps</string>
+      <string>Omegapsilivariaprosgegrammeni.brevecomb.allcaps</string>
+      <string>Omegadasiavariaprosgegrammeni.brevecomb.allcaps</string>
+      <string>Omegapsilioxiaprosgegrammeni.brevecomb.allcaps</string>
+      <string>Omegadasiaoxiaprosgegrammeni.brevecomb.allcaps</string>
+      <string>Omegapsiliperispomeniprosgegrammeni.brevecomb.allcaps</string>
+      <string>Omegadasiaperispomeniprosgegrammeni.brevecomb.allcaps</string>
+      <string>Omegatonos.macroncomb.allcaps</string>
+      <string>Omegapsili.macroncomb.allcaps</string>
+      <string>Omegadasia.macroncomb.allcaps</string>
+      <string>Omegapsilivaria.macroncomb.allcaps</string>
+      <string>Omegadasiavaria.macroncomb.allcaps</string>
+      <string>Omegapsilioxia.macroncomb.allcaps</string>
+      <string>Omegadasiaoxia.macroncomb.allcaps</string>
+      <string>Omegapsiliperispomeni.macroncomb.allcaps</string>
+      <string>Omegadasiaperispomeni.macroncomb.allcaps</string>
+      <string>Omegavaria.macroncomb.allcaps</string>
+      <string>Omegaoxia.macroncomb.allcaps</string>
+      <string>Omegapsiliprosgegrammeni.macroncomb.allcaps</string>
+      <string>Omegadasiaprosgegrammeni.macroncomb.allcaps</string>
+      <string>Omegapsilivariaprosgegrammeni.macroncomb.allcaps</string>
+      <string>Omegadasiavariaprosgegrammeni.macroncomb.allcaps</string>
+      <string>Omegapsilioxiaprosgegrammeni.macroncomb.allcaps</string>
+      <string>Omegadasiaoxiaprosgegrammeni.macroncomb.allcaps</string>
+      <string>Omegapsiliperispomeniprosgegrammeni.macroncomb.allcaps</string>
+      <string>Omegadasiaperispomeniprosgegrammeni.macroncomb.allcaps</string>
+      <string>Omegadasiaoxiaprosgegrammeni.brevecomb.noaccent.allcaps</string>
+      <string>Omegadasiaoxiaprosgegrammeni.macroncomb.noaccent.allcaps</string>
+      <string>Omega.perispomenicomb.polytonic.allcaps</string>
+      <string>Omega.perispomenicomb.polytonic.brevecomb.allcaps</string>
+      <string>Omega.perispomenicomb.polytonic.macroncomb.allcaps</string>
+      <string>Omega.perispomenicomb.polytonic.brevecomb.noaccent.allcaps</string>
+      <string>Omega.perispomenicomb.polytonic.macroncomb.noaccent.allcaps</string>
+    </array>
+    <key>public.kern2.greek_Phi</key>
+    <array>
+      <string>Phi</string>
+    </array>
+    <key>public.kern2.greek_Psi</key>
+    <array>
+      <string>Psi</string>
+    </array>
+    <key>public.kern2.greek_Sampi</key>
+    <array>
+      <string>Sampi</string>
+    </array>
+    <key>public.kern2.greek_Sigma</key>
+    <array>
+      <string>Sigma</string>
+    </array>
+    <key>public.kern2.greek_Stigma</key>
+    <array>
+      <string>Stigma</string>
+    </array>
+    <key>public.kern2.greek_Xi</key>
+    <array>
+      <string>Xi</string>
+    </array>
+    <key>public.kern2.greek_alpha</key>
+    <array>
+      <string>alpha</string>
+      <string>alphatonos</string>
+      <string>alphapsili</string>
+      <string>alphadasia</string>
+      <string>alphapsilivaria</string>
+      <string>alphadasiavaria</string>
+      <string>alphapsilioxia</string>
+      <string>alphadasiaoxia</string>
+      <string>alphapsiliperispomeni</string>
+      <string>alphadasiaperispomeni</string>
+      <string>alphavaria</string>
+      <string>alphaoxia</string>
+      <string>alphaperispomeni</string>
+      <string>alphavrachy</string>
+      <string>alphamacron</string>
+      <string>alphaypogegrammeni</string>
+      <string>alphavariaypogegrammeni</string>
+      <string>alphaoxiaypogegrammeni</string>
+      <string>alphapsiliypogegrammeni</string>
+      <string>alphadasiaypogegrammeni</string>
+      <string>alphapsilivariaypogegrammeni</string>
+      <string>alphadasiavariaypogegrammeni</string>
+      <string>alphapsilioxiaypogegrammeni</string>
+      <string>alphadasiaoxiaypogegrammeni</string>
+      <string>alphapsiliperispomeniypogegrammeni</string>
+      <string>alphadasiaperispomeniypogegrammeni</string>
+      <string>alphaperispomeniypogegrammeni</string>
+    </array>
+    <key>public.kern2.greek_anoteleia</key>
+    <array>
+      <string>anoteleia</string>
+    </array>
+    <key>public.kern2.greek_anoteleia.allcaps</key>
+    <array>
+      <string>anoteleia.allcaps</string>
+    </array>
+    <key>public.kern2.greek_anoteleia.sc</key>
+    <array>
+      <string>anoteleia.sc</string>
+    </array>
+    <key>public.kern2.greek_archaicsampi</key>
+    <array>
+      <string>archaicsampi</string>
+    </array>
+    <key>public.kern2.greek_chi</key>
+    <array>
+      <string>chi</string>
+    </array>
+    <key>public.kern2.greek_delta</key>
+    <array>
+      <string>delta</string>
+    </array>
+    <key>public.kern2.greek_digamma</key>
+    <array>
+      <string>digamma</string>
+    </array>
+    <key>public.kern2.greek_epsilon</key>
+    <array>
+      <string>epsilon</string>
+      <string>epsilontonos</string>
+      <string>epsilonpsili</string>
+      <string>epsilondasia</string>
+      <string>epsilonpsilivaria</string>
+      <string>epsilondasiavaria</string>
+      <string>epsilonpsilioxia</string>
+      <string>epsilondasiaoxia</string>
+      <string>epsilonvaria</string>
+      <string>epsilonoxia</string>
+    </array>
+    <key>public.kern2.greek_gamma</key>
+    <array>
+      <string>gamma</string>
+    </array>
+    <key>public.kern2.greek_heta</key>
+    <array>
+      <string>heta</string>
+    </array>
+    <key>public.kern2.greek_iota</key>
+    <array>
+      <string>iota</string>
+      <string>iotatonos</string>
+      <string>iotadieresis</string>
+      <string>iotadieresistonos</string>
+      <string>iotapsili</string>
+      <string>iotadasia</string>
+      <string>iotapsilivaria</string>
+      <string>iotadasiavaria</string>
+      <string>iotapsilioxia</string>
+      <string>iotadasiaoxia</string>
+      <string>iotapsiliperispomeni</string>
+      <string>iotadasiaperispomeni</string>
+      <string>iotavaria</string>
+      <string>iotaoxia</string>
+      <string>iotaperispomeni</string>
+      <string>iotavrachy</string>
+      <string>iotamacron</string>
+      <string>iotadialytikavaria</string>
+      <string>iotadialytikaoxia</string>
+      <string>iotadialytikaperispomeni</string>
+      <string>prosgegrammeni</string>
+    </array>
+    <key>public.kern2.greek_kappa</key>
+    <array>
+      <string>kappa</string>
+      <string>kaiSymbol</string>
+    </array>
+    <key>public.kern2.greek_koppa</key>
+    <array>
+      <string>koppa</string>
+    </array>
+    <key>public.kern2.greek_koppa.sc</key>
+    <array>
+      <string>koppa.sc</string>
+    </array>
+    <key>public.kern2.greek_lambda</key>
+    <array>
+      <string>lambda</string>
+    </array>
+    <key>public.kern2.greek_lowernumeral</key>
+    <array>
+      <string>lowernumeral-greek</string>
+    </array>
+    <key>public.kern2.greek_nu</key>
+    <array>
+      <string>nu</string>
+    </array>
+    <key>public.kern2.greek_numeral</key>
+    <array>
+      <string>numeral-greek</string>
+      <string>primemod</string>
+    </array>
+    <key>public.kern2.greek_omega</key>
+    <array>
+      <string>omega</string>
+      <string>omegatonos</string>
+      <string>omegapsili</string>
+      <string>omegadasia</string>
+      <string>omegapsilivaria</string>
+      <string>omegadasiavaria</string>
+      <string>omegapsilioxia</string>
+      <string>omegadasiaoxia</string>
+      <string>omegapsiliperispomeni</string>
+      <string>omegadasiaperispomeni</string>
+      <string>omegavaria</string>
+      <string>omegaoxia</string>
+      <string>omegaperispomeni</string>
+      <string>omegaypogegrammeni</string>
+      <string>omegavariaypogegrammeni</string>
+      <string>omegaoxiaypogegrammeni</string>
+      <string>omegapsiliypogegrammeni</string>
+      <string>omegadasiaypogegrammeni</string>
+      <string>omegapsilivariaypogegrammeni</string>
+      <string>omegadasiavariaypogegrammeni</string>
+      <string>omegapsilioxiaypogegrammeni</string>
+      <string>omegadasiaoxiaypogegrammeni</string>
+      <string>omegapsiliperispomeniypogegrammeni</string>
+      <string>omegadasiaperispomeniypogegrammeni</string>
+      <string>omegaperispomeniypogegrammeni</string>
+    </array>
+    <key>public.kern2.greek_omega.sc</key>
+    <array>
+      <string>omega.sc</string>
+      <string>omegatonos.sc</string>
+      <string>omegapsili.sc</string>
+      <string>omegadasia.sc</string>
+      <string>omegapsilivaria.sc</string>
+      <string>omegadasiavaria.sc</string>
+      <string>omegapsilioxia.sc</string>
+      <string>omegadasiaoxia.sc</string>
+      <string>omegapsiliperispomeni.sc</string>
+      <string>omegadasiaperispomeni.sc</string>
+      <string>omegavaria.sc</string>
+      <string>omegaoxia.sc</string>
+      <string>omegaperispomeni.sc</string>
+      <string>omegaypogegrammeni.sc</string>
+      <string>omegavariaypogegrammeni.sc</string>
+      <string>omegaoxiaypogegrammeni.sc</string>
+      <string>omegapsiliypogegrammeni.sc</string>
+      <string>omegadasiaypogegrammeni.sc</string>
+      <string>omegapsilivariaypogegrammeni.sc</string>
+      <string>omegadasiavariaypogegrammeni.sc</string>
+      <string>omegapsilioxiaypogegrammeni.sc</string>
+      <string>omegadasiaoxiaypogegrammeni.sc</string>
+      <string>omegapsiliperispomeniypogegrammeni.sc</string>
+      <string>omegadasiaperispomeniypogegrammeni.sc</string>
+      <string>omegaperispomeniypogegrammeni.sc</string>
+      <string>omegatonos.brevecomb.sc</string>
+      <string>omegapsili.brevecomb.sc</string>
+      <string>omegadasia.brevecomb.sc</string>
+      <string>omegapsilivaria.brevecomb.sc</string>
+      <string>omegadasiavaria.brevecomb.sc</string>
+      <string>omegapsilioxia.brevecomb.sc</string>
+      <string>omegadasiaoxia.brevecomb.sc</string>
+      <string>omegapsiliperispomeni.brevecomb.sc</string>
+      <string>omegadasiaperispomeni.brevecomb.sc</string>
+      <string>omegavaria.brevecomb.sc</string>
+      <string>omegaoxia.brevecomb.sc</string>
+      <string>omegatonos.macroncomb.sc</string>
+      <string>omegapsili.macroncomb.sc</string>
+      <string>omegadasia.macroncomb.sc</string>
+      <string>omegapsilivaria.macroncomb.sc</string>
+      <string>omegadasiavaria.macroncomb.sc</string>
+      <string>omegapsilioxia.macroncomb.sc</string>
+      <string>omegadasiaoxia.macroncomb.sc</string>
+      <string>omegapsiliperispomeni.macroncomb.sc</string>
+      <string>omegadasiaperispomeni.macroncomb.sc</string>
+      <string>omegavaria.macroncomb.sc</string>
+      <string>omegaoxia.macroncomb.sc</string>
+      <string>omega.perispomenicomb.polytonic.sc</string>
+      <string>omega.perispomenicomb.polytonic.brevecomb.sc</string>
+      <string>omega.perispomenicomb.polytonic.macroncomb.sc</string>
+      <string>omega.perispomenicomb.polytonic.brevecomb.noaccent.sc</string>
+      <string>omega.perispomenicomb.polytonic.macroncomb.noaccent.sc</string>
+      <string>omegadasiaoxiaprosgegrammeni.sc</string>
+      <string>omegadasiaperispomeniprosgegrammeni.sc</string>
+      <string>omegadasiaprosgegrammeni.sc</string>
+      <string>omegadasiavariaprosgegrammeni.sc</string>
+      <string>omegaprosgegrammeni.sc</string>
+      <string>omegapsilioxiaprosgegrammeni.sc</string>
+      <string>omegapsiliperispomeniprosgegrammeni.sc</string>
+      <string>omegapsiliprosgegrammeni.sc</string>
+      <string>omegapsilivariaprosgegrammeni.sc</string>
+      <string>omegadasiaoxiaprosgegrammeni.brevecomb.sc</string>
+      <string>omegadasiaoxiaprosgegrammeni.macroncomb.sc</string>
+      <string>omegadasiaperispomeniprosgegrammeni.brevecomb.sc</string>
+      <string>omegadasiaperispomeniprosgegrammeni.macroncomb.sc</string>
+      <string>omegadasiaprosgegrammeni.brevecomb.sc</string>
+      <string>omegadasiaprosgegrammeni.macroncomb.sc</string>
+      <string>omegadasiavariaprosgegrammeni.brevecomb.sc</string>
+      <string>omegadasiavariaprosgegrammeni.macroncomb.sc</string>
+      <string>omegapsilioxiaprosgegrammeni.brevecomb.sc</string>
+      <string>omegapsilioxiaprosgegrammeni.macroncomb.sc</string>
+      <string>omegapsiliperispomeniprosgegrammeni.brevecomb.sc</string>
+      <string>omegapsiliperispomeniprosgegrammeni.macroncomb.sc</string>
+      <string>omegapsiliprosgegrammeni.brevecomb.sc</string>
+      <string>omegapsiliprosgegrammeni.macroncomb.sc</string>
+      <string>omegapsilivariaprosgegrammeni.brevecomb.sc</string>
+      <string>omegapsilivariaprosgegrammeni.macroncomb.sc</string>
+      <string>omegadasiaoxiaprosgegrammeni.brevecomb.noaccent.sc</string>
+      <string>omegadasiaoxiaprosgegrammeni.macroncomb.noaccent.sc</string>
+    </array>
+    <key>public.kern2.greek_pamphyliandigamma</key>
+    <array>
+      <string>pamphyliandigamma</string>
+    </array>
+    <key>public.kern2.greek_phi</key>
+    <array>
+      <string>phi</string>
+    </array>
+    <key>public.kern2.greek_phi.sc</key>
+    <array>
+      <string>phi.sc</string>
+    </array>
+    <key>public.kern2.greek_pi</key>
+    <array>
+      <string>pi</string>
+    </array>
+    <key>public.kern2.greek_preposed_07bc341852</key>
+    <array>
+      <string>Alphadasiaoxiaprosgegrammeni</string>
+    </array>
+    <key>public.kern2.greek_preposed_09c59f49cb</key>
+    <array>
+      <string>Alphapsiliperispomeniprosgegrammeni</string>
+    </array>
+    <key>public.kern2.greek_preposed_0b20731b24</key>
+    <array>
+      <string>Omegadasiaperispomeni</string>
+    </array>
+    <key>public.kern2.greek_preposed_100207c830</key>
+    <array>
+      <string>Omicron.perispomenicomb.polytonic</string>
+    </array>
+    <key>public.kern2.greek_preposed_1334642099</key>
+    <array>
+      <string>Upsilon.commaabovecomb_gravecomb.polytonic</string>
+    </array>
+    <key>public.kern2.greek_preposed_1484e82a24</key>
+    <array>
+      <string>Omegapsili</string>
+    </array>
+    <key>public.kern2.greek_preposed_1940c13e75</key>
+    <array>
+      <string>Alphadasiaperispomeni.lengthmacron</string>
+    </array>
+    <key>public.kern2.greek_preposed_19afc38e22</key>
+    <array>
+      <string>Upsilonvaria</string>
+    </array>
+    <key>public.kern2.greek_preposed_1a1540c594</key>
+    <array>
+      <string>Etadasiavariaprosgegrammeni</string>
+    </array>
+    <key>public.kern2.greek_preposed_1a8d529954</key>
+    <array>
+      <string>Alphadasiavaria</string>
+    </array>
+    <key>public.kern2.greek_preposed_20e6493151</key>
+    <array>
+      <string>Omicrontonos</string>
+      <string>Omicronoxia</string>
+    </array>
+    <key>public.kern2.greek_preposed_252ae46c11</key>
+    <array>
+      <string>Epsilonpsili</string>
+      <string>Etapsili</string>
+      <string>Iotapsili</string>
+      <string>Rho.commaabovecomb.polytonic</string>
+    </array>
+    <key>public.kern2.greek_preposed_2b162b83c8</key>
+    <array>
+      <string>Omegapsiliperispomeniprosgegrammeni</string>
+    </array>
+    <key>public.kern2.greek_preposed_322721232e</key>
+    <array>
+      <string>Omicronvaria</string>
+    </array>
+    <key>public.kern2.greek_preposed_333636f135</key>
+    <array>
+      <string>Epsilontonos</string>
+      <string>Etatonos</string>
+      <string>Iotatonos</string>
+      <string>Epsilonoxia</string>
+      <string>Etaoxia</string>
+      <string>Iotaoxia</string>
+      <string>Rho.acutecomb.polytonic</string>
+    </array>
+    <key>public.kern2.greek_preposed_34c20a6b7d</key>
+    <array>
+      <string>Alphapsilivaria</string>
+    </array>
+    <key>public.kern2.greek_preposed_34f870d56d</key>
+    <array>
+      <string>Alphadasiaperispomeni.lengthbreve</string>
+    </array>
+    <key>public.kern2.greek_preposed_36302f65d9</key>
+    <array>
+      <string>Omegadasia</string>
+    </array>
+    <key>public.kern2.greek_preposed_467fdfe38a</key>
+    <array>
+      <string>Etadasiaprosgegrammeni</string>
+    </array>
+    <key>public.kern2.greek_preposed_489a7943b7</key>
+    <array>
+      <string>Omegadasiaoxiaprosgegrammeni</string>
+    </array>
+    <key>public.kern2.greek_preposed_495cd106e8</key>
+    <array>
+      <string>Omicrondasiavaria</string>
+    </array>
+    <key>public.kern2.greek_preposed_4e895bf176</key>
+    <array>
+      <string>Omicronpsilioxia</string>
+    </array>
+    <key>public.kern2.greek_preposed_583924edbe</key>
+    <array>
+      <string>Alphadasiaoxia</string>
+    </array>
+    <key>public.kern2.greek_preposed_5ba144e7e0</key>
+    <array>
+      <string>Upsilondasiavaria</string>
+    </array>
+    <key>public.kern2.greek_preposed_5c43f70a87</key>
+    <array>
+      <string>Etapsilioxiaprosgegrammeni</string>
+    </array>
+    <key>public.kern2.greek_preposed_5d3404333d</key>
+    <array>
+      <string>Alpha.perispomenicomb.polytonic</string>
+    </array>
+    <key>public.kern2.greek_preposed_5de702a55d</key>
+    <array>
+      <string>Epsilondasiavaria</string>
+      <string>Etadasiavaria</string>
+      <string>Iotadasiavaria</string>
+      <string>Rho.commareversedabovecomb_gravecomb.polytonic</string>
+    </array>
+    <key>public.kern2.greek_preposed_610fe4ff7a</key>
+    <array>
+      <string>Alphapsilioxia</string>
+    </array>
+    <key>public.kern2.greek_preposed_6568ad66df</key>
+    <array>
+      <string>Upsilon.commaabovecomb_acutecomb.polytonic</string>
+    </array>
+    <key>public.kern2.greek_preposed_6a73fd7c0d</key>
+    <array>
+      <string>Upsilondasiaoxia</string>
+    </array>
+    <key>public.kern2.greek_preposed_7023c9cee5</key>
+    <array>
+      <string>Alphapsiliprosgegrammeni</string>
+    </array>
+    <key>public.kern2.greek_preposed_73dc26fc71</key>
+    <array>
+      <string>Omegapsilivariaprosgegrammeni</string>
+    </array>
+    <key>public.kern2.greek_preposed_74d1f1e304</key>
+    <array>
+      <string>Epsilon.perispomenicomb.polytonic</string>
+      <string>Eta.perispomenicomb.polytonic</string>
+      <string>Iota.perispomenicomb.polytonic</string>
+      <string>Rho.perispomenicomb.polytonic</string>
+    </array>
+    <key>public.kern2.greek_preposed_74f085f42b</key>
+    <array>
+      <string>Alphapsili</string>
+    </array>
+    <key>public.kern2.greek_preposed_75a94000e0</key>
+    <array>
+      <string>Alphapsiliperispomeni</string>
+    </array>
+    <key>public.kern2.greek_preposed_75fd9c5ff0</key>
+    <array>
+      <string>Alphadasiaperispomeniprosgegrammeni.lengthmacron</string>
+    </array>
+    <key>public.kern2.greek_preposed_785e82cd4f</key>
+    <array>
+      <string>Alphavaria</string>
+    </array>
+    <key>public.kern2.greek_preposed_7c00cf5d25</key>
+    <array>
+      <string>Upsilontonos</string>
+      <string>Upsilonoxia</string>
+    </array>
+    <key>public.kern2.greek_preposed_7f2a2ce2b5</key>
+    <array>
+      <string>Alphadasiaprosgegrammeni</string>
+    </array>
+    <key>public.kern2.greek_preposed_81a99cbe34</key>
+    <array>
+      <string>Alphatonos</string>
+      <string>Alphaoxia</string>
+    </array>
+    <key>public.kern2.greek_preposed_87db47e9b0</key>
+    <array>
+      <string>Epsilonvaria</string>
+      <string>Etavaria</string>
+      <string>Iotavaria</string>
+      <string>Rho.gravecomb.polytonic</string>
+    </array>
+    <key>public.kern2.greek_preposed_8d4a31c382</key>
+    <array>
+      <string>Epsilondasiaoxia</string>
+      <string>Etadasiaoxia</string>
+      <string>Iotadasiaoxia</string>
+      <string>Rho.commareversedabovecomb_acutecomb.polytonic</string>
+    </array>
+    <key>public.kern2.greek_preposed_8d4d3cb69f</key>
+    <array>
+      <string>Omicrondasiaoxia</string>
+    </array>
+    <key>public.kern2.greek_preposed_8e3e117e44</key>
+    <array>
+      <string>Omegadasiaperispomeniprosgegrammeni</string>
+    </array>
+    <key>public.kern2.greek_preposed_932cb61806</key>
+    <array>
+      <string>Omegapsiliprosgegrammeni</string>
+    </array>
+    <key>public.kern2.greek_preposed_953688c088</key>
+    <array>
+      <string>Epsilondasia</string>
+      <string>Etadasia</string>
+      <string>Iotadasia</string>
+      <string>Rhodasia</string>
+    </array>
+    <key>public.kern2.greek_preposed_9c3e921ce0</key>
+    <array>
+      <string>Upsilondasia</string>
+    </array>
+    <key>public.kern2.greek_preposed_9d2dc33b4e</key>
+    <array>
+      <string>Alphadasiaperispomeniprosgegrammeni</string>
+    </array>
+    <key>public.kern2.greek_preposed_9f90f791eb</key>
+    <array>
+      <string>Etadasiaoxiaprosgegrammeni</string>
+    </array>
+    <key>public.kern2.greek_preposed_a29041a3f5</key>
+    <array>
+      <string>Omicronpsilivaria</string>
+    </array>
+    <key>public.kern2.greek_preposed_aa447c3ef1</key>
+    <array>
+      <string>Omegadasiavariaprosgegrammeni</string>
+    </array>
+    <key>public.kern2.greek_preposed_abc3b00b60</key>
+    <array>
+      <string>Etapsiliperispomeni</string>
+      <string>Iotapsiliperispomeni</string>
+      <string>Epsilon.commaabovecomb_perispomenicomb.polytonic</string>
+      <string>Rho.commaabovecomb_perispomenicomb.polytonic</string>
+    </array>
+    <key>public.kern2.greek_preposed_abf455e5dc</key>
+    <array>
+      <string>Epsilonpsilivaria</string>
+      <string>Etapsilivaria</string>
+      <string>Iotapsilivaria</string>
+      <string>Rho.commaabovecomb_gravecomb.polytonic</string>
+    </array>
+    <key>public.kern2.greek_preposed_acd8c5ef11</key>
+    <array>
+      <string>Alphadasiavariaprosgegrammeni</string>
+    </array>
+    <key>public.kern2.greek_preposed_aef67d2d1d</key>
+    <array>
+      <string>Etapsiliperispomeniprosgegrammeni</string>
+    </array>
+    <key>public.kern2.greek_preposed_b3eae0abf3</key>
+    <array>
+      <string>Omicron.commareversedabovecomb_perispomenicomb.polytonic</string>
+    </array>
+    <key>public.kern2.greek_preposed_bd07583987</key>
+    <array>
+      <string>Omicronpsili</string>
+    </array>
+    <key>public.kern2.greek_preposed_bd5f3b1b86</key>
+    <array>
+      <string>Omegapsilioxia</string>
+    </array>
+    <key>public.kern2.greek_preposed_bdbeb954a5</key>
+    <array>
+      <string>Alphadasiaperispomeniprosgegrammeni.lengthbreve</string>
+    </array>
+    <key>public.kern2.greek_preposed_bf54ee0690</key>
+    <array>
+      <string>Omegapsiliperispomeni</string>
+    </array>
+    <key>public.kern2.greek_preposed_c07bc1e07b</key>
+    <array>
+      <string>Alphapsiliperispomeni.lengthmacron</string>
+    </array>
+    <key>public.kern2.greek_preposed_c0a2a57d15</key>
+    <array>
+      <string>Upsilon.perispomenicomb.polytonic</string>
+    </array>
+    <key>public.kern2.greek_preposed_c35147189d</key>
+    <array>
+      <string>Omega.perispomenicomb.polytonic</string>
+    </array>
+    <key>public.kern2.greek_preposed_c3d4900ce1</key>
+    <array>
+      <string>Omicrondasia</string>
+    </array>
+    <key>public.kern2.greek_preposed_c5487a87b4</key>
+    <array>
+      <string>Alphapsilioxiaprosgegrammeni</string>
+    </array>
+    <key>public.kern2.greek_preposed_c68e67763d</key>
+    <array>
+      <string>Omegavaria</string>
+    </array>
+    <key>public.kern2.greek_preposed_cb5a652144</key>
+    <array>
+      <string>Alphadasiaperispomeni</string>
+    </array>
+    <key>public.kern2.greek_preposed_ce0fd78c15</key>
+    <array>
+      <string>Omegapsilivaria</string>
+    </array>
+    <key>public.kern2.greek_preposed_d365c27448</key>
+    <array>
+      <string>Etadasiaperispomeni</string>
+      <string>Iotadasiaperispomeni</string>
+      <string>Epsilon.commareversedabovecomb_perispomenicomb.polytonic</string>
+      <string>Rho.commareversedabovecomb_perispomenicomb.polytonic</string>
+    </array>
+    <key>public.kern2.greek_preposed_d9044fdacc</key>
+    <array>
+      <string>Omegadasiavaria</string>
+    </array>
+    <key>public.kern2.greek_preposed_de184e7b05</key>
+    <array>
+      <string>Omegadasiaprosgegrammeni</string>
+    </array>
+    <key>public.kern2.greek_preposed_e16fae4631</key>
+    <array>
+      <string>Alphapsilivariaprosgegrammeni</string>
+    </array>
+    <key>public.kern2.greek_preposed_e1de69b524</key>
+    <array>
+      <string>Etapsilivariaprosgegrammeni</string>
+    </array>
+    <key>public.kern2.greek_preposed_e2afcc16b7</key>
+    <array>
+      <string>Upsilondasiaperispomeni</string>
+    </array>
+    <key>public.kern2.greek_preposed_e4cce91d5e</key>
+    <array>
+      <string>Epsilonpsilioxia</string>
+      <string>Etapsilioxia</string>
+      <string>Iotapsilioxia</string>
+      <string>Rho.commaabovecomb_acutecomb.polytonic</string>
+    </array>
+    <key>public.kern2.greek_preposed_e554da917a</key>
+    <array>
+      <string>Omicron.commaabovecomb_perispomenicomb.polytonic</string>
+    </array>
+    <key>public.kern2.greek_preposed_e79ad1032c</key>
+    <array>
+      <string>Omegadasiaoxia</string>
+    </array>
+    <key>public.kern2.greek_preposed_ec778e2253</key>
+    <array>
+      <string>Omegatonos</string>
+      <string>Omegaoxia</string>
+    </array>
+    <key>public.kern2.greek_preposed_ef6a9eb945</key>
+    <array>
+      <string>Alphapsiliperispomeniprosgegrammeni.lengthmacron</string>
+    </array>
+    <key>public.kern2.greek_preposed_fa36a2545b</key>
+    <array>
+      <string>Alphapsiliperispomeni.lengthbreve</string>
+    </array>
+    <key>public.kern2.greek_preposed_fab8cdf1f5</key>
+    <array>
+      <string>Upsilon.commaabovecomb.polytonic</string>
+    </array>
+    <key>public.kern2.greek_preposed_fb8fd7dad8</key>
+    <array>
+      <string>Etadasiaperispomeniprosgegrammeni</string>
+    </array>
+    <key>public.kern2.greek_preposed_fde5d58e6f</key>
+    <array>
+      <string>Alphadasia</string>
+    </array>
+    <key>public.kern2.greek_preposed_fe0e94b803</key>
+    <array>
+      <string>Upsilon.commaabovecomb_perispomenicomb.polytonic</string>
+    </array>
+    <key>public.kern2.greek_preposed_ff07fde0ff</key>
+    <array>
+      <string>Omegapsilioxiaprosgegrammeni</string>
+    </array>
+    <key>public.kern2.greek_preposed_ff15a9f6c9</key>
+    <array>
+      <string>Etapsiliprosgegrammeni</string>
+    </array>
+    <key>public.kern2.greek_preposed_ff92ce19af</key>
+    <array>
+      <string>Alphapsiliperispomeniprosgegrammeni.lengthbreve</string>
+    </array>
+    <key>public.kern2.greek_psi</key>
+    <array>
+      <string>psi</string>
+    </array>
+    <key>public.kern2.greek_rho</key>
+    <array>
+      <string>rho</string>
+      <string>rhopsili</string>
+      <string>rhodasia</string>
+    </array>
+    <key>public.kern2.greek_sampi</key>
+    <array>
+      <string>sampi</string>
+    </array>
+    <key>public.kern2.greek_sampi.sc</key>
+    <array>
+      <string>sampi.sc</string>
+    </array>
+    <key>public.kern2.greek_san</key>
+    <array>
+      <string>san</string>
+    </array>
+    <key>public.kern2.greek_sho</key>
+    <array>
+      <string>sho</string>
+    </array>
+    <key>public.kern2.greek_sigma</key>
+    <array>
+      <string>sigma</string>
+    </array>
+    <key>public.kern2.greek_sigma.sc</key>
+    <array>
+      <string>sigma.sc</string>
+    </array>
+    <key>public.kern2.greek_sigmafinal</key>
+    <array>
+      <string>sigmafinal</string>
+    </array>
+    <key>public.kern2.greek_stigma</key>
+    <array>
+      <string>stigma</string>
+    </array>
+    <key>public.kern2.greek_stigma.sc</key>
+    <array>
+      <string>stigma.sc</string>
+    </array>
+    <key>public.kern2.greek_tau</key>
+    <array>
+      <string>tau</string>
+    </array>
+    <key>public.kern2.greek_theta</key>
+    <array>
+      <string>theta</string>
+    </array>
+    <key>public.kern2.greek_upsilon</key>
+    <array>
+      <string>upsilon</string>
+      <string>upsilontonos</string>
+      <string>upsilondieresis</string>
+      <string>upsilondieresistonos</string>
+      <string>upsilonpsili</string>
+      <string>upsilondasia</string>
+      <string>upsilonpsilivaria</string>
+      <string>upsilondasiavaria</string>
+      <string>upsilonpsilioxia</string>
+      <string>upsilondasiaoxia</string>
+      <string>upsilonpsiliperispomeni</string>
+      <string>upsilondasiaperispomeni</string>
+      <string>upsilonvaria</string>
+      <string>upsilonoxia</string>
+      <string>upsilonperispomeni</string>
+      <string>upsilonvrachy</string>
+      <string>upsilonmacron</string>
+      <string>upsilondialytikavaria</string>
+      <string>upsilondialytikaoxia</string>
+      <string>upsilondialytikaperispomeni</string>
+    </array>
+    <key>public.kern2.greek_xi.sc</key>
+    <array>
+      <string>xi.sc</string>
+    </array>
     <key>public.kern2.h</key>
     <array>
       <string>h</string>
@@ -1963,6 +4536,88 @@
       <string>hdotaccent.sc</string>
       <string>hdotbelow.sc</string>
       <string>hmacronbelow.sc</string>
+      <string>eta.sc</string>
+      <string>pi.sc</string>
+      <string>etatonos.sc</string>
+      <string>heta.sc</string>
+      <string>pamphyliandigamma.sc</string>
+      <string>etapsili.sc</string>
+      <string>etadasia.sc</string>
+      <string>etapsilivaria.sc</string>
+      <string>etadasiavaria.sc</string>
+      <string>etapsilioxia.sc</string>
+      <string>etadasiaoxia.sc</string>
+      <string>etapsiliperispomeni.sc</string>
+      <string>etadasiaperispomeni.sc</string>
+      <string>etavaria.sc</string>
+      <string>etaoxia.sc</string>
+      <string>etaperispomeni.sc</string>
+      <string>etaypogegrammeni.sc</string>
+      <string>etavariaypogegrammeni.sc</string>
+      <string>etaoxiaypogegrammeni.sc</string>
+      <string>etapsiliypogegrammeni.sc</string>
+      <string>etadasiaypogegrammeni.sc</string>
+      <string>etapsilivariaypogegrammeni.sc</string>
+      <string>etadasiavariaypogegrammeni.sc</string>
+      <string>etapsilioxiaypogegrammeni.sc</string>
+      <string>etadasiaoxiaypogegrammeni.sc</string>
+      <string>etapsiliperispomeniypogegrammeni.sc</string>
+      <string>etadasiaperispomeniypogegrammeni.sc</string>
+      <string>etaperispomeniypogegrammeni.sc</string>
+      <string>etatonos.brevecomb.sc</string>
+      <string>etapsili.brevecomb.sc</string>
+      <string>etadasia.brevecomb.sc</string>
+      <string>etapsilivaria.brevecomb.sc</string>
+      <string>etadasiavaria.brevecomb.sc</string>
+      <string>etapsilioxia.brevecomb.sc</string>
+      <string>etadasiaoxia.brevecomb.sc</string>
+      <string>etapsiliperispomeni.brevecomb.sc</string>
+      <string>etadasiaperispomeni.brevecomb.sc</string>
+      <string>etavaria.brevecomb.sc</string>
+      <string>etaoxia.brevecomb.sc</string>
+      <string>etatonos.macroncomb.sc</string>
+      <string>etapsili.macroncomb.sc</string>
+      <string>etadasia.macroncomb.sc</string>
+      <string>etapsilivaria.macroncomb.sc</string>
+      <string>etadasiavaria.macroncomb.sc</string>
+      <string>etapsilioxia.macroncomb.sc</string>
+      <string>etadasiaoxia.macroncomb.sc</string>
+      <string>etapsiliperispomeni.macroncomb.sc</string>
+      <string>etadasiaperispomeni.macroncomb.sc</string>
+      <string>etavaria.macroncomb.sc</string>
+      <string>etaoxia.macroncomb.sc</string>
+      <string>eta.perispomenicomb.polytonic.sc</string>
+      <string>eta.perispomenicomb.polytonic.brevecomb.sc</string>
+      <string>eta.perispomenicomb.polytonic.macroncomb.sc</string>
+      <string>eta.perispomenicomb.polytonic.brevecomb.noaccent.sc</string>
+      <string>eta.perispomenicomb.polytonic.macroncomb.noaccent.sc</string>
+      <string>etadasiaoxiaprosgegrammeni.sc</string>
+      <string>etadasiaperispomeniprosgegrammeni.sc</string>
+      <string>etadasiaprosgegrammeni.sc</string>
+      <string>etadasiavariaprosgegrammeni.sc</string>
+      <string>etaprosgegrammeni.sc</string>
+      <string>etapsilioxiaprosgegrammeni.sc</string>
+      <string>etapsiliperispomeniprosgegrammeni.sc</string>
+      <string>etapsiliprosgegrammeni.sc</string>
+      <string>etapsilivariaprosgegrammeni.sc</string>
+      <string>etadasiaoxiaprosgegrammeni.brevecomb.sc</string>
+      <string>etadasiaoxiaprosgegrammeni.macroncomb.sc</string>
+      <string>etadasiaperispomeniprosgegrammeni.brevecomb.sc</string>
+      <string>etadasiaperispomeniprosgegrammeni.macroncomb.sc</string>
+      <string>etadasiaprosgegrammeni.brevecomb.sc</string>
+      <string>etadasiaprosgegrammeni.macroncomb.sc</string>
+      <string>etadasiavariaprosgegrammeni.brevecomb.sc</string>
+      <string>etadasiavariaprosgegrammeni.macroncomb.sc</string>
+      <string>etapsilioxiaprosgegrammeni.brevecomb.sc</string>
+      <string>etapsilioxiaprosgegrammeni.macroncomb.sc</string>
+      <string>etapsiliperispomeniprosgegrammeni.brevecomb.sc</string>
+      <string>etapsiliperispomeniprosgegrammeni.macroncomb.sc</string>
+      <string>etapsiliprosgegrammeni.brevecomb.sc</string>
+      <string>etapsiliprosgegrammeni.macroncomb.sc</string>
+      <string>etapsilivariaprosgegrammeni.brevecomb.sc</string>
+      <string>etapsilivariaprosgegrammeni.macroncomb.sc</string>
+      <string>etadasiaoxiaprosgegrammeni.brevecomb.noaccent.sc</string>
+      <string>etadasiaoxiaprosgegrammeni.macroncomb.noaccent.sc</string>
     </array>
     <key>public.kern2.i</key>
     <array>
@@ -2008,6 +4663,51 @@
       <string>itilde.sc</string>
       <string>ij.sc</string>
       <string>germandbls.sc</string>
+      <string>iota.sc</string>
+      <string>iotatonos.sc</string>
+      <string>iotadieresis.sc</string>
+      <string>iotadieresistonos.sc</string>
+      <string>iotapsili.sc</string>
+      <string>iotadasia.sc</string>
+      <string>iotapsilivaria.sc</string>
+      <string>iotadasiavaria.sc</string>
+      <string>iotapsilioxia.sc</string>
+      <string>iotadasiaoxia.sc</string>
+      <string>iotapsiliperispomeni.sc</string>
+      <string>iotadasiaperispomeni.sc</string>
+      <string>iotavaria.sc</string>
+      <string>iotaoxia.sc</string>
+      <string>iotaperispomeni.sc</string>
+      <string>iotavrachy.sc</string>
+      <string>iotamacron.sc</string>
+      <string>iotadialytikavaria.sc</string>
+      <string>iotadialytikaoxia.sc</string>
+      <string>iotadialytikaperispomeni.sc</string>
+      <string>iotatonos.brevecomb.sc</string>
+      <string>iotapsili.brevecomb.sc</string>
+      <string>iotadasia.brevecomb.sc</string>
+      <string>iotapsilivaria.brevecomb.sc</string>
+      <string>iotadasiavaria.brevecomb.sc</string>
+      <string>iotapsilioxia.brevecomb.sc</string>
+      <string>iotadasiaoxia.brevecomb.sc</string>
+      <string>iotapsiliperispomeni.brevecomb.sc</string>
+      <string>iotadasiaperispomeni.brevecomb.sc</string>
+      <string>iotavaria.brevecomb.sc</string>
+      <string>iotaoxia.brevecomb.sc</string>
+      <string>iotatonos.macroncomb.sc</string>
+      <string>iotapsili.macroncomb.sc</string>
+      <string>iotadasia.macroncomb.sc</string>
+      <string>iotapsilivaria.macroncomb.sc</string>
+      <string>iotadasiavaria.macroncomb.sc</string>
+      <string>iotapsilioxia.macroncomb.sc</string>
+      <string>iotadasiaoxia.macroncomb.sc</string>
+      <string>iotapsiliperispomeni.macroncomb.sc</string>
+      <string>iotadasiaperispomeni.macroncomb.sc</string>
+      <string>iotavaria.macroncomb.sc</string>
+      <string>iotaoxia.macroncomb.sc</string>
+      <string>iota.perispomenicomb.polytonic.sc</string>
+      <string>iota.perispomenicomb.polytonic.brevecomb.sc</string>
+      <string>iota.perispomenicomb.polytonic.macroncomb.sc</string>
     </array>
     <key>public.kern2.j</key>
     <array>
@@ -2044,6 +4744,8 @@
       <string>kcommaaccent.sc</string>
       <string>kdotbelow.sc</string>
       <string>kmacronbelow.sc</string>
+      <string>kappa.sc</string>
+      <string>kaiSymbol.sc</string>
     </array>
     <key>public.kern2.l</key>
     <array>
@@ -2073,6 +4775,7 @@
       <string>ldotbelowmacron.sc</string>
       <string>lmacronbelow.sc</string>
       <string>lslash.sc</string>
+      <string>lcommaaccent.sc.loclMAH</string>
     </array>
     <key>public.kern2.m</key>
     <array>
@@ -2089,6 +4792,8 @@
       <string>macute.sc</string>
       <string>mdotaccent.sc</string>
       <string>mdotbelow.sc</string>
+      <string>mu.sc</string>
+      <string>san.sc</string>
     </array>
     <key>public.kern2.n</key>
     <array>
@@ -2116,6 +4821,8 @@
       <string>ngrave.sc</string>
       <string>nmacronbelow.sc</string>
       <string>ntilde.sc</string>
+      <string>ncommaaccent.sc.loclMAH</string>
+      <string>nu.sc</string>
     </array>
     <key>public.kern2.o</key>
     <array>
@@ -2157,6 +4864,17 @@
       <string>otildedieresis</string>
       <string>otildemacron</string>
       <string>oe</string>
+      <string>omicron</string>
+      <string>omicrontonos</string>
+      <string>koppaArchaic</string>
+      <string>omicronpsili</string>
+      <string>omicrondasia</string>
+      <string>omicronpsilivaria</string>
+      <string>omicrondasiavaria</string>
+      <string>omicronpsilioxia</string>
+      <string>omicrondasiaoxia</string>
+      <string>omicronvaria</string>
+      <string>omicronoxia</string>
     </array>
     <key>public.kern2.o.sc</key>
     <array>
@@ -2198,6 +4916,47 @@
       <string>otildedieresis.sc</string>
       <string>otildemacron.sc</string>
       <string>oe.sc</string>
+      <string>theta.sc</string>
+      <string>omicron.sc</string>
+      <string>omicrontonos.sc</string>
+      <string>koppaArchaic.sc</string>
+      <string>omicronpsili.sc</string>
+      <string>omicrondasia.sc</string>
+      <string>omicronpsilivaria.sc</string>
+      <string>omicrondasiavaria.sc</string>
+      <string>omicronpsilioxia.sc</string>
+      <string>omicrondasiaoxia.sc</string>
+      <string>omicronvaria.sc</string>
+      <string>omicronoxia.sc</string>
+      <string>omicrontonos.brevecomb.sc</string>
+      <string>omicronpsili.brevecomb.sc</string>
+      <string>omicrondasia.brevecomb.sc</string>
+      <string>omicronpsilivaria.brevecomb.sc</string>
+      <string>omicrondasiavaria.brevecomb.sc</string>
+      <string>omicronpsilioxia.brevecomb.sc</string>
+      <string>omicrondasiaoxia.brevecomb.sc</string>
+      <string>omicronvaria.brevecomb.sc</string>
+      <string>omicronoxia.brevecomb.sc</string>
+      <string>omicrontonos.macroncomb.sc</string>
+      <string>omicronpsili.macroncomb.sc</string>
+      <string>omicrondasia.macroncomb.sc</string>
+      <string>omicronpsilivaria.macroncomb.sc</string>
+      <string>omicrondasiavaria.macroncomb.sc</string>
+      <string>omicronpsilioxia.macroncomb.sc</string>
+      <string>omicrondasiaoxia.macroncomb.sc</string>
+      <string>omicronvaria.macroncomb.sc</string>
+      <string>omicronoxia.macroncomb.sc</string>
+      <string>omicron.commaabovecomb_perispomenicomb.polytonic.sc</string>
+      <string>omicron.commareversedabovecomb_perispomenicomb.polytonic.sc</string>
+      <string>omicron.perispomenicomb.polytonic.sc</string>
+      <string>omicron.commaabovecomb_perispomenicomb.polytonic.brevecomb.sc</string>
+      <string>omicron.commaabovecomb_perispomenicomb.polytonic.macroncomb.sc</string>
+      <string>omicron.commareversedabovecomb_perispomenicomb.polytonic.brevecomb.sc</string>
+      <string>omicron.commareversedabovecomb_perispomenicomb.polytonic.macroncomb.sc</string>
+      <string>omicron.perispomenicomb.polytonic.brevecomb.sc</string>
+      <string>omicron.perispomenicomb.polytonic.macroncomb.sc</string>
+      <string>omicron.commaabovecomb_perispomenicomb.polytonic.brevecomb.noaccent.sc</string>
+      <string>omicron.commaabovecomb_perispomenicomb.polytonic.macroncomb.noaccent.sc</string>
     </array>
     <key>public.kern2.p</key>
     <array>
@@ -2212,6 +4971,44 @@
       <string>pacute.sc</string>
       <string>pdotaccent.sc</string>
       <string>thorn.sc</string>
+      <string>rho.sc</string>
+      <string>sho.sc</string>
+      <string>rhopsili.sc</string>
+      <string>rhodasia.sc</string>
+      <string>rhodasia.brevecomb.sc</string>
+      <string>rhodasia.macroncomb.sc</string>
+      <string>rho.commaabovecomb_acutecomb.polytonic.sc</string>
+      <string>rho.commaabovecomb_gravecomb.polytonic.sc</string>
+      <string>rho.commaabovecomb_perispomenicomb.polytonic.sc</string>
+      <string>rho.commareversedabovecomb_acutecomb.polytonic.sc</string>
+      <string>rho.commareversedabovecomb_gravecomb.polytonic.sc</string>
+      <string>rho.commareversedabovecomb_perispomenicomb.polytonic.sc</string>
+      <string>rho.acutecomb.polytonic.sc</string>
+      <string>rho.commaabovecomb.polytonic.sc</string>
+      <string>rho.gravecomb.polytonic.sc</string>
+      <string>rho.perispomenicomb.polytonic.sc</string>
+      <string>rho.commaabovecomb_acutecomb.polytonic.brevecomb.sc</string>
+      <string>rho.commaabovecomb_acutecomb.polytonic.macroncomb.sc</string>
+      <string>rho.commaabovecomb_gravecomb.polytonic.brevecomb.sc</string>
+      <string>rho.commaabovecomb_gravecomb.polytonic.macroncomb.sc</string>
+      <string>rho.commaabovecomb_perispomenicomb.polytonic.brevecomb.sc</string>
+      <string>rho.commaabovecomb_perispomenicomb.polytonic.macroncomb.sc</string>
+      <string>rho.commareversedabovecomb_acutecomb.polytonic.brevecomb.sc</string>
+      <string>rho.commareversedabovecomb_acutecomb.polytonic.macroncomb.sc</string>
+      <string>rho.commareversedabovecomb_gravecomb.polytonic.brevecomb.sc</string>
+      <string>rho.commareversedabovecomb_gravecomb.polytonic.macroncomb.sc</string>
+      <string>rho.commareversedabovecomb_perispomenicomb.polytonic.brevecomb.sc</string>
+      <string>rho.commareversedabovecomb_perispomenicomb.polytonic.macroncomb.sc</string>
+      <string>rho.acutecomb.polytonic.brevecomb.sc</string>
+      <string>rho.commaabovecomb.polytonic.brevecomb.sc</string>
+      <string>rho.gravecomb.polytonic.brevecomb.sc</string>
+      <string>rho.perispomenicomb.polytonic.brevecomb.sc</string>
+      <string>rho.acutecomb.polytonic.macroncomb.sc</string>
+      <string>rho.commaabovecomb.polytonic.macroncomb.sc</string>
+      <string>rho.gravecomb.polytonic.macroncomb.sc</string>
+      <string>rho.perispomenicomb.polytonic.macroncomb.sc</string>
+      <string>rho.acutecomb.polytonic.brevecomb.noaccent.sc</string>
+      <string>rho.acutecomb.polytonic.macroncomb.noaccent.sc</string>
     </array>
     <key>public.kern2.q</key>
     <array>
@@ -2307,6 +5104,8 @@
       <string>tdotaccent.sc</string>
       <string>tdotbelow.sc</string>
       <string>tmacronbelow.sc</string>
+      <string>tau.sc</string>
+      <string>archaicsampi.sc</string>
     </array>
     <key>public.kern2.u</key>
     <array>
@@ -2433,6 +5232,7 @@
       <string>x_circumflexcomb.sc</string>
       <string>xdieresis.sc</string>
       <string>xdotaccent.sc</string>
+      <string>chi.sc</string>
     </array>
     <key>public.kern2.y</key>
     <array>
@@ -2461,6 +5261,55 @@
       <string>ymacron.sc</string>
       <string>yring.sc</string>
       <string>ytilde.sc</string>
+      <string>upsilon.sc</string>
+      <string>upsilontonos.sc</string>
+      <string>upsilondieresis.sc</string>
+      <string>upsilondieresistonos.sc</string>
+      <string>upsilonpsili.sc</string>
+      <string>upsilondasia.sc</string>
+      <string>upsilonpsilivaria.sc</string>
+      <string>upsilondasiavaria.sc</string>
+      <string>upsilonpsilioxia.sc</string>
+      <string>upsilondasiaoxia.sc</string>
+      <string>upsilonpsiliperispomeni.sc</string>
+      <string>upsilondasiaperispomeni.sc</string>
+      <string>upsilonvaria.sc</string>
+      <string>upsilonoxia.sc</string>
+      <string>upsilonperispomeni.sc</string>
+      <string>upsilonvrachy.sc</string>
+      <string>upsilonmacron.sc</string>
+      <string>upsilondialytikavaria.sc</string>
+      <string>upsilondialytikaoxia.sc</string>
+      <string>upsilondialytikaperispomeni.sc</string>
+      <string>upsilontonos.brevecomb.sc</string>
+      <string>upsilondasia.brevecomb.sc</string>
+      <string>upsilondasiavaria.brevecomb.sc</string>
+      <string>upsilondasiaoxia.brevecomb.sc</string>
+      <string>upsilondasiaperispomeni.brevecomb.sc</string>
+      <string>upsilonvaria.brevecomb.sc</string>
+      <string>upsilonoxia.brevecomb.sc</string>
+      <string>upsilontonos.macroncomb.sc</string>
+      <string>upsilondasia.macroncomb.sc</string>
+      <string>upsilondasiavaria.macroncomb.sc</string>
+      <string>upsilondasiaoxia.macroncomb.sc</string>
+      <string>upsilondasiaperispomeni.macroncomb.sc</string>
+      <string>upsilonvaria.macroncomb.sc</string>
+      <string>upsilonoxia.macroncomb.sc</string>
+      <string>upsilon.commaabovecomb_acutecomb.polytonic.sc</string>
+      <string>upsilon.commaabovecomb_gravecomb.polytonic.sc</string>
+      <string>upsilon.commaabovecomb_perispomenicomb.polytonic.sc</string>
+      <string>upsilon.commaabovecomb.polytonic.sc</string>
+      <string>upsilon.perispomenicomb.polytonic.sc</string>
+      <string>upsilon.commaabovecomb_acutecomb.polytonic.brevecomb.sc</string>
+      <string>upsilon.commaabovecomb_acutecomb.polytonic.macroncomb.sc</string>
+      <string>upsilon.commaabovecomb_gravecomb.polytonic.brevecomb.sc</string>
+      <string>upsilon.commaabovecomb_gravecomb.polytonic.macroncomb.sc</string>
+      <string>upsilon.commaabovecomb_perispomenicomb.polytonic.brevecomb.sc</string>
+      <string>upsilon.commaabovecomb_perispomenicomb.polytonic.macroncomb.sc</string>
+      <string>upsilon.commaabovecomb.polytonic.brevecomb.sc</string>
+      <string>upsilon.perispomenicomb.polytonic.brevecomb.sc</string>
+      <string>upsilon.commaabovecomb.polytonic.macroncomb.sc</string>
+      <string>upsilon.perispomenicomb.polytonic.macroncomb.sc</string>
     </array>
     <key>public.kern2.z</key>
     <array>
@@ -2481,6 +5330,7 @@
       <string>zdotaccent.sc</string>
       <string>zdotbelow.sc</string>
       <string>zmacronbelow.sc</string>
+      <string>zeta.sc</string>
     </array>
   </dict>
 </plist>

@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="alphaperispomeni" format="2">
+  <advance width="657"/>
+  <unicode hex="1FB6"/>
+  <outline>
+    <component base="alpha"/>
+    <component base="perispomenicomb" xOffset="149"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.glyph.userData</key>
+      <dict>
+        <key>com.mfb.greek.bold.support</key>
+        <integer>1</integer>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

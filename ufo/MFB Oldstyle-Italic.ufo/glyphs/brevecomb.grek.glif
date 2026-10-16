@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="brevecomb.grek" format="2">
+  <advance width="268"/>
+  <anchor x="289" y="494" name="_top"/>
+  <anchor x="276" y="683" name="top"/>
+  <anchor x="321" y="649" name="top_acute"/>
+  <anchor x="321" y="649" name="top_grave"/>
+  <anchor x="321" y="649" name="top_perispomeni"/>
+  <outline>
+    <component base="brevecomb"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.glyph.userData</key>
+      <dict>
+        <key>com.mfb.greek.italic.support</key>
+        <integer>1</integer>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

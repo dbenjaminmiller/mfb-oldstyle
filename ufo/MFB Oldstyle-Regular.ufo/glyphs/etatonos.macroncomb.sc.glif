@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="etatonos.macroncomb.sc" format="2">
+  <advance width="574"/>
+  <outline>
+    <component base="eta.sc"/>
+    <component base="macroncomb.sc" xOffset="168"/>
+    <component base="acutecomb.sc" xOffset="218" yOffset="168"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.glyph.userData</key>
+      <dict>
+        <key>com.mfb.greek.smallcaps.composite</key>
+        <integer>1</integer>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

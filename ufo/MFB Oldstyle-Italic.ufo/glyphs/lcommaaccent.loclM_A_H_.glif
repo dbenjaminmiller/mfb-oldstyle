@@ -3,7 +3,7 @@
   <advance width="286"/>
   <outline>
     <component base="l"/>
-    <component base="commaaccentcomb.loclMAH"/>
+    <component base="commaaccentcomb.loclMAH" xOffset="8"/>
   </outline>
   <lib>
     <dict>

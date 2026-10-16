@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="etapsili" format="2">
+  <advance width="549"/>
+  <unicode hex="1F20"/>
+  <outline>
+    <component base="eta"/>
+    <component base="commaabovecomb" xOffset="216"/>
+  </outline>
+</glyph>

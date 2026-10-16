@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Alphadasiavaria" format="2">
+  <advance width="919"/>
+  <unicode hex="1F0B"/>
+  <outline>
+    <component base="Alpha" xOffset="276"/>
+    <component base="commareversedabovecomb_gravecomb.case" xOffset="19" yOffset="50" identifier="F63C7C75"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026-10-16 15:53:00 +0000</string>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>=+276</string>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>F63C7C75</key>
+        <dict>
+          <key>com.schriftgestaltung.anchor</key>
+          <string>topleft_grave</string>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

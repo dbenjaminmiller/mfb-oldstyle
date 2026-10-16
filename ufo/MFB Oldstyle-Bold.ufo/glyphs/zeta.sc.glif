@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="zeta.sc" format="2">
+  <advance width="487"/>
+  <anchor x="459" y="0" name="adscript"/>
+  <anchor x="225" y="0" name="bottom"/>
+  <anchor x="225" y="0" name="dotbelow"/>
+  <anchor x="251" y="558" name="top"/>
+  <outline>
+    <component base="z.sc"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.glyph.userData</key>
+      <dict>
+        <key>com.mfb.greek.bold.capitals</key>
+        <integer>1</integer>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

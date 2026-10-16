@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Etadasiavaria" format="2">
+  <advance width="1157"/>
+  <unicode hex="1F2B"/>
+  <outline>
+    <component base="Eta" xOffset="319"/>
+    <component base="commareversedabovecomb_gravecomb.case" xOffset="-132" yOffset="35"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>=+319</string>
+      <key>com.schriftgestaltung.glyph.userData</key>
+      <dict>
+        <key>com.mfb.greek.bolditalic.support</key>
+        <integer>1</integer>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

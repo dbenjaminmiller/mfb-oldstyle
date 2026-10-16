@@ -2,15 +2,15 @@
 <glyph name="six.dnom" format="2">
   <advance width="355"/>
   <outline>
-    <component base="sixinferior" yOffset="150" identifier="C815662E"/>
+    <component base="sixinferior" yOffset="150" identifier="CCEE97C6"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2024-08-05 07:45:25 +0000</string>
+      <string>2026-10-16 15:53:00 +0000</string>
       <key>public.objectLibs</key>
       <dict>
-        <key>C815662E</key>
+        <key>CCEE97C6</key>
         <dict>
           <key>com.schriftgestaltung.alignment</key>
           <integer>-1</integer>

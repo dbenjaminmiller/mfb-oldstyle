@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="upsilon.commaabovecomb.polytonic.macroncomb.sc" format="2">
+  <advance width="530"/>
+  <outline>
+    <component base="upsilon.sc"/>
+    <component base="macroncomb.grek.sc" xOffset="129" yOffset="-17"/>
+    <component base="commaabovecomb.sc" xOffset="183" yOffset="150"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.glyph.userData</key>
+      <dict>
+        <key>com.mfb.greek.smallcaps.composite</key>
+        <integer>1</integer>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

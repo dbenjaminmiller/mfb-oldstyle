@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Eta" format="2">
+  <advance width="838"/>
+  <unicode hex="0397"/>
+  <anchor x="798" y="0" name="adscript"/>
+  <anchor x="352" y="0" name="bottom"/>
+  <anchor x="352" y="0" name="dotbelow"/>
+  <anchor x="599" y="741" name="top"/>
+  <anchor x="142" y="685" name="topleft"/>
+  <outline>
+    <component base="H"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.glyph.userData</key>
+      <dict>
+        <key>com.mfb.greek.bolditalic</key>
+        <integer>1</integer>
+        <key>com.mfb.greek.italic.capitals</key>
+        <integer>1</integer>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

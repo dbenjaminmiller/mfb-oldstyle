@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="archaicsampi" format="2">
+  <advance width="431"/>
+  <unicode hex="0373"/>
+  <anchor x="140" y="0" name="bottom"/>
+  <anchor x="140" y="0" name="dotbelow"/>
+  <anchor x="295.367" y="494" name="top"/>
+  <outline>
+    <contour>
+      <point x="59.533" y="376"/>
+      <point x="78.749" y="376" type="curve" smooth="yes"/>
+      <point x="103.749" y="376"/>
+      <point x="125.218" y="430"/>
+      <point x="159.218" y="430" type="curve" smooth="yes"/>
+      <point x="235.218" y="430" type="line"/>
+      <point x="152.226" y="124" type="line"/>
+      <point x="140.018" y="79"/>
+      <point x="124.378" y="35"/>
+      <point x="103.321" y="-10" type="curve"/>
+      <point x="174.268" y="1" type="line" smooth="yes"/>
+      <point x="193.617" y="4"/>
+      <point x="207.863" y="23"/>
+      <point x="215.665" y="51" type="curve"/>
+      <point x="321.218" y="430" type="line"/>
+      <point x="452.218" y="430" type="line" smooth="yes"/>
+      <point x="465.218" y="430"/>
+      <point x="478.309" y="449"/>
+      <point x="489.616" y="480" type="curve"/>
+      <point x="478.419" y="483" type="line"/>
+      <point x="475.08" y="478"/>
+      <point x="470.544" y="476"/>
+      <point x="459.544" y="476" type="curve" smooth="yes"/>
+      <point x="178.544" y="476" type="line" smooth="yes"/>
+      <point x="109.544" y="476"/>
+      <point x="55.362" y="438"/>
+      <point x="46.519" y="405" type="curve" smooth="yes"/>
+      <point x="45.909" y="402.722"/>
+      <point x="45.617" y="400.557"/>
+      <point x="45.617" y="398.511" type="curve" smooth="yes"/>
+      <point x="45.617" y="384.392"/>
+    </contour>
+  </outline>
+</glyph>

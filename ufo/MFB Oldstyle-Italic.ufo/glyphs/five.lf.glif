@@ -2,15 +2,15 @@
 <glyph name="five.lf" format="2">
   <advance width="503"/>
   <outline>
-    <component base="five" xOffset="-4" identifier="0BA43981"/>
+    <component base="five" xOffset="-4" identifier="3C345F9C"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2024-08-01 23:18:37 +0000</string>
+      <string>2026-10-16 15:51:59 +0000</string>
       <key>public.objectLibs</key>
       <dict>
-        <key>0BA43981</key>
+        <key>3C345F9C</key>
         <dict>
           <key>com.schriftgestaltung.alignment</key>
           <integer>-1</integer>
