@@ -268,12 +268,16 @@
     </dict>
     <key>Alpha</key>
     <dict>
+      <key>Chi</key>
+      <integer>65</integer>
+      <key>Omega</key>
+      <integer>15</integer>
       <key>Sigma</key>
-      <integer>7</integer>
+      <integer>17</integer>
       <key>Xi</key>
-      <integer>27</integer>
+      <integer>37</integer>
       <key>Zeta</key>
-      <integer>12</integer>
+      <integer>22</integer>
     </dict>
     <key>Alphadasia</key>
     <dict>
@@ -716,6 +720,20 @@
       <key>public.kern2.greek_xi.sc</key>
       <integer>12</integer>
     </dict>
+    <key>Chi</key>
+    <dict>
+      <key>Chi</key>
+      <integer>40</integer>
+      <key>Upsilon</key>
+      <integer>17</integer>
+      <key>Xi</key>
+      <integer>16</integer>
+    </dict>
+    <key>Eta</key>
+    <dict>
+      <key>Upsilon</key>
+      <integer>15</integer>
+    </dict>
     <key>Gamma</key>
     <dict>
       <key>public.kern2.O</key>
@@ -744,6 +762,8 @@
     </dict>
     <key>Iota</key>
     <dict>
+      <key>Upsilon</key>
+      <integer>15</integer>
       <key>public.kern2.greek_preposed_0b20731b24</key>
       <integer>16</integer>
       <key>public.kern2.greek_preposed_2b162b83c8</key>
@@ -818,14 +838,33 @@
       <key>public.kern2.greek_preposed_fb8fd7dad8</key>
       <integer>39</integer>
     </dict>
+    <key>Kappa</key>
+    <dict>
+      <key>Chi</key>
+      <integer>30</integer>
+    </dict>
     <key>Lambda</key>
     <dict>
+      <key>Chi</key>
+      <integer>65</integer>
+      <key>Omega</key>
+      <integer>15</integer>
       <key>Sigma</key>
-      <integer>7</integer>
+      <integer>17</integer>
       <key>Xi</key>
-      <integer>27</integer>
+      <integer>37</integer>
       <key>Zeta</key>
-      <integer>12</integer>
+      <integer>22</integer>
+    </dict>
+    <key>Mu</key>
+    <dict>
+      <key>Upsilon</key>
+      <integer>15</integer>
+    </dict>
+    <key>Nu</key>
+    <dict>
+      <key>Upsilon</key>
+      <integer>35</integer>
     </dict>
     <key>Ohorn</key>
     <dict>
@@ -856,6 +895,15 @@
     <dict>
       <key>public.kern2.greek_lambda</key>
       <integer>29</integer>
+    </dict>
+    <key>Omega</key>
+    <dict>
+      <key>Chi</key>
+      <integer>36</integer>
+      <key>Omega</key>
+      <integer>25</integer>
+      <key>Xi</key>
+      <integer>28</integer>
     </dict>
     <key>P</key>
     <dict>
@@ -901,6 +949,16 @@
       <integer>26</integer>
       <key>public.kern2.greek_preposed_ff15a9f6c9</key>
       <integer>20</integer>
+    </dict>
+    <key>Pi</key>
+    <dict>
+      <key>Upsilon</key>
+      <integer>15</integer>
+    </dict>
+    <key>Psi</key>
+    <dict>
+      <key>Upsilon</key>
+      <integer>23</integer>
     </dict>
     <key>Rho</key>
     <dict>
@@ -1268,6 +1326,11 @@
     <dict>
       <key>public.kern2.greek_lambda</key>
       <integer>28</integer>
+    </dict>
+    <key>Upsilon</key>
+    <dict>
+      <key>Upsilon</key>
+      <integer>45</integer>
     </dict>
     <key>V</key>
     <dict>
@@ -2276,10 +2339,32 @@
     </dict>
     <key>chi</key>
     <dict>
+      <key>alpha</key>
+      <integer>-36</integer>
+      <key>delta</key>
+      <integer>-31</integer>
+      <key>epsilon</key>
+      <integer>-16</integer>
+      <key>iota</key>
+      <integer>-30</integer>
+      <key>lambda</key>
+      <integer>-60</integer>
+      <key>omega</key>
+      <integer>-31</integer>
+      <key>omicron</key>
+      <integer>-31</integer>
+      <key>phi</key>
+      <integer>-41</integer>
       <key>section</key>
       <integer>17</integer>
+      <key>sigma</key>
+      <integer>-31</integer>
+      <key>sigmafinal</key>
+      <integer>-41</integer>
       <key>slash</key>
       <integer>40</integer>
+      <key>zeta</key>
+      <integer>-80</integer>
     </dict>
     <key>circumflex</key>
     <dict>
@@ -2300,6 +2385,17 @@
     <dict>
       <key>public.kern2.greek_lambda</key>
       <integer>9</integer>
+    </dict>
+    <key>delta</key>
+    <dict>
+      <key>eta</key>
+      <integer>-15</integer>
+      <key>iota</key>
+      <integer>-35</integer>
+      <key>lambda</key>
+      <integer>-20</integer>
+      <key>mu</key>
+      <integer>-30</integer>
     </dict>
     <key>eacute</key>
     <dict>
@@ -2339,6 +2435,11 @@
     <dict>
       <key>public.kern2.greek_lambda</key>
       <integer>5</integer>
+    </dict>
+    <key>epsilon</key>
+    <dict>
+      <key>lambda</key>
+      <integer>-10</integer>
     </dict>
     <key>epsilondasiaoxia</key>
     <dict>
@@ -2475,6 +2576,17 @@
     <dict>
       <key>anoteleia.allcaps</key>
       <integer>31</integer>
+    </dict>
+    <key>eta</key>
+    <dict>
+      <key>beta</key>
+      <integer>-35</integer>
+      <key>iota</key>
+      <integer>-65</integer>
+      <key>lambda</key>
+      <integer>-50</integer>
+      <key>mu</key>
+      <integer>-65</integer>
     </dict>
     <key>etadasiaoxia</key>
     <dict>
@@ -2667,6 +2779,15 @@
       <key>public.kern2.greek_pi</key>
       <integer>15</integer>
     </dict>
+    <key>gamma</key>
+    <dict>
+      <key>iota</key>
+      <integer>-45</integer>
+      <key>lambda</key>
+      <integer>-95</integer>
+      <key>mu</key>
+      <integer>-50</integer>
+    </dict>
     <key>gamma.sc</key>
     <dict>
       <key>public.kern2.o.sc</key>
@@ -2735,6 +2856,11 @@
     <dict>
       <key>public.kern2.greek_lambda</key>
       <integer>27</integer>
+    </dict>
+    <key>iota</key>
+    <dict>
+      <key>lambda</key>
+      <integer>-15</integer>
     </dict>
     <key>iotadasia</key>
     <dict>
@@ -3640,6 +3766,13 @@
       <key>public.kern2.y</key>
       <real>-30.270269</real>
     </dict>
+    <key>lambda</key>
+    <dict>
+      <key>Chi</key>
+      <integer>10</integer>
+      <key>Xi</key>
+      <integer>15</integer>
+    </dict>
     <key>lambda.sc</key>
     <dict>
       <key>public.kern2.greek_omega.sc</key>
@@ -3671,6 +3804,24 @@
     <dict>
       <key>public.kern2.greek_pi</key>
       <integer>4</integer>
+    </dict>
+    <key>mu</key>
+    <dict>
+      <key>iota</key>
+      <integer>-15</integer>
+      <key>lambda</key>
+      <integer>-10</integer>
+    </dict>
+    <key>nu</key>
+    <dict>
+      <key>beta</key>
+      <integer>-10</integer>
+      <key>iota</key>
+      <integer>-40</integer>
+      <key>lambda</key>
+      <integer>-95</integer>
+      <key>mu</key>
+      <integer>-45</integer>
     </dict>
     <key>oe</key>
     <dict>
@@ -3834,6 +3985,15 @@
       <key>public.kern2.greek_lambda</key>
       <integer>1</integer>
     </dict>
+    <key>omega</key>
+    <dict>
+      <key>iota</key>
+      <integer>-35</integer>
+      <key>lambda</key>
+      <integer>-60</integer>
+      <key>mu</key>
+      <integer>-30</integer>
+    </dict>
     <key>omegadasiaoxia.macroncomb.sc</key>
     <dict>
       <key>anoteleia.allcaps</key>
@@ -3899,6 +4059,13 @@
       <integer>6</integer>
       <key>lambda</key>
       <integer>49</integer>
+    </dict>
+    <key>omicron</key>
+    <dict>
+      <key>lambda</key>
+      <integer>-50</integer>
+      <key>mu</key>
+      <integer>-20</integer>
     </dict>
     <key>omicrondasiaoxia</key>
     <dict>
@@ -4258,6 +4425,26 @@
     <dict>
       <key>public.kern2.1</key>
       <real>-38.918919</real>
+    </dict>
+    <key>phi</key>
+    <dict>
+      <key>iota</key>
+      <integer>-30</integer>
+      <key>lambda</key>
+      <integer>-65</integer>
+      <key>mu</key>
+      <integer>-30</integer>
+    </dict>
+    <key>psi</key>
+    <dict>
+      <key>beta</key>
+      <integer>-25</integer>
+      <key>iota</key>
+      <integer>-55</integer>
+      <key>lambda</key>
+      <integer>-85</integer>
+      <key>mu</key>
+      <integer>-50</integer>
     </dict>
     <key>public.kern1.1</key>
     <dict>
@@ -10188,6 +10375,10 @@
     </dict>
     <key>rho</key>
     <dict>
+      <key>iota</key>
+      <integer>-35</integer>
+      <key>lambda</key>
+      <integer>-60</integer>
       <key>slash</key>
       <integer>24</integer>
     </dict>
@@ -10421,6 +10612,15 @@
       <key>public.kern2.greek_lambda</key>
       <integer>10</integer>
     </dict>
+    <key>sigma</key>
+    <dict>
+      <key>iota</key>
+      <integer>-15</integer>
+      <key>lambda</key>
+      <integer>-85</integer>
+      <key>mu</key>
+      <integer>-30</integer>
+    </dict>
     <key>sigmafinal</key>
     <dict>
       <key>quotedblbase</key>
@@ -10533,6 +10733,11 @@
       <key>public.kern2.greek_preposed_ff15a9f6c9</key>
       <integer>49</integer>
     </dict>
+    <key>tau</key>
+    <dict>
+      <key>lambda</key>
+      <integer>-45</integer>
+    </dict>
     <key>tcaron</key>
     <dict>
       <key>public.kern2.greek_lambda</key>
@@ -10540,6 +10745,12 @@
     </dict>
     <key>theta</key>
     <dict>
+      <key>beta</key>
+      <integer>-10</integer>
+      <key>iota</key>
+      <integer>-40</integer>
+      <key>mu</key>
+      <integer>-45</integer>
       <key>public.kern2.greek_numeral</key>
       <integer>1</integer>
     </dict>
@@ -10680,6 +10891,15 @@
       <key>beta</key>
       <integer>13</integer>
     </dict>
+    <key>upsilon</key>
+    <dict>
+      <key>iota</key>
+      <integer>-35</integer>
+      <key>lambda</key>
+      <integer>-65</integer>
+      <key>mu</key>
+      <integer>-35</integer>
+    </dict>
     <key>upsilondasiaoxia</key>
     <dict>
       <key>anoteleia.allcaps</key>
@@ -10727,6 +10947,11 @@
       <key>anoteleia.allcaps</key>
       <integer>33</integer>
     </dict>
+    <key>xi</key>
+    <dict>
+      <key>upsilon</key>
+      <integer>-15</integer>
+    </dict>
     <key>zero</key>
     <dict>
       <key>public.kern2.1</key>
@@ -10738,8 +10963,38 @@
     </dict>
     <key>zeta</key>
     <dict>
+      <key>alpha</key>
+      <integer>-41</integer>
+      <key>epsilon</key>
+      <integer>-51</integer>
+      <key>eta</key>
+      <integer>-15</integer>
+      <key>gamma</key>
+      <integer>-50</integer>
+      <key>iota</key>
+      <integer>-15</integer>
+      <key>nu</key>
+      <integer>-60</integer>
+      <key>omega</key>
+      <integer>-36</integer>
+      <key>omicron</key>
+      <integer>-51</integer>
+      <key>phi</key>
+      <integer>-86</integer>
+      <key>psi</key>
+      <integer>-70</integer>
+      <key>sigma</key>
+      <integer>-56</integer>
+      <key>sigmafinal</key>
+      <integer>-46</integer>
       <key>slash</key>
       <integer>7</integer>
+      <key>tau</key>
+      <integer>-45</integer>
+      <key>theta</key>
+      <integer>-15</integer>
+      <key>upsilon</key>
+      <integer>-70</integer>
     </dict>
   </dict>
 </plist>

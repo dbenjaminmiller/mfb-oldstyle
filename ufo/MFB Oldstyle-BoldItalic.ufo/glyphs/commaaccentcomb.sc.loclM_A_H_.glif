@@ -3,13 +3,13 @@
   <advance width="223"/>
   <anchor x="81" y="0" name="_commaaccentbelow"/>
   <outline>
-    <component base="commaaccentcomb.loclMAH" identifier="770EA242"/>
+    <component base="commaaccentcomb.loclMAH" identifier="1888C744"/>
   </outline>
   <lib>
     <dict>
       <key>public.objectLibs</key>
       <dict>
-        <key>770EA242</key>
+        <key>1888C744</key>
         <dict>
           <key>com.schriftgestaltung.alignment</key>
           <integer>-1</integer>

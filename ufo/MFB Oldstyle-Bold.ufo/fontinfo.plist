@@ -11,7 +11,7 @@
     <key>familyName</key>
     <string>MFB Oldstyle</string>
     <key>openTypeHeadCreated</key>
-    <string>2026/10/14 04:00:00</string>
+    <string>2026/11/03 17:00:00</string>
     <key>openTypeHheaAscender</key>
     <integer>962</integer>
     <key>openTypeHheaDescender</key>
@@ -45,7 +45,7 @@
     <key>versionMajor</key>
     <integer>2</integer>
     <key>versionMinor</key>
-    <integer>100</integer>
+    <integer>200</integer>
     <key>xHeight</key>
     <integer>476</integer>
   </dict>

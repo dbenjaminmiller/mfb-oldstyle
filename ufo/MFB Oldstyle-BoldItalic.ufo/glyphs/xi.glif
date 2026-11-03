@@ -41,15 +41,15 @@
       <point x="271.371" y="-62"/>
       <point x="271.371" y="-91" type="curve" smooth="yes"/>
       <point x="271.371" y="-122"/>
-      <point x="240.371" y="-144"/>
-      <point x="204.371" y="-144" type="curve" smooth="yes"/>
-      <point x="184.371" y="-144"/>
-      <point x="168.371" y="-155"/>
-      <point x="168.371" y="-173" type="curve" smooth="yes"/>
-      <point x="168.371" y="-190"/>
-      <point x="182.371" y="-202"/>
+      <point x="246.291" y="-134.72"/>
+      <point x="204.531" y="-134.72" type="curve" smooth="yes"/>
+      <point x="181.331" y="-134.72"/>
+      <point x="162.771" y="-147.48"/>
+      <point x="162.771" y="-168.36" type="curve" smooth="yes"/>
+      <point x="162.771" y="-188.08"/>
+      <point x="179.011" y="-202"/>
       <point x="203.371" y="-202" type="curve" smooth="yes"/>
-      <point x="282.371" y="-202"/>
+      <point x="295.011" y="-202"/>
       <point x="346.371" y="-142"/>
       <point x="346.371" y="-72" type="curve" smooth="yes"/>
       <point x="346.371" y="-4"/>

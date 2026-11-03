@@ -24,6 +24,7 @@ A variety of Latin scripts are supported, as well as Greek (with full polytonic 
 
 This digital font by Daniel Benjamin Miller was first released in 2024.
 
+* Version 2.2 (November 3, 2026): Design and spacing tweaks.
 * Version 2.1 (October 16, 2026): Adds support for Greek.
 * Version 2.001 (October 14, 2026): Minor fixes.
 * Version 2.0 (October 14, 2026): Adds a bold italic; expands features to be consistent throughout the font family; includes various fixes.
